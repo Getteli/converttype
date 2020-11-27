@@ -1,34 +1,72 @@
 $(document).ready(function(){
 	var navlang = navigator.language || navigator.userLanguage || navigator.browserLanguage;
 	var lang = (navlang.split('-')[0]).toLowerCase();
+	var here = window.location.pathname;
+	// need 1 in server. local is 2
+	here = (here.split('/')[2]).toLowerCase();
 	switch (lang) {
 		case "pt":
-				window.location.replace("http://localhost/convertmidia/"+lang);
+				if(here == "pt"){
+					break;
+				}else{
+					window.location.replace("http://localhost/convertmidia/"+lang);
+				}
 			break;
 		case "fr":
-				window.location.replace("http://localhost/convertmidia/"+lang);
+				if(here == "fr"){
+					break;
+				}else{
+					window.location.replace("http://localhost/convertmidia/"+lang);
+				}
 			break;
 		case "es":
-				window.location.replace("http://localhost/convertmidia/"+lang);
+				if(here == "es"){
+					break;
+				}else{
+					window.location.replace("http://localhost/convertmidia/"+lang);
+				}
 			break;
 		case "ja":
-				window.location.replace("http://localhost/convertmidia/"+lang);
+				if(here == "ja"){
+					break;
+				}else{
+					window.location.replace("http://localhost/convertmidia/"+lang);
+				}
 			break;
 		case "ru":
-				window.location.replace("http://localhost/convertmidia/"+lang);
+				if(here == "ru"){
+					break;
+				}else{
+					window.location.replace("http://localhost/convertmidia/"+lang);
+				}
 			break;
 		case "zh":
-				window.location.replace("http://localhost/convertmidia/"+lang);
+				if(here == "zh"){
+					break;
+				}else{
+					window.location.replace("http://localhost/convertmidia/"+lang);
+				}
 			break;
 		case "it":
-				window.location.replace("http://localhost/convertmidia/"+lang);
+				if(here == "it"){
+					break;
+				}else{
+					window.location.replace("http://localhost/convertmidia/"+lang);
+				}
 			break;
 		case "de":
-				window.location.replace("http://localhost/convertmidia/"+lang);
+				if(here == "de"){
+					break;
+				}else{
+					window.location.replace("http://localhost/convertmidia/"+lang);
+				}
 			break;
 		default:
 			// en
-			window.location.replace("http://localhost/convertmidia/en");
-			break;
+			if(here == "en"){
+				break;
+			}else{
+				window.location.replace("http://localhost/convertmidia/en");
+			}
 	}
 });
