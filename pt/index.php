@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="../_assets/images/favicon.ico" />
 
     <!-- search google -->
-    <meta name="description" content="Converta diversos formatos (tanto video, audio, imagens) para outros formatos online."/>
+    <meta name="description" content="Converta diversos tipos de formatos (tanto video, audio, imagens) para outros formatos online."/>
     <meta name="keywords" content="converttype, convert type, convert, convert online, midia, type, converter, midias, mp3, mp4, converter video, converter musica, video, musica, audio, formatos, online"/>
 
     <!-- OG facebook -->
@@ -21,7 +21,7 @@
     <meta property="og:title" content="Convert Type">
     <meta property="og:site_name" content="converttype">
     <meta property="og:description" content="Converta diversos formatos (tanto video, audio, imagens) para outros formatos online.">
-    <meta property="og:image" content="_assets/images/logo.png">
+    <meta property="og:image" content="../_assets/images/logo.png">
     <meta property="og:image:secure_url" content="https://converttype.com/_assets/images/logo.png">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="150"> <!-- pixel -->
@@ -40,67 +40,55 @@
     <link rel="stylesheet" type="text/css" href="../_assets/layout/index.css">
   </head>
   <body>
-    <div class="wrapper row0">
-      <div id="topbar" class="hoc clear">
-        <ul class="nospace">
-          <li><i class="fa fa-envelope-o"></i> CONVERTTYPE.com</li>
-          <li><a href="index.html"><i class="fa fa-lg fa-home"></i></a></li>
-          <li><a href="#" title="Help Centre"><i class="fa fa-life-bouy"></i></a></li>
-          <li><a href="#" title="Login"><i class="fa fa-lg fa-sign-in"></i></a></li>
-          <li><a href="#" title="Sign Up"><i class="fa fa-lg fa-edit"></i></a></li>
+    <div class="row">
+      <div class="col l3 m3 tab desk">
+      </div>
+      <div class="col s12 m6 l6 tab desk">
+      </div>
+      <div class="col m3 l3 tab desk">
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="navbar">
+            <nav>
+                <div class="nav-wrapper center colorprimary">
+                    <a href="#" class="pos-logo-top"><img src="../_assets/images/converttype_negative.svg" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="navbar">
+            <nav>
+                <div class="nav-wrapper colorprimary">
+                    <!-- icon open menu no mobile -->
+                    <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul id="navbar-items" class="hide-on-med-and-down right pos-menu">
+                        <li><a href="index.php">INÍCIO</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#">MP3</a></li>
+                        <li><a href="#">MP4</a></li>
+                        <li><a href="#">WAV</a></li>
+                        <li><a href="#">OGG</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- menu mobile -->
+        <ul id="mobile-navbar" class="sidenav">
+            <li><a href="index.php">INÍCIO</a></li>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#">MP3</a></li>
+            <li><a href="#">MP4</a></li>
+            <li><a href="#">WAV</a></li>
+            <li><a href="#">OGG</a></li>
         </ul>
       </div>
-    </div>
-    <div class="wrapper row1">
-      <header id="header" class="hoc clear">
-        <section>
-          <div style="text-align:center;">
-            <h1 id="logo"><a href="#">FOR MP3 Convert Midia</a></h1>
-          </div>
-        </section>
-        <nav id="mainav">
-          <ul class="clear">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a class="drop" href="#">../pages</a>
-              <ul>
-                <li><a href="../pages/gallery.html">Gallery</a></li>
-                <li><a href="../pages/full-width.html">Full Width</a></li>
-                <li><a href="../pages/sidebar-left.html">Sidebar Left</a></li>
-                <li><a href="../pages/sidebar-right.html">Sidebar Right</a></li>
-                <li><a href="../pages/basic-grid.html">Basic Grid</a></li>
-              </ul>
-            </li>
-            <li><a class="drop" href="#">Dropdown</a>
-              <ul>
-                <li><a href="#">Level 2</a></li>
-                <li><a class="drop" href="#">Level 2 + Drop</a>
-                  <ul>
-                    <li><a href="#">Level 3</a></li>
-                    <li><a href="#">Level 3</a></li>
-                    <li><a href="#">Level 3</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Level 2</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Link Text</a></li>
-            <li><a href="#">Link Text</a></li>
-            <li><a href="#">Link Text</a></li>
-            <li><a href="#">Long Link Text</a></li>
-          </ul>
-          <!-- ################################################################################################ -->
-        </nav>
-      </header>
-    </div>
-    <div class="bgded" style="background-image:url('../_assets/images/demo/backgrounds/01.png');">
-      <div id="pageintro" class="hoc clear">
-        <article>
-          <h3 class="heading">Teste lingua</h3>
-          <p></p>
-          <!-- <footer><a class="btn" href="#">Turpis egestas</a></footer> -->
-        </article>
-      </div>
-    </div>
+    </main>
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../_assets/scripts/script.min.js"></script>
+    <script src="../_assets/scripts/menu.js"></script>
