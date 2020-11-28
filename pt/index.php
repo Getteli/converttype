@@ -74,10 +74,10 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="index.php">INÍCIO</a></li>
                         <li><a href="#sobre">SOBRE</a></li>
-                        <li><a href="#">MP3</a></li>
-                        <li><a href="#">MP4</a></li>
-                        <li><a href="#">WAV</a></li>
-                        <li><a href="#">OGG</a></li>
+                        <li><a href="index.php">MP3</a></li>
+                        <li><a href="#" class="disabledtext">MP4</a></li>
+                        <li><a href="#" class="disabledtext">WAV</a></li>
+                        <li><a href="#" class="disabledtext">OGG</a></li>
                     </ul>
                 </div>
             </nav>
@@ -85,10 +85,10 @@
         <ul id="mobile-navbar" class="sidenav">
             <li><a href="index.php">INÍCIO</a></li>
             <li><a href="#sobre">SOBRE</a></li>
-            <li><a href="#">MP3</a></li>
-            <li><a href="#">MP4</a></li>
-            <li><a href="#">WAV</a></li>
-            <li><a href="#">OGG</a></li>
+            <li><a href="index.php">MP3</a></li>
+            <li><a href="#" class="disabledtext">MP4</a></li>
+            <li><a href="#" class="disabledtext">WAV</a></li>
+            <li><a href="#" class="disabledtext">OGG</a></li>
         </ul>
       </div>
 
