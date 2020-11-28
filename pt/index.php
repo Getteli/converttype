@@ -58,14 +58,20 @@
             </nav>
         </div>
 
+        <div class="row colorprimary nospacerow">
+          <div class="col s12 m12 l12 center white-text">
+            <h3 id="convert_to">PARA MP3</h3>
+          </div>
+        </div>
+        <!-- menu -->
         <div class="navbar">
-            <nav>
+            <nav class="nav-center">
                 <div class="nav-wrapper colorprimary">
                     <!-- icon open menu no mobile -->
                     <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
                         <i class="material-icons">menu</i>
                     </a>
-                    <ul id="navbar-items" class="hide-on-med-and-down right pos-menu">
+                    <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="index.php">INÍCIO</a></li>
                         <li><a href="#sobre">SOBRE</a></li>
                         <li><a href="#">MP3</a></li>
@@ -76,7 +82,6 @@
                 </div>
             </nav>
         </div>
-        <!-- menu mobile -->
         <ul id="mobile-navbar" class="sidenav">
             <li><a href="index.php">INÍCIO</a></li>
             <li><a href="#sobre">SOBRE</a></li>
@@ -86,9 +91,40 @@
             <li><a href="#">OGG</a></li>
         </ul>
       </div>
+
+      <div class="container background">
+        <div class="row">
+            <div class="col s12 m12 l10 offset-l1 white container-input" style="width:90%!important;margin-left:5%!important;margin-bottom:50px;">
+              <form action="#" method="post" id="formconv">
+                <div class="row margin_form">
+                  <!-- input -->
+                  <div class="col s12 m12 l10">
+                        <div class="col s9 m10 l10 col_input">
+                          <input id="file-name2" name="url_link" placeholder="https://www.youtube.com/watch...."/>
+                        </div>
+                        <div class="col s3 m2 l2 center">
+                          <p id="convert_to2">PARA MP3</p>
+                        </div>
+                    </div>
+                  <!-- btn -->
+                  <div class="row margin_form center center-align">
+                    <div class="col s12 m12 l2 marginline">
+                      <button type="submit" name="btn_convert" class="btn-ct btn colorprimary">CONVERTER</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div class="row margin_form center center-align">
+                <div class="col s12 m12 l12 marginline">
+                  <a href="#" id="linktodownload"><button class="btn green btn-ct2">BAIXAR</button></a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
     </main>
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../_assets/scripts/script.min.js"></script>
-    <script src="../_assets/scripts/menu.js"></script>
+    <script src="../_assets/scripts/index.min.js"></script>
