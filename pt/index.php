@@ -37,7 +37,7 @@
     <!-- Styles -->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="../_assets/layout/index.css">
+    <link rel="stylesheet" type="text/css" href="../_assets/layout/index.min.css">
   </head>
   <body id="begin">
     <div class="row">
@@ -51,19 +51,19 @@
         p
       </div>
     </div>
-    <div class="mob tab" style="display: block;position: absolute; right:0;">
-      <div class="col m3 l3 propside red" style="position:relative;width:200px;height:600px;">
+    <div class="mob tab propsider">
+      <div class="col m3 l3 propside red">
         p
       </div>
-      <div class="col m3 l3 propside blue" style="position:relative;width:200px;height:600px;">
+      <div class="col m3 l3 propside blue">
         p2
       </div>
     </div>
-    <div class="mob tab" style="display: block;position: absolute; left:0;">
-      <div class="col m3 l3 propside red" style="position:relative;width:200px;height:600px;">
+    <div class="mob tab propsidel">
+      <div class="col m3 l3 propside red">
         p
       </div>
-      <div class="col m3 l3 propside blue" style="position:relative;width:200px;height:600px;">
+      <div class="col m3 l3 propside blue">
         p2
       </div>
     </div>

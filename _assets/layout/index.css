@@ -178,6 +178,22 @@ input[type='file'] {
 	display: block;
 }
 
+.propside{
+	position:relative;
+	width:200px;
+	height:600px;
+}
+.propsider{
+	display: block;
+	position: absolute;
+	right:0;
+}
+.propsidel{
+	display: block;
+	position: absolute;
+	left:0;
+}
+
 /*MOBILE*/
 @media only screen and (max-width: 601px) {
 	.ifctcustom{
