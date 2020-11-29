@@ -158,6 +158,26 @@ input[type='file'] {
 	color: #ccc;
 }
 
+.desc{
+	font-size: 20px;
+	text-align: justify;
+	text-justify: inter-word;
+	letter-spacing: 2px;
+}
+
+.pos-footer{
+	width: 70%!important;
+	margin-left: 15%!important;
+}
+
+/* as classses de desk, tab e mob é o inverso. Quando o elemento nao for exibido na sua respectiva tela, ele tem a classe */
+.desk{
+	display: block;
+}
+.mob, .tab{
+	display: block;
+}
+
 /*MOBILE*/
 @media only screen and (max-width: 601px) {
 	.ifctcustom{
@@ -165,6 +185,13 @@ input[type='file'] {
 	}
 	#file-name2{
 		width: 110%;
+	}
+	.mob{
+		display: none!important;
+	}
+	.pos-footer{
+		width: 70%!important;
+		margin-left: 15%!important;
 	}
 }
 
@@ -176,5 +203,19 @@ input[type='file'] {
 	.btn-ct{
 		right: auto!important;
 		position: relative;
+	}
+	.tab{
+		display: none!important;
+	}
+	.pos-footer{
+		width: 84.5%!important;
+		margin-left: 7.5%!important;
+	}
+}
+
+/* TABLET little bit maior */
+@media only screen and (max-width: 1340px) {
+	.propside{
+		width: 150px!important;
 	}
 }

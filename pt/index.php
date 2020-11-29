@@ -39,13 +39,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="../_assets/layout/index.css">
   </head>
-  <body>
+  <body id="begin">
     <div class="row">
-      <div class="col l3 m3 tab desk">
+      <div class="col l3 m3 mob green">
+        p
       </div>
-      <div class="col s12 m6 l6 tab desk">
+      <div class="col s12 m6 l6 yellow">
+        p
       </div>
-      <div class="col m3 l3 tab desk">
+      <div class="col m3 l3 mob green">
+        p
+      </div>
+    </div>
+    <div class="mob tab" style="display: block;position: absolute; right:0;">
+      <div class="col m3 l3 propside red" style="position:relative;width:200px;height:600px;">
+        p
+      </div>
+      <div class="col m3 l3 propside blue" style="position:relative;width:200px;height:600px;">
+        p2
+      </div>
+    </div>
+    <div class="mob tab" style="display: block;position: absolute; left:0;">
+      <div class="col m3 l3 propside red" style="position:relative;width:200px;height:600px;">
+        p
+      </div>
+      <div class="col m3 l3 propside blue" style="position:relative;width:200px;height:600px;">
+        p2
       </div>
     </div>
     <main>
@@ -72,8 +91,8 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="index.php">INÍCIO</a></li>
-                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#begin" class="begin">INÍCIO</a></li>
+                        <li><a href="#about" class="about">SOBRE</a></li>
                         <li><a href="index.php">MP3</a></li>
                         <li><a href="#" class="disabledtext">MP4</a></li>
                         <li><a href="#" class="disabledtext">WAV</a></li>
@@ -84,14 +103,14 @@
         </div>
         <ul id="mobile-navbar" class="sidenav">
             <li><a href="index.php">INÍCIO</a></li>
-            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#about" class="about">SOBRE</a></li>
             <li><a href="index.php">MP3</a></li>
             <li><a href="#" class="disabledtext">MP4</a></li>
             <li><a href="#" class="disabledtext">WAV</a></li>
             <li><a href="#" class="disabledtext">OGG</a></li>
         </ul>
       </div>
-
+      <!-- content -->
       <div class="container background">
         <div class="row">
             <div class="col s12 m12 l10 offset-l1 white container-input" style="width:90%!important;margin-left:5%!important;margin-bottom:50px;">
@@ -122,6 +141,55 @@
             </div>
         </div>
       </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3 yellow">
+          p
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l12">
+          <div class="container" id="about">
+            <p class="desc"><b>ConvertType</b> é um conversor de vídeos por link para os mais diversos formatos de aúdio. Inicialmente disponibilizamos para MP3, logo teremos mais opções e outros tipos de conversões, seja por link ou arquivo. Graça aos desenvolvedores deste projeto, estamos disponibilizando para todos. Fique a vontade, aproveite. Caso use <b>AdBlock</b> ou qualquer outro <b>bloqueador de anúncios</b>, por favor desative para podermos manter o site no ar para o seu uso e de outros que necessitam. Obrigado pela compreensão &#128522;</p>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3 yellow">
+          p
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="page-footer colorprimary pos-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">SOBRE</h5>
+              <p class="grey-text text-lighten-4 desc">Todos os direitos são livres, apenas fazemos para a utilidade e uso do dia a dia de todos que possam precisar.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Converter para</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">MP3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">MP4</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">OGG</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">WAV</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright
+          <a class="grey-text text-lighten-4 right" href="#!">Ilion Tecnologia</a>
+          </div>
+        </div>
+      </footer>
     </main>
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
