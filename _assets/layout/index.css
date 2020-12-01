@@ -12,7 +12,7 @@
 }
 
 .pos-logo-top{
-	width: 250px;
+	width: 220px;
 	line-height: 6;
 }
 
@@ -48,12 +48,13 @@ nav.nav-center ul li a {
 .btn-ct{
 	border-radius: 10px;
   height: 50px;
+  max-width: 115px;
   width: auto;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   box-shadow: 0px 3px 17px 1px #0055cc;
-	right: 20% !important;
-	position: absolute;
+  right: 19% !important;
+  position: absolute;
 }
 
 .btn-ct2{
@@ -181,7 +182,7 @@ input[type='file'] {
 .propside{
 	position:relative;
 	width:200px;
-	height:600px;
+	height:593px;
 }
 .propsider{
 	display: block;
@@ -200,7 +201,7 @@ input[type='file'] {
 		margin-left: -15%;
 	}
 	#file-name2{
-		width: 110%;
+		width: 100%;
 	}
 	.mob{
 		display: none!important;
@@ -212,7 +213,7 @@ input[type='file'] {
 }
 
 /*TABLET*/
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.marginline{
 		margin-top: 20px;
 	}
@@ -233,5 +234,13 @@ input[type='file'] {
 @media only screen and (max-width: 1340px) {
 	.propside{
 		width: 150px!important;
+	}
+}
+
+/* personalizado */
+@media (min-width: 993px) and (max-width: 1024px) {
+	#convert_to2{
+		line-height: 1!important;
+		margin-top: 8px;
 	}
 }

@@ -72,7 +72,7 @@
         <div class="navbar">
             <nav>
                 <div class="nav-wrapper center colorprimary">
-                    <a href="#" class="pos-logo-top"><img src="../_assets/images/converttype_negative.svg" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+                    <a href="#" class="pos-logo-top"><img src="../_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
                 </div>
             </nav>
         </div>
@@ -118,10 +118,10 @@
                 <div class="row margin_form">
                   <!-- input -->
                   <div class="col s12 m12 l10">
-                        <div class="col s9 m10 l10 col_input">
+                        <div class="col s12 m12 l10 col_input">
                           <input id="file-name2" name="url_link" placeholder="https://www.youtube.com/watch...."/>
                         </div>
-                        <div class="col s3 m2 l2 center">
+                        <div class="col s6 offset-s3 m6 offset-m3 l2 center">
                           <p id="convert_to2">PARA MP3</p>
                         </div>
                     </div>
