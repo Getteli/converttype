@@ -68,10 +68,6 @@ nav.nav-center ul li a {
 	right: 35px !important;
 }
 
-input[type='file'] {
-  display: none
-}
-
 .ifctcustom{
 	border-radius: 10px;
   height: 50px;
@@ -103,7 +99,17 @@ input[type='file'] {
     outline: none;
 }
 
-#file-name2{
+.options{
+	font-size: 19px;
+}
+
+.selectedlink{
+	color: green;
+	border-bottom: 1px solid green;
+	pointer-events: none;
+}
+
+.input_target{
 	display: block;
 	width: 100%;
 	height: 50px;
@@ -112,16 +118,70 @@ input[type='file'] {
 	border-bottom: 1px solid #ccc;
 }
 
-#file-name2:hover{
+.input_target:hover{
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	outline: none;
 }
 
-#file-name2:focus{
+.input_target:focus{
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	outline: none;
+}
+
+.input_file{
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 2.429;
+  color: #000;
+  background-color: #fff;
+  background-image: none;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.input_file:hover{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	outline: none;
+}
+
+/* input[type=file] */
+.input_file::-webkit-file-upload-button {
+	display: none;
+}
+.input_file::file-selector-button{
+	display: none;
+}
+
+#lb_input_file{
+	border-radius: 10px;
+  height: 50px;
+  max-width: 115px;
+  width: 110px;
+  font-size: 18px;
+  font-weight: 500;
+	color: #fff;
+	box-shadow: 0px 3px 17px 1px #0055cc;
+	line-height: 3;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.div_input_file{
+	display: inline-flex;
+	width: 100%;
 }
 
 #convert_to2{
@@ -132,6 +192,10 @@ input[type='file'] {
   line-height: 2.8;
   border-radius: 10px;
   color: #656060;
+}
+
+#convert_to, #convert_to2{
+	text-transform: uppercase;
 }
 
 .col_input{
@@ -147,6 +211,14 @@ input[type='file'] {
 
 .disabled{
 	pointer-events: none;
+}
+
+.link{
+	cursor: pointer;
+}
+
+.none{
+	display: none;
 }
 
 .disabledbutton{

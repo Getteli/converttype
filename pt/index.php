@@ -93,8 +93,8 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="#begin" class="begin">INÍCIO</a></li>
                         <li><a href="#about" class="about">SOBRE</a></li>
-                        <li><a href="index.php">MP3</a></li>
-                        <li><a href="#" class="disabledtext">MP4</a></li>
+                        <li><a class="link mp3">MP3</a></li>
+                        <li><a href="#" class="link mp4">MP4</a></li> <!-- disabledtext -->
                         <li><a href="#" class="disabledtext">WAV</a></li>
                         <li><a href="#" class="disabledtext">OGG</a></li>
                     </ul>
@@ -102,10 +102,10 @@
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-            <li><a href="index.php">INÍCIO</a></li>
+            <li><a href="#begin">INÍCIO</a></li>
             <li><a href="#about" class="about">SOBRE</a></li>
-            <li><a href="index.php">MP3</a></li>
-            <li><a href="#" class="disabledtext">MP4</a></li>
+            <li><a class="link mp3">MP3</a></li>
+            <li><a href="#" class="link mp4">MP4</a></li> <!-- disabledtext -->
             <li><a href="#" class="disabledtext">WAV</a></li>
             <li><a href="#" class="disabledtext">OGG</a></li>
         </ul>
@@ -116,10 +116,29 @@
             <div class="col s12 m12 l10 offset-l1 white container-input" style="width:90%!important;margin-left:5%!important;margin-bottom:50px;">
               <form action="#" method="post" id="formconv">
                 <div class="row margin_form">
+                  <!-- options -->
+                  <div class="col s12 m12 l12">
+                    <h5>OPÇÕES</h5>
+                    <p class="options">
+                      <a id="t_url" class="selectedlink link">via url</a> |
+                      <a id="t_input" class="link">upload</a>
+                    </p>
+                    <p class="options">
+                      <a id="320" class="selectedlink link">320 kbps</a> |
+                      <a id="256" class="link">256 kbps</a> |
+                      <a id="192" class="link">192 kbps</a> |
+                      <a id="128" class="link">128 kbps</a>
+                    </p>
+                  </div>
                   <!-- input -->
                   <div class="col s12 m12 l10">
                         <div class="col s12 m12 l10 col_input">
-                          <input id="file-name2" name="url_link" placeholder="https://www.youtube.com/watch...."/>
+                          <input type="number" class="none disabled" name="type" id="type" value="1">
+                          <input class="input_target" id="input_url" name="input_url" required placeholder="https://www.youtube.com/watch...."/>
+                          <div id="div_input_file" class="div_input_file disabled none">
+                            <label for="input_file" class="colorprimary" id="lb_input_file">Subir</label>
+                            <input type="file" class="input_file disabled none" id="input_file" name="input_file">
+                          </div>
                         </div>
                         <div class="col s6 offset-s3 m6 offset-m3 l2 center">
                           <p id="convert_to2">PARA MP3</p>
@@ -128,7 +147,7 @@
                   <!-- btn -->
                   <div class="row margin_form center center-align">
                     <div class="col s12 m12 l2 marginline">
-                      <button type="submit" name="btn_convert" class="btn-ct btn colorprimary">CONVERTER</button>
+                      <button type="submit" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">CONVERTER</button>
                     </div>
                   </div>
                 </div>
@@ -195,4 +214,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../_assets/scripts/script.min.js"></script>
-    <script src="../_assets/scripts/index.min.js"></script>
+    <script src="../_assets/scripts/index.js"></script>
