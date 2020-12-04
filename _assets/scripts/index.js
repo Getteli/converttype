@@ -88,6 +88,10 @@ $(document).ready(function(){
 
   // ao clicar em converter, pega todas as configuracoes e executa o que tiver e como tiver que executar
   $("#btn_convert").on( "click", function() {
+    // $("#btn_convert").addClass("disabled");
+    console.log("teste2");
+    converter_modo_2();
+    /*
     var type = $("#type").val();
     switch (type) {
       case '1':
@@ -108,12 +112,14 @@ $(document).ready(function(){
             alert("é em 128 kbps");
           }
           // tipo 1, convert mas abre um link
-          converter_modo_1();
+          converter_modo_2();
         break;
       case '2':
           alert("é mp4");
         break;
     }
+    */
+    // $("#btn_convert").removeClass("disabled");
   });
 
   // modos de converter
@@ -127,5 +133,8 @@ $(document).ready(function(){
     url = new URL(stringUrl);
     v = url.searchParams.get("v");
     window.open("https://www.yt-download.org/api/button/mp3/"+v);
+  }
+
+  function converter_modo_2() {
   }
 });

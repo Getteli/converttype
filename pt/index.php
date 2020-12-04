@@ -114,7 +114,7 @@
       <div class="container background">
         <div class="row">
             <div class="col s12 m12 l10 offset-l1 white container-input" style="width:90%!important;margin-left:5%!important;margin-bottom:50px;">
-              <form action="#" method="post" id="formconv">
+              <form method="post" id="formconv">
                 <div class="row margin_form">
                   <!-- options -->
                   <div class="col s12 m12 l12">
@@ -147,7 +147,7 @@
                   <!-- btn -->
                   <div class="row margin_form center center-align">
                     <div class="col s12 m12 l2 marginline">
-                      <button type="submit" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">CONVERTER</button>
+                      <button type="button" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">CONVERTER</button>
                     </div>
                   </div>
                 </div>
@@ -213,5 +213,5 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="../_assets/scripts/script.min.js"></script>
+    <script src="../_assets/scripts/script.js"></script>
     <script src="../_assets/scripts/index.js"></script>
