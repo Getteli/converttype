@@ -88,38 +88,35 @@ $(document).ready(function(){
 
   // ao clicar em converter, pega todas as configuracoes e executa o que tiver e como tiver que executar
   $("#btn_convert").on( "click", function() {
-    // $("#btn_convert").addClass("disabled");
-    console.log("teste2");
-    converter_modo_2();
-    /*
+    $("#btn_convert").addClass("disabled");
+
     var type = $("#type").val();
     switch (type) {
-      case '1':
-          alert("é mp3");
-          if ($( "#320" ).hasClass( "selectedlink" )) {
-            alert("é em 320 kbps");
-          }
-          else if ($( "#256" ).hasClass( "selectedlink" ))
+      case '1': // video p/ audio
+          // verifica o tipo de input para impedir o processo, se tiver vazio
+          if ($( "#t_url" ).hasClass( "selectedlink" ))
           {
-            alert("é em 256 kbps");
+            if( !$("#input_url").val() ) {
+              $("#btn_convert").removeClass("disabled");
+              $("#input_url").focus();
+              return;
+            }
           }
-          else if ($( "#192" ).hasClass( "selectedlink" ))
+          else if ($( "#t_input" ).hasClass( "selectedlink" ))
           {
-            alert("é em 192 kbps");
+            if( !$("#input_file").val() ) {
+              $("#btn_convert").removeClass("disabled");
+              $("#input_file").focus();
+              return;
+            }
           }
-          else if ($( "#128" ).hasClass( "selectedlink" ))
-          {
-            alert("é em 128 kbps");
-          }
-          // tipo 1, convert mas abre um link
           converter_modo_2();
         break;
       case '2':
           alert("é mp4");
         break;
-    }
-    */
-    // $("#btn_convert").removeClass("disabled");
+     }
+     $("#btn_convert").removeClass("disabled");
   });
 
   // modos de converter
@@ -135,6 +132,22 @@ $(document).ready(function(){
     window.open("https://www.yt-download.org/api/button/mp3/"+v);
   }
 
+  // esse modo de converter, usa um link de outro site, que pega pela url todos os links de opcoes para baixar
+  // de diversos tipos que o youtube esteja permitindo para aquela video.
   function converter_modo_2() {
+    var form = document.getElementById('input_url').value;
+		var url = "../_assets/scripts/index.php";
+		$.ajax({
+			type: "POST",
+			url: url,
+			data: form, // serializes the form's elements.
+			success: function (data) {
+        $("#desc_ca").removeClass("none");
+        $("#containerafter").append(data);
+			},
+			error: function (data) {
+        $("#containerafter").append("Error");
+			}
+		});
   }
 });

@@ -37,7 +37,7 @@
     <!-- Styles -->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="../_assets/layout/index.min.css">
+    <link rel="stylesheet" type="text/css" href="../_assets/layout/index.css">
   </head>
   <body id="begin">
     <div class="row">
@@ -105,6 +105,8 @@
             <li><a href="#begin">INÍCIO</a></li>
             <li><a href="#about" class="about">SOBRE</a></li>
             <li><a class="link mp3">MP3</a></li>
+            <!-- modifica o menu, coloca submenu para cada tipo, aqui e no mobile.
+            colocar menu de audio, pdf.., e dentro no sub, colocar os tipos(no que for preciso), e alterar o type, via get, type=1 (audio) e etc..-->
             <li><a href="#" class="link mp4">MP4</a></li> <!-- disabledtext -->
             <li><a href="#" class="disabledtext">WAV</a></li>
             <li><a href="#" class="disabledtext">OGG</a></li>
@@ -122,12 +124,6 @@
                     <p class="options">
                       <a id="t_url" class="selectedlink link">via url</a> |
                       <a id="t_input" class="link">upload</a>
-                    </p>
-                    <p class="options">
-                      <a id="320" class="selectedlink link">320 kbps</a> |
-                      <a id="256" class="link">256 kbps</a> |
-                      <a id="192" class="link">192 kbps</a> |
-                      <a id="128" class="link">128 kbps</a>
                     </p>
                   </div>
                   <!-- input -->
@@ -154,7 +150,10 @@
               </form>
               <div class="row margin_form center center-align">
                 <div class="col s12 m12 l12 marginline">
-                  <a href="#" id="linktodownload"><button class="btn green btn-ct2">BAIXAR</button></a>
+                  <p id="containerafter">
+                    <p id="desc_ca" class="none">Clique no link que deseja baixar (audio, video, video sem audio e etc..) e depois na nova aba que se abrir clique em <i class="material-icons">more_vert</i> para baixar</p>
+                    <a href="#" id="linktodownload"><button class="btn green btn-ct2">BAIXAR</button></a>
+                  </p>
                 </div>
               </div>
             </div>

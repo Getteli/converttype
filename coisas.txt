@@ -1,0 +1,7 @@
+retirado as opcoes de qualidade de audio para baixar:
+<!-- <p class="options">
+  <a id="320" class="selectedlink link">320 kbps</a> |
+  <a id="256" class="link">256 kbps</a> |
+  <a id="192" class="link">192 kbps</a> |
+  <a id="128" class="link">128 kbps</a>
+</p> -->

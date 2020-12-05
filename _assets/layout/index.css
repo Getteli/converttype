@@ -99,6 +99,11 @@ nav.nav-center ul li a {
     outline: none;
 }
 
+#desc_ca{
+		font-size: 18px;
+		letter-spacing: 2px;
+}
+
 .options{
 	font-size: 19px;
 }
