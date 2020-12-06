@@ -37,34 +37,34 @@
     <!-- Styles -->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="../_assets/layout/index.css">
+    <link rel="stylesheet" type="text/css" href="../_assets/layout/index.min.css">
   </head>
   <body id="begin">
     <div class="row">
-      <div class="col l3 m3 mob green">
-        p
+      <div class="col l3 m3 mob">
+        
       </div>
-      <div class="col s12 m6 l6 yellow">
-        p
+      <div class="col s12 m6 l6">
+        
       </div>
-      <div class="col m3 l3 mob green">
-        p
+      <div class="col m3 l3 mob">
+        
       </div>
     </div>
     <div class="mob tab propsider">
-      <div class="col m3 l3 propside red">
-        p
+      <div class="col m3 l3 propside">
+        
       </div>
-      <div class="col m3 l3 propside blue">
-        p2
+      <div class="col m3 l3 propside">
+        
       </div>
     </div>
     <div class="mob tab propsidel">
-      <div class="col m3 l3 propside red">
-        p
+      <div class="col m3 l3 propside">
+        
       </div>
-      <div class="col m3 l3 propside blue">
-        p2
+      <div class="col m3 l3 propside">
+        
       </div>
     </div>
     <main>
@@ -162,8 +162,8 @@
 
       <!--  -->
       <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3 yellow">
-          p
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+          
         </div>
       </div>
 
@@ -177,8 +177,8 @@
 
       <!--  -->
       <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3 yellow">
-          p
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+          
         </div>
       </div>
 
@@ -212,5 +212,5 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="../_assets/scripts/script.js"></script>
-    <script src="../_assets/scripts/index.js"></script>
+    <script src="../_assets/scripts/script.min.js"></script>
+    <script src="../_assets/scripts/index.min.js"></script>

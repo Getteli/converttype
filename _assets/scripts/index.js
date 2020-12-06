@@ -113,7 +113,7 @@ $(document).ready(function(){
           converter_modo_2();
         break;
       case '2':
-          alert("é mp4");
+          // alert("é mp4");
         break;
      }
      $("#btn_convert").removeClass("disabled");
@@ -136,7 +136,7 @@ $(document).ready(function(){
   // de diversos tipos que o youtube esteja permitindo para aquela video.
   function converter_modo_2() {
     var form = document.getElementById('input_url').value;
-		var url = "../_assets/scripts/index.php";
+		var url = "../_assets/scripts/index.min.php";
 		$.ajax({
 			type: "POST",
 			url: url,
