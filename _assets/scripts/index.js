@@ -82,8 +82,8 @@ $(document).ready(function(){
   // });
 
   $('.sel').click(function(){
-    $("#convert_to").html("PARA " + $(this).html());
-    $("#convert_to2").html("PARA " + $(this).html());
+    $("#convert_to").html($(this).html());
+    $("#convert_to2").html($(this).html());
     switch ($(this).html()) {
       case "ÁUDIO":
         $("#type").val(1);

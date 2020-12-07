@@ -14,7 +14,7 @@
 	            displayRecursiveResults($data);
 	        } else {
 	            if ($key == "url") {
-	            	$return .= "<a href='".$data."'>Baixar</a>";
+	            	$return .= "<a href='".$data."'>DOWNLOAD</a>";
 	            	// echo "<a href='".$data."'>Baixar</a>";
 	            }
 				if ($key == "name") {

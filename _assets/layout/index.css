@@ -200,7 +200,7 @@ nav.nav-center ul li a {
 	width: 100%;
 }
 
-#convert_to2{
+.convert_to2{
 	font-size: 20px!important;
   font-weight: 500!important;
   height: 50px;
@@ -210,7 +210,7 @@ nav.nav-center ul li a {
   color: #656060;
 }
 
-#convert_to, #convert_to2{
+.convert_to, .convert_to2{
 	text-transform: uppercase;
 }
 
@@ -327,7 +327,7 @@ nav.nav-center ul li a {
 
 /* personalizado */
 @media (min-width: 993px) and (max-width: 1024px) {
-	#convert_to2{
+	.convert_to2{
 		line-height: 1!important;
 		margin-top: 8px;
 	}

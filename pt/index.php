@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="../_assets/images/favicon.ico" />
 
     <!-- search google -->
-    <meta name="description" content="Converta diversos tipos de formatos (tanto video, audio, imagens) para outros formatos online."/>
+    <meta name="description" content="Converta diversos tipos de formatos (tanto video, arquivos, audio, imagens e muito mais) para outros formatos online."/>
     <meta name="keywords" content="converttype, convert type, tipo, convert, convert online, midia, type, converter, midias, mp3, mp4, converter video, converter musica, video, musica, audio, formatos, online"/>
 
     <!-- OG facebook -->
@@ -21,8 +21,8 @@
     <meta property="og:title" content="Convert Type">
     <meta property="og:site_name" content="converttype">
     <meta property="og:description" content="Converta diversos formatos (tanto video, arquivos, audio, imagens e muito mais) para outros formatos online.">
-    <meta property="og:image" content="../_assets/images/logo.png">
-    <meta property="og:image:secure_url" content="https://converttype.com/_assets/images/logo.png">
+    <meta property="og:image" content="../_assets/images/converttype_logo.png">
+    <meta property="og:image:secure_url" content="https://converttype.com/_assets/images/converttype_logo.png">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="150"> <!-- pixel -->
     <meta property="og:image:height" content="150"> <!-- pixel -->
@@ -79,7 +79,7 @@
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 id="convert_to">PARA ÁUDIO</h3>
+            <h3 class="convert_to">PARA <t id="convert_to">ÁUDIO</t></h3>
           </div>
         </div>
         <!-- menu -->
@@ -213,7 +213,7 @@
                           </div>
                         </div>
                         <div class="col s6 offset-s3 m6 offset-m3 l2 center">
-                          <p id="convert_to2">PARA ÁUDIO</p>
+                          <p class="convert_to2">PARA <t id="convert_to2">ÁUDIO</t></p>
                         </div>
                     </div>
                   <!-- btn -->
@@ -246,7 +246,7 @@
       <div class="row">
         <div class="col l12">
           <div class="container" id="about">
-            <p class="desc"><b>ConvertType</b> é um conversor de vídeos por link para os mais diversos formatos de aúdio. Inicialmente disponibilizamos para MP3, logo teremos mais opções e outros tipos de conversões, seja por link ou arquivo. Graça aos desenvolvedores deste projeto, estamos disponibilizando para todos. Fique a vontade, aproveite. Caso use <b>AdBlock</b> ou qualquer outro <b>bloqueador de anúncios</b>, por favor desative para podermos manter o site no ar para o seu uso e de outros que necessitam. Obrigado pela compreensão &#128522;</p>
+            <p class="desc"><b>ConvertType</b> é um conversor de diversos formatos, vídeos por link para os mais diversos formatos de aúdio, arquivos como pdf, word, doc, ou imagens em outros formatos como png, jpeg, arquivos zip, rar e muito mais. Inicialmente disponibilizamos para converter vídeo para áudio, logo teremos mais opções e outros tipos de conversões, seja por link ou arquivo. Graça aos desenvolvedores deste projeto, estamos disponibilizando para todos. Fique a vontade, aproveite. Caso use <b>AdBlock</b> ou qualquer outro <b>bloqueador de anúncios</b>, por favor desative para podermos manter o site no ar para o seu uso e de outros que necessitam. Obrigado pela compreensão &#128522;</p>
             <p class="desc">ESTAMOS EM DESENVOLVIMENTO.</p>
           </div>
         </div>
