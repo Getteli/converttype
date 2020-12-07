@@ -1,5 +1,9 @@
 $(document).ready(function(){
-  // navbar menu mobile
+  // navbar e menu mobile
+  const ElemensDropdown = document.querySelectorAll(".dropdown-trigger");
+  const InstanceDropdown = M.Dropdown.init(ElemensDropdown,{
+      coverTrigger: false,
+  });
   const ElemensDropdownMenuMobile = document.querySelectorAll(".sidenav");
   const InstanceDropdownMenuMobile = M.Sidenav.init(ElemensDropdownMenuMobile,{
       edge: "right",
@@ -51,39 +55,82 @@ $(document).ready(function(){
     $("#input_file").addClass( "disabled" );
     $('#input_file').removeAttr('required');
   });
-  $("#320").on( "click", function() {
-    $("#320").addClass( "selectedlink" );
-    $("#256").removeClass( "selectedlink" );
-    $("#192").removeClass( "selectedlink" );
-    $("#128").removeClass( "selectedlink" );
-  });
-  $("#256").on( "click", function() {
-    $("#256").addClass( "selectedlink" );
-    $("#320").removeClass( "selectedlink" );
-    $("#192").removeClass( "selectedlink" );
-    $("#128").removeClass( "selectedlink" );
-  });
-  $("#192").on( "click", function() {
-    $("#192").addClass( "selectedlink" );
-    $("#256").removeClass( "selectedlink" );
-    $("#320").removeClass( "selectedlink" );
-    $("#128").removeClass( "selectedlink" );
-  });
-  $("#128").on( "click", function() {
-    $("#128").addClass( "selectedlink" );
-    $("#256").removeClass( "selectedlink" );
-    $("#192").removeClass( "selectedlink" );
-    $("#320").removeClass( "selectedlink" );
-  });
-  $(".mp3").on( "click", function() {
-    $("#convert_to").html("PARA MP3");
-    $("#convert_to2").html("PARA MP3");
-    $("#type").val(1);
-  });
-  $(".mp4").on( "click", function() {
-    $("#convert_to").html("PARA MP4");
-    $("#convert_to2").html("PARA MP4");
-    $("#type").val(2);
+
+  // $("#320").on( "click", function() {
+  //   $("#320").addClass( "selectedlink" );
+  //   $("#256").removeClass( "selectedlink" );
+  //   $("#192").removeClass( "selectedlink" );
+  //   $("#128").removeClass( "selectedlink" );
+  // });
+  // $("#256").on( "click", function() {
+  //   $("#256").addClass( "selectedlink" );
+  //   $("#320").removeClass( "selectedlink" );
+  //   $("#192").removeClass( "selectedlink" );
+  //   $("#128").removeClass( "selectedlink" );
+  // });
+  // $("#192").on( "click", function() {
+  //   $("#192").addClass( "selectedlink" );
+  //   $("#256").removeClass( "selectedlink" );
+  //   $("#320").removeClass( "selectedlink" );
+  //   $("#128").removeClass( "selectedlink" );
+  // });
+  // $("#128").on( "click", function() {
+  //   $("#128").addClass( "selectedlink" );
+  //   $("#256").removeClass( "selectedlink" );
+  //   $("#192").removeClass( "selectedlink" );
+  //   $("#320").removeClass( "selectedlink" );
+  // });
+
+  $('.sel').click(function(){
+    $("#convert_to").html("PARA " + $(this).html());
+    $("#convert_to2").html("PARA " + $(this).html());
+    switch ($(this).html()) {
+      case "ÁUDIO":
+        $("#type").val(1);
+        break;
+      case "WMV":
+        $("#type").val(2);
+        break;
+      case "FLV":
+        $("#type").val(3);
+        break;
+      case "AVI":
+        $("#type").val(4);
+        break;
+      case "MOV":
+        $("#type").val(5);
+        break;
+      case "MPEG":
+        $("#type").val(6);
+        break;
+      case "PNG":
+        $("#type").val(7);
+        break;
+      case "JPEG":
+        $("#type").val(8);
+        break;
+      case "SVG":
+        $("#type").val(9);
+        break;
+      case "RAR":
+        $("#type").val(10);
+        break;
+      case "ZIP":
+        $("#type").val(11);
+        break;
+      case "7Z":
+        $("#type").val(12);
+        break;
+      case "PDF":
+        $("#type").val(13);
+        break;
+      case "EXCEL":
+        $("#type").val(14);
+        break;
+      case "WORD":
+        $("#type").val(15);
+        break;
+    }
   });
 
   // ao clicar em converter, pega todas as configuracoes e executa o que tiver e como tiver que executar
@@ -92,7 +139,7 @@ $(document).ready(function(){
 
     var type = $("#type").val();
     switch (type) {
-      case '1': // video p/ audio
+      case '1': // audio
           // verifica o tipo de input para impedir o processo, se tiver vazio
           if ($( "#t_url" ).hasClass( "selectedlink" ))
           {
@@ -110,16 +157,17 @@ $(document).ready(function(){
               return;
             }
           }
+          // se tudo certo, executa o metodo
           converter_modo_2();
         break;
-      case '2':
-          // alert("é mp4");
+      case '2': // WMV
         break;
+        // e por ai vai, adicionando mais cases e verificando os 2 inputs
      }
      $("#btn_convert").removeClass("disabled");
   });
 
-  // modos de converter
+  // -------------------------- MODOS DE CONVERTER -----------------------------
 
   // esse modo converte apenas video do youtube, mas abre o link para outro site
   function converter_modo_1(){

@@ -27,6 +27,14 @@ nav.nav-center ul li a {
     display: inline-block;
 }
 
+.submenu > li > a{
+	width: 100%;
+	text-align: center;
+}
+.submenu > li > a:hover{
+	background-color: rgba(219, 217, 217, 1);
+}
+
 .nospacerow{
 	margin-bottom: 0;
 }
@@ -43,6 +51,9 @@ nav.nav-center ul li a {
 	box-shadow: 1px 1px 25px 15px #525050;
 	margin-top:9%;
 	padding:50px 0 50px 0!important;
+	width:90%!important;
+	margin-left:5%!important;
+	margin-bottom:50px;
 }
 
 .btn-ct{

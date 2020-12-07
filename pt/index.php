@@ -13,14 +13,14 @@
 
     <!-- search google -->
     <meta name="description" content="Converta diversos tipos de formatos (tanto video, audio, imagens) para outros formatos online."/>
-    <meta name="keywords" content="converttype, convert type, convert, convert online, midia, type, converter, midias, mp3, mp4, converter video, converter musica, video, musica, audio, formatos, online"/>
+    <meta name="keywords" content="converttype, convert type, tipo, convert, convert online, midia, type, converter, midias, mp3, mp4, converter video, converter musica, video, musica, audio, formatos, online"/>
 
     <!-- OG facebook -->
     <meta property="og:locale" content="pt_BR">
     <meta property="og:url" content="pt/index.php">
     <meta property="og:title" content="Convert Type">
     <meta property="og:site_name" content="converttype">
-    <meta property="og:description" content="Converta diversos formatos (tanto video, audio, imagens) para outros formatos online.">
+    <meta property="og:description" content="Converta diversos formatos (tanto video, arquivos, audio, imagens e muito mais) para outros formatos online.">
     <meta property="og:image" content="../_assets/images/logo.png">
     <meta property="og:image:secure_url" content="https://converttype.com/_assets/images/logo.png">
     <meta property="og:image:type" content="image/jpeg">
@@ -42,29 +42,29 @@
   <body id="begin">
     <div class="row">
       <div class="col l3 m3 mob">
-        
+
       </div>
       <div class="col s12 m6 l6">
-        
+
       </div>
       <div class="col m3 l3 mob">
-        
+
       </div>
     </div>
     <div class="mob tab propsider">
       <div class="col m3 l3 propside">
-        
+
       </div>
       <div class="col m3 l3 propside">
-        
+
       </div>
     </div>
     <div class="mob tab propsidel">
       <div class="col m3 l3 propside">
-        
+
       </div>
       <div class="col m3 l3 propside">
-        
+
       </div>
     </div>
     <main>
@@ -79,7 +79,7 @@
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 id="convert_to">PARA MP3</h3>
+            <h3 id="convert_to">PARA ÁUDIO</h3>
           </div>
         </div>
         <!-- menu -->
@@ -93,29 +93,105 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="#begin" class="begin">INÍCIO</a></li>
                         <li><a href="#about" class="about">SOBRE</a></li>
-                        <li><a class="link mp3">MP3</a></li>
-                        <li><a href="#" class="link mp4">MP4</a></li> <!-- disabledtext -->
-                        <li><a href="#" class="disabledtext">WAV</a></li>
-                        <li><a href="#" class="disabledtext">OGG</a></li>
+                        <li><a class="link sel">ÁUDIO</a></li>
+                        <li>
+                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-vid">
+                                VÍDEO <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-img">
+                                IMAGENS <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
+                                ARQUIVO <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-doc">
+                                DOC <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul id="dropdown-vid" class="dropdown-content submenu">
+                      <li><a href="#" class="sel">WMV</a></li>
+                      <li><a href="#" class="sel">FLV</a></li>
+                      <li><a href="#" class="sel">AVI</a></li>
+                      <li><a href="#" class="sel">MOV</a></li>
+                      <li><a href="#" class="sel">MPEG</a></li>
+                    </ul>
+                    <ul id="dropdown-img" class="dropdown-content submenu">
+                      <li><a href="#" class="sel">PNG</a></li>
+                      <li><a href="#" class="sel">JPEG</a></li>
+                      <li><a href="#" class="sel">SVG</a></li>
+                    </ul>
+                    <ul id="dropdown-file" class="dropdown-content submenu">
+                      <li><a href="#" class="sel">RAR</a></li>
+                      <li><a href="#" class="sel">ZIP</a></li>
+                      <li><a href="#" class="sel">7Z</a></li>
+                    </ul>
+                    <ul id="dropdown-doc" class="dropdown-content submenu">
+                      <li><a href="#" class="sel">PDF</a></li>
+                      <li><a href="#" class="sel">EXCEL</a></li>
+                      <li><a href="#" class="sel">WORD</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-            <li><a href="#begin">INÍCIO</a></li>
-            <li><a href="#about" class="about">SOBRE</a></li>
-            <li><a class="link mp3">MP3</a></li>
-            <!-- modifica o menu, coloca submenu para cada tipo, aqui e no mobile.
-            colocar menu de audio, pdf.., e dentro no sub, colocar os tipos(no que for preciso), e alterar o type, via get, type=1 (audio) e etc..-->
-            <li><a href="#" class="link mp4">MP4</a></li> <!-- disabledtext -->
-            <li><a href="#" class="disabledtext">WAV</a></li>
-            <li><a href="#" class="disabledtext">OGG</a></li>
+          <li><a href="#begin" class="begin">INÍCIO</a></li>
+          <li><a href="#about" class="about">SOBRE</a></li>
+          <li><a class="link sel">ÁUDIO</a></li>
+          <li>
+              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-vidm">
+                  VÍDEO <i class="material-icons right">arrow_drop_down</i>
+              </a>
+          </li>
+          <li>
+              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
+                  IMAGENS <i class="material-icons right">arrow_drop_down</i>
+              </a>
+          </li>
+          <li>
+              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
+                  ARQUIVO <i class="material-icons right">arrow_drop_down</i>
+              </a>
+          </li>
+          <li>
+              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-docm">
+                DOC <i class="material-icons right">arrow_drop_down</i>
+              </a>
+          </li>
+        </ul>
+        <ul id="dropdown-vidm" class="dropdown-content submenu">
+          <li><a href="#" class="sel">WMV</a></li>
+          <li><a href="#" class="sel">FLV</a></li>
+          <li><a href="#" class="sel">AVI</a></li>
+          <li><a href="#" class="sel">MOV</a></li>
+          <li><a href="#" class="sel">MPEG</a></li>
+        </ul>
+        <ul id="dropdown-imgm" class="dropdown-content submenu">
+          <li><a href="#" class="sel">PNG</a></li>
+          <li><a href="#" class="sel">JPEG</a></li>
+          <li><a href="#" class="sel">SVG</a></li>
+        </ul>
+        <ul id="dropdown-filem" class="dropdown-content submenu">
+          <li><a href="#" class="sel">RAR</a></li>
+          <li><a href="#" class="sel">ZIP</a></li>
+          <li><a href="#" class="sel">7Z</a></li>
+        </ul>
+        <ul id="dropdown-docm" class="dropdown-content submenu">
+          <li><a href="#" class="sel">PDF</a></li>
+          <li><a href="#" class="sel">EXCEL</a></li>
+          <li><a href="#" class="sel">WORD</a></li>
         </ul>
       </div>
       <!-- content -->
       <div class="container background">
         <div class="row">
-            <div class="col s12 m12 l10 offset-l1 white container-input" style="width:90%!important;margin-left:5%!important;margin-bottom:50px;">
+            <div class="col s12 m12 l10 offset-l1 white container-input">
               <form method="post" id="formconv">
                 <div class="row margin_form">
                   <!-- options -->
@@ -123,7 +199,7 @@
                     <h5>OPÇÕES</h5>
                     <p class="options">
                       <a id="t_url" class="selectedlink link">via url</a> |
-                      <a id="t_input" class="link">upload</a>
+                      <a id="t_input" class="link disabledtext">upload</a>
                     </p>
                   </div>
                   <!-- input -->
@@ -137,7 +213,7 @@
                           </div>
                         </div>
                         <div class="col s6 offset-s3 m6 offset-m3 l2 center">
-                          <p id="convert_to2">PARA MP3</p>
+                          <p id="convert_to2">PARA ÁUDIO</p>
                         </div>
                     </div>
                   <!-- btn -->
@@ -163,7 +239,7 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-          
+
         </div>
       </div>
 
@@ -171,6 +247,7 @@
         <div class="col l12">
           <div class="container" id="about">
             <p class="desc"><b>ConvertType</b> é um conversor de vídeos por link para os mais diversos formatos de aúdio. Inicialmente disponibilizamos para MP3, logo teremos mais opções e outros tipos de conversões, seja por link ou arquivo. Graça aos desenvolvedores deste projeto, estamos disponibilizando para todos. Fique a vontade, aproveite. Caso use <b>AdBlock</b> ou qualquer outro <b>bloqueador de anúncios</b>, por favor desative para podermos manter o site no ar para o seu uso e de outros que necessitam. Obrigado pela compreensão &#128522;</p>
+            <p class="desc">ESTAMOS EM DESENVOLVIMENTO.</p>
           </div>
         </div>
       </div>
@@ -178,7 +255,7 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-          
+
         </div>
       </div>
 
@@ -191,12 +268,12 @@
               <p class="grey-text text-lighten-4 desc">Todos os direitos são livres, apenas fazemos para a utilidade e uso do dia a dia de todos que possam precisar.</p>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Converter para</h5>
+              <h5 class="white-text">MAIS USADOS</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">MP3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">MP4</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">OGG</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">WAV</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#!">ÁUDIO</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#!">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#!">ZIP</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#!">RAR</a></li>
               </ul>
             </div>
           </div>

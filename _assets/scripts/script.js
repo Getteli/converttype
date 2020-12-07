@@ -3,9 +3,9 @@ $(document).ready(function(){
 	var lang = (navlang.split('-')[0]).toLowerCase();
 	var here = window.location.pathname;
 	// in local is necessary
-	var compl = "/";
+	var compl = "/converttype/";
 	// need 1 in server. local is 2
-	here = (here.split('/')[1]).toLowerCase();
+	here = (here.split('/')[2]).toLowerCase();
 	switch (lang) {
 		case "pt":
 				if(here == "pt"){
