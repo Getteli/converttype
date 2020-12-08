@@ -10,6 +10,11 @@ $(document).ready(function(){
       draggable: true,
   });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, options);
+  });
+
   // rolar, menu
   $(".about").click(function() {
     $('html, body').animate({

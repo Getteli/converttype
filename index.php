@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-25PBY7LCQT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-25PBY7LCQT');
+    </script>
+
     <!-- meta's -->
     <meta charset="utf-8">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -9,19 +19,25 @@
     <meta name="theme-color" content="#0055ff">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="../_assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="_assets/images/favicon.ico" />
 
     <!-- search google -->
-    <meta name="description" content="Convert different types of formats (video, files, audio, images and more) to other online formats."/>
-    <meta name="keywords" content="converttype, convert type, type, convert, convert online, media, type, convert, media, mp3, mp4, convert video, convert music, video, files, doc, zip, pdf, file, music, audio, formats, online"/>
+    <META NAME="DESCRIPTION" CONTENT="Convert your videos, music, documents, files and many more to other formats and or extensions. Convert YouTube videos to audio and music">
+    <META NAME="ABSTRACT" CONTENT="Convert files, audios, videos and documents to other extensions.">
+    <META NAME="KEYWORDS" CONTENT="convert, exchange, change, types, videos, music, files, documents, media, extension, convert youtube video, convert pdf, convert rar, download youtube videos, change the image extension, change the type, change extension, download video without audio">
+    <META NAME="ROBOT" CONTENT="Index,Follow,Noarchive">
+    <META NAME="googlebot" CONTENT="Index,Follow,Noarchive">
+    <meta name="google-site-verification" content="kzXe5WP-0o9iDobNk6cYdNNapmM0dA1_Fb68U11j7-8"/>
+    <META NAME="DISTRIBUTION" CONTENT="global">
+    <META NAME="LANGUAGE" CONTENT="EN">
 
     <!-- OG facebook -->
     <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="en/index.php">
+    <meta property="og:url" content="index.php">
     <meta property="og:title" content="Convert Type">
     <meta property="og:site_name" content="converttype">
-    <meta property="og:description" content="Convert different formats (video, files, audio, images and more) to other online formats.">
-    <meta property="og:image" content="../_assets/images/converttype_logo.png">
+    <meta property="og:description" content="Convert your videos, music, documents, files and many more to other formats and or extensions. Convert YouTube videos to audio and music">
+    <meta property="og:image" content="_assets/images/converttype_logo.png">
     <meta property="og:image:secure_url" content="https://converttype.com/_assets/images/converttype_logo.png">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="150"> <!-- pixel -->
@@ -37,7 +53,7 @@
     <!-- Styles -->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="../_assets/layout/index.css">
+    <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
   </head>
   <body id="begin">
     <div class="row">
@@ -72,7 +88,24 @@
         <div class="navbar">
             <nav>
                 <div class="nav-wrapper center colorprimary">
-                    <a href="#" class="pos-logo-top"><img src="../_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+                  <div class="input_l colorprimary">
+                    <form action="lang/translate.php" method="POST">
+                      <select name="language-select" id="language-select" class="select_language colorprimary" onchange="this.form.submit()">
+                        <option class="opt_l" value="0">Selecione sua linguagem</option>
+                        <option class="opt_l" value="de">Deutsch</option>
+                        <option class="opt_l" value="en">English</option>
+                        <option class="opt_l" value="es">Español</option>
+                        <option class="opt_l" value="fr">Français</option>
+                        <option class="opt_l" value="it">Italiano</option>
+                        <option class="opt_l" value="pt">Português</option>
+                        <option class="opt_l" value="ru">русский</option>
+                        <option class="opt_l" value="ja">日本人</option>
+                        <option class="opt_l" value="zh">中文</option>
+                        <!-- other language options -->
+                      </select>
+                    </form>
+                  </div>
+                    <a href="#" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
                 </div>
             </nav>
         </div>
@@ -246,6 +279,7 @@
       <div class="row">
         <div class="col l12">
           <div class="container" id="about">
+            <h4>ABOUT</h4>
             <p class="desc"><b>ConvertType</b> is a converter of several formats, videos by link to the most diverse audio formats, files such as pdf, word, doc, or images in other formats such as png, jpeg, zip files, rar and much more. Initially we made it available to convert video to audio, soon we will have more options and other types of conversions, either by link or file. Thanks to the developers of this project, we are making it available to everyone. Feel free, enjoy. If you use <b> AdBlock </b> or any other <b> ad blocker </b>, please disable it so we can keep the site live for you and others in need. Thank you for understanding &#128522;</p>
             <p class="desc">WE ARE IN DEVELOPMENT.</p>
           </div>
@@ -270,10 +304,10 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">MOST USED</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#!">AUDIO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#!">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#!">ZIP</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#!">RAR</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#">AUDIO</a></li>
+                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">ZIP</a></li>
+                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>
             </div>
           </div>
@@ -289,5 +323,4 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- <script src="../_assets/scripts/script.min.js"></script> -->
-    <script src="../_assets/scripts/index.js"></script>
+    <script src="_assets/scripts/index.min.js"></script>

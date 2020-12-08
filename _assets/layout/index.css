@@ -46,6 +46,32 @@ nav.nav-center ul li a {
 	background-size: contain;
 }
 
+.input_l{
+	width: 100%;
+	font-size: 12px;
+	height: 25px!important;
+	position: relative;
+	top: 7px;
+}
+
+.select_language{
+	display: block;
+	height: 25px;
+	width: 170px;
+	color: white;
+	border: none;
+	box-shadow: 0 3px 17px 1px #05c;
+	float: right;
+	margin-right: 10px;
+}
+
+.opt_l {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
 .container-input{
 	border-radius: 10px;
 	box-shadow: 1px 1px 25px 15px #525050;
