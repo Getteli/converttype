@@ -232,20 +232,33 @@
                     <h5>OPTIONS</h5>
                     <p class="options">
                       <a id="t_url" class="selectedlink link">via url</a> |
-                      <a id="t_input" class="link disabledtext">upload</a>
+                      <a id="t_input" class="link">upload</a>
                     </p>
                   </div>
                   <!-- input -->
                   <div class="col s12 m12 l10">
-                        <div class="col s12 m12 l10 col_input">
+                        <div class="col s12 m12 l10 col_input" id="div_url">
                           <input type="number" class="none disabled" name="type" id="type" value="1">
                           <input class="input_target" id="input_url" name="input_url" required placeholder="https://www.youtube.com/watch...."/>
-                          <div id="div_input_file" class="div_input_file disabled none">
-                            <label for="input_file" class="colorprimary" id="lb_input_file">UPLOAD</label>
-                            <input type="file" class="input_file disabled none" id="input_file" name="input_file">
+                        </div>
+                        <div class="col s12 m12 l12 col_input none" id="div_file">
+                          <div class="row">
+                            <div class="col s12 m8 l8">
+                              <div id="div_input_file" class="div_input_file disabled none col s12">
+                                <label for="input_file" class="colorprimary" id="lb_input_file">UPLOAD</label>
+                                <input type="file" class="input_file disabled none" id="input_file" name="input_file">
+                              </div>
+                            </div>
+                            <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
+                              <p class="convert_to3">FOR</p>
+                              <select class="selecttype" name="selecttype" id="selecttype">
+                                <option value="">MP4</option>
+                                <option value="">WMV</option>
+                              </select>
+                            </div>
                           </div>
                         </div>
-                        <div class="col s6 offset-s3 m6 offset-m3 l2 center">
+                        <div class="col s6 offset-s3 m6 offset-m3 l2 center" id="div_descconvertinput">
                           <p class="convert_to2">FOR <t id="convert_to2">AUDIO</t></p>
                         </div>
                     </div>

@@ -38,10 +38,13 @@ $(document).ready(function(){
     $("#lb_input_file").removeClass( "disabled" );
     $("#input_file").removeClass( "none" );
     $("#input_file").removeClass( "disabled" );
+    $("#div_file").removeClass( "none" );
     $('#input_file').attr('required', 'true');
 
     $("#input_url").addClass( "none" );
     $("#input_url").addClass( "disabled" );
+    $("#div_descconvertinput").addClass( "none" );
+    $("#div_url").addClass( "none" );
     $('#input_url').removeAttr('required');
   });
   $("#t_url").on( "click", function() {
@@ -50,6 +53,8 @@ $(document).ready(function(){
 
     $("#input_url").removeClass( "none" );
     $("#input_url").removeClass( "disabled" );
+    $("#div_descconvertinput").removeClass( "none" );
+    $("#div_url").removeClass( "none" );
     $('#input_url').attr('required', 'true');
 
     $("#div_input_file").addClass( "none" );
@@ -57,6 +62,7 @@ $(document).ready(function(){
     $("#lb_input_file").addClass( "none" );
     $("#lb_input_file").addClass( "disabled" );
     $("#input_file").addClass( "none" );
+    $("#div_file").addClass( "none" );
     $("#input_file").addClass( "disabled" );
     $('#input_file').removeAttr('required');
   });
