@@ -29,13 +29,16 @@
 
 	switch ($_POST["language-select"])
 	{
-		case 'pt':
-			header('Location: ../pt.php');
+		case "pt":
+			header('Location: https://converttype.com/pt');
+			exit;
 			break;
-		case 'en':
-			header('Location: ../index.php');
+		case "en":
+			header('Location: https://converttype.com');
+			exit;
 			break;
 		default:
-			header('Location: ../index.php');
+			header('Location: https://converttype.com');
+			exit;
 			break;
 	}

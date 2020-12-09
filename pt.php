@@ -97,7 +97,7 @@
 														<option class="opt_l" value="es">Español</option>
 														<option class="opt_l" value="fr">Français</option>
 														<option class="opt_l" value="it">Italiano</option>
-														<option class="opt_l" value="pt">Português</option>
+														<option class="opt_l" value="pt" selected>Português</option>
 														<option class="opt_l" value="ru">русский</option>
 														<option class="opt_l" value="ja">日本人</option>
 														<option class="opt_l" value="zh">中文</option>
