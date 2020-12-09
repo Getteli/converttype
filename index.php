@@ -300,6 +300,7 @@
             <div class="col l6 s12">
               <h5 class="white-text">ABOUT</h5>
               <p class="grey-text text-lighten-4 desc">All rights are free, we only do it for the usefulness and daily use of everyone who may need it.</p>
+              <a href="PolicyAndPrivacy.html" class="white-text desc">Click here to read the Privacy Policy</p>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">MOST USED</h5>
