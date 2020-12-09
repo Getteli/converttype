@@ -278,7 +278,13 @@
         <div class="col l12">
           <div class="container" id="about">
 						<h4>SOBRE</h4>
-            <p class="desc"><b>ConvertType</b> é um conversor de diversos formatos, vídeos por link para os mais diversos formatos de aúdio, arquivos como pdf, word, doc, ou imagens em outros formatos como png, jpeg, arquivos zip, rar e muito mais. Inicialmente disponibilizamos para converter vídeo para áudio, logo teremos mais opções e outros tipos de conversões, seja por link ou arquivo. Graça aos desenvolvedores deste projeto, estamos disponibilizando para todos. Fique a vontade, aproveite. Caso use <b>AdBlock</b> ou qualquer outro <b>bloqueador de anúncios</b>, por favor desative para podermos manter o site no ar para o seu uso e de outros que necessitam. Obrigado pela compreensão &#128522;</p>
+            <p class="desc"><b>Convert Type</b> é um conversor de múltiplos arquivos e formatos.
+            Você pode converter vídeos do youtube para diversos formatos de áudio, baixar vídeos do youtube, baixar vídeos sem áudio do youtube,
+            converter vídeos do seu computador subindo o arquivo e baixando em outros formatos/extensões.
+            Você poderá converter imagens para outros formatos e extensões, como também poderá mudar e converter arquivos e documentos.
+            Converta arquivos PDF para word, Excel, e muito mais ! além de arquivos compactados, converta .RAR pra ZIP, 7ZIP e vice e versa.
+            Aproveite o <b>Convert Type</b>.
+            Graça aos desenvolvedores deste projeto, estamos disponibilizando para todos. Fique a vontade, aproveite. Caso use <b>AdBlock</b> ou qualquer outro <b>bloqueador de anúncios</b>, por favor desative para podermos manter o site no ar para o seu uso e de outros que necessitam. Obrigado pela compreensão &#128522;</p>
             <p class="desc">ESTAMOS EM DESENVOLVIMENTO.</p>
           </div>
         </div>

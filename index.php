@@ -11,6 +11,8 @@
       gtag('config', 'G-25PBY7LCQT');
     </script>
 
+    <script data-ad-client="ca-pub-8352280684472674" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     <!-- meta's -->
     <meta charset="utf-8">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -278,8 +280,14 @@
         <div class="col l12">
           <div class="container" id="about">
             <h4>ABOUT</h4>
-            <p class="desc"><b>ConvertType</b> is a converter of several formats, videos by link to the most diverse audio formats, files such as pdf, word, doc, or images in other formats such as png, jpeg, zip files, rar and much more. Initially we made it available to convert video to audio, soon we will have more options and other types of conversions, either by link or file. Thanks to the developers of this project, we are making it available to everyone. Feel free, enjoy. If you use <b> AdBlock </b> or any other <b> ad blocker </b>, please disable it so we can keep the site live for you and others in need. Thank you for understanding &#128522;</p>
-            <p class="desc">WE ARE IN DEVELOPMENT.</p>
+            <p class="desc"> <b> Convert Type </b> is a converter of multiple files and formats.
+            You can convert youtube videos to different audio formats, download videos from youtube, download videos without audio from youtube,
+            convert videos from your computer by uploading the file and downloading in other formats / extensions.
+            You can convert images to other formats and extensions, as well as change and convert files and documents.
+            Convert PDF files to word, Excel, and more! in addition to compressed files, convert .RAR to ZIP, 7ZIP and vice versa.
+            Enjoy the <b> Convert Type </b>.
+            Thanks to the developers of this project, we are making it available to everyone. Feel free, enjoy. If you use <b> AdBlock </b> or any other <b> ad blocker </b>, please disable it so we can keep the site live for you and others in need. Thanks for understanding &#128522;</p>
+            <p class="desc"> WE ARE IN DEVELOPMENT. </p>
           </div>
         </div>
       </div>
