@@ -95,51 +95,18 @@ $(document).ready(function(){
   $('.sel').click(function(){
     $("#convert_to").html($(this).html());
     $("#convert_to2").html($(this).html());
-    switch ($(this).html()) {
-      case "ÁUDIO":
+    switch ( $(this).data("target") ) {
+      case 1: // audio
+        $("#t_input").addClass( "disabledtext" );
+        $("#t_url").removeClass( "disabledtext" );
+        $("#t_url").trigger("click");
         $("#type").val(1);
         break;
-      case "WMV":
+      case 2: // video
+        $("#t_url").addClass( "disabledtext" );
+        $("#t_input").removeClass( "disabledtext" );
+        $("#t_input").trigger("click");
         $("#type").val(2);
-        break;
-      case "FLV":
-        $("#type").val(3);
-        break;
-      case "AVI":
-        $("#type").val(4);
-        break;
-      case "MOV":
-        $("#type").val(5);
-        break;
-      case "MPEG":
-        $("#type").val(6);
-        break;
-      case "PNG":
-        $("#type").val(7);
-        break;
-      case "JPEG":
-        $("#type").val(8);
-        break;
-      case "SVG":
-        $("#type").val(9);
-        break;
-      case "RAR":
-        $("#type").val(10);
-        break;
-      case "ZIP":
-        $("#type").val(11);
-        break;
-      case "7Z":
-        $("#type").val(12);
-        break;
-      case "PDF":
-        $("#type").val(13);
-        break;
-      case "EXCEL":
-        $("#type").val(14);
-        break;
-      case "WORD":
-        $("#type").val(15);
         break;
     }
   });
@@ -159,6 +126,8 @@ $(document).ready(function(){
               $("#input_url").focus();
               return;
             }
+            // se tudo certo, executa o metodo
+            converter_modo_2();
           }
           else if ($( "#t_input" ).hasClass( "selectedlink" ))
           {
@@ -168,15 +137,35 @@ $(document).ready(function(){
               return;
             }
           }
-          // se tudo certo, executa o metodo
-          converter_modo_2();
         break;
-      case '2': // WMV
+      case '2': // video
         break;
         // e por ai vai, adicionando mais cases e verificando os 2 inputs
      }
      $("#btn_convert").removeClass("disabled");
   });
+
+  $(".btncontact").on('click', function(e){
+		$(".btncontact").addClass("disabled");
+
+		e.preventDefault(); // avoid to execute the actual submit of the form.
+		var form = $("#formcontact").serialize();
+		var url = "_assets/scripts/send.php";
+		$.ajax({
+			type: "POST",
+			url: url,
+			data: form, // serializes the form's elements.
+			success: function (data) {
+        $("#check").removeClass( "none" );
+        $('#formcontact').trigger("reset");
+				$(".btncontact").removeClass("disabled");
+			},
+			error: function (data) {
+        $("#close").removeClass( "none" );
+				$(".btncontact").removeClass("disabled");
+			}
+		});
+	});
 
   // -------------------------- MODOS DE CONVERTER -----------------------------
 
@@ -194,8 +183,9 @@ $(document).ready(function(){
   // esse modo de converter, usa um link de outro site, que pega pela url todos os links de opcoes para baixar
   // de diversos tipos que o youtube esteja permitindo para aquela video.
   function converter_modo_2() {
+    $("#containerafter").empty().append();
     var form = document.getElementById('input_url').value;
-		var url = "../_assets/scripts/index.min.php";
+		var url = "_assets/scripts/index.min.php";
 		$.ajax({
 			type: "POST",
 			url: url,

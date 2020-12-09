@@ -126,12 +126,8 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="#begin" class="begin">HOME</a></li>
                         <li><a href="#about" class="about">ABOUT</a></li>
-                        <li><a class="link sel">AUDIO</a></li>
-                        <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-vid">
-                                VIDEO <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
+                        <li><a class="link sel" data-target="1">AUDIO</a></li>
+                        <li><a class="link sel" data-target="2">VIDEO</a></li>
                         <li>
                             <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-img">
                                 IMAGES <i class="material-icons right">arrow_drop_down</i>
@@ -147,13 +143,6 @@
                                 DOC <i class="material-icons right">arrow_drop_down</i>
                             </a>
                         </li>
-                    </ul>
-                    <ul id="dropdown-vid" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">WMV</a></li>
-                      <li><a href="#" class="sel">FLV</a></li>
-                      <li><a href="#" class="sel">AVI</a></li>
-                      <li><a href="#" class="sel">MOV</a></li>
-                      <li><a href="#" class="sel">MPEG</a></li>
                     </ul>
                     <ul id="dropdown-img" class="dropdown-content submenu">
                       <li><a href="#" class="sel">PNG</a></li>
@@ -176,12 +165,8 @@
         <ul id="mobile-navbar" class="sidenav">
           <li><a href="#begin" class="begin">HOME</a></li>
           <li><a href="#about" class="about">ABOUT</a></li>
-          <li><a class="link sel">AUDIO</a></li>
-          <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-vidm">
-                  VIDEO <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
+          <li><a class="link sel" data-target="1">AUDIO</a></li>
+          <li><a class="link sel" data-target="2">VIDEO</a></li>
           <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
                   IMAGES <i class="material-icons right">arrow_drop_down</i>
@@ -197,13 +182,6 @@
                 DOC <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
-        </ul>
-        <ul id="dropdown-vidm" class="dropdown-content submenu">
-          <li><a href="#" class="sel">WMV</a></li>
-          <li><a href="#" class="sel">FLV</a></li>
-          <li><a href="#" class="sel">AVI</a></li>
-          <li><a href="#" class="sel">MOV</a></li>
-          <li><a href="#" class="sel">MPEG</a></li>
         </ul>
         <ul id="dropdown-imgm" class="dropdown-content submenu">
           <li><a href="#" class="sel">PNG</a></li>
@@ -232,7 +210,7 @@
                     <h5>OPTIONS</h5>
                     <p class="options">
                       <a id="t_url" class="selectedlink link">via url</a> |
-                      <a id="t_input" class="link">upload</a>
+                      <a id="t_input" class="link disabledtext">upload</a>
                     </p>
                   </div>
                   <!-- input -->
@@ -252,8 +230,15 @@
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
                               <p class="convert_to3">FOR</p>
                               <select class="selecttype" name="selecttype" id="selecttype">
-                                <option value="">MP4</option>
-                                <option value="">WMV</option>
+                                <option value="mp4">MP4</option>
+                                <option value="wmv">WMV</option>
+                                <option value="avi">AVI</option>
+                                <option value="mov">MOV</option>
+                                <option value="qt">QT</option>
+                                <option value="mkv">MKV</option>
+                                <option value="avchd">AVCHD</option>
+                                <option value="flv">FLV</option>
+                                <option value="swf">SWF</option>
                               </select>
                             </div>
                           </div>
@@ -306,6 +291,37 @@
         </div>
       </div>
 
+      <div class="row">
+        <div class="col l12">
+          <div class="container" id="contact">
+						<h4>CONTACT</h4>
+            <p class="desc">Have any questions? have any comments? or want to place an order? contact us.</p>
+            <form action="_assets/scripts/contact.php" method="post" class="row" id="formcontact">
+              <div class="input-field col s12 m4">
+                <input id="email" name="email" type="email" class="validate" required>
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field col s12 m9">
+                <label for="msg">Message</label>
+                <textarea id="msg" name="msg" rows="3" cols="15"  class="validate txtareacontact" required></textarea>
+              </div>
+              <div class="col s12 m12">
+                <button type="submit" name="button" class="btn-ct btn colorprimary left btncontact">SEND</button>
+                <p id="check" class="none"><i class="material-icons">check</i></p>
+                <p id="close" class="none"><i class="material-icons">close</i></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+
+        </div>
+      </div>
+
       <!-- footer -->
       <footer class="page-footer colorprimary pos-footer">
         <div class="container">
@@ -318,9 +334,9 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">MOST USED</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#">AUDIO</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">ZIP</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>
             </div>

@@ -46,6 +46,16 @@ nav.nav-center ul li a {
 	background-size: contain;
 }
 
+#check{
+	color: green;
+	margin-left: 100px;
+}
+
+#close{
+	color: red;
+	margin-left: 100px;
+}
+
 .input_l{
 	width: 100%;
 	font-size: 12px;
@@ -103,6 +113,14 @@ nav.nav-center ul li a {
   font-weight: 500;
   box-shadow: 0px 3px 17px 1px green;
 	right: 35px !important;
+}
+
+.btncontact{
+	position: initial;
+}
+
+.txtareacontact{
+	width:285px;
 }
 
 .ifctcustom{
