@@ -276,6 +276,95 @@
 
       <div class="row">
         <div class="col l12">
+          <div class="container" id="article">
+            <h1 style="margin-bottom: 0;"> Comment convertir? </h1>
+             <p style="margin-top: 0;"> <em> Découvrez dans ce didacticiel comment convertir des vidéos, de la musique, des fichiers et des documents à l'aide du type Convertir. </em> </p>
+             <p class="desc"> Cet article est un tutoriel pour aider tout le monde à utiliser le contenu de type Convert. Apprenons à convertir! </p>
+             <h2> Formats </h2>
+             <p class="desc"> Le type Convert prend en charge la conversion de ces formats en joignant toutes les options (qu'il s'agisse de vidéo, de musique ou de fichiers, ..) vers d'autres formats. </p>
+            <ul class="listformats">
+              <li>MP4</li>
+              <li>M4A</li>
+              <li>OPUS</li>
+              <li>WEBM</li>
+              <li>MP3</li>
+              <li>WMV</li>
+              <li>AVI</li>
+              <li>MOV</li>
+              <li>QT</li>
+              <li>MKV</li>
+              <li>AVCHD</li>
+              <li>FLV</li>
+              <li>SWF</li>
+              <li>JPEG</li>
+              <li>PNG</li>
+              <li>SVG</li>
+              <li>ICO</li>
+              <li>PDF</li>
+              <li>WORD</li>
+              <li>CSV</li>
+              <li>DOCX</li>
+              <li>RAR</li>
+              <li>ZIP</li>
+              <li>7ZIP</li>
+            </ul>
+            <p class="desc"> Allons-y maintenant! </p>
+            <h2 style="margin-bottom: 0;"> Convertir des vidéos Youtube </h2>
+            <p style="margin-top: 0;"> <em> Comment convertir des vidéos YouTube en audios ou télécharger des vidéos sans audio depuis YouTube. </em> </p>
+            <p class="desc"> Allez d'abord dans l'onglet "AUDIO" en utilisant le menu, puis sélectionnez le mode "URL" parmi les options. Comme dans l'image ci-dessous. </p>
+            <img src="_assets/images/tutorial1.png" width="100%" alt="tutoriel sur l'utilisation du type de conversion">
+            <p class="desc"> Cela fait, collez le lien / l'url de la vidéo que vous souhaitez convertir. Cliquez ensuite sur le bouton bleu "CONVERT", attendez que toutes les options de téléchargement apparaissent. Lorsque tout est prêt, toutes les options possibles de conversion et de téléchargement apparaîtront. </p>
+            <p class="desc"> Une fois le chargement terminé, les options apparaîtront comme dans l'image ci-dessous. Cliquez sur le bouton "TÉLÉCHARGER" et un nouvel onglet s'ouvrira, sur cet onglet, recherchez le bouton <i class = "material-icons"> more_vert </i> (généralement dans le coin inférieur droit du lecteur) et sélectionnez l'option "FAIRE" TÉLÉCHARGER ". Et prêt ! maintenant vous avez téléchargé votre vidéo sans audio ni votre musique. </p>
+            <img src="_assets/images/tutorial2.png" width="100%" alt="tutoriel comment utiliser le type de conversion 2">
+            <p class="desc"> <b> REMARQUE: </b> pour des raisons de droits d'auteur, convertissez des vidéos en ligne gratuites pour un usage personnel ("fair use"). Il ne doit pas être utilisé pour des enregistrements de matériel protégé par des droits d'auteur, tels que des clips vidéo ou la revente, le <b> type de conversion </b> n'est pas responsable de toute infraction de ce type qui viole les lois sur les droits d'auteur. Nous offrons uniquement la conversion gratuite de fichiers vers d'autres formats. </p>
+            <p class="desc"> <b> REMARQUE 2: </b> Les images peuvent ne pas être correctes s'il y a eu un changement ou un blocage dans les API utilisées. la façon dont nous convertissons peut être différente. </p>
+            <h2 style="margin-bottom: 0;"> Convertir des vidéos informatiques </h2>
+            <p style="margin-top: 0;"> <em> Comment convertir des vidéos de votre ordinateur vers d'autres formats. </em> </p>
+            <img src="_assets/images/tutorial3.png" width="100%" alt="tutoriel comment utiliser le type de conversion 3">
+            <p class="desc"> Comme le montre l'image ci-dessus, allez dans le menu et cliquez sur l'option VIDEO. Et puis cliquez sur l'option "UPLOAD" si ce n'est pas déjà fait. Une fois que cela est fait, vous pouvez sélectionner des vidéos depuis votre ordinateur en cliquant sur le bouton bleu gauche "UP", et sélectionnez la vidéo que vous voulez. Après avoir choisi la vidéo, sélectionnez dans les options l'extension / le format souhaité, puis cliquez sur le bouton bleu suivant à droite "CONVERTIR" et vous avez terminé! </p>
+            <p class="desc"> Votre téléchargement commencera dès que la conversion sera terminée. </p>
+            <h2 style="margin-bottom: 0;"> Convertir les images dans d'autres formats </h2>
+            <p style="margin-top: 0;"> <em> Comment convertir des images JPEG en PNG (ou d'autres formats) ou vice versa. </em> </p>
+            <p class="desc"> Utilisez le menu pour sélectionner "IMAGES" le format que vous souhaitez convertir. Une fois cela fait, choisissez les options, si vous souhaitez entrer l'URL ou télécharger une image depuis votre ordinateur, puis cliquez sur le bouton bleu droit "CONVERT" pour télécharger votre image au format choisi. </p>
+            <h2 style="margin-bottom: 0;"> Convertir PDF / CSV / WORD ... </h2>
+            <p style="margin-top: 0;"> <em> Comment convertir des documents bureautiques et autres dans un autre format. </em> </p>
+            <p class="desc"> Utilisez le menu pour sélectionner "DOC OU DOCUMENTS" le format à convertir. Une fois cela fait, sélectionnez sur votre ordinateur le document que vous souhaitez convertir en PDF ou WORD (ou tout autre format que vous avez sélectionné), puis cliquez sur le bouton bleu droit "CONVERT" pour télécharger votre document au format choisi. </p>
+            <p class="desc"> À partir de ce tutoriel, vous pouvez déjà utiliser les autres options de notre site Web pour convertir plus de documents, des fichiers compressés comme .RAR ou ZIP et plus encore! </p>
+            <p class="desc">
+              <b> Date: </b> 12/10/2020 <br/>
+              <b> Rédigé par: </b> Ilion Tecnologia <br/>
+              <b> Article: </b> Tutoriel
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l12">
+          <div class="container" id="comments">
+            <div id="fb-root"></div>
+            <div class="fb-comments" data-href="https://converttype.com/fr.php" data-numposts="5" data-width=""></div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+
+        </div>
+      </div>
+
+      <hr class="line"/>
+      <div class="row">
+        <div class="col l12">
           <div class="container" id="about">
 						<h4>À PROPOS</h4>
             <p class="desc"><b>Convert Type</b> est un convertisseur pour plusieurs fichiers et formats.
@@ -359,4 +448,5 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
     <script src="_assets/scripts/index.min.js"></script>

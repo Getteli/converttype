@@ -46,6 +46,14 @@ nav.nav-center ul li a {
 	background-size: contain;
 }
 
+ul.listformats, li{
+	list-style-type: circle !important;
+}
+
+.line{
+	width: 50%;
+}
+
 #check{
 	color: green;
 	margin-left: 100px;

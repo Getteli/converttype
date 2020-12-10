@@ -127,7 +127,7 @@
                         <li><a href="#begin" class="begin">INÍCIO</a></li>
                         <li><a href="#about" class="about">SOBRE</a></li>
                         <li><a class="link sel" data-target="1">ÁUDIO</a></li>
-                        <li><a class="link sel disabledtext" data-target="2">VÍDEO</a></li>
+                        <li><a class="link sel" data-target="2">VÍDEO</a></li>
                         <li>
                             <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-img">
                                 IMAGENS <i class="material-icons right">arrow_drop_down</i>
@@ -276,6 +276,95 @@
 
       <div class="row">
         <div class="col l12">
+          <div class="container" id="article">
+            <h1 style="margin-bottom:0;">Como converter ?</h1>
+            <p style="margin-top:0;"><em>Aprenda neste tutorial a como converter video, musica, arquivos e documentos, usando o Convert type.</em></p>
+            <p class="desc">Este artigo é um tutorial para ajudar a todos a usar o contéudo da Convert type. Vamos ensinar a converter !</p>
+            <h2>Formatos</h2>
+            <p class="desc">A Convert type suporta a conversão destes formatos juntando todas as opçoes (seja vídeo, musica, ou arquivos,..) para outros formatos.</p>
+            <ul class="listformats">
+              <li>MP4</li>
+              <li>M4A</li>
+              <li>OPUS</li>
+              <li>WEBM</li>
+              <li>MP3</li>
+              <li>WMV</li>
+              <li>AVI</li>
+              <li>MOV</li>
+              <li>QT</li>
+              <li>MKV</li>
+              <li>AVCHD</li>
+              <li>FLV</li>
+              <li>SWF</li>
+              <li>JPEG</li>
+              <li>PNG</li>
+              <li>SVG</li>
+              <li>ICO</li>
+              <li>PDF</li>
+              <li>WORD</li>
+              <li>CSV</li>
+              <li>DOCX</li>
+              <li>RAR</li>
+              <li>ZIP</li>
+              <li>7ZIP</li>
+            </ul>
+            <p class="desc">Agora vamos ao que interessa !</p>
+            <h2 style="margin-bottom:0;">Converter vídeos do Youtube</h2>
+            <p style="margin-top:0;"><em>Como converter vídeos do youtube para áudios ou baixar videos sem áudio do youtube.</em></p>
+            <p class="desc">Primeiramente vá para a aba "ÁUDIO" usando o menu, depois selecione nas opções o modo "URL". Como na imagem a baixo.</p>
+            <img src="_assets/images/tutorial1.png" width="100%" alt="tutorial como usar convert type">
+            <p class="desc">Feito isso, cole o link/url do vídeo que você deseja converter. Depois clique no botão azul "CONVERTER", espere até que todas as opções para baixar apareçam. Quando tudo estiver pronto, aparecerá todas as opções possiveis para converter e baixar.</p>
+            <p class="desc">Quando terminar de carregar, aparecerá as opções como na imagem abaixo. Clique no botão "DOWNLOAD" e se abrirá uma nova aba, nesta aba, ache o botão <i class="material-icons">more_vert</i> (normalmente fica no canto inferior direito do player) e selecione a opção "FAZER DOWNLOAD". E pronto ! agora você já baixou seu vídeo sem áudio, ou sua música.</p>
+            <img src="_assets/images/tutorial2.png" width="100%" alt="tutorial como usar convert type 2">
+            <p class="desc"><b>OBSERVAÇÃO:</b> por motivos de direitos autorais, converta os vídeos online gratuitos para uso pessoal ("uso justo"). Não deve ser usado para gravações de material protegido por direitos autorais, como videoclipes ou revenda, o <b>convert type</b> não se responsabiliza por qualquer infração deste tipo, que viole leis de direitos autorais. Apenas disponibilizamos a conversão gratuita de arquivos para outros formatos.</p>
+            <p class="desc"><b>OBSERVAÇÃO 2:</b> As imagens pode não ser corretas caso tenha ocorrido alguma mudança ou bloqueio nas API's utilizadas. pode ser diferente a forma como convertemos.</p>
+            <h2 style="margin-bottom:0;">Converter vídeos do computador</h2>
+            <p style="margin-top:0;"><em>Como converter vídeos do seu computador para outros formatos.</em></p>
+            <img src="_assets/images/tutorial3.png" width="100%" alt="tutorial como usar convert type 3">
+            <p class="desc">Como é mostrado na imagem acima, vá até o menu e clique na opção VÍDEO. E então clique na opção de "UPLOAD" caso ainda não esteja. Feito isto você poderá selecionar vídeos do seu computador, clicando no botão azul esquerdo "SUBIR", e selecionar o vídeo que deseja. Após escolher o vídeo, selecione na opções a extensão / formato que deseja, e clique no próximo botão azul a direita "CONVERTER" e pronto ! </p>
+            <p class="desc">Seu download começará assim que a conversão estiver completa.</p>
+            <h2 style="margin-bottom:0;">Converter Imagens para outros formatos</h2>
+            <p style="margin-top:0;"><em>Como converter imagens JPEG em PNG (ou outros formatos) ou vice e versa.</em></p>
+            <p class="desc">Utilize o menu para selecionar em "IMAGENS" o formato que deseja converter. Feito isso faça a escolha das opções, se deseja colocar a URL ou subir uma imagem do seu computador, e então clique no botão direito azul "CONVERTER" para baixar a sua iamgem no formato escolhido.</p>
+            <h2 style="margin-bottom:0;">Converter PDF / CSV / WORD ...</h2>
+            <p style="margin-top:0;"><em>Como converter documentos do tipo office e outros, para outro formato.</em></p>
+            <p class="desc">Utilize o menu para selecionar em "DOC OU DOCUMENTOS" o formato que deseja converter. Feito isso selecione do seu computador o documento que deseja converter para PDF ou WORD (ou outro formato que tenha selecoinado), e então clique no botão direito azul "CONVERTER" para baixar o seu documento no formato escolhido.</p>
+            <p class="desc">A partir deste tutorial já pode utilizar das outras opções do nosso site para converter mais documentos, arquivos comprimidos como .RAR ou ZIP e muito mais !</p>
+            <p class="desc">
+              <b>Data:</b> 10/12/2020 <br/>
+              <b>Escrito por:</b> Ilion Tecnologia <br/>
+              <b>Artigo:</b> Tutorial
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l12">
+          <div class="container" id="comments">
+            <div id="fb-root"></div>
+            <div class="fb-comments" data-href="https://converttype.com/pt.php" data-numposts="5" data-width=""></div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+
+        </div>
+      </div>
+
+      <hr class="line"/>
+      <div class="row">
+        <div class="col l12">
           <div class="container" id="about">
 						<h4>SOBRE</h4>
             <p class="desc"><b>Convert Type</b> é um conversor de múltiplos arquivos e formatos.
@@ -285,7 +374,6 @@
             Converta arquivos PDF para word, Excel, e muito mais ! além de arquivos compactados, converta .RAR pra ZIP, 7ZIP e vice e versa.
             Aproveite o <b>Convert Type</b>.
             Graça aos desenvolvedores deste projeto, estamos disponibilizando para todos. Fique a vontade, aproveite. Caso use <b>AdBlock</b> ou qualquer outro <b>bloqueador de anúncios</b>, por favor desative para podermos manter o site no ar para o seu uso e de outros que necessitam. Obrigado pela compreensão &#128522;</p>
-            <p class="desc">ESTAMOS EM DESENVOLVIMENTO.</p>
           </div>
         </div>
       </div>
@@ -359,4 +447,5 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
     <script src="_assets/scripts/index.min.js"></script>
