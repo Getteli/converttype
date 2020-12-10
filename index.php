@@ -129,7 +129,7 @@
                         <li><a href="#begin" class="begin">HOME</a></li>
                         <li><a href="#about" class="about">ABOUT</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel" data-target="2">VIDEO</a></li>
+                        <li><a class="link sel disabledtext" data-target="2">VIDEO</a></li>
                         <li>
                             <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-img">
                                 IMAGES <i class="material-icons right">arrow_drop_down</i>
@@ -168,7 +168,7 @@
           <li><a href="#begin" class="begin">HOME</a></li>
           <li><a href="#about" class="about">ABOUT</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
-          <li><a class="link sel" data-target="2">VIDEO</a></li>
+          <li><a class="link sel disabledtext" data-target="2">VIDEO</a></li>
           <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
                   IMAGES <i class="material-icons right">arrow_drop_down</i>
@@ -343,7 +343,7 @@
               <h5 class="white-text">MOST USED</h5>
               <ul>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
+                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#" data-target="2">VIDEO</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">PDF</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>
