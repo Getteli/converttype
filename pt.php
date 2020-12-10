@@ -44,6 +44,11 @@
     <meta property="og:image:height" content="150"> <!-- pixel -->
     <meta property="og:type" content="website">
 
+    <link rel="canonical" href="https://www.converttype.com/pt.php">
+    <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
+    <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
+    <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
+
     <!-- title -->
     <title>Convert Type</title>
 

@@ -44,6 +44,11 @@
     <meta property="og:image:height" content="150"> <!-- pixel -->
     <meta property="og:type" content="website">
 
+    <link rel="canonical" href="https://www.converttype.com/fr.php">
+    <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
+    <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
+    <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
+
     <!-- title -->
     <title>Convert Type</title>
 
@@ -374,7 +379,6 @@
              Convertissez des fichiers PDF en Word, Excel et plus encore! en plus des fichiers compressés, convertissez .RAR en ZIP, 7ZIP et vice versa.
              Profitez du <b> type de conversion </b>.
              Grâce aux développeurs de ce projet, nous le rendons accessible à tous. Sentez-vous libre, profitez-en. Si vous utilisez <b> AdBlock </b> ou tout autre <b> bloqueur de publicités </b>, veuillez le désactiver afin que nous puissions maintenir le site en ligne pour vous et pour les autres dans le besoin. Merci de votre compréhension &#128522;</p>
-            <p class="desc">NOUS SOMMES EN DEVELOPPEMENT.</p>
           </div>
         </div>
       </div>
