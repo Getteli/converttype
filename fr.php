@@ -11,6 +11,8 @@
       gtag('config', 'G-25PBY7LCQT');
     </script>
 
+    <script data-ad-client="ca-pub-8352280684472674" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     <!-- meta's -->
     <meta charset="utf-8">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -144,7 +146,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-doc">
+                            <a href="#" class="dropdown-trigger" data-target="dropdown-doc">
                                 DOC <i class="material-icons right">arrow_drop_down</i>
                             </a>
                         </li>
@@ -160,9 +162,9 @@
                       <li><a href="#" class="sel">7Z</a></li>
                     </ul>
                     <ul id="dropdown-doc" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">PDF</a></li>
-                      <li><a href="#" class="sel">EXCEL</a></li>
-                      <li><a href="#" class="sel">WORD</a></li>
+                      <li><a href="#" class="sel" data-target="9">PDF</a></li>
+                      <li><a href="#" class="sel disabledtext">EXCEL</a></li>
+                      <li><a href="#" class="sel disabledtext">DOC / DOCX</a></li>
                     </ul>
                 </div>
             </nav>
@@ -183,7 +185,7 @@
               </a>
           </li>
           <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-docm">
+              <a href="#" class="dropdown-trigger" data-target="dropdown-docm">
                 DOC <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
@@ -199,16 +201,16 @@
           <li><a href="#" class="sel">7Z</a></li>
         </ul>
         <ul id="dropdown-docm" class="dropdown-content submenu">
-          <li><a href="#" class="sel">PDF</a></li>
-          <li><a href="#" class="sel">EXCEL</a></li>
-          <li><a href="#" class="sel">WORD</a></li>
+          <li><a href="#" class="sel" data-target="9">PDF</a></li>
+          <li><a href="#" class="sel disabledtext">EXCEL</a></li>
+          <li><a href="#" class="sel disabledtext">DOC / DOCX</a></li>
         </ul>
       </div>
       <!-- content -->
       <div class="container background">
         <div class="row">
             <div class="col s12 m12 l10 offset-l1 white container-input">
-              <form method="post" id="formconv">
+              <form method="post" id="formconv"  enctype="multipart/form-data">
                 <div class="row margin_form">
                   <!-- options -->
                   <div class="col s12 m12 l12">
@@ -234,7 +236,7 @@
                             </div>
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
                               <p class="convert_to3">POUR</p>
-                              <select class="selecttype" name="selecttype" id="selecttype">
+                              <select class="selecttype none" name="selecttype_video" id="selecttype_video">
                                 <option value="mp4">MP4</option>
                                 <option value="wmv">WMV</option>
                                 <option value="avi">AVI</option>
@@ -244,6 +246,13 @@
                                 <option value="avchd">AVCHD</option>
                                 <option value="flv">FLV</option>
                                 <option value="swf">SWF</option>
+                              </select>
+                              <select class="selecttype none" name="selecttype_pdf" id="selecttype_pdf">
+                                <option value="docx">DOCX</option>
+                                <option value="png">PNG</option>
+                                <option value="jpeg">JPEG</option>
+                                <option value="doc">DOC</option>
+                                <option value="pdf">PDF</option>
                               </select>
                             </div>
                           </div>
@@ -263,8 +272,8 @@
               <div class="row margin_form center center-align">
                 <div class="col s12 m12 l12 marginline">
                   <p id="containerafter">
+                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>TÉLÉCHARGER</a></a>
                     <p id="desc_ca" class="none">Cliquez sur le lien que vous souhaitez télécharger (audio, vidéo, vidéo sans audio et etc.) puis dans le nouvel onglet qui s'ouvre cliquez sur <i class="material-icons">more_vert</i> à télécharger</p>
-                    <a href="#" id="linktodownload"><button class="btn green btn-ct2">TÉLÉCHARGER</button></a>
                   </p>
                 </div>
               </div>
@@ -303,10 +312,8 @@
               <li>SWF</li>
               <li>JPEG</li>
               <li>PNG</li>
-              <li>SVG</li>
-              <li>ICO</li>
               <li>PDF</li>
-              <li>WORD</li>
+              <li>DOC</li>
               <li>CSV</li>
               <li>DOCX</li>
               <li>RAR</li>
@@ -335,6 +342,7 @@
             <p style="margin-top: 0;"> <em> Comment convertir des documents bureautiques et autres dans un autre format. </em> </p>
             <p class="desc"> Utilisez le menu pour sélectionner "DOC OU DOCUMENTS" le format à convertir. Une fois cela fait, sélectionnez sur votre ordinateur le document que vous souhaitez convertir en PDF ou WORD (ou tout autre format que vous avez sélectionné), puis cliquez sur le bouton bleu droit "CONVERT" pour télécharger votre document au format choisi. </p>
             <p class="desc"> À partir de ce tutoriel, vous pouvez déjà utiliser les autres options de notre site Web pour convertir plus de documents, des fichiers compressés comme .RAR ou ZIP et plus encore! </p>
+            <p class="desc"> <b> REMARQUE 3: </b> Si vous essayez de convertir un lien youtube et qu'il ne charge pas les liens de téléchargement, ou qu'il génère une erreur, cela signifie que cette vidéo est bloquée par les droits d'auteur et les règles de YouTube. Donc, malheureusement, il ne peut pas être converti. </p>
             <p class="desc">
               <b> Date: </b> 12/10/2020 <br/>
               <b> Rédigé par: </b> Ilion Tecnologia <br/>
@@ -435,7 +443,7 @@
               <ul>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#" data-target="2">VIDÉO</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="9">PDF</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>
             </div>

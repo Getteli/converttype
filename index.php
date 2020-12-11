@@ -62,6 +62,12 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
+    <style media="screen">
+      #btn_download_filesaved{
+        width: 100%;
+        text-align: center;
+      }
+    </style>
   </head>
   <body id="begin">
     <div class="row">
@@ -147,7 +153,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-doc">
+                            <a href="#" class="dropdown-trigger" data-target="dropdown-doc">
                                 DOC <i class="material-icons right">arrow_drop_down</i>
                             </a>
                         </li>
@@ -163,9 +169,9 @@
                       <li><a href="#" class="sel">7Z</a></li>
                     </ul>
                     <ul id="dropdown-doc" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">PDF</a></li>
-                      <li><a href="#" class="sel">EXCEL</a></li>
-                      <li><a href="#" class="sel">WORD</a></li>
+                      <li><a href="#" class="sel" data-target="9">PDF</a></li>
+                      <li><a href="#" class="sel disabledtext">EXCEL</a></li>
+                      <li><a href="#" class="sel disabledtext">DOC / DOCX</a></li>
                     </ul>
                 </div>
             </nav>
@@ -186,7 +192,7 @@
               </a>
           </li>
           <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-docm">
+              <a href="#" class="dropdown-trigger" data-target="dropdown-docm">
                 DOC <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
@@ -202,16 +208,16 @@
           <li><a href="#" class="sel">7Z</a></li>
         </ul>
         <ul id="dropdown-docm" class="dropdown-content submenu">
-          <li><a href="#" class="sel">PDF</a></li>
-          <li><a href="#" class="sel">EXCEL</a></li>
-          <li><a href="#" class="sel">WORD</a></li>
+          <li><a href="#" class="sel" data-target="9">PDF</a></li>
+          <li><a href="#" class="sel disabledtext">EXCEL</a></li>
+          <li><a href="#" class="sel disabledtext">DOC / DOCX</a></li>
         </ul>
       </div>
       <!-- content -->
       <div class="container background">
         <div class="row">
             <div class="col s12 m12 l10 offset-l1 white container-input">
-              <form method="post" id="formconv">
+              <form method="post" id="formconv" enctype="multipart/form-data">
                 <div class="row margin_form">
                   <!-- options -->
                   <div class="col s12 m12 l12">
@@ -232,12 +238,12 @@
                             <div class="col s12 m8 l8">
                               <div id="div_input_file" class="div_input_file disabled none col s12">
                                 <label for="input_file" class="colorprimary" id="lb_input_file">UPLOAD</label>
-                                <input type="file" class="input_file disabled none" id="input_file" name="input_file">
+                                <input type="file" class="input_file disabled none" accept="" id="input_file" name="input_file">
                               </div>
                             </div>
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
                               <p class="convert_to3">FOR</p>
-                              <select class="selecttype" name="selecttype" id="selecttype">
+                              <select class="selecttype none" name="selecttype_video" id="selecttype_video">
                                 <option value="mp4">MP4</option>
                                 <option value="wmv">WMV</option>
                                 <option value="avi">AVI</option>
@@ -247,6 +253,13 @@
                                 <option value="avchd">AVCHD</option>
                                 <option value="flv">FLV</option>
                                 <option value="swf">SWF</option>
+                              </select>
+                              <select class="selecttype none" name="selecttype_pdf" id="selecttype_pdf">
+                                <option value="docx">DOCX</option>
+                                <option value="png">PNG</option>
+                                <option value="jpeg">JPEG</option>
+                                <option value="doc">DOC</option>
+                                <option value="pdf">PDF</option>
                               </select>
                             </div>
                           </div>
@@ -266,8 +279,8 @@
               <div class="row margin_form center center-align">
                 <div class="col s12 m12 l12 marginline">
                   <p id="containerafter">
+                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>DOWNLOAD</a></a>
                     <p id="desc_ca" class="none">Click on the link you want to download (audio, video, video without audio and etc.) and then in the new tab that opens click on <i class="material-icons">more_vert</i> to download.</p>
-                    <a href="#" id="linktodownload"><button class="btn green btn-ct2">DOWNLOAD</button></a>
                   </p>
                 </div>
               </div>
@@ -306,10 +319,8 @@
               <li>SWF</li>
               <li>JPEG</li>
               <li>PNG</li>
-              <li>SVG</li>
-              <li>ICO</li>
               <li>PDF</li>
-              <li>WORD</li>
+              <li>DOC</li>
               <li>CSV</li>
               <li>DOCX</li>
               <li>RAR</li>
@@ -338,6 +349,7 @@
             <p style="margin-top: 0;"> <em> How to convert office and other documents to another format. </em> </p>
             <p class="desc"> Use the menu to select "DOC OR DOCUMENTS" the format you want to convert. Once this is done, select from your computer the document you want to convert to PDF or WORD (or any other format you have selected), and then click on the right blue button "CONVERT" to download your document in the chosen format. </p>
             <p class="desc"> From this tutorial you can already use the other options on our website to convert more documents, compressed files like .RAR or ZIP and much more! </p>
+            <p class="desc"> <b> NOTE 3: </b> If you try to convert a youtube link and it does not load the download links, or it generates an error, it means that this video is blocked by copyright and rules from YouTube. So unfortunately it cannot be converted. </p>
             <p class="desc">
               <b> Date: </b> 10/12/2020 <br/>
               <b> Written by: </b> Ilion Tecnologia <br/>
@@ -438,7 +450,7 @@
               <ul>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#" data-target="2">VIDEO</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="9">PDF</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>
             </div>

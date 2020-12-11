@@ -106,8 +106,18 @@ $(document).ready(function(){
       case 2: // video
         $("#t_url").addClass( "disabledtext" );
         $("#t_input").removeClass( "disabledtext" );
+        $("#selecttype_video").removeClass( "none" );
         $("#t_input").trigger("click");
         $("#type").val(2);
+        break;
+      case 9: // pdf
+        $("#t_url").addClass( "disabledtext" );
+        $("#t_input").removeClass( "disabledtext" );
+        $("#selecttype_video").addClass( "none" );
+        $("#selecttype_pdf").removeClass( "none" );
+        $("#t_input").trigger("click");
+        $("#type").val(9);
+        $("#input_file").attr('accept', "application/pdf");
         break;
     }
   });
@@ -141,6 +151,27 @@ $(document).ready(function(){
         break;
       case '2': // video
         break;
+      case '9': // pdf
+          // verifica o tipo de input para impedir o processo, se tiver vazio
+          if ($( "#t_url" ).hasClass( "selectedlink" ))
+          {
+            if( !$("#input_url").val() ) {
+              $("#btn_convert").removeClass("disabled");
+              $("#input_url").focus();
+              return;
+            }
+          }
+          else if ($( "#t_input" ).hasClass( "selectedlink" ))
+          {
+            if( !$("#input_file").val() ) {
+              $("#btn_convert").removeClass("disabled");
+              $("#input_file").focus();
+              return;
+            }
+          }
+          // se tudo certo, executa o metodo
+          converter_modo_3();
+        break;
         // e por ai vai, adicionando mais cases e verificando os 2 inputs
      }
      $("#btn_convert").removeClass("disabled");
@@ -168,6 +199,25 @@ $(document).ready(function(){
 		});
 	});
 
+  $("#btn_download_filesaved").on('click', function(){
+    setTimeout(function() {
+      form = $("#btn_download_filesaved").attr("download");
+      var url = "_assets/scripts/deletefile.php";
+  		$.ajax({
+  			type: "POST",
+  			url: url,
+  			data: form, // serializes the form's elements.
+  			success: function (data) {
+          $("#containerafter").empty().append();
+          $("#btn_download_filesaved").addClass("none");
+  			},
+  			error: function (data) {
+          alert("erro");
+  			}
+  		});
+    }, 700);
+	});
+
   // -------------------------- MODOS DE CONVERTER -----------------------------
 
   // esse modo converte apenas video do youtube, mas abre o link para outro site
@@ -186,7 +236,7 @@ $(document).ready(function(){
   function converter_modo_2() {
     $("#containerafter").empty().append();
     var form = document.getElementById('input_url').value;
-		var url = "_assets/scripts/index.min.php";
+		var url = "_assets/scripts/yt_any.min.php";
 		$.ajax({
 			type: "POST",
 			url: url,
@@ -198,6 +248,29 @@ $(document).ready(function(){
 			error: function (data) {
         $("#containerafter").append("Error");
 			}
+		});
+  }
+
+  // esse modo de converter, pega o pdf que o usuario subiu e converte para um png
+  function converter_modo_3() {
+    $("#containerafter").empty().append();
+
+    var formData = new FormData();
+    formData.append('file', $('#input_file')[0].files[0]);
+		var url = "_assets/scripts/pdf_img.php?selecttype_pdf="+$("#selecttype_pdf").val();
+    var form = $("#formconv").serialize();
+		$.ajax({
+      url : url,
+      type : 'POST',
+      data : formData,
+      processData: false,  // tell jQuery not to process the data
+      contentType: false,  // tell jQuery not to set contentType
+      success : function(data) {
+        var datadownload = "_assets/usr_download/" + data;
+        $("#btn_download_filesaved").removeClass("none");
+        $("#btn_download_filesaved").attr('href', datadownload);
+        $("#btn_download_filesaved").attr('download', data);
+      }
 		});
   }
 });
