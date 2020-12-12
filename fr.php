@@ -134,7 +134,7 @@
                         <li><a href="#begin" class="begin">MAISON</a></li>
                         <li><a href="#about" class="about">À PROPOS</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel disabledtext" data-target="2">VIDÉO</a></li>
+                        <li><a class="link sel" data-target="2">VIDÉO</a></li>
                         <li>
                             <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-img">
                                 IMAGES <i class="material-icons right">arrow_drop_down</i>
@@ -173,7 +173,7 @@
           <li><a href="#begin" class="begin">MAISON</a></li>
           <li><a href="#about" class="about">À PROPOS</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
-          <li><a class="link sel disabledtext" data-target="2">VIDÉO</a></li>
+          <li><a class="link sel" data-target="2">VIDÉO</a></li>
           <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
                   IMAGES <i class="material-icons right">arrow_drop_down</i>
@@ -237,15 +237,31 @@
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
                               <p class="convert_to3">POUR</p>
                               <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <option value="mp4">MP4</option>
-                                <option value="wmv">WMV</option>
-                                <option value="avi">AVI</option>
-                                <option value="mov">MOV</option>
-                                <option value="qt">QT</option>
-                                <option value="mkv">MKV</option>
-                                <option value="avchd">AVCHD</option>
-                                <option value="flv">FLV</option>
-                                <option value="swf">SWF</option>
+                                <optgroup label="VIDÉO">
+                                  <option value="mp4">MP4</option>
+                                  <option value="wmv">WMV</option>
+                                  <option value="avi">AVI</option>
+                                  <option value="mov">MOV</option>
+                                  <option value="webm">WEBM</option>
+                                  <option value="ogv">OGV</option>
+                                  <option value="mkv">MKV</option>
+                                  <option value="flv">FLV</option>
+                                  <option value="3g2">3G2</option>
+                                  <option value="3gp">3GP</option>
+                                </optgroup>
+                                <optgroup label="AUDIO">
+                                  <option value="aac">AAC</option>
+                                  <option value="aiff">AIFF</option>
+                                  <option value="flac">FLAC</option>
+                                  <option value="m4a">M4A</option>
+                                  <option value="m4r">M4R</option>
+                                  <option value="mmf">MMF</option>
+                                  <option value="mp3">MP3</option>
+                                  <option value="ogg">OGG</option>
+                                  <option value="opus">OPUS</option>
+                                  <option value="wav">WAV</option>
+                                  <option value="wma">WMA</option>
+                                </optgroup>
                               </select>
                               <select class="selecttype none" name="selecttype_pdf" id="selecttype_pdf">
                                 <option value="docx">DOCX</option>
@@ -270,6 +286,10 @@
                 </div>
               </form>
               <div class="row margin_form center center-align">
+                <div class="none" id="load">
+                  <img src="_assets/images/load.gif" alt="load">
+                  <p>chargement, attendez.</p>
+                </div>
                 <div class="col s12 m12 l12 marginline">
                   <p id="containerafter">
                     <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>TÉLÉCHARGER</a></a>
@@ -305,11 +325,19 @@
               <li>WMV</li>
               <li>AVI</li>
               <li>MOV</li>
-              <li>QT</li>
               <li>MKV</li>
-              <li>AVCHD</li>
+              <li>OGV</li>
               <li>FLV</li>
-              <li>SWF</li>
+              <li>3G2</li>
+              <li>3GP</li>
+              <li>AAC</li>
+              <li>AIFF</li>
+              <li>FLAC</li>
+              <li>M4R</li>
+              <li>MMF</li>
+              <li>WAV</li>
+              <li>WMA</li>
+              <li>OGG</li>
               <li>JPEG</li>
               <li>PNG</li>
               <li>PDF</li>
@@ -343,6 +371,7 @@
             <p class="desc"> Utilisez le menu pour sélectionner "DOC OU DOCUMENTS" le format à convertir. Une fois cela fait, sélectionnez sur votre ordinateur le document que vous souhaitez convertir en PDF ou WORD (ou tout autre format que vous avez sélectionné), puis cliquez sur le bouton bleu droit "CONVERT" pour télécharger votre document au format choisi. </p>
             <p class="desc"> À partir de ce tutoriel, vous pouvez déjà utiliser les autres options de notre site Web pour convertir plus de documents, des fichiers compressés comme .RAR ou ZIP et plus encore! </p>
             <p class="desc"> <b> REMARQUE 3: </b> Si vous essayez de convertir un lien youtube et qu'il ne charge pas les liens de téléchargement, ou qu'il génère une erreur, cela signifie que cette vidéo est bloquée par les droits d'auteur et les règles de YouTube. Donc, malheureusement, il ne peut pas être converti. </p>
+            <p class="desc"> <b> REMARQUE 4: </b> La taille maximale pour télécharger un fichier est de 128 Mo</p>
             <p class="desc">
               <b> Date: </b> 12/10/2020 <br/>
               <b> Rédigé par: </b> Ilion Tecnologia <br/>

@@ -238,15 +238,31 @@
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
                               <p class="convert_to3">FOR</p>
                               <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <option value="mp4">MP4</option>
-                                <option value="wmv">WMV</option>
-                                <option value="avi">AVI</option>
-                                <option value="mov">MOV</option>
-                                <option value="qt">QT</option>
-                                <option value="mkv">MKV</option>
-                                <option value="avchd">AVCHD</option>
-                                <option value="flv">FLV</option>
-                                <option value="swf">SWF</option>
+                                <optgroup label="VIDEO">
+                                  <option value="mp4">MP4</option>
+                                  <option value="wmv">WMV</option>
+                                  <option value="avi">AVI</option>
+                                  <option value="mov">MOV</option>
+                                  <option value="webm">WEBM</option>
+                                  <option value="ogv">OGV</option>
+                                  <option value="mkv">MKV</option>
+                                  <option value="flv">FLV</option>
+                                  <option value="3g2">3G2</option>
+                                  <option value="3gp">3GP</option>
+                                </optgroup>
+                                <optgroup label="AUDIO">
+                                  <option value="aac">AAC</option>
+                                  <option value="aiff">AIFF</option>
+                                  <option value="flac">FLAC</option>
+                                  <option value="m4a">M4A</option>
+                                  <option value="m4r">M4R</option>
+                                  <option value="mmf">MMF</option>
+                                  <option value="mp3">MP3</option>
+                                  <option value="ogg">OGG</option>
+                                  <option value="opus">OPUS</option>
+                                  <option value="wav">WAV</option>
+                                  <option value="wma">WMA</option>
+                                </optgroup>
                               </select>
                               <select class="selecttype none" name="selecttype_pdf" id="selecttype_pdf">
                                 <option value="docx">DOCX</option>
@@ -271,6 +287,10 @@
                 </div>
               </form>
               <div class="row margin_form center center-align">
+                <div class="none" id="load">
+                  <img src="_assets/images/load.gif" alt="load">
+                  <p>loading, wait.</p>
+                </div>
                 <div class="col s12 m12 l12 marginline">
                   <p id="containerafter">
                     <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>DOWNLOAD</a></a>
@@ -306,11 +326,19 @@
               <li>WMV</li>
               <li>AVI</li>
               <li>MOV</li>
-              <li>QT</li>
               <li>MKV</li>
-              <li>AVCHD</li>
+              <li>OGV</li>
               <li>FLV</li>
-              <li>SWF</li>
+              <li>3G2</li>
+              <li>3GP</li>
+              <li>AAC</li>
+              <li>AIFF</li>
+              <li>FLAC</li>
+              <li>M4R</li>
+              <li>MMF</li>
+              <li>WAV</li>
+              <li>WMA</li>
+              <li>OGG</li>
               <li>JPEG</li>
               <li>PNG</li>
               <li>PDF</li>
@@ -344,6 +372,7 @@
             <p class="desc"> Use the menu to select "DOC OR DOCUMENTS" the format you want to convert. Once this is done, select from your computer the document you want to convert to PDF or WORD (or any other format you have selected), and then click on the right blue button "CONVERT" to download your document in the chosen format. </p>
             <p class="desc"> From this tutorial you can already use the other options on our website to convert more documents, compressed files like .RAR or ZIP and much more! </p>
             <p class="desc"> <b> NOTE 3: </b> If you try to convert a youtube link and it does not load the download links, or it generates an error, it means that this video is blocked by copyright and rules from YouTube. So unfortunately it cannot be converted. </p>
+            <p class="desc"> <b> NOTE 4: </b> The maximum size for uploading a file is 128 MB</p>
             <p class="desc">
               <b> Date: </b> 10/12/2020 <br/>
               <b> Written by: </b> Ilion Tecnologia <br/>
@@ -462,4 +491,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
-    <script src="_assets/scripts/index.js"></script>
+    <script src="_assets/scripts/index.min.js"></script>

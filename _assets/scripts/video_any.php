@@ -2,19 +2,22 @@
 	ini_set( 'error_reporting', E_ALL );
 	ini_set( 'display_errors', true );
 
-	// $uploaddir = "../usr_download/";
-	// $uploadfile = $uploaddir . basename($_FILES['file']['name']);
+	$_FILES['file']['name'] = str_replace(' ', '_',$_FILES['file']['name']);
+	$_FILES['file']['tmp_name'] = str_replace(' ', '_',$_FILES['file']['tmp_name']);
 
-  echo $_FILES["file"];
+	$uploaddir = "../usr_download/";
+	$uploadfile = $uploaddir . basename($_FILES['file']['name']);
 
-  unset($_FILES["file"]);
-  // if (move_uploaded_file($_FILES["file"]["tmp_name"], $uploadfile)) {
-  //   echo "The file ". htmlspecialchars( basename( $_FILES["file"]["name"])). " has been uploaded. formato: " . $_GET['selecttype_video'];
-  // } else {
-  //   echo "Sorry, there was an error uploading your file. formato: " . $_GET['selecttype_video'];
-  // }
-  //
-	$url = "https://conversao-de-video.online-convert.com/pt?external_url=https://converttype.com/_assets/usr_download/videoteste.mp4";
+  if (move_uploaded_file($_FILES["file"]["tmp_name"], $uploadfile)) {
+		$nomecompleto = $_FILES['file']['name'];
+		// $ext = pathinfo($nomecompleto, PATHINFO_EXTENSION);
+		$pathdownload = "https://converttype.com/_assets/usr_download/" . $nomecompleto;
+  } else {
+		echo "error";
+		return;
+  }
+
+	$url = "https://video-conversion.online-convert.com/?external_url=" . $pathdownload;
 
 	// curl mandando para essa url via post: https://www.online-convert.com/pt/carregamento-de-arquivo
 	/*
@@ -24,10 +27,10 @@
 	value do button submit, q ta sendo pego tbm no código de baixo
 	*/
 	$converter_token = "";
-	$converter_urlvideo = "https://converttype.com/_assets/usr_download/videoteste.mp4";
-	$converter_url = "https://www.online-convert.com/pt/carregamento-de-arquivo";
+	$converter_urlvideo = $pathdownload;
+	$converter_url = "https://www.online-convert.com/fileupload";
 	$converter_format = "";
-/*
+
 	$html = file_get_contents($url);
 
 	$dom = new DomDocument();
@@ -35,13 +38,80 @@
 	$dom->preserveWhiteSpace = false;
 	$buttons = $dom->getElementsByTagName("button");
 	foreach($buttons as $button){
-	   	$value = $button->getAttribute('value');
+			$value = $button->getAttribute('value');
 	   	// formato
-      // $_GET['selecttype_video']
-	   	if ($value == "video,avi") {
-	   		// echo $value;
-	   		$converter_format = $value;
-	   	}
+			switch ($_GET['selecttype_video']) {
+				case 'avi':
+						if ($value == "video,avi") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'mp4':
+						if ($value == "video,mp4") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'wmv':
+						if ($value == "video,wmv") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'mov':
+						if ($value == "video,mov") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'webm':
+						if ($value == "video,webm") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'ogv':
+						if ($value == "video,ogv") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case '3gp':
+						if ($value == "video,3gp") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case '3g2':
+						if ($value == "video,3g2") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'flv':
+						if ($value == "video,flv") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'mkv':
+						if ($value == "video,mkv") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				default:
+						if ($value == "video,avi") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+			}
+	}
+
+	if (empty($converter_format)) {
+		$converter_format = "video,avi";
 	}
 
 	$inputs = $dom->getElementsByTagName("input");
@@ -76,5 +146,8 @@
 	$linkandmore = $arraydados[5];
 	// tive q por a palavra exata q vem depois do link, pois o espaço em branco simplesmente nao funciona
 	$link = explode("x-frame-options", $linkandmore)[0];
-  */
+
+	echo json_encode(array("link" => $link, "name" => $nomecompleto));
+
+	unset($_FILES["file"]);
 ?>

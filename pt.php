@@ -173,7 +173,7 @@
           <li><a href="#begin" class="begin">INÍCIO</a></li>
           <li><a href="#about" class="about">SOBRE</a></li>
           <li><a class="link sel" data-target="1">ÁUDIO</a></li>
-          <li><a class="link sel disabledtext" data-target="2">VÍDEO</a></li>
+          <li><a class="link sel" data-target="2">VÍDEO</a></li>
           <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
                   IMAGENS <i class="material-icons right">arrow_drop_down</i>
@@ -237,15 +237,31 @@
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
                               <p class="convert_to3">PARA</p>
                               <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <option value="mp4">MP4</option>
-                                <option value="wmv">WMV</option>
-                                <option value="avi">AVI</option>
-                                <option value="mov">MOV</option>
-                                <option value="qt">QT</option>
-                                <option value="mkv">MKV</option>
-                                <option value="avchd">AVCHD</option>
-                                <option value="flv">FLV</option>
-                                <option value="swf">SWF</option>
+                                <optgroup label="VÍDEO">
+                                  <option value="mp4">MP4</option>
+                                  <option value="wmv">WMV</option>
+                                  <option value="avi">AVI</option>
+                                  <option value="mov">MOV</option>
+                                  <option value="webm">WEBM</option>
+                                  <option value="ogv">OGV</option>
+                                  <option value="mkv">MKV</option>
+                                  <option value="flv">FLV</option>
+                                  <option value="3g2">3G2</option>
+                                  <option value="3gp">3GP</option>
+                                </optgroup>
+                                <optgroup label="ÁUDIO">
+                                  <option value="aac">AAC</option>
+                                  <option value="aiff">AIFF</option>
+                                  <option value="flac">FLAC</option>
+                                  <option value="m4a">M4A</option>
+                                  <option value="m4r">M4R</option>
+                                  <option value="mmf">MMF</option>
+                                  <option value="mp3">MP3</option>
+                                  <option value="ogg">OGG</option>
+                                  <option value="opus">OPUS</option>
+                                  <option value="wav">WAV</option>
+                                  <option value="wma">WMA</option>
+                                </optgroup>
                               </select>
                               <select class="selecttype none" name="selecttype_pdf" id="selecttype_pdf">
                                 <option value="docx">DOCX</option>
@@ -271,6 +287,10 @@
               </form>
               <div class="row margin_form center center-align">
                 <div class="col s12 m12 l12 marginline">
+                  <div class="none" id="load">
+                    <img src="_assets/images/load.gif" alt="load">
+                    <p>carregando, aguarde</p>
+                  </div>
                   <p id="containerafter">
                     <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>BAIXAR</a></a>
                     <p id="desc_ca" class="none">Clique no link que deseja baixar (audio, video, video sem audio e etc..) e depois na nova aba que se abrir clique em <i class="material-icons">more_vert</i> para baixar</p>
@@ -305,11 +325,19 @@
               <li>WMV</li>
               <li>AVI</li>
               <li>MOV</li>
-              <li>QT</li>
               <li>MKV</li>
-              <li>AVCHD</li>
+              <li>OGV</li>
               <li>FLV</li>
-              <li>SWF</li>
+              <li>3G2</li>
+              <li>3GP</li>
+              <li>AAC</li>
+              <li>AIFF</li>
+              <li>FLAC</li>
+              <li>M4R</li>
+              <li>MMF</li>
+              <li>WAV</li>
+              <li>WMA</li>
+              <li>OGG</li>
               <li>JPEG</li>
               <li>PNG</li>
               <li>PDF</li>
@@ -343,6 +371,7 @@
             <p class="desc">Utilize o menu para selecionar em "DOC OU DOCUMENTOS" o formato que deseja converter. Feito isso selecione do seu computador o documento que deseja converter para PDF ou WORD (ou outro formato que tenha selecoinado), e então clique no botão direito azul "CONVERTER" para baixar o seu documento no formato escolhido.</p>
             <p class="desc">A partir deste tutorial já pode utilizar das outras opções do nosso site para converter mais documentos, arquivos comprimidos como .RAR ou ZIP e muito mais !</p>
             <p class="desc"><b>OBSERVAÇÃO 3:</b>Caso tente converter um link do youtube e ele não carregue os links de download, ou gere erro, significa que este vídeo é bloqueado pelos direitos autorais e pelas regras do youtube. Então infelizmente não pode ser convertido.</p>
+            <p class="desc"><b>OBSERVAÇÃO 4:</b>O tamanho máximo para subir um arquivo é de 128 MB</p>
             <p class="desc">
               <b>Data:</b> 10/12/2020 <br/>
               <b>Escrito por:</b> Ilion Tecnologia <br/>

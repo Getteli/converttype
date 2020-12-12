@@ -126,58 +126,37 @@ $(document).ready(function(){
 
   // ao clicar em converter, pega todas as configuracoes e executa o que tiver e como tiver que executar
   $("#btn_convert").on( "click", function() {
-    $("#btn_convert").addClass("disabled");
-
-    var type = $("#type").val();
-    switch (type) {
-      case '1': // audio
+    effect_in();
+    setTimeout(function() {
+      var type = $("#type").val();
+      switch (type) {
+        case '1': // audio
+            // verifica o tipo de input para impedir o processo, se tiver vazio
+            if ($( "#t_url" ).hasClass( "selectedlink" ))
+            {
+              if( !$("#input_url").val() ) {
+                effect_out();
+                $("#input_url").focus();
+                return;
+              }
+              // se tudo certo, executa o metodo
+              converter_modo_2();
+            }
+            else if ($( "#t_input" ).hasClass( "selectedlink" ))
+            {
+              if( !$("#input_file").val() ) {
+                effect_out();
+                $("#input_file").focus();
+                return;
+              }
+            }
+          break;
+        case '2': // video
           // verifica o tipo de input para impedir o processo, se tiver vazio
           if ($( "#t_url" ).hasClass( "selectedlink" ))
           {
             if( !$("#input_url").val() ) {
-              $("#btn_convert").removeClass("disabled");
-              $("#input_url").focus();
-              return;
-            }
-            // se tudo certo, executa o metodo
-            converter_modo_2();
-          }
-          else if ($( "#t_input" ).hasClass( "selectedlink" ))
-          {
-            if( !$("#input_file").val() ) {
-              $("#btn_convert").removeClass("disabled");
-              $("#input_file").focus();
-              return;
-            }
-          }
-        break;
-      case '2': // video
-        // verifica o tipo de input para impedir o processo, se tiver vazio
-        if ($( "#t_url" ).hasClass( "selectedlink" ))
-        {
-          if( !$("#input_url").val() ) {
-            $("#btn_convert").removeClass("disabled");
-            $("#input_url").focus();
-            return;
-          }
-        }
-        else if ($( "#t_input" ).hasClass( "selectedlink" ))
-        {
-          if( !$("#input_file").val() ) {
-            $("#btn_convert").removeClass("disabled");
-            $("#input_file").focus();
-            return;
-          }
-        }
-        // se tudo certo, executa o metodo
-        converter_modo_3();
-        break;
-      case '9': // pdf
-          // verifica o tipo de input para impedir o processo, se tiver vazio
-          if ($( "#t_url" ).hasClass( "selectedlink" ))
-          {
-            if( !$("#input_url").val() ) {
-              $("#btn_convert").removeClass("disabled");
+              effect_out();
               $("#input_url").focus();
               return;
             }
@@ -185,18 +164,52 @@ $(document).ready(function(){
           else if ($( "#t_input" ).hasClass( "selectedlink" ))
           {
             if( !$("#input_file").val() ) {
-              $("#btn_convert").removeClass("disabled");
+              effect_out();
               $("#input_file").focus();
               return;
             }
           }
           // se tudo certo, executa o metodo
-          converter_modo_3();
-        break;
-        // e por ai vai, adicionando mais cases e verificando os 2 inputs
-     }
-     $("#btn_convert").removeClass("disabled");
+          converter_modo_4();
+          break;
+        case '9': // pdf
+            // verifica o tipo de input para impedir o processo, se tiver vazio
+            if ($( "#t_url" ).hasClass( "selectedlink" ))
+            {
+              if( !$("#input_url").val() ) {
+                effect_out();
+                $("#input_url").focus();
+                return;
+              }
+            }
+            else if ($( "#t_input" ).hasClass( "selectedlink" ))
+            {
+              if( !$("#input_file").val() ) {
+                effect_out();
+                $("#input_file").focus();
+                return;
+              }
+            }
+            // se tudo certo, executa o metodo
+            converter_modo_3();
+          break;
+          // e por ai vai, adicionando mais cases e verificando os 2 inputs
+       }
+    }, 1000);
   });
+
+  function effect_in()
+  {
+    $("#btn_convert").addClass("disabled");
+    $("#load").removeClass("none");
+  }
+
+  function effect_out()
+  {
+    $("#btn_convert").removeClass("disabled");
+    $("#load").addClass("none");
+  }
+
 
   $(".btncontact").on('click', function(e){
 		$(".btncontact").addClass("disabled");
@@ -222,7 +235,14 @@ $(document).ready(function(){
 
   $("#btn_download_filesaved").on('click', function(){
     setTimeout(function() {
-      form = $("#btn_download_filesaved").attr("download");
+      var attr = $(this).attr('download');
+
+      if (typeof attr !== typeof undefined && attr !== false) {
+        form = $("#btn_download_filesaved").attr("download");
+      }else{
+        form = $("#btn_download_filesaved").data("target");
+      }
+
       var url = "_assets/scripts/deletefile.php";
   		$.ajax({
   			type: "POST",
@@ -265,9 +285,11 @@ $(document).ready(function(){
 			success: function (data) {
         $("#desc_ca").removeClass("none");
         $("#containerafter").append(data);
+        effect_out();
 			},
 			error: function (data) {
         $("#containerafter").append("Error");
+        effect_out();
 			}
 		});
   }
@@ -278,37 +300,7 @@ $(document).ready(function(){
 
     var formData = new FormData();
     formData.append('file', $('#input_file')[0].files[0]);
-    if ($("#type").val() == 2 || $("#type").val() == '2') {
-        var url = "_assets/scripts/video_any.php";
-    }
-    else
-    {
-		    var url = "_assets/scripts/pdf_any.min.php?selecttype_pdf="+$("#selecttype_pdf").val();
-    }
-    $.ajax({
-      url : url,
-      type : 'POST',
-      data : formData,
-      processData: false,  // tell jQuery not to process the data
-      contentType: false,  // tell jQuery not to set contentType
-      success : function(data) {
-        alert(data);
-        // var datadownload = "_assets/usr_download/" + data;
-        // $("#btn_download_filesaved").removeClass("none");
-        // $("#btn_download_filesaved").attr('href', datadownload);
-        // $("#btn_download_filesaved").attr('download', data);
-      }
-		});
-  }
-
-  // converte video usando o online-videoconverter, e faz uma volta pra pegar o link do download
-  function converter_modo_4() {
-    // $("#containerafter").empty().append();
-    alert($('#input_file')[0].files[0]);
-    var formData = new FormData();
-    formData.append('file', $('#input_file')[0].files[0]);
-    alert(formData);
-		var url = "_assets/scripts/video_any.php";
+		var url = "_assets/scripts/pdf_any.min.php?selecttype_pdf="+$("#selecttype_pdf").val();
 		$.ajax({
       url : url,
       type : 'POST',
@@ -316,14 +308,42 @@ $(document).ready(function(){
       processData: false,  // tell jQuery not to process the data
       contentType: false,  // tell jQuery not to set contentType
       success : function(data) {
-        alert(data);
-        /*
         var datadownload = "_assets/usr_download/" + data;
         $("#btn_download_filesaved").removeClass("none");
         $("#btn_download_filesaved").attr('href', datadownload);
         $("#btn_download_filesaved").attr('download', data);
-        */
+        effect_out();
       }
+		});
+  }
+
+  // converte video usando o online-videoconverter, e faz uma volta pra pegar o link do download
+  function converter_modo_4() {
+    var formData = new FormData();
+    formData.append('file', $('#input_file')[0].files[0]);
+		var url = "_assets/scripts/video_any.min.php?selecttype_video="+$("#selecttype_video").val();
+		$.ajax({
+      url : url,
+      type : 'POST',
+      data:  formData,
+      contentType: false,
+      cache: false,
+      processData: false,
+      success : function(data) {
+        if (data != "error") {
+          var dados = JSON.parse(data);
+          $("#btn_download_filesaved").removeClass("none");
+          $("#btn_download_filesaved").attr('href', dados.link);
+          $("#btn_download_filesaved").attr('target', '_blank');
+          $("#btn_download_filesaved").attr('data-target', dados.name);
+          $("#btn_download_filesaved").removeAttr('download');
+          effect_out();
+        }
+      },
+      error: function (data) {
+        $("#containerafter").append("Error");
+        effect_out();
+			}
 		});
   }
 });
