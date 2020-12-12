@@ -54,6 +54,11 @@ ul.listformats, li{
 	width: 50%;
 }
 
+#btn_download_filesaved{
+	width: 100%;
+	text-align: center;
+}
+
 #check{
 	color: green;
 	margin-left: 100px;

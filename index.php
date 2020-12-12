@@ -62,12 +62,6 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
-    <style media="screen">
-      #btn_download_filesaved{
-        width: 100%;
-        text-align: center;
-      }
-    </style>
   </head>
   <body id="begin">
     <div class="row">
@@ -141,7 +135,7 @@
                         <li><a href="#begin" class="begin">HOME</a></li>
                         <li><a href="#about" class="about">ABOUT</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel disabledtext" data-target="2">VIDEO</a></li>
+                        <li><a class="link sel" data-target="2">VIDEO</a></li>
                         <li>
                             <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-img">
                                 IMAGES <i class="material-icons right">arrow_drop_down</i>
@@ -180,7 +174,7 @@
           <li><a href="#begin" class="begin">HOME</a></li>
           <li><a href="#about" class="about">ABOUT</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
-          <li><a class="link sel disabledtext" data-target="2">VIDEO</a></li>
+          <li><a class="link sel" data-target="2">VIDEO</a></li>
           <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
                   IMAGES <i class="material-icons right">arrow_drop_down</i>
@@ -468,4 +462,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
-    <script src="_assets/scripts/index.min.js"></script>
+    <script src="_assets/scripts/index.js"></script>

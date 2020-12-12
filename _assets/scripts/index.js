@@ -107,8 +107,10 @@ $(document).ready(function(){
         $("#t_url").addClass( "disabledtext" );
         $("#t_input").removeClass( "disabledtext" );
         $("#selecttype_video").removeClass( "none" );
+        $("#selecttype_pdf").addClass( "none" );
         $("#t_input").trigger("click");
         $("#type").val(2);
+        $("#input_file").attr('accept', ".avi,video/*");
         break;
       case 9: // pdf
         $("#t_url").addClass( "disabledtext" );
@@ -150,6 +152,25 @@ $(document).ready(function(){
           }
         break;
       case '2': // video
+        // verifica o tipo de input para impedir o processo, se tiver vazio
+        if ($( "#t_url" ).hasClass( "selectedlink" ))
+        {
+          if( !$("#input_url").val() ) {
+            $("#btn_convert").removeClass("disabled");
+            $("#input_url").focus();
+            return;
+          }
+        }
+        else if ($( "#t_input" ).hasClass( "selectedlink" ))
+        {
+          if( !$("#input_file").val() ) {
+            $("#btn_convert").removeClass("disabled");
+            $("#input_file").focus();
+            return;
+          }
+        }
+        // se tudo certo, executa o metodo
+        converter_modo_3();
         break;
       case '9': // pdf
           // verifica o tipo de input para impedir o processo, se tiver vazio
@@ -257,8 +278,37 @@ $(document).ready(function(){
 
     var formData = new FormData();
     formData.append('file', $('#input_file')[0].files[0]);
-		var url = "_assets/scripts/pdf_img.php?selecttype_pdf="+$("#selecttype_pdf").val();
-    var form = $("#formconv").serialize();
+    if ($("#type").val() == 2 || $("#type").val() == '2') {
+        var url = "_assets/scripts/video_any.php";
+    }
+    else
+    {
+		    var url = "_assets/scripts/pdf_any.min.php?selecttype_pdf="+$("#selecttype_pdf").val();
+    }
+    $.ajax({
+      url : url,
+      type : 'POST',
+      data : formData,
+      processData: false,  // tell jQuery not to process the data
+      contentType: false,  // tell jQuery not to set contentType
+      success : function(data) {
+        alert(data);
+        // var datadownload = "_assets/usr_download/" + data;
+        // $("#btn_download_filesaved").removeClass("none");
+        // $("#btn_download_filesaved").attr('href', datadownload);
+        // $("#btn_download_filesaved").attr('download', data);
+      }
+		});
+  }
+
+  // converte video usando o online-videoconverter, e faz uma volta pra pegar o link do download
+  function converter_modo_4() {
+    // $("#containerafter").empty().append();
+    alert($('#input_file')[0].files[0]);
+    var formData = new FormData();
+    formData.append('file', $('#input_file')[0].files[0]);
+    alert(formData);
+		var url = "_assets/scripts/video_any.php";
 		$.ajax({
       url : url,
       type : 'POST',
@@ -266,10 +316,13 @@ $(document).ready(function(){
       processData: false,  // tell jQuery not to process the data
       contentType: false,  // tell jQuery not to set contentType
       success : function(data) {
+        alert(data);
+        /*
         var datadownload = "_assets/usr_download/" + data;
         $("#btn_download_filesaved").removeClass("none");
         $("#btn_download_filesaved").attr('href', datadownload);
         $("#btn_download_filesaved").attr('download', data);
+        */
       }
 		});
   }
