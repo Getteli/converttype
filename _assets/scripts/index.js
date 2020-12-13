@@ -1,4 +1,4 @@
-document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
+// document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
 $(document).ready(function(){
   // navbar e menu mobile
   const ElemensDropdown = document.querySelectorAll(".dropdown-trigger");
@@ -41,6 +41,20 @@ $(document).ready(function(){
     $("#input_file").removeClass( "disabled" );
     $("#div_file").removeClass( "none" );
     $('#input_file').attr('required', 'true');
+    // por enquanto libera o video e deixa o pdf bloq ao clicar no upload
+    $("#selecttype_video").removeClass( "none" );
+    $("#selecttype_pdf").addClass( "none" );
+    $("#input_file").attr('accept', ".avi,.mp4,.wmv,.mov,.webm,.ogv,.mkv,.flv,.3g2,.3gp,video/*");
+    switch ($("#type").val()) {
+      case '1':
+        $("#optgv").addClass( "none" );
+        $("#optga").removeClass( "none" );
+        break;
+      case '2':
+        $("#optgv").removeClass( "none" );
+        $("#optga").addClass( "none" );
+        break;
+    }
 
     $("#input_url").addClass( "none" );
     $("#input_url").addClass( "disabled" );
@@ -57,6 +71,9 @@ $(document).ready(function(){
     $("#div_descconvertinput").removeClass( "none" );
     $("#div_url").removeClass( "none" );
     $('#input_url').attr('required', 'true');
+    // por enquanto libera o video e deixa o pdf bloq ao clicar no upload
+    $("#selecttype_video").addClass( "none" );
+    $("#selecttype_pdf").addClass( "none" );
 
     $("#div_input_file").addClass( "none" );
     $("#div_input_file").addClass( "disabled" );
@@ -98,26 +115,28 @@ $(document).ready(function(){
     $("#convert_to2").html($(this).html());
     switch ( $(this).data("target") ) {
       case 1: // audio
-        $("#t_input").addClass( "disabledtext" );
-        $("#t_url").removeClass( "disabledtext" );
         $("#t_url").trigger("click");
+        $("#t_input").removeClass( "disabledtext" );
+        $("#t_url").removeClass( "disabledtext" );
         $("#type").val(1);
         break;
       case 2: // video
+        $("#t_input").trigger("click");
         $("#t_url").addClass( "disabledtext" );
         $("#t_input").removeClass( "disabledtext" );
         $("#selecttype_video").removeClass( "none" );
         $("#selecttype_pdf").addClass( "none" );
-        $("#t_input").trigger("click");
         $("#type").val(2);
-        $("#input_file").attr('accept', ".avi,video/*");
+        $("#input_file").attr('accept', ".avi,.mp4,.wmv,.mov,.webm,.ogv,.mkv,.flv,.3g2,.3gp,video/*");
+        $("#optgv").removeClass( "none" );
+        $("#optga").addClass( "none" );
         break;
       case 9: // pdf
+        $("#t_input").trigger("click");
         $("#t_url").addClass( "disabledtext" );
         $("#t_input").removeClass( "disabledtext" );
         $("#selecttype_video").addClass( "none" );
         $("#selecttype_pdf").removeClass( "none" );
-        $("#t_input").trigger("click");
         $("#type").val(9);
         $("#input_file").attr('accept', "application/pdf");
         break;

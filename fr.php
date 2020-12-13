@@ -217,7 +217,7 @@
                     <h5>OPTIONS</h5>
                     <p class="options">
                       <a id="t_url" class="selectedlink link">url</a> |
-                      <a id="t_input" class="link disabledtext">téléverser</a>
+                      <a id="t_input" class="link">téléverser</a>
                     </p>
                   </div>
                   <!-- input -->
@@ -237,7 +237,7 @@
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
                               <p class="convert_to3">POUR</p>
                               <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <optgroup label="VIDÉO">
+                                <optgroup label="VIDÉO" class="none" id="optgv">
                                   <option value="mp4">MP4</option>
                                   <option value="wmv">WMV</option>
                                   <option value="avi">AVI</option>
@@ -249,7 +249,7 @@
                                   <option value="3g2">3G2</option>
                                   <option value="3gp">3GP</option>
                                 </optgroup>
-                                <optgroup label="AUDIO">
+                                <optgroup label="AUDIO" class="none" id="optga">
                                   <option value="aac">AAC</option>
                                   <option value="aiff">AIFF</option>
                                   <option value="flac">FLAC</option>
@@ -471,7 +471,7 @@
               <h5 class="white-text">PLUS UTILISÉ</h5>
               <ul>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#" data-target="2">VIDÉO</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDÉO</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="9">PDF</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>

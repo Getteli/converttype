@@ -360,6 +360,15 @@ ul.listformats, li{
 }
 
 /*MOBILE*/
+@media only screen and (min-width: 1833px) {
+	.btn-ct {
+		/* display: none!important; */
+		right: auto!important;
+		position: relative;
+	}
+}
+
+/*MOBILE*/
 @media only screen and (max-width: 601px) {
 	.ifctcustom{
 		margin-left: -15%;
