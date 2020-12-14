@@ -50,8 +50,130 @@
 		try
 		{
 			header("Content-type:application/pdf");
-		    $result = $apiInstance->convertDocumentDocxToPdf($input_file);
-		    print_r($result);
+				switch (pathinfo($nomecompleto, PATHINFO_EXTENSION)) {
+					case 'docx':
+
+						switch ($_GET["selecttype_doc"]) {
+							case "pdf":
+									$result = $apiInstance->convertDocumentDocxToPdf($input_file);
+								break;
+							case "doc":
+									$result = $apiInstance->convertDocumentDocxToDoc($input_file);
+								break;
+							case "jpg":
+								$result = $apiInstance->convertDocumentDocxToJpg($input_file);
+								break;
+							case "png":
+								$result = $apiInstance->convertDocumentDocxToPng($input_file);
+								break;
+							case "rtf":
+								$result = $apiInstance->convertDocumentDocxToRtf($input_file);
+							break;
+							case "txt":
+								$result = $apiInstance->convertDocumentDocxToTxt($input_file);
+							break;
+							case "html":
+								$result = $apiInstance->convertDocumentDocxToHtml($input_file);
+							break;
+						}
+
+						break;
+					case 'doc':
+
+						switch ($_GET["selecttype_doc"]) {
+							case "pdf":
+									$result = $apiInstance->convertDocumentDocToPdf($input_file);
+								break;
+							case "docx":
+									$result = $apiInstance->convertDocumentDocToDocx($input_file);
+								break;
+							case "txt":
+								$result = $apiInstance->convertDocumentDocToTxt($input_file);
+							break;
+						}
+
+						break;
+					case 'pdf':
+
+						switch ($_GET["selecttype_doc"]) {
+							case "docx":
+									$result = $apiInstance->convertDocumentPdfToDocx($input_file);
+								break;
+							case "jpg":
+								$result = $apiInstance->convertDocumentPdfToJpg($input_file);
+								break;
+							case "txt":
+								$result = $apiInstance->convertDocumentPdfToTxt($input_file);
+							break;
+						}
+
+						break;
+					case 'html':
+
+						switch ($_GET["selecttype_doc"]) {
+							case "pdf":
+									$result = $apiInstance->convertDocumentHtmlToPdf($input_file);
+								break;
+							case "png":
+								$result = $apiInstance->convertDocumentHtmlToPng($input_file);
+								break;
+							case "txt":
+								$result = $apiInstance->convertDocumentHtmlToTxt($input_file);
+							break;
+						}
+
+						break;
+					case 'xls':
+
+						switch ($_GET["selecttype_doc"]) {
+							case "csv":
+									$result = $apiInstance->convertDocumentXlsToCsv($input_file);
+								break;
+							case "pdf":
+									$result = $apiInstance->convertDocumentXlsToPdf($input_file);
+								break;
+							case "xlsx":
+								$result = $apiInstance->convertDocumentXlsToXlsx($input_file);
+								break;
+						}
+
+						break;
+					case 'xlsx':
+
+						switch ($_GET["selecttype_doc"]) {
+							case "pdf":
+									$result = $apiInstance->convertDocumentXlsxToPdf($input_file);
+								break;
+							case "xls":
+									$result = $apiInstance->convertDocumentXlsxToXls($input_file);
+								break;
+							case "png":
+								$result = $apiInstance->convertDocumentXlsxToPng($input_file);
+								break;
+							case "csv":
+								$result = $apiInstance->convertDocumentXlsxToCsv($input_file);
+								break;
+							case "txt":
+								$result = $apiInstance->convertDocumentXlsxToTxt($input_file);
+							break;
+							case "html":
+								$result = $apiInstance->convertDocumentXlsxToHtml($input_file);
+							break;
+						}
+
+						break;
+					default:
+						unlink($input_file);
+						header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
+						break;
+				}
+
+				if (empty($result) || !isset($result)) {
+					unlink($input_file);
+					header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
+				}
+
+			  print_r($result);
 				// delete
 				unlink($input_file);
 		}

@@ -61,7 +61,7 @@
     <!-- Styles -->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="_assets/layout/index.css">
+    <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
   </head>
   <body id="begin">
     <div class="row">
@@ -136,22 +136,13 @@
                         <li><a href="#about" class="about">ABOUT</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDEO</a></li>
-                        <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-img">
-                                IMAGES <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
+                        <li><a class="link sel" data-target="3">IMAGES</a></li>
                         <li>
                             <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
                                 FILE <i class="material-icons right">arrow_drop_down</i>
                             </a>
                         </li>
                         <li><a class="link sel" data-target="5">DOCUMENTS</a></li>
-                    </ul>
-                    <ul id="dropdown-img" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">PNG</a></li>
-                      <li><a href="#" class="sel">JPEG</a></li>
-                      <li><a href="#" class="sel">SVG</a></li>
                     </ul>
                     <ul id="dropdown-file" class="dropdown-content submenu">
                       <li><a href="#" class="sel">RAR</a></li>
@@ -166,22 +157,13 @@
           <li><a href="#about" class="about">ABOUT</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDEO</a></li>
-          <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
-                  IMAGES <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
+          <li><a class="link sel" data-target="3">IMAGES</a></li>
           <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
                   FILE <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
           <li><a class="link sel" data-target="5">DOCUMENTS</a></li>
-        </ul>
-        <ul id="dropdown-imgm" class="dropdown-content submenu">
-          <li><a href="#" class="sel">PNG</a></li>
-          <li><a href="#" class="sel">JPEG</a></li>
-          <li><a href="#" class="sel">SVG</a></li>
         </ul>
         <ul id="dropdown-filem" class="dropdown-content submenu">
           <li><a href="#" class="sel">RAR</a></li>
@@ -247,10 +229,15 @@
                                 </optgroup>
                               </select>
                               <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <optgroup label="DOC" class="" id="optgd">
+                                <optgroup label="DOCUMENTS" class="none" id="optgd">
                                   <option value="doc">DOC</option>
                                   <option value="pdf">PDF</option>
                                   <option value="docx">DOCX</option>
+                                  <option value="html">HTML</option>
+                                  <option value="xls">XLS</option>
+                                  <option value="xlsx">XLSX</option>
+                                  <option value="txt">TXT</option>
+                                  <option value="rtf">RTF</option>
                                 </optgroup>
                                 <optgroup label="IMAGE" class="none" id="optgi">
                                   <option value="png">PNG</option>
@@ -464,7 +451,7 @@
               <ul>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="9">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>
             </div>
@@ -482,4 +469,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
-    <script src="_assets/scripts/index.js"></script>
+    <script src="_assets/scripts/index.min.js"></script>

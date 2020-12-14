@@ -135,36 +135,18 @@
                         <li><a href="#about" class="about">À PROPOS</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDÉO</a></li>
-                        <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-img">
-                                IMAGES <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
+                        <li><a class="link sel" data-target="3">IMAGES</a></li>
                         <li>
                             <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
                                 ARCHIVER <i class="material-icons right">arrow_drop_down</i>
                             </a>
                         </li>
-                        <li>
-                            <a href="#" class="dropdown-trigger" data-target="dropdown-doc">
-                                DOC <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul id="dropdown-img" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">PNG</a></li>
-                      <li><a href="#" class="sel">JPEG</a></li>
-                      <li><a href="#" class="sel">SVG</a></li>
+                        <li><a class="link sel" data-target="5">DOC</a></li>
                     </ul>
                     <ul id="dropdown-file" class="dropdown-content submenu">
                       <li><a href="#" class="sel">RAR</a></li>
                       <li><a href="#" class="sel">ZIP</a></li>
                       <li><a href="#" class="sel">7Z</a></li>
-                    </ul>
-                    <ul id="dropdown-doc" class="dropdown-content submenu">
-                      <li><a href="#" class="sel" data-target="9">PDF</a></li>
-                      <li><a href="#" class="sel">EXCEL</a></li>
-                      <li><a href="#" class="sel">DOC / DOCX</a></li>
                     </ul>
                 </div>
             </nav>
@@ -174,9 +156,10 @@
           <li><a href="#about" class="about">À PROPOS</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDÉO</a></li>
+          <li><a class="link sel" data-target="3">IMAGES</a></li>
           <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
-                  IMAGES <i class="material-icons right">arrow_drop_down</i>
+                   <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
           <li>
@@ -184,26 +167,12 @@
                   ARCHIVER <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
-          <li>
-              <a href="#" class="dropdown-trigger" data-target="dropdown-docm">
-                DOC <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
-        </ul>
-        <ul id="dropdown-imgm" class="dropdown-content submenu">
-          <li><a href="#" class="sel">PNG</a></li>
-          <li><a href="#" class="sel">JPEG</a></li>
-          <li><a href="#" class="sel">SVG</a></li>
+          <li><a class="link sel" data-target="5">DOC</a></li>
         </ul>
         <ul id="dropdown-filem" class="dropdown-content submenu">
           <li><a href="#" class="sel">RAR</a></li>
           <li><a href="#" class="sel">ZIP</a></li>
           <li><a href="#" class="sel">7Z</a></li>
-        </ul>
-        <ul id="dropdown-docm" class="dropdown-content submenu">
-          <li><a href="#" class="sel" data-target="9">PDF</a></li>
-          <li><a href="#" class="sel disabledtext">EXCEL</a></li>
-          <li><a href="#" class="sel disabledtext">DOC / DOCX</a></li>
         </ul>
       </div>
       <!-- content -->
@@ -264,11 +233,20 @@
                                 </optgroup>
                               </select>
                               <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <option value="docx">DOCX</option>
-                                <option value="png">PNG</option>
-                                <option value="jpeg">JPEG</option>
-                                <option value="doc">DOC</option>
-                                <option value="pdf">PDF</option>
+                                <optgroup label="DOCUMENTS" class="none" id="optgd">
+                                  <option value="doc">DOC</option>
+                                  <option value="pdf">PDF</option>
+                                  <option value="docx">DOCX</option>
+                                  <option value="html">HTML</option>
+                                  <option value="xls">XLS</option>
+                                  <option value="xlsx">XLSX</option>
+                                  <option value="txt">TXT</option>
+                                  <option value="rtf">RTF</option>
+                                </optgroup>
+                                <optgroup label="IMAGE" class="none" id="optgi">
+                                  <option value="png">PNG</option>
+                                  <option value="jpeg">JPEG</option>
+                                </optgroup>
                               </select>
                             </div>
                           </div>
@@ -477,7 +455,7 @@
               <ul>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDÉO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="9">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>
             </div>

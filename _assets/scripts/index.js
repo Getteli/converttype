@@ -131,14 +131,27 @@ $(document).ready(function(){
         $("#optgv").removeClass( "none" );
         $("#optga").addClass( "none" );
         break;
-      case 5: // pdf
+      case 3: // img
         $("#t_input").trigger("click");
         $("#t_url").addClass( "disabledtext" );
         $("#t_input").removeClass( "disabledtext" );
         $("#selecttype_video").addClass( "none" );
         $("#selecttype_doc").removeClass( "none" );
+        $("#optgi").removeClass( "none" );
+        $("#optgd").addClass( "none" );
+        $("#type").val(3);
+        $("#input_file").attr('accept', ".png,.jpg,.svg");
+        break;
+      case 5: // doc
+        $("#t_input").trigger("click");
+        $("#t_url").addClass( "disabledtext" );
+        $("#t_input").removeClass( "disabledtext" );
+        $("#selecttype_video").addClass( "none" );
+        $("#selecttype_doc").removeClass( "none" );
+        $("#optgi").removeClass( "none" );
+        $("#optgd").removeClass( "none" );
         $("#type").val(5);
-        $("#input_file").attr('accept', "");
+        $("#input_file").attr('accept', ".doc,.docx,.pdf,.xls,.xlsx,.html");
         break;
     }
   });
@@ -191,6 +204,27 @@ $(document).ready(function(){
           // se tudo certo, executa o metodo
           converter_modo_4();
           break;
+        case '3': // imagem
+            // verifica o tipo de input para impedir o processo, se tiver vazio
+            if ($( "#t_url" ).hasClass( "selectedlink" ))
+            {
+              if( !$("#input_url").val() ) {
+                effect_out();
+                $("#input_url").focus();
+                return;
+              }
+            }
+            else if ($( "#t_input" ).hasClass( "selectedlink" ))
+            {
+              if( !$("#input_file").val() ) {
+                effect_out();
+                $("#input_file").focus();
+                return;
+              }
+            }
+            // se tudo certo, executa o metodo
+            converter_modo_3();
+          break;
         case '5': // doc
             // verifica o tipo de input para impedir o processo, se tiver vazio
             if ($( "#t_url" ).hasClass( "selectedlink" ))
@@ -210,10 +244,8 @@ $(document).ready(function(){
               }
             }
             // se tudo certo, executa o metodo
-            // converter_modo_3();
             converter_modo_5();
           break;
-          // e por ai vai, adicionando mais cases e verificando os 2 inputs
        }
     }, 1000);
   });
@@ -255,7 +287,7 @@ $(document).ready(function(){
 
   $("#btn_download_filesaved").on('click', function(){
     setTimeout(function() {
-      var attr = $(this).attr('download');
+      var attr = $("#btn_download_filesaved").attr('download');
 
       if (typeof attr !== typeof undefined && attr !== false) {
         form = $("#btn_download_filesaved").attr("download");
@@ -314,13 +346,14 @@ $(document).ready(function(){
 		});
   }
 
-  // esse modo de converter, pega o pdf que o usuario subiu e converte para um o formato selecionado
+  // esse modo converte imagem para outro formato de imagem
   function converter_modo_3() {
     $("#containerafter").empty().append();
 
     var formData = new FormData();
     formData.append('file', $('#input_file')[0].files[0]);
-		var url = "_assets/scripts/pdf_any.min.php?selecttype_doc="+$("#selecttype_doc").val();
+    // cria outro select pra img ou pega o optg de doc?
+		var url = "_assets/scripts/img_any.php?selecttype_doc="+$("#selecttype_doc").val();
 		$.ajax({
       url : url,
       type : 'POST',
@@ -370,7 +403,8 @@ $(document).ready(function(){
 
   // esse modo de converter, pega um ms office (doc, docx, xls ?) que o usuario subiu e converte para um o formato selecionad
   function converter_modo_5() {
-		var url = "public/msoffice_any.php?selecttype_doc="+$("#selecttype_doc").val();
+    // add o url para o action do form e envia
+		var url = "public/msoffice_any.min.php?selecttype_doc="+$("#selecttype_doc").val();
     $("#formconv").attr("action", url);
     $("#formconv").submit();
   }
