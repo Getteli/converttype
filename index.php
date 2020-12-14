@@ -134,6 +134,7 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="#begin" class="begin">HOME</a></li>
                         <li><a href="#about" class="about">ABOUT</a></li>
+                        <li><a href="#tutorial" class="tutorial">TUTORIAL</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDEO</a></li>
                         <li><a class="link sel" data-target="3">IMAGES</a></li>
@@ -155,6 +156,7 @@
         <ul id="mobile-navbar" class="sidenav">
           <li><a href="#begin" class="begin">HOME</a></li>
           <li><a href="#about" class="about">ABOUT</a></li>
+          <li><a href="#tutorial" class="tutorial">TUTORIAL</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDEO</a></li>
           <li><a class="link sel" data-target="3">IMAGES</a></li>
@@ -289,7 +291,7 @@
 
       <div class="row">
         <div class="col l12">
-          <div class="container" id="article">
+          <div class="container" id="tutorial">
             <h1 style="margin-bottom: 0;"> How to convert? </h1>
              <p style="margin-top: 0;"> <em> Learn in this tutorial how to convert video, music, files and documents using the Convert type. </em> </p>
              <p class="desc"> This article is a tutorial to help everyone use the content of Convert type. Let's teach how to convert! </p>
@@ -327,6 +329,41 @@
               <li>ZIP</li>
               <li>7ZIP</li>
             </ul>
+            <h5> Conversions <b>*</b> </h5>
+            <ul class = "listformats">
+              <li> Convert youtube videos to mp3 </li>
+              <li> Download videos from youtube </li>
+              <li> Download videos from youtube without sound </li>
+              <li> Convert videos to MP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGG </ li >
+              <li> Convert video to audio </li>
+              <li> Convert JPG to PNG </li>
+              <li> Convert PNG to JPG </li>
+              <li> Convert PDF to JPG </li>
+              <li> Convert PDF to DOCX </li>
+              <li> Convert PDF to TXT </li>
+              <li> Convert DOCX to PDF </li>
+              <li> Convert DOCX to DOC </li>
+              <li> Convert DOCX to JPG </li>
+              <li> Convert DOCX to PNG </li>
+              <li> Convert DOCX to RTF </li>
+              <li> Convert DOCX to TXT </li>
+              <li> Convert DOCX to HTML </li>
+              <li> Convert DOC to PDF </li>
+              <li> Convert DOC to DOCX </li>
+              <li> Convert DOC to TXT </li>
+              <li> Convert HTML to PDF </li>
+              <li> Convert HTML to PNG </li>
+              <li> Convert HTML to TXT </li>
+              <li> Convert XLS to CSV </li>
+              <li> Convert XLS to PDF </li>
+              <li> Convert XLS to XLSX </li>
+              <li> Convert XLSX to PDF </li>
+              <li> Convert XLSX to XLS </li>
+              <li> Convert XLSX to PNG </li>
+              <li> Convert XLSX to CSV </li>
+              <li> Convert XLSX to TXT </li>
+              <li> Convert XLSX to HTML </li>
+            </ul>
             <p class="desc"> Now let's get to it! </p>
             <h2 style="margin-bottom: 0;"> Convert Youtube videos </h2>
             <p style="margin-top: 0;"> <em> How to convert youtube videos to audios or download videos without audio from youtube. </em> </p>
@@ -351,6 +388,7 @@
             <p class="desc"> From this tutorial you can already use the other options on our website to convert more documents, compressed files like .RAR or ZIP and much more! </p>
             <p class="desc"> <b> NOTE 3: </b> If you try to convert a youtube link and it does not load the download links, or it generates an error, it means that this video is blocked by copyright and rules from YouTube. So unfortunately it cannot be converted. </p>
             <p class="desc"> <b> NOTE 4: </b> The maximum size for uploading a file is 128 MB</p>
+            <p class = "desc"> <b> (*): </b> There may be changes if the API used is not supported due to copyright or other reasons. </p>
             <p class="desc">
               <b> Date: </b> 10/12/2020 <br/>
               <b> Written by: </b> Ilion Tecnologia <br/>

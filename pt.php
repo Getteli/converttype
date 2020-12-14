@@ -133,6 +133,7 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="#begin" class="begin">INÍCIO</a></li>
                         <li><a href="#about" class="about">SOBRE</a></li>
+                        <li><a href="#tutorial" class="tutorial">TUTORIAL</a></li>
                         <li><a class="link sel" data-target="1">ÁUDIO</a></li>
                         <li><a class="link sel" data-target="2">VÍDEO</a></li>
                         <li><a class="link sel" data-target="3">IMAGENS</a></li>
@@ -154,6 +155,7 @@
         <ul id="mobile-navbar" class="sidenav">
           <li><a href="#begin" class="begin">INÍCIO</a></li>
           <li><a href="#about" class="about">SOBRE</a></li>
+          <li><a href="#tutorial" class="tutorial">TUTORIAL</a></li>
           <li><a class="link sel" data-target="1">ÁUDIO</a></li>
           <li><a class="link sel" data-target="2">VÍDEO</a></li>
           <li><a class="link sel" data-target="3">IMAGENS</a></li>
@@ -288,7 +290,7 @@
 
       <div class="row">
         <div class="col l12">
-          <div class="container" id="article">
+          <div class="container" id="tutorial">
             <h1 style="margin-bottom:0;">Como converter ?</h1>
             <p style="margin-top:0;"><em>Aprenda neste tutorial a como converter video, musica, arquivos e documentos, usando o Convert type.</em></p>
             <p class="desc">Este artigo é um tutorial para ajudar a todos a usar o contéudo da Convert type. Vamos ensinar a converter !</p>
@@ -326,6 +328,41 @@
               <li>ZIP</li>
               <li>7ZIP</li>
             </ul>
+            <h5>Conversões <b>*</b></h5>
+            <ul class="listformats">
+              <li>Converter vídeos do youtube para mp3</li>
+              <li>Baixar vídeos do youtube</li>
+              <li>Baixar vídeos do youtube sem som</li>
+              <li>Converter vídeos para MP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGG</li>
+              <li>Converter vídeo para áudio</li>
+              <li>Converter JPG para PNG</li>
+              <li>Converter PNG para JPG</li>
+              <li>Converter PDF para JPG</li>
+              <li>Converter PDF para DOCX</li>
+              <li>Converter PDF para TXT</li>
+              <li>Converter DOCX para PDF</li>
+              <li>Converter DOCX para DOC</li>
+              <li>Converter DOCX para JPG</li>
+              <li>Converter DOCX para PNG</li>
+              <li>Converter DOCX para RTF</li>
+              <li>Converter DOCX para TXT</li>
+              <li>Converter DOCX para HTML</li>
+              <li>Converter DOC para PDF</li>
+              <li>Converter DOC para DOCX</li>
+              <li>Converter DOC para TXT</li>
+              <li>Converter HTML para PDF</li>
+              <li>Converter HTML para PNG</li>
+              <li>Converter HTML para TXT</li>
+              <li>Converter XLS para CSV</li>
+              <li>Converter XLS para PDF</li>
+              <li>Converter XLS para XLSX</li>
+              <li>Converter XLSX para PDF</li>
+              <li>Converter XLSX para XLS</li>
+              <li>Converter XLSX para PNG</li>
+              <li>Converter XLSX para CSV</li>
+              <li>Converter XLSX para TXT</li>
+              <li>Converter XLSX para HTML</li>
+            </ul>
             <p class="desc">Agora vamos ao que interessa !</p>
             <h2 style="margin-bottom:0;">Converter vídeos do Youtube</h2>
             <p style="margin-top:0;"><em>Como converter vídeos do youtube para áudios ou baixar videos sem áudio do youtube.</em></p>
@@ -348,8 +385,9 @@
             <p style="margin-top:0;"><em>Como converter documentos do tipo office e outros, para outro formato.</em></p>
             <p class="desc">Utilize o menu para selecionar em "DOC OU DOCUMENTOS" o formato que deseja converter. Feito isso selecione do seu computador o documento que deseja converter para PDF ou WORD (ou outro formato que tenha selecoinado), e então clique no botão direito azul "CONVERTER" para baixar o seu documento no formato escolhido.</p>
             <p class="desc">A partir deste tutorial já pode utilizar das outras opções do nosso site para converter mais documentos, arquivos comprimidos como .RAR ou ZIP e muito mais !</p>
-            <p class="desc"><b>OBSERVAÇÃO 3:</b>Caso tente converter um link do youtube e ele não carregue os links de download, ou gere erro, significa que este vídeo é bloqueado pelos direitos autorais e pelas regras do youtube. Então infelizmente não pode ser convertido.</p>
-            <p class="desc"><b>OBSERVAÇÃO 4:</b>O tamanho máximo para subir um arquivo é de 128 MB</p>
+            <p class="desc"><b>OBSERVAÇÃO 3:</b> Caso tente converter um link do youtube e ele não carregue os links de download, ou gere erro, significa que este vídeo é bloqueado pelos direitos autorais e pelas regras do youtube. Então infelizmente não pode ser convertido.</p>
+            <p class="desc"><b>OBSERVAÇÃO 4:</b> O tamanho máximo para subir um arquivo é de 128 MB</p>
+            <p class="desc"><b>(*):</b> Pode haver mudanças caso a API usada não suporte por motivos de direitos autorais ou outros motivos.</p>
             <p class="desc">
               <b>Data:</b> 10/12/2020 <br/>
               <b>Escrito por:</b> Ilion Tecnologia <br/>

@@ -27,6 +27,11 @@ $(document).ready(function(){
     scrollTop: $("#begin").offset().top
     }, 860);
   });
+  $(".tutorial").click(function() {
+    $('html, body').animate({
+    scrollTop: $("#tutorial").offset().top
+    }, 860);
+  });
 
   // escolher as configuracoes/opcoes
   $("#t_input").on( "click", function() {

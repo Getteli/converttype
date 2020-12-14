@@ -133,6 +133,7 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="#begin" class="begin">MAISON</a></li>
                         <li><a href="#about" class="about">À PROPOS</a></li>
+                        <li><a href="#tutorial" class="tutorial">DIDACTICIEL</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDÉO</a></li>
                         <li><a class="link sel" data-target="3">IMAGES</a></li>
@@ -154,6 +155,7 @@
         <ul id="mobile-navbar" class="sidenav">
           <li><a href="#begin" class="begin">MAISON</a></li>
           <li><a href="#about" class="about">À PROPOS</a></li>
+          <li><a href="#tutorial" class="tutorial">DIDACTICIEL</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDÉO</a></li>
           <li><a class="link sel" data-target="3">IMAGES</a></li>
@@ -293,7 +295,7 @@
 
       <div class="row">
         <div class="col l12">
-          <div class="container" id="article">
+          <div class="container" id="tutorial">
             <h1 style="margin-bottom: 0;"> Comment convertir? </h1>
              <p style="margin-top: 0;"> <em> Découvrez dans ce didacticiel comment convertir des vidéos, de la musique, des fichiers et des documents à l'aide du type Convertir. </em> </p>
              <p class="desc"> Cet article est un tutoriel pour aider tout le monde à utiliser le contenu de type Convert. Apprenons à convertir! </p>
@@ -331,6 +333,41 @@
               <li>ZIP</li>
               <li>7ZIP</li>
             </ul>
+            <h5> Conversions <b> * </b> </h5>
+            <ul class = "listformats">
+              <li> Convertir des vidéos YouTube en mp3 </li>
+              <li> Télécharger des vidéos depuis YouTube </li>
+              <li> Télécharger des vidéos depuis YouTube sans son </li>
+              <li> Convertir des vidéos en MP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGG </ li >
+              <li> Convertir la vidéo en audio </li>
+              <li> Convertir JPG en PNG </li>
+              <li> Convertir PNG en JPG </li>
+              <li> Convertir un PDF en JPG </li>
+              <li> Convertir un PDF en DOCX </li>
+              <li> Convertir un PDF en TXT </li>
+              <li> Convertir DOCX en PDF </li>
+              <li> Convertir DOCX en DOC </li>
+              <li> Convertir DOCX en JPG </li>
+              <li> Convertir DOCX en PNG </li>
+              <li> Convertir DOCX en RTF </li>
+              <li> Convertir DOCX en TXT </li>
+              <li> Convertir DOCX en HTML </li>
+              <li> Convertir DOC en PDF </li>
+              <li> Convertir DOC en DOCX </li>
+              <li> Convertir DOC en TXT </li>
+              <li> Convertir du HTML en PDF </li>
+              <li> Convertir le HTML en PNG </li>
+              <li> Convertir du HTML en TXT </li>
+              <li> Convertir XLS en CSV </li>
+              <li> Convertir XLS en PDF </li>
+              <li> Convertir XLS en XLSX </li>
+              <li> Convertir XLSX en PDF </li>
+              <li> Convertir XLSX en XLS </li>
+              <li> Convertir XLSX en PNG </li>
+              <li> Convertir XLSX en CSV </li>
+              <li> Convertir XLSX en TXT </li>
+              <li> Convertir XLSX en HTML </li>
+            </ul>
             <p class="desc"> Allons-y maintenant! </p>
             <h2 style="margin-bottom: 0;"> Convertir des vidéos Youtube </h2>
             <p style="margin-top: 0;"> <em> Comment convertir des vidéos YouTube en audios ou télécharger des vidéos sans audio depuis YouTube. </em> </p>
@@ -355,6 +392,7 @@
             <p class="desc"> À partir de ce tutoriel, vous pouvez déjà utiliser les autres options de notre site Web pour convertir plus de documents, des fichiers compressés comme .RAR ou ZIP et plus encore! </p>
             <p class="desc"> <b> REMARQUE 3: </b> Si vous essayez de convertir un lien youtube et qu'il ne charge pas les liens de téléchargement, ou qu'il génère une erreur, cela signifie que cette vidéo est bloquée par les droits d'auteur et les règles de YouTube. Donc, malheureusement, il ne peut pas être converti. </p>
             <p class="desc"> <b> REMARQUE 4: </b> La taille maximale pour télécharger un fichier est de 128 Mo</p>
+            <p class = "desc"> <b> (*): </b> Des modifications peuvent être apportées si l'API utilisée n'est pas prise en charge pour des raisons de droits d'auteur ou pour d'autres raisons. </p>
             <p class="desc">
               <b> Date: </b> 12/10/2020 <br/>
               <b> Rédigé par: </b> Ilion Tecnologia <br/>
