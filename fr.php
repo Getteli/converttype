@@ -160,16 +160,11 @@
           <li><a class="link sel" data-target="2">VIDÉO</a></li>
           <li><a class="link sel" data-target="3">IMAGES</a></li>
           <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-imgm">
-                   <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
-          <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
                   ARCHIVER <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
-          <li><a class="link sel" data-target="5">DOC</a></li>
+          <li><a class="link sel" data-target="5">DOCUMENT</a></li>
         </ul>
         <ul id="dropdown-filem" class="dropdown-content submenu">
           <li><a href="#" class="sel">RAR</a></li>
@@ -202,7 +197,7 @@
                             <div class="col s12 m8 l8">
                               <div id="div_input_file" class="div_input_file disabled none col s12">
                                 <label for="input_file" class="colorprimary" id="lb_input_file">SÉLECTIONNER</label>
-                                <input type="file" class="input_file disabled none" id="input_file" name="input_file">
+                                <input type="file" class="input_file disabled none" accept="" id="input_file" name="input_file">
                               </div>
                             </div>
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
@@ -235,7 +230,7 @@
                                 </optgroup>
                               </select>
                               <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <optgroup label="DOCUMENTS" class="none" id="optgd">
+                                <optgroup label="DOCUMENT" class="none" id="optgd">
                                   <option value="doc">DOC</option>
                                   <option value="pdf">PDF</option>
                                   <option value="docx">DOCX</option>
