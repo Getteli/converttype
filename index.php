@@ -146,11 +146,7 @@
                                 FILE <i class="material-icons right">arrow_drop_down</i>
                             </a>
                         </li>
-                        <li>
-                            <a href="#" class="dropdown-trigger" data-target="dropdown-doc">
-                                DOC <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
+                        <li><a class="link sel" data-target="5">DOCUMENTS</a></li>
                     </ul>
                     <ul id="dropdown-img" class="dropdown-content submenu">
                       <li><a href="#" class="sel">PNG</a></li>
@@ -161,11 +157,6 @@
                       <li><a href="#" class="sel">RAR</a></li>
                       <li><a href="#" class="sel">ZIP</a></li>
                       <li><a href="#" class="sel">7Z</a></li>
-                    </ul>
-                    <ul id="dropdown-doc" class="dropdown-content submenu">
-                      <li><a href="#" class="sel" data-target="9">PDF</a></li>
-                      <li><a href="#" class="sel disabledtext">EXCEL</a></li>
-                      <li><a href="#" class="sel disabledtext">DOC / DOCX</a></li>
                     </ul>
                 </div>
             </nav>
@@ -185,11 +176,7 @@
                   FILE <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
-          <li>
-              <a href="#" class="dropdown-trigger" data-target="dropdown-docm">
-                DOC <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
+          <li><a class="link sel" data-target="5">DOCUMENTS</a></li>
         </ul>
         <ul id="dropdown-imgm" class="dropdown-content submenu">
           <li><a href="#" class="sel">PNG</a></li>
@@ -200,11 +187,6 @@
           <li><a href="#" class="sel">RAR</a></li>
           <li><a href="#" class="sel">ZIP</a></li>
           <li><a href="#" class="sel">7Z</a></li>
-        </ul>
-        <ul id="dropdown-docm" class="dropdown-content submenu">
-          <li><a href="#" class="sel" data-target="9">PDF</a></li>
-          <li><a href="#" class="sel disabledtext">EXCEL</a></li>
-          <li><a href="#" class="sel disabledtext">DOC / DOCX</a></li>
         </ul>
       </div>
       <!-- content -->
@@ -264,12 +246,16 @@
                                   <option value="wma">WMA</option>
                                 </optgroup>
                               </select>
-                              <select class="selecttype none" name="selecttype_pdf" id="selecttype_pdf">
-                                <option value="docx">DOCX</option>
-                                <option value="png">PNG</option>
-                                <option value="jpeg">JPEG</option>
-                                <option value="doc">DOC</option>
-                                <option value="pdf">PDF</option>
+                              <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
+                                <optgroup label="DOC" class="" id="optgd">
+                                  <option value="doc">DOC</option>
+                                  <option value="pdf">PDF</option>
+                                  <option value="docx">DOCX</option>
+                                </optgroup>
+                                <optgroup label="IMAGE" class="none" id="optgi">
+                                  <option value="png">PNG</option>
+                                  <option value="jpeg">JPEG</option>
+                                </optgroup>
                               </select>
                             </div>
                           </div>
@@ -292,6 +278,11 @@
                   <p>loading, wait.</p>
                 </div>
                 <div class="col s12 m12 l12 marginline">
+                  <?php
+                  if ($_GET["back"] == "error") {
+                    echo "<p>There was an error converting your document. Try again or contact us.</p>";
+                  }
+                  ?>
                   <p id="containerafter">
                     <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>DOWNLOAD</a></a>
                     <p id="desc_ca" class="none">Click on the link you want to download (audio, video, video without audio and etc.) and then in the new tab that opens click on <i class="material-icons">more_vert</i> to download.</p>
@@ -491,4 +482,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
-    <script src="_assets/scripts/index.min.js"></script>
+    <script src="_assets/scripts/index.js"></script>

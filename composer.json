@@ -1,0 +1,24 @@
+{
+    "name": "vendor/teste",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Douglas",
+            "email": "douglas_araujo018@outlook.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "cloudmersive/cloudmersive_validate_api_client": "^1.6"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Converttype\\app\\" : "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Converttype\\app\\" : "src/"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 <?php
-	ini_set( 'error_reporting', E_ALL );
-	ini_set( 'display_errors', true );
+	// ini_set( 'error_reporting', E_ALL );
+	// ini_set( 'display_errors', true );
 
 	$_FILES['file']['name'] = str_replace(' ', '_',$_FILES['file']['name']);
 	$_FILES['file']['tmp_name'] = str_replace(' ', '_',$_FILES['file']['tmp_name']);

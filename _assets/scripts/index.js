@@ -43,7 +43,7 @@ $(document).ready(function(){
     $('#input_file').attr('required', 'true');
     // por enquanto libera o video e deixa o pdf bloq ao clicar no upload
     $("#selecttype_video").removeClass( "none" );
-    $("#selecttype_pdf").addClass( "none" );
+    $("#selecttype_doc").addClass( "none" );
     $("#input_file").attr('accept', ".avi,.mp4,.wmv,.mov,.webm,.ogv,.mkv,.flv,.3g2,.3gp,video/*");
     switch ($("#type").val()) {
       case '1':
@@ -73,7 +73,7 @@ $(document).ready(function(){
     $('#input_url').attr('required', 'true');
     // por enquanto libera o video e deixa o pdf bloq ao clicar no upload
     $("#selecttype_video").addClass( "none" );
-    $("#selecttype_pdf").addClass( "none" );
+    $("#selecttype_doc").addClass( "none" );
 
     $("#div_input_file").addClass( "none" );
     $("#div_input_file").addClass( "disabled" );
@@ -125,20 +125,20 @@ $(document).ready(function(){
         $("#t_url").addClass( "disabledtext" );
         $("#t_input").removeClass( "disabledtext" );
         $("#selecttype_video").removeClass( "none" );
-        $("#selecttype_pdf").addClass( "none" );
+        $("#selecttype_doc").addClass( "none" );
         $("#type").val(2);
         $("#input_file").attr('accept', ".avi,.mp4,.wmv,.mov,.webm,.ogv,.mkv,.flv,.3g2,.3gp,video/*");
         $("#optgv").removeClass( "none" );
         $("#optga").addClass( "none" );
         break;
-      case 9: // pdf
+      case 5: // pdf
         $("#t_input").trigger("click");
         $("#t_url").addClass( "disabledtext" );
         $("#t_input").removeClass( "disabledtext" );
         $("#selecttype_video").addClass( "none" );
-        $("#selecttype_pdf").removeClass( "none" );
-        $("#type").val(9);
-        $("#input_file").attr('accept', "application/pdf");
+        $("#selecttype_doc").removeClass( "none" );
+        $("#type").val(5);
+        $("#input_file").attr('accept', "");
         break;
     }
   });
@@ -191,7 +191,7 @@ $(document).ready(function(){
           // se tudo certo, executa o metodo
           converter_modo_4();
           break;
-        case '9': // pdf
+        case '5': // doc
             // verifica o tipo de input para impedir o processo, se tiver vazio
             if ($( "#t_url" ).hasClass( "selectedlink" ))
             {
@@ -210,7 +210,8 @@ $(document).ready(function(){
               }
             }
             // se tudo certo, executa o metodo
-            converter_modo_3();
+            // converter_modo_3();
+            converter_modo_5();
           break;
           // e por ai vai, adicionando mais cases e verificando os 2 inputs
        }
@@ -313,13 +314,13 @@ $(document).ready(function(){
 		});
   }
 
-  // esse modo de converter, pega o pdf que o usuario subiu e converte para um png
+  // esse modo de converter, pega o pdf que o usuario subiu e converte para um o formato selecionado
   function converter_modo_3() {
     $("#containerafter").empty().append();
 
     var formData = new FormData();
     formData.append('file', $('#input_file')[0].files[0]);
-		var url = "_assets/scripts/pdf_any.min.php?selecttype_pdf="+$("#selecttype_pdf").val();
+		var url = "_assets/scripts/pdf_any.min.php?selecttype_doc="+$("#selecttype_doc").val();
 		$.ajax({
       url : url,
       type : 'POST',
@@ -327,6 +328,7 @@ $(document).ready(function(){
       processData: false,  // tell jQuery not to process the data
       contentType: false,  // tell jQuery not to set contentType
       success : function(data) {
+        // alert(data);
         var datadownload = "_assets/usr_download/" + data;
         $("#btn_download_filesaved").removeClass("none");
         $("#btn_download_filesaved").attr('href', datadownload);
@@ -365,4 +367,12 @@ $(document).ready(function(){
 			}
 		});
   }
+
+  // esse modo de converter, pega um ms office (doc, docx, xls ?) que o usuario subiu e converte para um o formato selecionad
+  function converter_modo_5() {
+		var url = "public/msoffice_any.php?selecttype_doc="+$("#selecttype_doc").val();
+    $("#formconv").attr("action", url);
+    $("#formconv").submit();
+  }
+
 });

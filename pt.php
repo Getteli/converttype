@@ -263,7 +263,7 @@
                                   <option value="wma">WMA</option>
                                 </optgroup>
                               </select>
-                              <select class="selecttype none" name="selecttype_pdf" id="selecttype_pdf">
+                              <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
                                 <option value="docx">DOCX</option>
                                 <option value="png">PNG</option>
                                 <option value="jpeg">JPEG</option>
@@ -292,6 +292,11 @@
                     <p>carregando, aguarde</p>
                   </div>
                   <p id="containerafter">
+                    <?php
+                    if ($_GET["back"] == "error") {
+                      echo "<p>Ocorreu um erro ao converter o seu documento. Tente novamente ou entre em contato conosco.</p>";
+                    }
+                    ?>
                     <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>BAIXAR</a></a>
                     <p id="desc_ca" class="none">Clique no link que deseja baixar (audio, video, video sem audio e etc..) e depois na nova aba que se abrir clique em <i class="material-icons">more_vert</i> para baixar</p>
                   </p>

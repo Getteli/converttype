@@ -163,8 +163,8 @@
                     </ul>
                     <ul id="dropdown-doc" class="dropdown-content submenu">
                       <li><a href="#" class="sel" data-target="9">PDF</a></li>
-                      <li><a href="#" class="sel disabledtext">EXCEL</a></li>
-                      <li><a href="#" class="sel disabledtext">DOC / DOCX</a></li>
+                      <li><a href="#" class="sel">EXCEL</a></li>
+                      <li><a href="#" class="sel">DOC / DOCX</a></li>
                     </ul>
                 </div>
             </nav>
@@ -263,7 +263,7 @@
                                   <option value="wma">WMA</option>
                                 </optgroup>
                               </select>
-                              <select class="selecttype none" name="selecttype_pdf" id="selecttype_pdf">
+                              <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
                                 <option value="docx">DOCX</option>
                                 <option value="png">PNG</option>
                                 <option value="jpeg">JPEG</option>
@@ -292,6 +292,11 @@
                 </div>
                 <div class="col s12 m12 l12 marginline">
                   <p id="containerafter">
+                    <?php
+                    if ($_GET["back"] == "error") {
+                      echo "<p>Une erreur s'est produite lors de la conversion de votre document. Réessayez ou contactez-nous.</p>";
+                    }
+                    ?>
                     <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>TÉLÉCHARGER</a></a>
                     <p id="desc_ca" class="none">Cliquez sur le lien que vous souhaitez télécharger (audio, vidéo, vidéo sans audio et etc.) puis dans le nouvel onglet qui s'ouvre cliquez sur <i class="material-icons">more_vert</i> à télécharger</p>
                   </p>
