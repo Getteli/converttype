@@ -53,6 +53,14 @@
 			header('Location: https://converttype.com/ru');
 			exit;
 			break;
+		case "de":
+			header('Location: https://converttype.com/de');
+			exit;
+			break;
+		case "it":
+			header('Location: https://converttype.com/it');
+			exit;
+			break;
 		default:
 			header('Location: https://converttype.com');
 			exit;
