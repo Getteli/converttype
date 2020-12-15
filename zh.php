@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de-DE">
+<html lang="zh-CN">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-25PBY7LCQT"></script>
     <script>
-      window.dataLayer=window.dataLayer || [];
+      window.dataLayer= window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
@@ -24,21 +24,21 @@
     <link rel="shortcut icon" href="_assets/images/favicon.ico" />
 
     <!-- search google -->
-    <META NAME="DESCRIPTION" CONTENT="Konvertieren Sie Ihre Videos, Musik, Dokumente, Dateien und vieles mehr in andere Formate und / oder Erweiterungen. Konvertieren Sie YouTube-Videos in Audio und Musik">
-    <META NAME="ABSTRACT" CONTENT="Konvertieren Sie Dateien, Audios, Videos und Dokumente in andere Erweiterungen.">
-    <META NAME="KEYWORDS" CONTENT="konvertieren, austauschen, ändern, Typen, Videos, Musik, Dateien, Dokumente, Medien, Erweiterung, YouTube-Video konvertieren, PDF konvertieren, rar konvertieren, YouTube-Videos herunterladen, Bilderweiterung ändern, Typ ändern, Erweiterung ändern, Video ohne herunterladen Audio-">
+    <META NAME="DESCRIPTION" CONTENT="将您的视频，音乐，文档，文件等转换为其他格式和/或扩展名。 将YouTube视频转换为音频和音乐">
+    <META NAME="ABSTRACT" CONTENT="将文件，音频，视频和文档转换为其他扩展名。">
+    <META NAME="KEYWORDS" CONTENT="转换，交换，更改，类型，视频，音乐，文件，文档，媒体，扩展名，转换youtube视频，转换pdf，转换rar，下载youtube视频，更改图像扩展名，更改类型，更改扩展名，下载视频而无需 音讯">
     <META NAME="ROBOT" CONTENT="Index,Follow,Noarchive">
     <META NAME="googlebot" CONTENT="Index,Follow,Noarchive">
     <meta name="google-site-verification" content="kzXe5WP-0o9iDobNk6cYdNNapmM0dA1_Fb68U11j7-8"/>
     <META NAME="DISTRIBUTION" CONTENT="global">
-    <META NAME="LANGUAGE" CONTENT="RU">
+    <META NAME="LANGUAGE" CONTENT="ZH">
 
     <!-- OG facebook -->
-    <meta property="og:locale" content="ru_RU">
-    <meta property="og:url" content="ru.php">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:url" content="zh.php">
     <meta property="og:title" content="Convert Type">
     <meta property="og:site_name" content="converttype">
-    <meta property="og:description" content="Konvertieren Sie Ihre Videos, Musik, Dokumente, Dateien und vieles mehr in andere Formate und / oder Erweiterungen. Konvertieren Sie YouTube-Videos in Audio und Musik">
+    <meta property="og:description" content="将您的视频，音乐，文档，文件等转换为其他格式和/或扩展名。 将YouTube视频转换为音频和音乐">
     <meta property="og:image" content="_assets/images/converttype_logo.png">
     <meta property="og:image:secure_url" content="https://converttype.com/_assets/images/converttype_logo.png">
     <meta property="og:image:type" content="image/jpeg">
@@ -46,16 +46,17 @@
     <meta property="og:image:height" content="150"> <!-- pixel -->
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href="https://www.converttype.com/de.php">
+    <link rel="canonical" href="https://www.converttype.com/zh.php">
     <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
     <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
-    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
     <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
+    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
+    <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
     <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
     <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
-    <link rel="alternate" hreflang="zh" href="https://www.converttype.com/zh.php" />
+
     <!-- title -->
     <title>Convert Type</title>
 
@@ -103,8 +104,8 @@
 										<div class="input_l colorprimary">
 											<form action="lang/translate.php" method="POST">
 												<select name="language-select" id="language-select" class="select_language colorprimary" onchange="this.form.submit()">
-														<option class="opt_l" value="0">Wähle deine Sprache</option>
-														<option class="opt_l" value="de" selected>Deutsch</option>
+														<option class="opt_l" value="0">选择你的语言</option>
+														<option class="opt_l" value="de">Deutsch</option>
 														<option class="opt_l" value="en">English</option>
 														<option class="opt_l" value="es">Español</option>
 														<option class="opt_l" value="fr">Français</option>
@@ -112,7 +113,7 @@
 														<option class="opt_l" value="pt">Português</option>
 														<option class="opt_l" value="ru">русский</option>
 														<option class="opt_l" value="ja">日本人</option>
-														<option class="opt_l" value="zh">中文</option>
+														<option class="opt_l" value="zh" selected>中文</option>
 													<!-- other language options -->
 												</select>
 											</form>
@@ -124,7 +125,7 @@
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 class="convert_to">FÜR <t id="convert_to">AUDIO</t></h3>
+            <h3 class="convert_to">到 <t id="convert_to">音频</t></h3>
           </div>
         </div>
         <!-- menu -->
@@ -136,18 +137,18 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">START</a></li>
-                        <li><a href="#about" class="about">ÜBER UNS</a></li>
-                        <li><a href="#tutorial" class="tutorial">LERNPROGRAMM</a></li>
-                        <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel" data-target="2">VIDEO</a></li>
-                        <li><a class="link sel" data-target="3">BILDER</a></li>
+                        <li><a href="#begin" class="begin">主页</a></li>
+                        <li><a href="#about" class="about">关于我们</a></li>
+                        <li><a href="#tutorial" class="tutorial">补习</a></li>
+                        <li><a class="link sel" data-target="1">音频</a></li>
+                        <li><a class="link sel" data-target="2">视频</a></li>
+                        <li><a class="link sel" data-target="3">图片</a></li>
                         <li>
                             <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
-                                ARCHIV <i class="material-icons right">arrow_drop_down</i>
+                                存档 <i class="material-icons right">arrow_drop_down</i>
                             </a>
                         </li>
-                        <li><a class="link sel" data-target="5">UNTERLAGEN</a></li>
+                        <li><a class="link sel" data-target="5">文件资料</a></li>
                     </ul>
                     <ul id="dropdown-file" class="dropdown-content submenu">
                       <li><a href="#" class="sel">RAR</a></li>
@@ -158,18 +159,18 @@
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">START</a></li>
-          <li><a href="#about" class="about">ÜBER UNS</a></li>
-          <li><a href="#tutorial" class="tutorial">LERNPROGRAMM</a></li>
-          <li><a class="link sel" data-target="1">AUDIO</a></li>
-          <li><a class="link sel" data-target="2">VIDEO</a></li>
-          <li><a class="link sel" data-target="3">BILDER</a></li>
+          <li><a href="#begin" class="begin">主页</a></li>
+          <li><a href="#about" class="about">关于我们</a></li>
+          <li><a href="#tutorial" class="tutorial">补习</a></li>
+          <li><a class="link sel" data-target="1">音频</a></li>
+          <li><a class="link sel" data-target="2">视频</a></li>
+          <li><a class="link sel" data-target="3">图片</a></li>
           <li>
               <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
-                  ARCHIV <i class="material-icons right">arrow_drop_down</i>
+                  存档 <i class="material-icons right">arrow_drop_down</i>
               </a>
           </li>
-          <li><a class="link sel" data-target="5">UNTERLAGEN</a></li>
+          <li><a class="link sel" data-target="5">文件资料</a></li>
         </ul>
         <ul id="dropdown-filem" class="dropdown-content submenu">
           <li><a href="#" class="sel">RAR</a></li>
@@ -185,10 +186,10 @@
                 <div class="row margin_form">
                   <!-- options -->
                   <div class="col s12 m12 l12">
-                    <h5>OPTIONEN</h5>
+                    <h5>OPÇÕES</h5>
                     <p class="options">
-                      <a id="t_url" class="selectedlink link">über URL</a> |
-                      <a id="t_input" class="link">hochladen</a>
+                      <a id="t_url" class="selectedlink link">via url</a> |
+                      <a id="t_input" class="link">upload</a>
                     </p>
                   </div>
                   <!-- input -->
@@ -201,14 +202,14 @@
                           <div class="row">
                             <div class="col s12 m8 l8">
                               <div id="div_input_file" class="div_input_file disabled none col s12">
-                                <label for="input_file" class="colorprimary" id="lb_input_file">HOCHLADEN</label>
+                                <label for="input_file" class="colorprimary" id="lb_input_file">上载</label>
                                 <input type="file" class="input_file disabled none" accept="" id="input_file" name="input_file">
                               </div>
                             </div>
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
-                              <p class="convert_to3">FÜR</p>
+                              <p class="convert_to3">到</p>
                               <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <optgroup label="VIDEO" class="none" id="optgv">
+                                <optgroup label="视频" class="none" id="optgv">
                                   <option value="mp4">MP4</option>
                                   <option value="wmv">WMV</option>
                                   <option value="avi">AVI</option>
@@ -220,7 +221,7 @@
                                   <option value="3g2">3G2</option>
                                   <option value="3gp">3GP</option>
                                 </optgroup>
-                                <optgroup label="AUDIO" class="none" id="optga">
+                                <optgroup label="音频" class="none" id="optga">
                                   <option value="aac">AAC</option>
                                   <option value="aiff">AIFF</option>
                                   <option value="flac">FLAC</option>
@@ -235,7 +236,7 @@
                                 </optgroup>
                               </select>
                               <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <optgroup label="UNTERLAGEN" class="none" id="optgd">
+                                <optgroup label="文件资料" class="none" id="optgd">
                                   <option value="doc">DOC</option>
                                   <option value="pdf">PDF</option>
                                   <option value="docx">DOCX</option>
@@ -245,7 +246,7 @@
                                   <option value="txt">TXT</option>
                                   <option value="rtf">RTF</option>
                                 </optgroup>
-                                <optgroup label="BILD" class="none" id="optgi">
+                                <optgroup label="图片" class="none" id="optgi">
                                   <option value="png">PNG</option>
                                   <option value="jpeg">JPEG</option>
                                 </optgroup>
@@ -254,13 +255,13 @@
                           </div>
                         </div>
                         <div class="col s6 offset-s3 m6 offset-m3 l2 center" id="div_descconvertinput">
-                          <p class="convert_to2">FÜR <t id="convert_to2">AUDIO</t></p>
+                          <p class="convert_to2">到 <t id="convert_to2">音频</t></p>
                         </div>
                     </div>
                   <!-- btn -->
                   <div class="row margin_form center center-align">
                     <div class="col s12 m12 l2 marginline">
-                      <button type="button" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">UMWANDELN</button>
+                      <button type="button" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">转换器</button>
                     </div>
                   </div>
                 </div>
@@ -269,16 +270,16 @@
                 <div class="col s12 m12 l12 marginline">
                   <div class="none" id="load">
                     <img src="_assets/images/load.gif" alt="load">
-                    <p>Laden, warten</p>
+                    <p>加载中，等待</p>
                   </div>
                   <p id="containerafter">
                     <?php
-                    if ($_GET["back"] == "error") {
-                      echo "<p>Beim Konvertieren Ihres Dokuments ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns.</p>";
+                    if ($_GET["back"]== "error") {
+                      echo "<p>转换文件时发生错误。 请重试或与我们联系。</p>";
                     }
                     ?>
-                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>HERUNTERLADEN</a></a>
-                    <p id="desc_ca" class="none">Klicken Sie auf den Link, den Sie herunterladen möchten (Audio, Video, Video ohne Audio usw.), und klicken Sie dann in der neuen Registerkarte, die sich öffnet, auf <i class="material-icons">more_vert</i>, um ihn herunterzuladen</p>
+                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>下载</a></a>
+                    <p id="desc_ca" class="none">单击要下载的链接（音频，视频，不带音频的视频等），然后在打开的新标签中单击 <i class="material-icons">more_vert</i> 以下载</p>
                   </p>
                 </div>
               </div>
@@ -296,11 +297,11 @@
       <div class="row">
         <div class="col l12">
           <div class="container" id="tutorial">
-            <h1 style="margin-bottom: 0;"> Wie konvertiere ich? </h1>
-            <p style="margin-top: 0;"> <em> In diesem Tutorial erfahren Sie, wie Sie Videos, Musik, Dateien und Dokumente mit dem Konvertierungstyp konvertieren. </em> </p>
-            <p class="desc"> Dieser Artikel ist ein Tutorial, mit dem jeder den Inhalt des Konvertierungstyps verwenden kann. Lassen Sie uns lehren, wie man konvertiert! </p>
-            <h2> Formate </h2>
-           <p class="desc"> Der Konvertierungstyp unterstützt das Konvertieren dieser Formate, indem alle Optionen (sei es Video, Musik oder Dateien usw.) mit anderen Formaten verknüpft werden. </p>
+            <h1 style="margin-bottom：0;">如何转换？</h1>
+             <p style="margin-top：0;"> <em>在本教程中学习如何使用“转换"类型转换视频，音乐，文件和文档。</em> </p>
+             <p class="desc">本文是一个教程，可以帮助所有人使用Convert类型的内容。 让我们教如何转换！</p>
+             <h2>格式</h2>
+             <p class="desc">转换类型通过将所有选项（视频，音乐或文件，..）连接成其他格式来支持转换这些格式。</p>
             <ul class="listformats">
               <li>MP4</li>
               <li>M4A</li>
@@ -333,70 +334,70 @@
               <li>ZIP</li>
               <li>7ZIP</li>
             </ul>
-            <h5>Konvertierungen <b>*</b></h5>
+            <h5>转换次数 <b>*</b></h5>
             <ul class="listformats">
-              <li> Konvertiere YouTube-Videos in MP3 </li>
-              <li> Laden Sie Videos von YouTube herunter </li>
-              <li> Laden Sie Videos von YouTube ohne Ton herunter </li>
-              <li> Konvertieren Sie Videos in MP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGG </li>
-              <li> Konvertieren Sie Video in Audio </li>
-              <li> Konvertieren Sie JPG in PNG </li>
-              <li> PNG in JPG konvertieren </li>
-              <li> PDF in JPG konvertieren </li>
-              <li> PDF in DOCX konvertieren </li>
-              <li> PDF in TXT konvertieren </li>
-              <li> Konvertieren Sie DOCX in PDF </li>
-              <li> Konvertieren Sie DOCX in DOC </li>
-              <li> Konvertieren Sie DOCX in JPG </li>
-              <li> Konvertieren Sie DOCX in PNG </li>
-              <li> Konvertieren Sie DOCX in RTF </li>
-              <li> Konvertieren Sie DOCX in TXT </li>
-              <li> Konvertieren Sie DOCX in HTML </li>
-              <li> Konvertieren Sie DOC in PDF </li>
-              <li> Konvertieren Sie DOC in DOCX </li>
-              <li> Konvertieren Sie DOC in TXT </li>
-              <li> HTML in PDF konvertieren </li>
-              <li> Konvertieren Sie HTML in PNG </li>
-              <li> Konvertieren Sie HTML in TXT </li>
-              <li> Konvertieren Sie XLS in CSV </li>
-              <li> Konvertieren Sie XLS in PDF </li>
-              <li> Konvertieren Sie XLS in XLSX </li>
-              <li> Konvertieren Sie XLSX in PDF </li>
-              <li> Konvertieren Sie XLSX in XLS </li>
-              <li> Konvertieren Sie XLSX in PNG </li>
-              <li> Konvertieren Sie XLSX in CSV </li>
-              <li> Konvertieren Sie XLSX in TXT </li>
-              <li> Konvertieren Sie XLSX in HTML </li>
+              <li>将youtube视频转换为mp3 </li>
+              <li>从youtube下载视频</li>
+              <li>从youtube下载没有声音的视频</li>
+              <li>将视频转换为MP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGG </li >
+              <li>将视频转换为音频</li>
+              <li>将JPG转换为PNG </li>
+              <li>将PNG转换为JPG </li>
+              <li>将PDF转换为JPG </li>
+              <li>将PDF转换为DOCX </li>
+              <li>将PDF转换为TXT </li>
+              <li>将DOCX转换为PDF </li>
+              <li>将DOCX转换为DOC </li>
+              <li>将DOCX转换为JPG </li>
+              <li>将DOCX转换为PNG </li>
+              <li>将DOCX转换为RTF </li>
+              <li>将DOCX转换为TXT </li>
+              <li>将DOCX转换为HTML </li>
+              <li>将DOC转换为PDF </li>
+              <li>将DOC转换为DOCX </li>
+              <li>将DOC转换为TXT </li>
+              <li>将HTML转换为PDF </li>
+              <li>将HTML转换为PNG </li>
+              <li>将HTML转换为TXT </li>
+              <li>将XLS转换为CSV </li>
+              <li>将XLS转换为PDF </li>
+              <li>将XLS转换为XLSX </li>
+              <li>将XLSX转换为PDF </li>
+              <li>将XLSX转换为XLS </li>
+              <li>将XLSX转换为PNG </li>
+              <li>将XLSX转换为CSV </li>
+              <li>将XLSX转换为TXT </li>
+              <li>将XLSX转换为HTML </li>
             </ul>
-            <p class="desc"> Jetzt kommen wir dazu! </p>
-            <h2 style="margin-bottom: 0;"> Youtube-Videos konvertieren </h2>
-            <p style="margin-top: 0;"> <em> So konvertieren Sie YouTube-Videos in Audios oder laden Sie Videos ohne Audio von YouTube herunter. </em> </p>
-            <p class="desc"> Gehen Sie zuerst über das Menü zur Registerkarte "AUDIO" und wählen Sie dann den "URL" -Modus aus den Optionen aus. Wie im Bild unten. </p>
-            <img src="_assets/images/tutorial1.png" width="100%" alt="Tutorial zur Verwendung des Konvertierungstyps">
-            <p class="desc"> Fügen Sie anschließend den Link / die URL des Videos ein, das Sie konvertieren möchten. Klicken Sie dann auf die blaue Schaltfläche "CONVERT" und warten Sie, bis alle Download-Optionen angezeigt werden. Wenn alles fertig ist, werden alle möglichen Optionen zum Konvertieren und Herunterladen angezeigt. </p>
-            <p class="desc"> Nach dem Laden werden die Optionen wie im Bild unten angezeigt. Klicken Sie auf die Schaltfläche "DOWNLOAD". Eine neue Registerkarte wird geöffnet. Auf dieser Registerkarte finden Sie die Schaltfläche <i class="material-icons"> more_vert </i> (normalerweise in der unteren rechten Ecke des Players) und wählen die Option "DO" HERUNTERLADEN ". Und fertig ! Jetzt haben Sie Ihr Video ohne Audio oder Musik heruntergeladen. </p>
-            <img src="_assets/images/tutorial2.png" width="100%" alt="Tutorial zur Verwendung des Konvertierungstyps 2">
-            <p class="desc"> <b> HINWEIS: </b> Konvertieren Sie aus urheberrechtlichen Gründen kostenlose Online-Videos für den persönlichen Gebrauch ("fair use"). Es sollte nicht für Aufnahmen von urheberrechtlich geschütztem Material wie Videoclips oder Weiterverkauf verwendet werden. Der <b> Konvertierungstyp </b> ist nicht verantwortlich für Verstöße dieser Art, die gegen das Urheberrecht verstoßen. Wir bieten nur die kostenlose Dateikonvertierung in andere Formate an. </p>
-            <p class="desc"> <b> HINWEIS 2: </b> Die Bilder sind möglicherweise nicht korrekt, wenn die verwendeten APIs geändert oder blockiert wurden. Die Art und Weise, wie wir konvertieren, kann unterschiedlich sein. </p>
-            <h2 style="margin-bottom: 0;"> Computervideos konvertieren </h2>
-            <p style="margin-top: 0;"> <em> So konvertieren Sie Videos von Ihrem Computer in andere Formate. </em> </p>
-            <img src="_assets/images/tutorial3.png" width="100%" alt="Tutorial zur Verwendung des Konvertierungstyps 3">
-            <p class="desc"> Gehen Sie wie in der Abbildung oben gezeigt zum Menü und klicken Sie auf die Option VIDEO. Und dann klicken Sie auf die Option "UPLOAD", falls dies noch nicht geschehen ist. Sobald dies erledigt ist, können Sie Videos von Ihrem Computer auswählen, indem Sie auf die linke blaue Schaltfläche "UP" klicken und das gewünschte Video auswählen. Nachdem Sie das Video ausgewählt haben, wählen Sie in den Optionen die gewünschte Erweiterung / das gewünschte Format aus und klicken Sie auf die nächste blaue Schaltfläche rechts "CONVERT". Fertig! </p>
-            <p class="desc"> Ihr Download wird gestartet, sobald die Konvertierung abgeschlossen ist. </p>
-            <h2 style="margin-bottom: 0;"> Bilder in andere Formate konvertieren </h2>
-            <p style="margin-top: 0;"> <em> So konvertieren Sie JPEG-Bilder in PNG (oder andere Formate) oder umgekehrt. </em> </p>
-            <p class="desc"> Verwenden Sie das Menü, um "BILDER" für das Format auszuwählen, das Sie konvertieren möchten. Wählen Sie anschließend die Optionen aus, wenn Sie die URL eingeben oder ein Bild von Ihrem Computer hochladen möchten, und klicken Sie dann auf die rechte blaue Schaltfläche "CONVERT", um Ihr Bild im ausgewählten Format herunterzuladen. </p>
-            <h2 style="margin-bottom: 0;"> PDF / CSV / WORD konvertieren ... </h2>
-            <p style="margin-top: 0;"> <em> So konvertieren Sie Office- und andere Dokumente in ein anderes Format. </em> </p>
-            <p class="desc"> Verwenden Sie das Menü, um "DOC OR DOCUMENTS" für das Format auszuwählen, das Sie konvertieren möchten. Wählen Sie anschließend auf Ihrem Computer das Dokument aus, das Sie in PDF oder WORD (oder ein anderes von Ihnen ausgewähltes Format) konvertieren möchten, und klicken Sie dann auf die rechte blaue Schaltfläche "CONVERT", um Ihr Dokument im ausgewählten Format herunterzuladen. </p>
-            <p class="desc"> In diesem Tutorial können Sie bereits die anderen Optionen auf unserer Website verwenden, um mehr Dokumente, komprimierte Dateien wie .RAR oder ZIP und vieles mehr zu konvertieren! </p>
-            <p class="desc"> <b> HINWEIS 3: </b> Wenn Sie versuchen, einen Youtube-Link zu konvertieren und die Download-Links nicht geladen werden oder ein Fehler generiert wird, bedeutet dies, dass dieses Video durch Urheberrechte und Regeln blockiert ist von YouTube. Es kann also leider nicht konvertiert werden. </p>
-            <p class="desc"> <b> HINWEIS 4: </b> Die maximale Größe zum Hochladen einer Datei beträgt 128 MB </p>
-            <p class="desc"> <b> (*): </b> Es kann Änderungen geben, wenn die verwendete API aus urheberrechtlichen oder anderen Gründen nicht unterstützt wird. </p>
+            <p class="desc">现在，让我们言归正传！</p>
+            <h2 style="margin-bottom：0;">转换YouTube视频</h2>
+            <p style="margin-top：0;"> <em>如何将youtube视频转换为音频或从youtube下载无音频的视频。</em> </p>
+            <p class="desc">首先使用菜单进入“音频"标签，然后从选项中选择"URL"模式。 如下图所示。</p>
+            <img src="_assets/images/tutorial1.png" width="100%" alt="教程如何使用转换类型">
+            <p class="desc">完成后，粘贴要转换的视频的链接/网址。 然后单击蓝色的“转换"按钮，等待所有下载选项出现。 一切准备就绪后，将出现所有用于转换和下载的选项。</p>
+            <p class="desc">加载完成后，选项将如下图所示。 单击“下载"按钮，将打开一个新标签，在此标签上，找到<i class="material-icons"> more_vert </i>按钮（通常在播放器的右下角），然后选择"DO"选项 下载 "。 准备好了！ 现在，您已经下载了没有音频或音乐的视频。</p>
+            <img src="_assets/images/tutorial2.png" width="100%" alt="教程如何使用转换类型 2">
+            <p class="desc"> <b>注意：</b> 出于版权原因，请转换免费的在线视频供个人使用（“合理使用"）。 <b>转换类型</b>对这种侵犯版权法的侵权行为不承担任何责任。 我们仅提供免费文件转换为其他格式。</p>
+            <p class="desc"> <b>注意2：</b> 如果使用的API发生更改或阻塞，则图像可能不正确。 转换方式可能会有所不同。</p>
+            <h2 style="margin-bottom：0;">转换计算机视频</h2>
+            <p style="margin-top：0;"> <em>如何将视频从计算机转换为其他格式。</em> </p>
+            <img src="_assets/images/tutorial3.png" width="100%" alt="教程如何使用转换类型 3">
+            <p class="desc">如上图所示，转到菜单，然后单击选项“视频"。如果还没有，请单击“上传"选项。完成此操作后，您可以通过单击左侧的蓝色按钮"UP"从计算机中选择视频，然后选择所需的视频。选择视频后，在选项中选择所需的扩展名/格式，然后单击右侧“转换"的下一个蓝色按钮，即可完成！ </p>
+            <p class="desc">转换完成后，您的下载将立即开始。</p>
+            <h2 style="margin-bottom：0;">将图像转换为其他格式</h2>
+            <p style="margin-top：0;"> <em>如何将JPEG图像转换为PNG（或其他格式），反之亦然。</em> </p>
+            <p class="desc">使用菜单选择要转换的格式"que"。完成此操作后，如果要输入URL或从计算机上传图像，请选择选项，然后单击右侧的蓝色按钮“转换"以选择的格式下载图像。</p>
+            <h2 style="margin-bottom：0;">转换PDF / CSV / WORD ... </h2>
+            <p style="margin-top：0;"> <em>如何将Office和其他文档转换为另一种格式。</em> </p>
+            <p class="desc">使用菜单选择要转换的格式"DOC OR文件资料"。完成此操作后，从计算机中选择要转换为PDF或WORD（或您选择的任何其他格式）的文档，然后单击右侧的蓝色按钮“转换"以选择的格式下载文档。</p>
+            <p class="desc">在本教程中，您已经可以使用我们网站上的其他选项来转换更多文档，诸如.RAR或ZIP的压缩文件等等​​！</p>
+            <p class="desc"> <b>注意3：</b> 如果您尝试转换youtube链接，但未加载下载链接，或生成错误，则表示该视频已受版权和规则的禁止来自YouTube。因此，很遗憾，它无法转换。</p>
+            <p class="desc"> <b>注意4：</b> 上载文件的最大大小为128 MB </p>
+            <p class="desc"> <b>（*）：</b> 如果由于版权或其他原因不支持所使用的API，则可能会发生更改。</p>
             <p class="desc">
-              <b>Datum:</b> 10/12/2020 <br/>
-              <b>Geschrieben von:</b> Ilion Tecnologia <br/>
-              <b>Artikel:</b> Lernprogramm
+              <b>文章日期:</b> 10/12/2020 <br/>
+              <b>撰写者:</b> Ilion Tecnologia <br/>
+              <b>文章:</b> Tutorial
             </p>
           </div>
         </div>
@@ -413,7 +414,7 @@
         <div class="col l12">
           <div class="container" id="comments">
             <div id="fb-root"></div>
-            <div class="fb-comments" data-href="https://converttype.com/de.php" data-numposts="5" data-width=""></div>
+            <div class="fb-comments" data-href="https://converttype.com/zh.php" data-numposts="5" data-width=""></div>
           </div>
         </div>
       </div>
@@ -429,14 +430,14 @@
       <div class="row">
         <div class="col l12">
           <div class="container" id="about">
-            <h4> ÜBER UNS </h4>
-            <p class="desc"> <b> Konvertierungstyp </b> ist ein Konverter mehrerer Dateien und Formate.
-            Sie können YouTube-Videos in verschiedene Audioformate konvertieren, Videos von YouTube herunterladen, Videos ohne Audio von YouTube herunterladen.
-            Konvertieren Sie Videos von Ihrem Computer, indem Sie die Datei hochladen und in anderen Formaten / Erweiterungen herunterladen.
-            Sie können Bilder in andere Formate und Erweiterungen konvertieren sowie Dateien und Dokumente ändern und konvertieren.
-            Konvertieren Sie PDF-Dateien in Word, Excel und mehr! Konvertieren Sie zusätzlich zu komprimierten Dateien .RAR in ZIP, 7ZIP und umgekehrt.
-            Genießen Sie den <b> Konvertierungstyp </b>.
-            Dank der Entwickler dieses Projekts stellen wir es allen zur Verfügung. Fühlen Sie sich frei, genießen Sie. Wenn Sie <b> AdBlock </b> oder einen anderen <b> Werbeblocker </ b> verwenden, deaktivieren Sie ihn bitte, damit wir die Website für Sie und andere Bedürftige am Leben erhalten können. Danke für dein Verständnis &#128522;</p>
+						<h4>关于我们</h4>
+            <p class ="desc"> <b>转换类型</b>是多个文件和格式的转换器。
+             您可以将youtube视频转换为不同的音频格式，从youtube下载视频，从youtube下载没有音频的视频，
+             通过上传文件并下载其他格式/扩展名来转换计算机中的视频。
+             您可以将图像转换为其他格式和扩展名，以及更改和转换文件和文档。
+             将PDF文件转换为Word，Excel等！ 除了压缩文件外，还将.RAR转换为ZIP，7ZIP，反之亦然。
+             享受<b>转换类型</b>。
+             感谢该项目的开发人员，我们使每个人都能使用它。 随意，享受。 如果您使用<b> AdBlock </b>或任何其他<b>广告拦截器</b>，请禁用它，以便我们为您和其他有需要的人保留该网站的生命。 谢谢你的理解 &#128522;</p>
           </div>
         </div>
       </div>
@@ -451,19 +452,19 @@
       <div class="row">
         <div class="col l12">
           <div class="container" id="contact">
-            <h4> KONTAKT </h4>
-            <p class="desc"> Haben Sie Fragen? Haben Sie Kommentare? oder möchten Sie eine Bestellung aufgeben? Kontaktieren Sie uns. </p>
+						<h4>联系</h4>
+            <p class="desc">有什么问题吗？ 有什么意见吗？ 还是要下订单？ 联系我们。</p>
             <form action="_assets/scripts/contact.php" method="post" class="row">
               <div class="input-field col s12 m4">
                 <input id="email" type="email" class="validate" required>
-                <label for="email">Email</label>
+                <label for="email">电子邮件</label>
               </div>
               <div class="input-field col s12 m9">
-                <label for="msg">Botschaft</label>
+                <label for="msg">留言内容</label>
                 <textarea id="msg" name="msg" rows="3" cols="15"  class="validate txtareacontact" required></textarea>
               </div>
               <div class="col s12 m12">
-                <button type="submit" name="button" class="btn-ct btn colorprimary left btncontact">EINREICHEN</button>
+                <button type="submit" name="button" class="btn-ct btn colorprimary left btncontact">提交</button>
                 <p id="check" class="none"><i class="material-icons">check</i></p>
                 <p id="close" class="none"><i class="material-icons">close</i></p>
               </div>
@@ -484,15 +485,15 @@
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">ÜBER UNS</h5>
-              <p class="grey-text text-lighten-4 desc"> Alle Rechte sind kostenlos. Wir tun dies nur für den Nutzen und den täglichen Gebrauch aller, die es benötigen. </p>
-              <a href="DatenschutzBestimmungen.html" class="white-text desc"> Klicken Sie hier, um die Datenschutzbestimmungen zu lesen </a>
+              <h5 class="white-text">关于我们</h5>
+              <p class="grey-text text-lighten-4 desc">一切权利都是免费的，我们仅出于可能需要它的每个人的有用性和日常使用的目的而这样做。</p>
+              <a href="ZhengceYuYinsi.html" class="white-text desc">点击这里阅读隐私政策</a>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">AM MEISTEN BENUTZT</h5>
+              <h5 class="white-text">最常被使用</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">音频</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">视频</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
                 <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
               </ul>
@@ -501,7 +502,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2020 Alle Rechte vorbehalten
+          © 2020 版权所有
           <a class="grey-text text-lighten-4 right" href="#!">Ilion Tecnologia</a>
           </div>
         </div>
@@ -510,5 +511,5 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
     <script src="_assets/scripts/index.min.js"></script>

@@ -61,6 +61,10 @@
 			header('Location: https://converttype.com/it');
 			exit;
 			break;
+		case "zh":
+			header('Location: https://converttype.com/zh');
+			exit;
+			break;
 		default:
 			header('Location: https://converttype.com');
 			exit;
