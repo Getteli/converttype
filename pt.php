@@ -482,7 +482,7 @@
             <div class="col l6 s12">
               <h5 class="white-text">SOBRE</h5>
               <p class="grey-text text-lighten-4 desc">Todos os direitos são livres, apenas fazemos para a utilidade e uso do dia a dia de todos que possam precisar.</p>
-              <a href="politicaEprivacidade.html" class="white-text desc">Clique aqui para ler a Politica e privacidade</p>
+              <a href="PoliticaEprivacidade.html" class="white-text desc">Clique aqui para ler a Politica e privacidade</p>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">MAIS USADOS</h5>
