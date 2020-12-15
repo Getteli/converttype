@@ -41,6 +41,10 @@
 			header('Location: https://converttype.com/fr');
 			exit;
 			break;
+		case "es":
+			header('Location: https://converttype.com/es');
+			exit;
+			break;
 		default:
 			header('Location: https://converttype.com');
 			exit;

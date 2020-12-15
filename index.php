@@ -51,7 +51,8 @@
     <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
     <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
-
+    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
+    
     <!-- title -->
     <title>Convert Type</title>
 
