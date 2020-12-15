@@ -482,7 +482,7 @@
             <div class="col l6 s12">
               <h5 class="white-text">SOBRE NOSOTROS</h5>
               <p class="gray-text text-lighten-4 desc"> Todos los derechos son gratuitos, solo lo hacemos para la utilidad y el uso diario de todos los que puedan necesitarlo. </p>
-              <a href="PoliticaDePrivacidad.html" class="white-text desc"> Haga clic aquí para leer la Política de privacidad </p>
+              <a href="PoliticaDePrivacidad.html" class="white-text desc"> Haga clic aquí para leer la Política de privacidad </a>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">MÁS USADO</h5>

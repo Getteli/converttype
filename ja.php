@@ -483,7 +483,7 @@
             <div class="col l6 s12">
               <h5 class="white-text">約</h5>
               <p class="grey-text text-lighten-4 desc">すべての権利は無料です。私たちは、それを必要とする可能性のあるすべての人の有用性と日常的な使用のためにのみそれを行います。</p>
-              <a href="PorishīToPuraibashī.html" class="white-text desc">プライバシーポリシーを読むには、ここをクリックしてください</p>
+              <a href="PorishīToPuraibashī.html" class="white-text desc">プライバシーポリシーを読むには、ここをクリックしてください</a>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">最も使用</h5>

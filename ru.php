@@ -484,7 +484,7 @@
             <div class="col l6 s12">
               <h5 class = "white-text"> О НАС </h5>
               <p class = "gray-text text-lighten-4 desc"> Все права бесплатны, мы делаем это только для полезности и повседневного использования всеми, кому это может понадобиться. </p>
-              <a href="PolitikaKonfidentsial.html" class="white-text desc"> Щелкните здесь, чтобы прочитать Политику конфиденциальности </p>
+              <a href="PolitikaKonfidentsial.html" class="white-text desc"> Щелкните здесь, чтобы прочитать Политику конфиденциальности </a>
             </div>
             <div class = "col l4 offset-l2 s12">
               <h5 class = "white-text"> НАИБОЛЕЕ ИСПОЛЬЗУЕМЫЕ </h5>
