@@ -186,6 +186,8 @@ $(document).ready(function(){
                 $("#input_file").focus();
                 return;
               }
+              // se tudo certo, executa o metodo
+              converter_modo_4();
             }
           break;
         case '2': // video

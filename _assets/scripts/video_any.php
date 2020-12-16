@@ -17,6 +17,8 @@
 		return;
   }
 
+	$input_file = "../usr_download/".$nomecompleto; // caminho do arquivo que o usuario upou
+
 	$url = "https://video-conversion.online-convert.com/?external_url=" . $pathdownload;
 
 	// curl mandando para essa url via post: https://www.online-convert.com/pt/carregamento-de-arquivo
@@ -101,11 +103,76 @@
 				   		$converter_format = $value;
 				   	}
 					break;
-				default:
-						if ($value == "video,avi") {
+				case 'mp3':
+						if ($value == "audio,mp3") {
 				   		// echo $value;
 				   		$converter_format = $value;
 				   	}
+					break;
+				case 'ogg':
+						if ($value == "audio,ogg") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'wav':
+						if ($value == "audio,wav") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'wma':
+						if ($value == "audio,wma") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'aac':
+						if ($value == "audio,aac") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'aiff':
+						if ($value == "audio,aiff") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'flac':
+						if ($value == "audio,flac") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'm4a':
+						if ($value == "audio,m4a") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'm4r':
+						if ($value == "audio,m4r") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'mmf':
+						if ($value == "audio,mmf") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				case 'opus':
+						if ($value == "audio,opus") {
+				   		// echo $value;
+				   		$converter_format = $value;
+				   	}
+					break;
+				default:
+					// volta
+					unlink($input_file);
+					header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
 					break;
 			}
 	}
