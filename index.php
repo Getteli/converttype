@@ -26,7 +26,7 @@
     <!-- search google -->
     <META NAME="DESCRIPTION" CONTENT="Convert your videos, music, documents, files and many more to other formats and or extensions. Convert YouTube videos to audio and music">
     <META NAME="ABSTRACT" CONTENT="Convert files, audios, videos and documents to other extensions.">
-    <META NAME="KEYWORDS" CONTENT="convert, exchange, change, types, videos, music, files, documents, media, extension, convert youtube video, convert pdf, convert rar, download youtube videos, change the image extension, change the type, change extension, download video without audio">
+    <META NAME="KEYWORDS" CONTENT="convert, exchange, change, types, videos, music, files, documents, media, extension, convert youtube video, convert pdf, convert docx, download youtube videos, change the image extension, change the type, change extension, download video without audio">
     <META NAME="ROBOT" CONTENT="Index,Follow,Noarchive">
     <META NAME="googlebot" CONTENT="Index,Follow,Noarchive">
     <meta name="google-site-verification" content="kzXe5WP-0o9iDobNk6cYdNNapmM0dA1_Fb68U11j7-8"/>
@@ -121,7 +121,7 @@
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 class="convert_to">FOR <t id="convert_to">AUDIO</t></h3>
+            <h3 class="convert_to">TO <t id="convert_to">AUDIO</t></h3>
           </div>
         </div>
         <!-- menu -->
@@ -139,17 +139,7 @@
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDEO</a></li>
                         <li><a class="link sel" data-target="3">IMAGES</a></li>
-                        <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
-                                FILE <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
                         <li><a class="link sel" data-target="5">DOCUMENTS</a></li>
-                    </ul>
-                    <ul id="dropdown-file" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">RAR</a></li>
-                      <li><a href="#" class="sel">ZIP</a></li>
-                      <li><a href="#" class="sel">7Z</a></li>
                     </ul>
                 </div>
             </nav>
@@ -161,17 +151,7 @@
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDEO</a></li>
           <li><a class="link sel" data-target="3">IMAGES</a></li>
-          <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
-                  FILE <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
           <li><a class="link sel" data-target="5">DOCUMENTS</a></li>
-        </ul>
-        <ul id="dropdown-filem" class="dropdown-content submenu">
-          <li><a href="#" class="sel">RAR</a></li>
-          <li><a href="#" class="sel">ZIP</a></li>
-          <li><a href="#" class="sel">7Z</a></li>
         </ul>
       </div>
       <!-- content -->
@@ -203,7 +183,7 @@
                               </div>
                             </div>
                             <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
-                              <p class="convert_to3">FOR</p>
+                              <p class="convert_to3">TO</p>
                               <select class="selecttype none" name="selecttype_video" id="selecttype_video">
                                 <optgroup label="VIDEO" class="none" id="optgv">
                                   <option value="mp4">MP4</option>
@@ -251,7 +231,7 @@
                           </div>
                         </div>
                         <div class="col s6 offset-s3 m6 offset-m3 l2 center" id="div_descconvertinput">
-                          <p class="convert_to2">FOR <t id="convert_to2">AUDIO</t></p>
+                          <p class="convert_to2">TO <t id="convert_to2">AUDIO</t></p>
                         </div>
                     </div>
                   <!-- btn -->
@@ -326,9 +306,6 @@
               <li>DOC</li>
               <li>CSV</li>
               <li>DOCX</li>
-              <li>RAR</li>
-              <li>ZIP</li>
-              <li>7ZIP</li>
             </ul>
             <h5> Conversions <b>*</b> </h5>
             <ul class = "listformats">
@@ -386,7 +363,7 @@
             <h2 style="margin-bottom: 0;"> Convert PDF / CSV / WORD ... </h2>
             <p style="margin-top: 0;"> <em> How to convert office and other documents to another format. </em> </p>
             <p class="desc"> Use the menu to select "DOC OR DOCUMENTS" the format you want to convert. Once this is done, select from your computer the document you want to convert to PDF or WORD (or any other format you have selected), and then click on the right blue button "CONVERT" to download your document in the chosen format. </p>
-            <p class="desc"> From this tutorial you can already use the other options on our website to convert more documents, compressed files like .RAR or ZIP and much more! </p>
+            <p class="desc"> From this tutorial you can already use the other options on our website to convert more documents and much more! </p>
             <p class="desc"> <b> NOTE 3: </b> If you try to convert a youtube link and it does not load the download links, or it generates an error, it means that this video is blocked by copyright and rules from YouTube. So unfortunately it cannot be converted. </p>
             <p class="desc"> <b> NOTE 4: </b> The maximum size for uploading a file is 128 MB</p>
             <p class = "desc"> <b> (*): </b> There may be changes if the API used is not supported due to copyright or other reasons. </p>
@@ -431,7 +408,7 @@
             You can convert youtube videos to different audio formats, download videos from youtube, download videos without audio from youtube,
             convert videos from your computer by uploading the file and downloading in other formats / extensions.
             You can convert images to other formats and extensions, as well as change and convert files and documents.
-            Convert PDF files to word, Excel, and more! in addition to compressed files, convert .RAR to ZIP, 7ZIP and vice versa.
+            Convert PDF files to word, Excel, and more.
             Enjoy the <b> Convert Type </b>.
             Thanks to the developers of this project, we are making it available to everyone. Feel free, enjoy. If you use <b> AdBlock </b> or any other <b> ad blocker </b>, please disable it so we can keep the site live for you and others in need. Thanks for understanding &#128522;</p>
           </div>
@@ -491,14 +468,14 @@
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2020 Copyright
+          © 2021 Copyright
           <a class="grey-text text-lighten-4 right" href="#!">Ilion Tecnologia</a>
           </div>
         </div>

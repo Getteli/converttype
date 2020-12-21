@@ -26,7 +26,7 @@
     <!-- search google -->
     <META NAME="DESCRIPTION" CONTENT="将您的视频，音乐，文档，文件等转换为其他格式和/或扩展名。 将YouTube视频转换为音频和音乐">
     <META NAME="ABSTRACT" CONTENT="将文件，音频，视频和文档转换为其他扩展名。">
-    <META NAME="KEYWORDS" CONTENT="转换，交换，更改，类型，视频，音乐，文件，文档，媒体，扩展名，转换youtube视频，转换pdf，转换rar，下载youtube视频，更改图像扩展名，更改类型，更改扩展名，下载视频而无需 音讯">
+    <META NAME="KEYWORDS" CONTENT="转换，交换，更改，类型，视频，音乐，文件，文档，媒体，扩展名，转换youtube视频，转换pdf，转换xls，下载youtube视频，更改图像扩展名，更改类型，更改扩展名，下载视频而无需 音讯">
     <META NAME="ROBOT" CONTENT="Index,Follow,Noarchive">
     <META NAME="googlebot" CONTENT="Index,Follow,Noarchive">
     <meta name="google-site-verification" content="kzXe5WP-0o9iDobNk6cYdNNapmM0dA1_Fb68U11j7-8"/>
@@ -143,17 +143,7 @@
                         <li><a class="link sel" data-target="1">音频</a></li>
                         <li><a class="link sel" data-target="2">视频</a></li>
                         <li><a class="link sel" data-target="3">图片</a></li>
-                        <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
-                                存档 <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
                         <li><a class="link sel" data-target="5">文件资料</a></li>
-                    </ul>
-                    <ul id="dropdown-file" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">RAR</a></li>
-                      <li><a href="#" class="sel">ZIP</a></li>
-                      <li><a href="#" class="sel">7Z</a></li>
                     </ul>
                 </div>
             </nav>
@@ -165,17 +155,7 @@
           <li><a class="link sel" data-target="1">音频</a></li>
           <li><a class="link sel" data-target="2">视频</a></li>
           <li><a class="link sel" data-target="3">图片</a></li>
-          <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
-                  存档 <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
           <li><a class="link sel" data-target="5">文件资料</a></li>
-        </ul>
-        <ul id="dropdown-filem" class="dropdown-content submenu">
-          <li><a href="#" class="sel">RAR</a></li>
-          <li><a href="#" class="sel">ZIP</a></li>
-          <li><a href="#" class="sel">7Z</a></li>
         </ul>
       </div>
       <!-- content -->
@@ -188,8 +168,8 @@
                   <div class="col s12 m12 l12">
                     <h5>OPÇÕES</h5>
                     <p class="options">
-                      <a id="t_url" class="selectedlink link">via url</a> |
-                      <a id="t_input" class="link">upload</a>
+                      <a id="t_url" class="selectedlink link">通过url</a> |
+                      <a id="t_input" class="link">上载</a>
                     </p>
                   </div>
                   <!-- input -->
@@ -330,9 +310,6 @@
               <li>DOC</li>
               <li>CSV</li>
               <li>DOCX</li>
-              <li>RAR</li>
-              <li>ZIP</li>
-              <li>7ZIP</li>
             </ul>
             <h5>转换次数 <b>*</b></h5>
             <ul class="listformats">
@@ -390,7 +367,7 @@
             <h2 style="margin-bottom：0;">转换PDF / CSV / WORD ... </h2>
             <p style="margin-top：0;"> <em>如何将Office和其他文档转换为另一种格式。</em> </p>
             <p class="desc">使用菜单选择要转换的格式"DOC OR文件资料"。完成此操作后，从计算机中选择要转换为PDF或WORD（或您选择的任何其他格式）的文档，然后单击右侧的蓝色按钮“转换"以选择的格式下载文档。</p>
-            <p class="desc">在本教程中，您已经可以使用我们网站上的其他选项来转换更多文档，诸如.RAR或ZIP的压缩文件等等​​！</p>
+            <p class="desc">通过本教程，您已经可以使用我们网站上的其他选项来转换更多文档和更多内容！</p>
             <p class="desc"> <b>注意3：</b> 如果您尝试转换youtube链接，但未加载下载链接，或生成错误，则表示该视频已受版权和规则的禁止来自YouTube。因此，很遗憾，它无法转换。</p>
             <p class="desc"> <b>注意4：</b> 上载文件的最大大小为128 MB </p>
             <p class="desc"> <b>（*）：</b> 如果由于版权或其他原因不支持所使用的API，则可能会发生更改。</p>
@@ -435,7 +412,7 @@
              您可以将youtube视频转换为不同的音频格式，从youtube下载视频，从youtube下载没有音频的视频，
              通过上传文件并下载其他格式/扩展名来转换计算机中的视频。
              您可以将图像转换为其他格式和扩展名，以及更改和转换文件和文档。
-             将PDF文件转换为Word，Excel等！ 除了压缩文件外，还将.RAR转换为ZIP，7ZIP，反之亦然。
+             将PDF文件转换为Word，Excel等！
              享受<b>转换类型</b>。
              感谢该项目的开发人员，我们使每个人都能使用它。 随意，享受。 如果您使用<b> AdBlock </b>或任何其他<b>广告拦截器</b>，请禁用它，以便我们为您和其他有需要的人保留该网站的生命。 谢谢你的理解 &#128522;</p>
           </div>
@@ -495,14 +472,14 @@
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">音频</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">视频</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2020 版权所有
+          © 2021 版权所有
           <a class="grey-text text-lighten-4 right" href="#!">Ilion Tecnologia</a>
           </div>
         </div>

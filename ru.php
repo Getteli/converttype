@@ -26,7 +26,7 @@
     <!-- search google -->
     <META NAME="DESCRIPTION" CONTENT="Конвертируйте свои видео, музыку, документы, файлы и многое другое в другие форматы и / или расширения. Конвертируйте видео с YouTube в аудио и музыку">
     <META NAME="ABSTRACT" CONTENT="Конвертируйте файлы, аудио, видео и документы в другие расширения.">
-    <META NAME="KEYWORDS" CONTENT="конвертировать, обмениваться, изменять, типы, видео, музыка, файлы, документы, мультимедиа, расширение, конвертировать видео YouTube, конвертировать pdf, конвертировать rar, загружать видео YouTube, изменять расширение изображения, изменять тип, изменять расширение, скачивать видео без аудио">
+    <META NAME="KEYWORDS" CONTENT="конвертировать, обмениваться, изменять, типы, видео, музыка, файлы, документы, мультимедиа, расширение, конвертировать видео YouTube, конвертировать pdf, конвертировать xlsx, загружать видео YouTube, изменять расширение изображения, изменять тип, изменять расширение, скачивать видео без аудио">
     <META NAME="ROBOT" CONTENT="Index,Follow,Noarchive">
     <META NAME="googlebot" CONTENT="Index,Follow,Noarchive">
     <meta name="google-site-verification" content="kzXe5WP-0o9iDobNk6cYdNNapmM0dA1_Fb68U11j7-8"/>
@@ -143,17 +143,7 @@
                         <li><a class="link sel" data-target="1">АУДИО</a></li>
                         <li><a class="link sel" data-target="2">ВИДЕО</a></li>
                         <li><a class="link sel" data-target="3">КАРТИНКИ</a></li>
-                        <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
-                                АРХИВ <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
                         <li><a class="link sel" data-target="5">ДОКУМЕНТЫ</a></li>
-                    </ul>
-                    <ul id="dropdown-file" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">RAR</a></li>
-                      <li><a href="#" class="sel">ZIP</a></li>
-                      <li><a href="#" class="sel">7Z</a></li>
                     </ul>
                 </div>
             </nav>
@@ -165,17 +155,7 @@
           <li><a class="link sel" data-target="1">АУДИО</a></li>
           <li><a class="link sel" data-target="2">ВИДЕО</a></li>
           <li><a class="link sel" data-target="3">КАРТИНКИ</a></li>
-          <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
-                  АРХИВ <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
           <li><a class="link sel" data-target="5">ДОКУМЕНТЫ</a></li>
-        </ul>
-        <ul id="dropdown-filem" class="dropdown-content submenu">
-          <li><a href="#" class="sel">RAR</a></li>
-          <li><a href="#" class="sel">ZIP</a></li>
-          <li><a href="#" class="sel">7Z</a></li>
         </ul>
       </div>
       <!-- content -->
@@ -330,9 +310,6 @@
               <li>DOC</li>
               <li>CSV</li>
               <li>DOCX</li>
-              <li>RAR</li>
-              <li>ZIP</li>
-              <li>7ZIP</li>
             </ul>
             <h5>Конверсии <b>*</b></h5>
             <ul class="listformats">
@@ -390,7 +367,7 @@
             <h2 style="margin-bottom: 0;"> Конвертировать PDF / CSV / WORD ... </h2>
             <p style="margin-top: 0;"> <em> Как преобразовать офисные и другие документы в другой формат. </em> </p>
             <p class="desc"> Используйте меню, чтобы выбрать "ДОКУМЕНТ ИЛИ ДОКУМЕНТЫ" формат, который вы хотите преобразовать. Как только это будет сделано, выберите на своем компьютере документ, который вы хотите преобразовать в PDF или WORD (или любой другой выбранный формат), а затем нажмите правую синюю кнопку «ПРЕОБРАЗОВАТЬ», чтобы загрузить документ в выбранном формате. </p>
-            <p class="desc"> Из этого руководства вы уже можете использовать другие параметры на нашем веб-сайте для преобразования большего количества документов, сжатых файлов, таких как .RAR или ZIP, и многого другого! </p>
+            <p class="desc"> Из этого руководства вы уже можете использовать другие параметры на нашем веб-сайте, чтобы конвертировать больше документов и многое другое! </p>
             <p class="desc"> <b> ПРИМЕЧАНИЕ 3: </b> Если вы пытаетесь преобразовать ссылку на YouTube, но она не загружает ссылки для скачивания или генерирует ошибку, это означает, что это видео заблокировано авторским правом и правилами. с YouTube. К сожалению, его нельзя преобразовать. </p>
             <p class="desc"> <b> ПРИМЕЧАНИЕ 4. </b> Максимальный размер для загрузки файла составляет 128 МБ </p>
             <p class="desc"> <b> (*): </b> могут быть изменения, если используемый API не поддерживается из-за авторских прав или по другим причинам. </p>
@@ -435,7 +412,7 @@
             Вы можете конвертировать видео с YouTube в различные аудиоформаты, загружать видео с YouTube, загружать видео без звука с YouTube,
             конвертируйте видео со своего компьютера, загрузив файл и скачав его в других форматах / расширениях.
             Вы можете конвертировать изображения в другие форматы и расширения, а также изменять и конвертировать файлы и документы.
-            Конвертируйте файлы PDF в Word, Excel и другие форматы! помимо сжатых файлов конвертируйте .RAR в ZIP, 7ZIP и наоборот.
+            Конвертируйте файлы PDF в Word, Excel и другие форматы!
             Наслаждайтесь <b> типом преобразования </b>.
             Благодаря разработчикам этого проекта мы делаем его доступным для всех. Не стесняйтесь, наслаждайтесь. Если вы используете <b> AdBlock </b> или любой другой <b> блокировщик рекламы </b>, пожалуйста, отключите его, чтобы мы могли поддерживать работу сайта для вас и других нуждающихся. Спасибо за понимание &#128522;</p>
           </div>
@@ -495,14 +472,14 @@
                 <li> <a class="grey-text text-lighten-3 sel" href="#" data-target="1"> АУДИО </a> </li>
                 <li> <a class="grey-text text-lighten-3 sel" href="#" data-target="2"> ВИДЕО </a> </li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2020 Все права защищены
+          © 2021 Все права защищены
           <a class="grey-text text-lighten-4 right" href="#!">Ilion Tecnologia</a>
           </div>
         </div>

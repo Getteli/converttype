@@ -26,7 +26,7 @@
     <!-- search google -->
     <META NAME="DESCRIPTION" CONTENT="ビデオ、音楽、ドキュメント、ファイルなどを他の形式や拡張子に変換します。YouTubeの動画を音声と音楽に変換する">
     <META NAME="ABSTRACT" CONTENT="ファイル、オーディオ、ビデオ、ドキュメントを他の拡張子に変換します。">
-    <META NAME="KEYWORDS" CONTENT="変換、交換、変更、タイプ、ビデオ、音楽、ファイル、ドキュメント、メディア、拡張子、youtubeビデオの変換、pdfの変換、rarの変換、youtubeビデオのダウンロード、画像拡張子の変更、タイプの変更、拡張子の変更、ビデオのダウンロードなし オーディオ">
+    <META NAME="KEYWORDS" CONTENT="変換、交換、変更、タイプ、ビデオ、音楽、ファイル、ドキュメント、メディア、拡張子、youtubeビデオの変換、pdfの変換、XLSの変換、youtubeビデオのダウンロード、画像拡張子の変更、タイプの変更、拡張子の変更、ビデオのダウンロードなし オーディオ">
     <META NAME="ROBOT" CONTENT="Index,Follow,Noarchive">
     <META NAME="googlebot" CONTENT="Index,Follow,Noarchive">
     <meta name="google-site-verification" content="kzXe5WP-0o9iDobNk6cYdNNapmM0dA1_Fb68U11j7-8"/>
@@ -143,17 +143,7 @@
                         <li><a class="link sel" data-target="1">オーディオ</a></li>
                         <li><a class="link sel" data-target="2">ビデオ</a></li>
                         <li><a class="link sel" data-target="3">画像</a></li>
-                        <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
-                                ファイル <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
                         <li><a class="link sel" data-target="5">文書</a></li>
-                    </ul>
-                    <ul id="dropdown-file" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">RAR</a></li>
-                      <li><a href="#" class="sel">ZIP</a></li>
-                      <li><a href="#" class="sel">7Z</a></li>
                     </ul>
                 </div>
             </nav>
@@ -165,17 +155,7 @@
           <li><a class="link sel" data-target="1">オーディオ</a></li>
           <li><a class="link sel" data-target="2">ビデオ</a></li>
           <li><a class="link sel" data-target="3">画像</a></li>
-          <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
-                  ファイル <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
           <li><a class="link sel" data-target="5">文書</a></li>
-        </ul>
-        <ul id="dropdown-filem" class="dropdown-content submenu">
-          <li><a href="#" class="sel">RAR</a></li>
-          <li><a href="#" class="sel">ZIP</a></li>
-          <li><a href="#" class="sel">7Z</a></li>
         </ul>
       </div>
       <!-- content -->
@@ -330,9 +310,6 @@
               <li> DOC </li>
               <li> CSV </li>
               <li> DOCX </li>
-              <li> RAR </li>
-              <li> ZIP </li>
-              <li> 7ZIP </li>
             </ul>
             <h5>コンバージカップ<b> * </b> </h5>
             <ul class="listformats">
@@ -390,7 +367,7 @@
             <h2 style="margin-bottom：0;"> PDF / CSV / WORDを変換... </h2>
             <p style="margin-top：0;"> <em>オフィスやその他のドキュメントを別の形式に変換する方法。</em> </p>
             <p class="desc">メニューを使用して、変換する形式の ドキュメント を選択します。これが完了したら、PDFまたはWORD（または選択したその他の形式）に変換するドキュメントをコンピューターから選択し、右の青いボタン[変換]をクリックして、選択した形式でドキュメントをダウンロードします。</p>
-            <p class="desc">このチュートリアルから、Webサイトの他のオプションを使用して、さらに多くのドキュメント、.RARやZIPなどの圧縮ファイルなどを変換できます。</p>
+            <p class="desc">このチュートリアルから、私たちのWebサイトの他のオプションを使用して、より多くのドキュメントなどを変換できます。</p>
             <p class="desc"> <b>注3：</b> youtubeリンクを変換しようとして、ダウンロードリンクが読み込まれない場合、またはエラーが発生する場合は、このビデオが著作権とルールによってブロックされていることを意味しますYouTubeから。そのため、残念ながら変換できません。</p>
             <p class="desc"> <b>注4：</b> ファイルをアップロードするための最大サイズは128MBです</p>
             <p class="desc"> <b>(*)：</b> 使用されているAPIが著作権またはその他の理由でサポートされていない場合、変更される可能性があります。</p>
@@ -435,7 +412,7 @@
           youtubeビデオをさまざまなオーディオ形式に変換したり、youtubeからビデオをダウンロードしたり、youtubeからオーディオなしでビデオをダウンロードしたりできます。
           ファイルをアップロードし、他の形式/拡張子でダウンロードして、コンピューターからビデオを変換します。
           画像を他の形式や拡張子に変換したり、ファイルやドキュメントを変更および変換したりできます。
-          PDFファイルをword、Excelなどに変換してください！圧縮ファイルに加えて、.RARをZIP、7ZIPに、またはその逆に変換します。
+          PDFファイルをword、Excelなどに変換してください！
           <b>変換タイプ</ b>をお楽しみください。
           このプロジェクトの開発者のおかげで、私たちはそれを誰もが利用できるようにしています。お気軽にお楽しみください。 <b> AdBlock </b>またはその他の<b>広告ブロッカー</b>を使用している場合は、無効にしてください。そうすれば、あなたや他の必要な人のためにサイトを公開できます。理解していただきありがとうございます &#128522;</p>
           </div>
@@ -495,14 +472,14 @@
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">オーディオ</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">ビデオ</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2020 全著作権所有
+          © 2021 全著作権所有
           <a class="grey-text text-lighten-4 right" href="#!">Ilion Tecnologia</a>
           </div>
         </div>

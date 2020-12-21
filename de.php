@@ -26,7 +26,7 @@
     <!-- search google -->
     <META NAME="DESCRIPTION" CONTENT="Konvertieren Sie Ihre Videos, Musik, Dokumente, Dateien und vieles mehr in andere Formate und / oder Erweiterungen. Konvertieren Sie YouTube-Videos in Audio und Musik">
     <META NAME="ABSTRACT" CONTENT="Konvertieren Sie Dateien, Audios, Videos und Dokumente in andere Erweiterungen.">
-    <META NAME="KEYWORDS" CONTENT="konvertieren, austauschen, ändern, Typen, Videos, Musik, Dateien, Dokumente, Medien, Erweiterung, YouTube-Video konvertieren, PDF konvertieren, rar konvertieren, YouTube-Videos herunterladen, Bilderweiterung ändern, Typ ändern, Erweiterung ändern, Video ohne herunterladen Audio-">
+    <META NAME="KEYWORDS" CONTENT="konvertieren, austauschen, ändern, Typen, Videos, Musik, Dateien, Dokumente, Medien, Erweiterung, YouTube-Video konvertieren, PDF konvertieren, csv konvertieren, YouTube-Videos herunterladen, Bilderweiterung ändern, Typ ändern, Erweiterung ändern, Video ohne herunterladen Audio-">
     <META NAME="ROBOT" CONTENT="Index,Follow,Noarchive">
     <META NAME="googlebot" CONTENT="Index,Follow,Noarchive">
     <meta name="google-site-verification" content="kzXe5WP-0o9iDobNk6cYdNNapmM0dA1_Fb68U11j7-8"/>
@@ -142,17 +142,7 @@
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDEO</a></li>
                         <li><a class="link sel" data-target="3">BILDER</a></li>
-                        <li>
-                            <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-file">
-                                ARCHIV <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
                         <li><a class="link sel" data-target="5">UNTERLAGEN</a></li>
-                    </ul>
-                    <ul id="dropdown-file" class="dropdown-content submenu">
-                      <li><a href="#" class="sel">RAR</a></li>
-                      <li><a href="#" class="sel">ZIP</a></li>
-                      <li><a href="#" class="sel">7Z</a></li>
                     </ul>
                 </div>
             </nav>
@@ -164,17 +154,7 @@
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDEO</a></li>
           <li><a class="link sel" data-target="3">BILDER</a></li>
-          <li>
-              <a href="#" class="dropdown-trigger disabledtext" data-target="dropdown-filem">
-                  ARCHIV <i class="material-icons right">arrow_drop_down</i>
-              </a>
-          </li>
           <li><a class="link sel" data-target="5">UNTERLAGEN</a></li>
-        </ul>
-        <ul id="dropdown-filem" class="dropdown-content submenu">
-          <li><a href="#" class="sel">RAR</a></li>
-          <li><a href="#" class="sel">ZIP</a></li>
-          <li><a href="#" class="sel">7Z</a></li>
         </ul>
       </div>
       <!-- content -->
@@ -329,9 +309,6 @@
               <li>DOC</li>
               <li>CSV</li>
               <li>DOCX</li>
-              <li>RAR</li>
-              <li>ZIP</li>
-              <li>7ZIP</li>
             </ul>
             <h5>Konvertierungen <b>*</b></h5>
             <ul class="listformats">
@@ -389,7 +366,7 @@
             <h2 style="margin-bottom: 0;"> PDF / CSV / WORD konvertieren ... </h2>
             <p style="margin-top: 0;"> <em> So konvertieren Sie Office- und andere Dokumente in ein anderes Format. </em> </p>
             <p class="desc"> Verwenden Sie das Menü, um "DOC OR DOCUMENTS" für das Format auszuwählen, das Sie konvertieren möchten. Wählen Sie anschließend auf Ihrem Computer das Dokument aus, das Sie in PDF oder WORD (oder ein anderes von Ihnen ausgewähltes Format) konvertieren möchten, und klicken Sie dann auf die rechte blaue Schaltfläche "CONVERT", um Ihr Dokument im ausgewählten Format herunterzuladen. </p>
-            <p class="desc"> In diesem Tutorial können Sie bereits die anderen Optionen auf unserer Website verwenden, um mehr Dokumente, komprimierte Dateien wie .RAR oder ZIP und vieles mehr zu konvertieren! </p>
+            <p class="desc"> In diesem Tutorial können Sie bereits die anderen Optionen auf unserer Website verwenden, um mehr Dokumente und mehr zu konvertieren! </p>
             <p class="desc"> <b> HINWEIS 3: </b> Wenn Sie versuchen, einen Youtube-Link zu konvertieren und die Download-Links nicht geladen werden oder ein Fehler generiert wird, bedeutet dies, dass dieses Video durch Urheberrechte und Regeln blockiert ist von YouTube. Es kann also leider nicht konvertiert werden. </p>
             <p class="desc"> <b> HINWEIS 4: </b> Die maximale Größe zum Hochladen einer Datei beträgt 128 MB </p>
             <p class="desc"> <b> (*): </b> Es kann Änderungen geben, wenn die verwendete API aus urheberrechtlichen oder anderen Gründen nicht unterstützt wird. </p>
@@ -434,7 +411,7 @@
             Sie können YouTube-Videos in verschiedene Audioformate konvertieren, Videos von YouTube herunterladen, Videos ohne Audio von YouTube herunterladen.
             Konvertieren Sie Videos von Ihrem Computer, indem Sie die Datei hochladen und in anderen Formaten / Erweiterungen herunterladen.
             Sie können Bilder in andere Formate und Erweiterungen konvertieren sowie Dateien und Dokumente ändern und konvertieren.
-            Konvertieren Sie PDF-Dateien in Word, Excel und mehr! Konvertieren Sie zusätzlich zu komprimierten Dateien .RAR in ZIP, 7ZIP und umgekehrt.
+            Konvertieren Sie PDF-Dateien in Word, Excel und mehr!
             Genießen Sie den <b> Konvertierungstyp </b>.
             Dank der Entwickler dieses Projekts stellen wir es allen zur Verfügung. Fühlen Sie sich frei, genießen Sie. Wenn Sie <b> AdBlock </b> oder einen anderen <b> Werbeblocker </ b> verwenden, deaktivieren Sie ihn bitte, damit wir die Website für Sie und andere Bedürftige am Leben erhalten können. Danke für dein Verständnis &#128522;</p>
           </div>
@@ -494,14 +471,14 @@
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
                 <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel disabledtext" href="#">RAR</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2020 Alle Rechte vorbehalten
+          © 2021 Alle Rechte vorbehalten
           <a class="grey-text text-lighten-4 right" href="#!">Ilion Tecnologia</a>
           </div>
         </div>
