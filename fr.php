@@ -140,7 +140,7 @@
                         <li><a href="#begin" class="begin">MAISON</a></li>
                         <li><a href="apropos.php" class="about">À PROPOS</a></li>
                         <li><a href="didacticiel.php" class="about">DIDACTICIEL</a></li>
-                        <li><a href="nouscontacter.php" class="about">CONTACT</a></li>
+                        <li><a href="nouscontacter.php" class="contato">CONTACT</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDÉO</a></li>
                         <li><a class="link sel" data-target="3">IMAGES</a></li>
