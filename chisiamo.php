@@ -118,14 +118,14 @@
 												</select>
 											</form>
 										</div>
-                    <a href="#" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+                    <a href="it.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
                 </div>
             </nav>
         </div>
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 class="convert_to">PER <t id="convert_to">AUDIO</t></h3>
+            &nbsp;
           </div>
         </div>
         <!-- menu -->
@@ -137,152 +137,38 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">INIZIO</a></li>
-                        <li><a href="chisiamo.php" class="about">CHI SIAMO</a></li>
-                        <li><a href="comeusare.php" class="tutorial">TUTORIAL</a></li>
-                        <li><a href="contatto.php" class="tutorial">CONTATTO</a></li>
-                        <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel" data-target="2">VIDEO</a></li>
-                        <li><a class="link sel" data-target="3">IMMAGINI</a></li>
-                        <li><a class="link sel" data-target="5">DOCUMENTI</a></li>
+                      <li><a href="it.php" class="begin">INIZIO</a></li>
+                      <li><a href="chisiamo.php" class="about">CHI SIAMO</a></li>
+                      <li><a href="comeusare.php" class="tutorial">TUTORIAL</a></li>
+                      <li><a href="contatto.php" class="tutorial">CONTATTO</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">INIZIO</a></li>
+          <li><a href="it.php" class="begin">INIZIO</a></li>
           <li><a href="chisiamo.php" class="about">CHI SIAMO</a></li>
           <li><a href="comeusare.php" class="tutorial">TUTORIAL</a></li>
           <li><a href="contatto.php" class="tutorial">CONTATTO</a></li>
-          <li><a class="link sel" data-target="1">AUDIO</a></li>
-          <li><a class="link sel" data-target="2">VIDEO</a></li>
-          <li><a class="link sel" data-target="3">IMMAGINI</a></li>
-          <li><a class="link sel" data-target="5">DOCUMENTI</a></li>
         </ul>
       </div>
-      <!-- content -->
-      <div class="container background">
-        <div class="row">
-            <div class="col s12 m12 l10 offset-l1 white container-input">
-              <form method="post" id="formconv" enctype="multipart/form-data">
-                <div class="row margin_form">
-                  <!-- options -->
-                  <div class="col s12 m12 l12">
-                    <h5>OPZIONI</h5>
-                    <p class="options">
-                      <a id="t_url" class="selectedlink link">via url</a> |
-                      <a id="t_input" class="link">upload</a>
-                    </p>
-                  </div>
-                  <!-- input -->
-                  <div class="col s12 m12 l10">
-                        <div class="col s12 m12 l10 col_input" id="div_url">
-                          <input type="number" class="none disabled" name="type" id="type" value="1">
-                          <input class="input_target" id="input_url" name="input_url" required placeholder="https://www.youtube.com/watch...."/>
-                        </div>
-                        <div class="col s12 m12 l12 col_input none" id="div_file">
-                          <div class="row">
-                            <div class="col s12 m8 l8">
-                              <div id="div_input_file" class="div_input_file disabled none col s12">
-                                <label for="input_file" class="colorprimary" id="lb_input_file">UPLOAD</label>
-                                <input type="file" class="input_file disabled none" accept="" id="input_file" name="input_file">
-                              </div>
-                            </div>
-                            <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
-                              <p class="convert_to3">PER</p>
-                              <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <optgroup label="VIDEO" class="none" id="optgv">
-                                  <option value="mp4">MP4</option>
-                                  <option value="wmv">WMV</option>
-                                  <option value="avi">AVI</option>
-                                  <option value="mov">MOV</option>
-                                  <option value="webm">WEBM</option>
-                                  <option value="ogv">OGV</option>
-                                  <option value="mkv">MKV</option>
-                                  <option value="flv">FLV</option>
-                                  <option value="3g2">3G2</option>
-                                  <option value="3gp">3GP</option>
-                                </optgroup>
-                                <optgroup label="AUDIO" class="none" id="optga">
-                                  <option value="aac">AAC</option>
-                                  <option value="aiff">AIFF</option>
-                                  <option value="flac">FLAC</option>
-                                  <option value="m4a">M4A</option>
-                                  <option value="m4r">M4R</option>
-                                  <option value="mmf">MMF</option>
-                                  <option value="mp3">MP3</option>
-                                  <option value="ogg">OGG</option>
-                                  <option value="opus">OPUS</option>
-                                  <option value="wav">WAV</option>
-                                  <option value="wma">WMA</option>
-                                </optgroup>
-                              </select>
-                              <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <optgroup label="DOCUMENTI" class="none" id="optgd">
-                                  <option value="doc">DOC</option>
-                                  <option value="pdf">PDF</option>
-                                  <option value="docx">DOCX</option>
-                                  <option value="html">HTML</option>
-                                  <option value="xls">XLS</option>
-                                  <option value="xlsx">XLSX</option>
-                                  <option value="txt">TXT</option>
-                                  <option value="rtf">RTF</option>
-                                </optgroup>
-                                <optgroup label="IMMAGINE" class="none" id="optgi">
-                                  <option value="png">PNG</option>
-                                  <option value="jpeg">JPEG</option>
-                                </optgroup>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s6 offset-s3 m6 offset-m3 l2 center" id="div_descconvertinput">
-                          <p class="convert_to2">PER <t id="convert_to2">AUDIO</t></p>
-                        </div>
-                    </div>
-                  <!-- btn -->
-                  <div class="row margin_form center center-align">
-                    <div class="col s12 m12 l2 marginline">
-                      <button type="button" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">CONVERTIRE</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div class="row margin_form center center-align">
-                <div class="col s12 m12 l12 marginline">
-                  <div class="none" id="load">
-                    <img src="_assets/images/load.gif" alt="load">
-                    <p>caricamento, aspetta</p>
-                  </div>
-                  <p id="containerafter">
-                    <?php
-                    if ($_GET["back"] == "error") {
-                      echo "<p>Si è verificato un errore durante la conversione del documento. Riprova o contattaci.</p>";
-                    }
-                    ?>
-                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>SCARICA</a></a>
-                    <p id="desc_ca" class="none">Fare clic sul collegamento che si desidera scaricare (audio, video, video senza audio e così via) e quindi nella nuova scheda che si apre fare clic su <i class="material-icons">more_vert</i> per il download</p>
-                  </p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
-      <hr class="line"/>
       <div class="row">
         <div class="col l12">
           <div class="container" id="about">
-						<h4>ConvertType</h4>
-            <p class="desc"> Condividi con i tuoi amici e la tua famiglia, mostra chi vorresti convertire i tuoi file, musica, video, immagini e tutto il resto! vieni a dare un'occhiata al nostro strumento. Controlla il <a href="comeusare.php"> tutorial </a> su come farlo e quali formati sono supportati. </p>
-            <p class="desc"> Commenta in modo che più persone possano sapere come viene utilizzato lo strumento e se ti ha aiutato! per qualsiasi domanda non esitate a contattarci, leggere la nostra pagina <a href="chisiamo.php"> chi siamo </a> e se avete domande leggete la nostra politica sulla privacy in fondo al sito. </p>
+            <h4> INFORMAZIONI </h4>
+            <p class="desc"> <b> Convert Type </b> è un convertitore di più file e formati in qualsiasi formato.
+            Puoi convertire i video di youtube in diversi formati audio, scaricare video da youtube, scaricare video senza audio da youtube,
+            convertire i video dal tuo computer caricando il file e scaricandolo in altri formati / estensioni.
+            Puoi convertire immagini in altri formati ed estensioni, nonché modificare e convertire file e documenti. </p>
+            <p class="desc"> Converti video (tramite un link come youtube o dal tuo computer) in audio (in diverse qualità possibili); per i video, per i video senza audio, converti anche le immagini, da PNG a JPG o da JPG a PNG. Oltre a questi, puoi cogliere l'opportunità di convertire file e documenti, come: DOC, PDF, DOCX, HTML, XLS, XLSX, TXT, RTF e persino convertire file in immagini PNG o JPG. Per ulteriori informazioni, accedi all'elenco delle <b> conversioni </b> nel <a href="comeusare.php"> tutorial </a> per scoprire quali sono le possibilità e i tipi di conversioni da file a file e quali formati. </p>
+            <p class="desc"> Il tipo di conversione è disponibile in 9 (nove) lingue in modo che il suo utilizzo sia il più apprezzato da tutti, indipendentemente dalla loro lingua. </p>
+            <p class="desc"> Questa applicazione è stata sviluppata pensando all'utente, dal più laico al più esperto, che potrebbe aver bisogno di un file in un altro formato da inviare via e-mail, per una presentazione veloce, per un'immagine o aver bisogno di scaricare quel video e / o avere l'audio o il video in un altro formato. E per il profano che potrebbe voler scaricare quel video che ha visto o un'immagine, un file che non ha aperto per mancanza di applicazione per aprire il formato. In definitiva, essere in grado di fornire a tutti un'esperienza di avere e convertire ciò che vuoi e non essere più preoccupato ... e ovunque! l'applicazione è disponibile per dispositivi mobili con un'esperienza piacevole, leggibile e intuitiva, potendo prendere i media dal tuo cellulare o tablet e salire per convertire e goderti il ​​nostro strumento. </p>
+            <p class="desc"> Quindi goditi il ​​<b> Tipo di conversione </b>. </p>
+            <p class="desc"> Grazie agli sviluppatori di questo progetto, mettiamo a disposizione di tutti gratuitamente o qualsiasi tipo di abbonamento, acquisizione dati, cookie o qualcosa del genere. La nostra unica richiesta è se utilizzi un blocco degli annunci, o blocco degli annunci, che disabilita e ricarica il sito in modo che possiamo continuare a offrirti questo contenuto gratuito e di buona qualità. </p>
+            <p class="desc"> <b> OBS: </b> per motivi di copyright, norme e leggi sulla privacy, leggi europee GDPR e l'ECPA americano, non conserviamo i dati dei nostri utenti, no ci registriamo, non chiediamo assistenza finanziaria, né siamo responsabili di alcun uso improprio del nostro strumento. Lo rendiamo disponibile solo per l'accesso gratuito di tutti. Se un video che tenta di convertire tramite il link di YouTube non funziona o le opzioni audio non sono disponibili, è perché YouTube ha le sue regole e segue le leggi sul copyright, e quindi non consente il download di musica protetta da copyright . Se trovi qualche errore, o alcune funzionalità sono in difficoltà o non funzionano come dovrebbe, NOTIFICACI, CONTATTACI TRAMITE LA SESSIONE DI CONTATTI, sia qui in questa pagina, che nelle home page, tutorial o policy e privacy. Grazie per la comprensione </p>
+            <p class="desc"> <b> Non ti arriverà alcun danno, né la peste raggiungerà la tua tenda. Poiché egli darà ordini ai tuoi angeli di tenerti al sicuro in tutte le tue vie. Salmo 91: 10,11 </b> </p>
+            <p class="desc"> Se hai commenti, idee per nuovi formati che vorrei vedere qui, te ne saremo grati e saremmo molto felici di poterti aiutare e ricevere il tuo commento o critica costruttiva con un sorriso. Sentiti libero, divertiti. Se utilizzi <b> AdBlock </b> o qualsiasi altro <b> blocco degli annunci </b>, disabilitalo in modo che possiamo mantenere attivo il sito per te e per gli altri bisognosi. Grazie per la comprensione &#128522;</p>
           </div>
         </div>
       </div>
@@ -294,7 +180,6 @@
         </div>
       </div>
 
-      <hr class="line"/>
       <div class="row">
         <div class="col l12">
           <div class="container" id="contact">
@@ -319,13 +204,6 @@
         </div>
       </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
       <!-- footer -->
       <footer class="page-footer colorprimary pos-footer">
         <div class="container">
@@ -336,12 +214,9 @@
               <a href="privacyPolicy.html" class="white-text desc">Clicca qui per leggere la Privacy Policy</a>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">PIÙ USATO</h5>
+              <h5 class="white-text">Links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="it.php">INIZIO</a></li>
               </ul>
             </div>
           </div>

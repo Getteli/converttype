@@ -58,7 +58,7 @@
     <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
 
     <!-- title -->
-    <title>Convert Type</title>
+    <title>Convert Type - Tutorial</title>
 
     <!-- Icones materilalize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -125,7 +125,7 @@
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 class="convert_to">PARA <t id="convert_to">ÁUDIO</t></h3>
+            &nbsp;
           </div>
         </div>
         <!-- menu -->
@@ -137,160 +137,128 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">INÍCIO</a></li>
+                        <li><a href="pt.php" class="begin">INÍCIO</a></li>
                         <li><a href="sobre.php" class="about">SOBRE</a></li>
                         <li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
                         <li><a href="contato.php" class="tutorial">CONTATO</a></li>
-                        <li><a class="link sel" data-target="1">ÁUDIO</a></li>
-                        <li><a class="link sel" data-target="2">VÍDEO</a></li>
-                        <li><a class="link sel" data-target="3">IMAGENS</a></li>
-                        <li><a class="link sel" data-target="5">DOCUMENTOS</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">INÍCIO</a></li>
+          <li><a href="pt.php" class="begin">INÍCIO</a></li>
           <li><a href="sobre.php" class="about">SOBRE</a></li>
           <li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
           <li><a href="contato.php" class="tutorial">CONTATO</a></li>
-          <li><a class="link sel" data-target="1">ÁUDIO</a></li>
-          <li><a class="link sel" data-target="2">VÍDEO</a></li>
-          <li><a class="link sel" data-target="3">IMAGENS</a></li>
-          <li><a class="link sel" data-target="5">DOCUMENTOS</a></li>
         </ul>
       </div>
-      <!-- content -->
-      <div class="container background">
-        <div class="row">
-            <div class="col s12 m12 l10 offset-l1 white container-input">
-              <form method="post" id="formconv" enctype="multipart/form-data">
-                <div class="row margin_form">
-                  <!-- options -->
-                  <div class="col s12 m12 l12">
-                    <h5>OPÇÕES</h5>
-                    <p class="options">
-                      <a id="t_url" class="selectedlink link">via url</a> |
-                      <a id="t_input" class="link">upload</a>
-                    </p>
-                  </div>
-                  <!-- input -->
-                  <div class="col s12 m12 l10">
-                        <div class="col s12 m12 l10 col_input" id="div_url">
-                          <input type="number" class="none disabled" name="type" id="type" value="1">
-                          <input class="input_target" id="input_url" name="input_url" required placeholder="https://www.youtube.com/watch...."/>
-                        </div>
-                        <div class="col s12 m12 l12 col_input none" id="div_file">
-                          <div class="row">
-                            <div class="col s12 m8 l8">
-                              <div id="div_input_file" class="div_input_file disabled none col s12">
-                                <label for="input_file" class="colorprimary" id="lb_input_file">SUBIR</label>
-                                <input type="file" class="input_file disabled none" accept="" id="input_file" name="input_file">
-                              </div>
-                            </div>
-                            <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
-                              <p class="convert_to3">PARA</p>
-                              <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <optgroup label="VÍDEO" class="none" id="optgv">
-                                  <option value="mp4">MP4</option>
-                                  <option value="wmv">WMV</option>
-                                  <option value="avi">AVI</option>
-                                  <option value="mov">MOV</option>
-                                  <option value="webm">WEBM</option>
-                                  <option value="ogv">OGV</option>
-                                  <option value="mkv">MKV</option>
-                                  <option value="flv">FLV</option>
-                                  <option value="3g2">3G2</option>
-                                  <option value="3gp">3GP</option>
-                                </optgroup>
-                                <optgroup label="ÁUDIO" class="none" id="optga">
-                                  <option value="aac">AAC</option>
-                                  <option value="aiff">AIFF</option>
-                                  <option value="flac">FLAC</option>
-                                  <option value="m4a">M4A</option>
-                                  <option value="m4r">M4R</option>
-                                  <option value="mmf">MMF</option>
-                                  <option value="mp3">MP3</option>
-                                  <option value="ogg">OGG</option>
-                                  <option value="opus">OPUS</option>
-                                  <option value="wav">WAV</option>
-                                  <option value="wma">WMA</option>
-                                </optgroup>
-                              </select>
-                              <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <optgroup label="DOCUMENTOS" class="none" id="optgd">
-                                  <option value="doc">DOC</option>
-                                  <option value="pdf">PDF</option>
-                                  <option value="docx">DOCX</option>
-                                  <option value="html">HTML</option>
-                                  <option value="xls">XLS</option>
-                                  <option value="xlsx">XLSX</option>
-                                  <option value="txt">TXT</option>
-                                  <option value="rtf">RTF</option>
-                                </optgroup>
-                                <optgroup label="IMAGEM" class="none" id="optgi">
-                                  <option value="png">PNG</option>
-                                  <option value="jpeg">JPEG</option>
-                                </optgroup>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s6 offset-s3 m6 offset-m3 l2 center" id="div_descconvertinput">
-                          <p class="convert_to2">PARA <t id="convert_to2">ÁUDIO</t></p>
-                        </div>
-                    </div>
-                  <!-- btn -->
-                  <div class="row margin_form center center-align">
-                    <div class="col s12 m12 l2 marginline">
-                      <button type="button" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">CONVERTER</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div class="row margin_form center center-align">
-                <div class="col s12 m12 l12 marginline">
-                  <div class="none" id="load">
-                    <img src="_assets/images/load.gif" alt="load">
-                    <p>carregando, aguarde</p>
-                  </div>
-                  <p id="containerafter">
-                    <?php
-                    if ($_GET["back"] == "error") {
-                      echo "<p>Ocorreu um erro ao converter o seu documento. Tente novamente ou entre em contato conosco.</p>";
-                    }
-                    ?>
-                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>BAIXAR</a></a>
-                    <p id="desc_ca" class="none">Clique no link que deseja baixar (audio, video, video sem audio e etc..) e depois na nova aba que se abrir clique em <i class="material-icons">more_vert</i> para baixar</p>
-                  </p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
-      <hr class="line"/>
       <div class="row">
         <div class="col l12">
-          <div class="container" id="contact">
-						<h4>ConvertType</h4>
-            <p class="desc">Compartilhe com seus amigos e familiares, mostre para quem gostaria de converter também seus arquivos, musicas, vídeos, imagens e tudo mais ! venha conferir nossa ferramenta. Verifique no <a href="tutorial.php">tutorial</a> como fazer e quais formatos suportados.</p>
-            <p class="desc">Comente para que mais pessoas possam saber como é o uso da ferramente, e se ela lhe ajudou ! qualquer dúvida entre em contato conosco, leia nossa página <a href="sobre.php">sobre</a> e caso tenha alguma dúvida leia nossa politica de privacidade que está no rodapé, no final do site.</p>
+          <div class="container" id="tutorial">
+            <div class="row">
+              <h4>TUTORIAL</h4>
+              <h1 style="margin-bottom:0;">Como converter ?</h1>
+              <p style="margin-top:0;"><em>Aprenda neste tutorial a como converter video, musica, arquivos e documentos, usando o Convert type.</em></p>
+              <p class="desc">Este artigo é um tutorial para ajudar a todos a usar o contéudo da Convert type. Vamos ensinar a converter !</p>
+              <h2>Formatos</h2>
+              <p class="desc">A Convert type suporta a conversão destes formatos juntando todas as opçoes (seja vídeo, musica, ou arquivos,..) para outros formatos.</p>
+              <ul class="listformats">
+                <li>MP4</li>
+                <li>M4A</li>
+                <li>OPUS</li>
+                <li>WEBM</li>
+                <li>MP3</li>
+                <li>WMV</li>
+                <li>AVI</li>
+                <li>MOV</li>
+                <li>MKV</li>
+                <li>OGV</li>
+                <li>FLV</li>
+                <li>3G2</li>
+                <li>3GP</li>
+                <li>AAC</li>
+                <li>AIFF</li>
+                <li>FLAC</li>
+                <li>M4R</li>
+                <li>MMF</li>
+                <li>WAV</li>
+                <li>WMA</li>
+                <li>OGG</li>
+                <li>JPEG</li>
+                <li>PNG</li>
+                <li>PDF</li>
+                <li>DOC</li>
+                <li>CSV</li>
+                <li>DOCX</li>
+              </ul>
+              <h5>Conversões <b>*</b></h5>
+              <ul class="listformats">
+                <li>Converter vídeos do youtube para mp3</li>
+                <li>Baixar vídeos do youtube</li>
+                <li>Baixar vídeos do youtube sem som</li>
+                <li>Converter vídeos para MP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGG</li>
+                <li>Converter vídeo para áudio</li>
+                <li>Converter JPG para PNG</li>
+                <li>Converter PNG para JPG</li>
+                <li>Converter PDF para JPG</li>
+                <li>Converter PDF para DOCX</li>
+                <li>Converter PDF para TXT</li>
+                <li>Converter DOCX para PDF</li>
+                <li>Converter DOCX para DOC</li>
+                <li>Converter DOCX para JPG</li>
+                <li>Converter DOCX para PNG</li>
+                <li>Converter DOCX para RTF</li>
+                <li>Converter DOCX para TXT</li>
+                <li>Converter DOCX para HTML</li>
+                <li>Converter DOC para PDF</li>
+                <li>Converter DOC para DOCX</li>
+                <li>Converter DOC para TXT</li>
+                <li>Converter HTML para PDF</li>
+                <li>Converter HTML para PNG</li>
+                <li>Converter HTML para TXT</li>
+                <li>Converter XLS para CSV</li>
+                <li>Converter XLS para PDF</li>
+                <li>Converter XLS para XLSX</li>
+                <li>Converter XLSX para PDF</li>
+                <li>Converter XLSX para XLS</li>
+                <li>Converter XLSX para PNG</li>
+                <li>Converter XLSX para CSV</li>
+                <li>Converter XLSX para TXT</li>
+                <li>Converter XLSX para HTML</li>
+              </ul>
+              <p class="desc">Agora vamos ao que interessa !</p>
+              <h2 style="margin-bottom:0;">Converter vídeos do Youtube</h2>
+              <p style="margin-top:0;"><em>Como converter vídeos do youtube para áudios ou baixar videos sem áudio do youtube.</em></p>
+              <p class="desc">Primeiramente vá para a aba "ÁUDIO" usando o menu, depois selecione nas opções o modo "URL". Como na imagem a baixo.</p>
+              <img src="_assets/images/tutorial1.png" width="100%" alt="tutorial como usar convert type">
+              <p class="desc">Feito isso, cole o link/url do vídeo que você deseja converter. Depois clique no botão azul "CONVERTER", espere até que todas as opções para baixar apareçam. Quando tudo estiver pronto, aparecerá todas as opções possiveis para converter e baixar.</p>
+              <p class="desc">Quando terminar de carregar, aparecerá as opções como na imagem abaixo. Clique no botão "DOWNLOAD" e se abrirá uma nova aba, nesta aba, ache o botão <i class="material-icons">more_vert</i> (normalmente fica no canto inferior direito do player) e selecione a opção "FAZER DOWNLOAD". E pronto ! agora você já baixou seu vídeo sem áudio, ou sua música.</p>
+              <img src="_assets/images/tutorial2.png" width="100%" alt="tutorial como usar convert type 2">
+              <p class="desc"><b>OBSERVAÇÃO:</b> por motivos de direitos autorais, converta os vídeos online gratuitos para uso pessoal ("uso justo"). Não deve ser usado para gravações de material protegido por direitos autorais, como videoclipes ou revenda, o <b>convert type</b> não se responsabiliza por qualquer infração deste tipo, que viole leis de direitos autorais. Apenas disponibilizamos a conversão gratuita de arquivos para outros formatos.</p>
+              <p class="desc"><b>OBSERVAÇÃO 2:</b> As imagens pode não ser corretas caso tenha ocorrido alguma mudança ou bloqueio nas API's utilizadas. pode ser diferente a forma como convertemos.</p>
+              <h2 style="margin-bottom:0;">Converter vídeos do computador</h2>
+              <p style="margin-top:0;"><em>Como converter vídeos do seu computador para outros formatos.</em></p>
+              <img src="_assets/images/tutorial3.png" width="100%" alt="tutorial como usar convert type 3">
+              <p class="desc">Como é mostrado na imagem acima, vá até o menu e clique na opção VÍDEO. E então clique na opção de "UPLOAD" caso ainda não esteja. Feito isto você poderá selecionar vídeos do seu computador, clicando no botão azul esquerdo "SUBIR", e selecionar o vídeo que deseja. Após escolher o vídeo, selecione na opções a extensão / formato que deseja, e clique no próximo botão azul a direita "CONVERTER" e pronto ! </p>
+              <p class="desc">Seu download começará assim que a conversão estiver completa.</p>
+              <h2 style="margin-bottom:0;">Converter Imagens para outros formatos</h2>
+              <p style="margin-top:0;"><em>Como converter imagens JPEG em PNG (ou outros formatos) ou vice e versa.</em></p>
+              <p class="desc">Utilize o menu para selecionar em "IMAGENS" o formato que deseja converter. Feito isso faça a escolha das opções, se deseja colocar a URL ou subir uma imagem do seu computador, e então clique no botão direito azul "CONVERTER" para baixar a sua iamgem no formato escolhido.</p>
+              <h2 style="margin-bottom:0;">Converter PDF / CSV / WORD ...</h2>
+              <p style="margin-top:0;"><em>Como converter documentos do tipo office e outros, para outro formato.</em></p>
+              <p class="desc">Utilize o menu para selecionar em "DOC OU DOCUMENTOS" o formato que deseja converter. Feito isso selecione do seu computador o documento que deseja converter para PDF ou WORD (ou outro formato que tenha selecoinado), e então clique no botão direito azul "CONVERTER" para baixar o seu documento no formato escolhido.</p>
+              <p class="desc">A partir deste tutorial já pode utilizar das outras opções do nosso site para converter mais documentos e muito mais !</p>
+              <p class="desc"><b>OBSERVAÇÃO 3:</b> Caso tente converter um link do youtube e ele não carregue os links de download, ou gere erro, significa que este vídeo é bloqueado pelos direitos autorais e pelas regras do youtube. Então infelizmente não pode ser convertido.</p>
+              <p class="desc"><b>OBSERVAÇÃO 4:</b> O tamanho máximo para subir um arquivo é de 128 MB</p>
+              <p class="desc"><b>(*):</b> Pode haver mudanças caso a API usada não suporte por motivos de direitos autorais ou outros motivos.</p>
+              <p class="desc">
+                <b>Data:</b> 10/12/2020 <br/>
+                <b>Escrito por:</b> Ilion Tecnologia <br/>
+                <b>Artigo:</b> Tutorial
+              </p>
+            </div> <!-- -->
           </div>
-        </div>
-      </div>
-
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
         </div>
       </div>
 
@@ -301,13 +269,6 @@
             <div id="fb-root"></div>
             <div class="fb-comments" data-href="https://converttype.com/pt.php" data-numposts="5" data-width=""></div>
           </div>
-        </div>
-      </div>
-
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
         </div>
       </div>
 
@@ -346,12 +307,9 @@
               <a href="politicaEprivacidade.html" class="white-text desc">Clique aqui para ler a Politica e privacidade</a>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">MAIS USADOS</h5>
+              <h5 class="white-text">Links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">ÁUDIO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VÍDEO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="pt.php" data-target="1">Início</a></li>
               </ul>
             </div>
           </div>

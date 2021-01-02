@@ -139,9 +139,10 @@
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 class="convert_to">に変換 <t id="convert_to">オーディオ</t></h3>
+            &nbsp;
           </div>
         </div>
+
         <!-- menu -->
         <div class="navbar">
             <nav class="nav-center">
@@ -151,152 +152,125 @@
                         <i class="material-icons" style="font-size:24px!important;">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">ベギン</a></li>
+                        <li><a href="ja.php" class="begin">ベギン</a></li>
                         <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
                         <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
                         <li><a href="renrakusen.php">連絡先</a></li>
-                        <li><a class="link sel" data-target="1">オーディオ</a></li>
-                        <li><a class="link sel" data-target="2">ビデオ</a></li>
-                        <li><a class="link sel" data-target="3">画像</a></li>
-                        <li><a class="link sel" data-target="5">文書</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">ベギン</a></li>
+          <li><a href="ja.php" class="begin">ベギン</a></li>
           <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
           <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
           <li><a href="renrakusen.php">連絡先</a></li>
-          <li><a class="link sel" data-target="1">オーディオ</a></li>
-          <li><a class="link sel" data-target="2">ビデオ</a></li>
-          <li><a class="link sel" data-target="3">画像</a></li>
-          <li><a class="link sel" data-target="5">文書</a></li>
         </ul>
       </div>
-      <!-- content -->
-      <div class="container background">
-        <div class="row">
-            <div class="col s12 m12 l10 offset-l1 white container-input">
-              <form method="post" id="formconv" enctype="multipart/form-data">
-                <div class="row margin_form">
-                  <!-- options -->
-                  <div class="col s12 m12 l12">
-                    <h5>オプション</h5>
-                    <p class="options">
-                      <a id="t_url" class="selectedlink link">URL別</a> |
-                      <a id="t_input" class="link">アップロード</a>
-                    </p>
-                  </div>
-                  <!-- input -->
-                  <div class="col s12 m12 l10">
-                        <div class="col s12 m12 l10 col_input" id="div_url">
-                          <input type="number" class="none disabled" name="type" id="type" value="1">
-                          <input class="input_target" id="input_url" name="input_url" required placeholder="https://www.youtube.com/watch...."/>
-                        </div>
-                        <div class="col s12 m12 l12 col_input none" id="div_file">
-                          <div class="row">
-                            <div class="col s12 m8 l8">
-                              <div id="div_input_file" class="div_input_file disabled none col s12">
-                                <label for="input_file" class="colorprimary" id="lb_input_file">アップロード</label>
-                                <input type="file" class="input_file disabled none" accept="" id="input_file" name="input_file">
-                              </div>
-                            </div>
-                            <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
-                              <p class="convert_to3">に変換</p>
-                              <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <optgroup label="ビデオ" class="none" id="optgv">
-                                  <option value="mp4">MP4</option>
-                                  <option value="wmv">WMV</option>
-                                  <option value="avi">AVI</option>
-                                  <option value="mov">MOV</option>
-                                  <option value="webm">WEBM</option>
-                                  <option value="ogv">OGV</option>
-                                  <option value="mkv">MKV</option>
-                                  <option value="flv">FLV</option>
-                                  <option value="3g2">3G2</option>
-                                  <option value="3gp">3GP</option>
-                                </optgroup>
-                                <optgroup label="オーディオ" class="none" id="optga">
-                                  <option value="aac">AAC</option>
-                                  <option value="aiff">AIFF</option>
-                                  <option value="flac">FLAC</option>
-                                  <option value="m4a">M4A</option>
-                                  <option value="m4r">M4R</option>
-                                  <option value="mmf">MMF</option>
-                                  <option value="mp3">MP3</option>
-                                  <option value="ogg">OGG</option>
-                                  <option value="opus">OPUS</option>
-                                  <option value="wav">WAV</option>
-                                  <option value="wma">WMA</option>
-                                </optgroup>
-                              </select>
-                              <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <optgroup label="文書" class="none" id="optgd">
-                                  <option value="doc">DOC</option>
-                                  <option value="pdf">PDF</option>
-                                  <option value="docx">DOCX</option>
-                                  <option value="html">HTML</option>
-                                  <option value="xls">XLS</option>
-                                  <option value="xlsx">XLSX</option>
-                                  <option value="txt">TXT</option>
-                                  <option value="rtf">RTF</option>
-                                </optgroup>
-                                <optgroup label="画像" class="none" id="optgi">
-                                  <option value="png">PNG</option>
-                                  <option value="jpeg">JPEG</option>
-                                </optgroup>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s6 offset-s3 m6 offset-m3 l2 center" id="div_descconvertinput">
-                          <p class="convert_to2">に変換 <t id="convert_to2">オーディオ</t></p>
-                        </div>
-                    </div>
-                  <!-- btn -->
-                  <div class="row margin_form center center-align">
-                    <div class="col s12 m12 l2 marginline">
-                      <button type="button" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">変換する</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div class="row margin_form center center-align">
-                <div class="col s12 m12 l12 marginline">
-                  <div class="none" id="load">
-                    <img src="_assets/images/load.gif" alt="load">
-                    <p>読み込んで、待つ</p>
-                  </div>
-                  <p id="containerafter">
-                    <?php
-                    if ($_GET["back"] == "error") {
-                      echo "<p>ドキュメントの変換中にエラーが発生しました。 もう一度お試しいただくか、お問い合わせください。</p>";
-                    }
-                    ?>
-                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>ダウンロード</a></a>
-                    <p id="desc_ca" class="none">ダウンロードしたいリンク（オーディオ、ビデオ、オーディオなしのビデオなど）をクリックしてから、開いた新しいタブをクリックして <i class="material-icons">more_vert</i> をクリックしてダウンロードします。</p>
-                  </p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
-      <hr class="line"/>
       <div class="row">
         <div class="col l12">
-          <div class="container" id="contact">
-						<h4>ConvertType</h4>
-            <p class="desc">友達や家族と共有し、ファイル、音楽、ビデオ、画像、その他すべてを変換したい人を示しましょう。 私たちのツールをチェックしてください。 <a href="chutoriaru.php">チュートリアル</a>の方法とサポートされている形式を確認してください。</p>
-            <p class="desc">コメントして、ツールの使用方法をより多くの人に知ってもらい、それが役に立ったかどうかを確認してください。 ご不明な点がございましたら、お問い合わせください。<a href="watashitachinikanshitewa.php">について</a>のページをお読みください。ご不明な点がある場合は、サイトの下部にあるプライバシーポリシーをお読みください。</p>
+          <div class="container" id="tutorial">
+            <h4>TUTORIAL</h4>
+            <h1 style="margin-bottom:0;">変換方法は？</h1>
+            <p style="margin-top：0;"> <em>このチュートリアルでは、Convertタイプを使用してビデオ、音楽、ファイル、およびドキュメントを変換する方法を学びます。</em> </p>
+            <p class="desc">この記事は、誰もがConvertタイプのコンテンツを使用できるようにするためのチュートリアルです。 変換する方法を教えましょう！</p>
+            <h2>フォーマット</h2>
+            <p class="desc"> Convertタイプは、すべてのオプション（ビデオ、音楽、ファイルなど）を他の形式に結合することにより、これらの形式の変換をサポートします。</p>
+            <ul class="listformats">
+              <li> MP4 </li>
+              <li> M4A </li>
+              <li> OPUS </li>
+              <li> WEBM </li>
+              <li> MP3 </li>
+              <li> WMV </li>
+              <li> AVI </li>
+              <li> MOV </li>
+              <li> MKV </li>
+              <li> OGV </li>
+              <li> FLV </li>
+              <li> 3G2 </li>
+              <li> 3GP </li>
+              <li> AAC </li>
+              <li> AIFF </li>
+              <li> FLAC </li>
+              <li> M4R </li>
+              <li> MMF </li>
+              <li> WAV </li>
+              <li> WMA </li>
+              <li> OGG </li>
+              <li> JPEG </li>
+              <li> PNG </li>
+              <li> PDF </li>
+              <li> DOC </li>
+              <li> CSV </li>
+              <li> DOCX </li>
+            </ul>
+            <h5>コンバージカップ<b> * </b> </h5>
+            <ul class="listformats">
+              <li> youtubeビデオをmp3に変換する</li>
+              <li> youtubeから動画をダウンロードする</li>
+              <li>音声なしでyoutubeから動画をダウンロードする</li>
+              <li>ビデオをMP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGGに変換する</li>
+              <li>ビデオをオーディオに変換する</li>
+              <li> JPGをPNGに変換する</li>
+              <li> PNGをJPGに変換する</li>
+              <li> PDFをJPGに変換する</li>
+              <li> PDFをDOCXに変換する</li>
+              <li> PDFをTXTに変換する</li>
+              <li> DOCXをPDFに変換する</li>
+              <li> DOCXをDOCに変換する</li>
+              <li> DOCXをJPGに変換する</li>
+              <li> DOCXをPNGに変換する</li>
+              <li> DOCXをRTFに変換する</li>
+              <li> DOCXをTXTに変換する</li>
+              <li> DOCXをHTMLに変換する</li>
+              <li> DOCをPDFに変換する</li>
+              <li> DOCをDOCXに変換する</li>
+              <li> DOCをTXTに変換する</li>
+              <li> HTMLをPDFに変換する</li>
+              <li> HTMLをPNGに変換する</li>
+              <li> HTMLをTXTに変換する</li>
+              <li> XLSをCSVに変換する</li>
+              <li> XLSをPDFに変換する</li>
+              <li> XLSをXLSXに変換する</li>
+              <li> XLSXをPDFに変換する</li>
+              <li> XLSXをXLSに変換する</li>
+              <li> XLSXをPNGに変換する</li>
+              <li> XLSXをCSVに変換する</li>
+              <li> XLSXをTXTに変換する</li>
+              <li> XLSXをHTMLに変換する</li>
+            </ul>
+            <p class="desc">それでは、ビジネスに取り掛かりましょう。</p>
+            <h2 style="margin-bottom:0;">Youtubeビデオを変換する</h2>
+            <p style="margin-top:0;"><em>youtubeビデオをオーディオに変換する方法、またはyoutubeからオーディオなしでビデオをダウンロードする方法。</em></p>
+            <p class="desc">まずメニューから「オーディオ」タブに移動し、オプションから「URL」モードを選択します。 下の画像のように。</p>
+            <img src="_assets/images/tutorial1.png" width="100%" alt="変換タイプの使用方法のチュートリアル">
+            <p class="desc">これで、変換するビデオのリンク/ URLを貼り付けます。 次に、青い[変換]ボタンをクリックし、すべてのダウンロードオプションが表示されるまで待ちます。 すべての準備が整うと、変換とダウンロードのすべての可能なオプションが表示されます。</p>
+            <p class="desc">読み込みが完了すると、オプションが下の画像のように表示されます。 [ダウンロード]ボタンをクリックすると、新しいタブが開きます。このタブで、<i class = "material-icons"> more_vert </i> ボタン（通常はプレーヤーの右下隅にあります）を見つけて、[実行]オプションを選択します。 ダウンロード "。 そして準備ができました！ これで、音声や音楽なしで動画をダウンロードできました。</p>
+            <img src="_assets/images/tutorial2.png" width="100%" alt="変換タイプの使用方法のチュートリアル 2">
+            <p class="desc"> <b>注：</b>著作権上の理由から、無料のオンライン動画を個人使用（「公正使用」）に変換してください。 ビデオクリップや再販などの著作権で保護された素材の記録には使用しないでください。<b>変換タイプ</b>は、著作権法に違反するこのタイプの侵害について責任を負いません。 他の形式への無料のファイル変換のみを提供しています。</p>
+            <p class="desc"> <b>注2：</b>使用するAPIに変更またはブロックがあった場合、画像が正しくない可能性があります。 変換方法は異なる場合があります。</p>
+            <h2 style="margin-bottom：0;">コンピュータービデオを変換する</h2>
+            <p style="margin-top：0;"> <em>コンピューターから他の形式にビデオを変換する方法。</em> </p>
+            <img src="_assets/images/tutorial3.png" width="100%" alt="変換タイプの使用方法のチュートリアル 3">
+            <p class="desc">上の画像に示すように、メニューに移動して[ビデオ]オプションをクリックします。まだクリックしていない場合は、[アップロード]オプションをクリックします。これが完了したら、左の青いボタン「UP」をクリックしてコンピューターからビデオを選択し、目的のビデオを選択できます。ビデオを選択した後、オプションで必要な拡張子/フォーマットを選択し、右側の「変換」の次の青いボタンをクリックすると完了です。 </p>
+            <p class="desc">変換が完了するとすぐにダウンロードが開始されます。</p>
+            <h2 style="margin-bottom：0;">画像を他の形式に変換する</h2>
+            <p style="margin-top：0;"> <em> JPEG画像をPNG（または他の形式）に、またはその逆に変換する方法。</em> </p>
+            <p class="desc">メニューを使用して、変換する形式の「IMAGES」を選択します。これが完了したら、URLを入力するか、コンピューターから画像をアップロードする場合は、オプションを選択し、右の青いボタン[変換]をクリックして、選択した形式で画像をダウンロードします。</p>
+            <h2 style="margin-bottom：0;"> PDF / CSV / WORDを変換... </h2>
+            <p style="margin-top：0;"> <em>オフィスやその他のドキュメントを別の形式に変換する方法。</em> </p>
+            <p class="desc">メニューを使用して、変換する形式の ドキュメント を選択します。これが完了したら、PDFまたはWORD（または選択したその他の形式）に変換するドキュメントをコンピューターから選択し、右の青いボタン[変換]をクリックして、選択した形式でドキュメントをダウンロードします。</p>
+            <p class="desc">このチュートリアルから、私たちのWebサイトの他のオプションを使用して、より多くのドキュメントなどを変換できます。</p>
+            <p class="desc"> <b>注3：</b> youtubeリンクを変換しようとして、ダウンロードリンクが読み込まれない場合、またはエラーが発生する場合は、このビデオが著作権とルールによってブロックされていることを意味しますYouTubeから。そのため、残念ながら変換できません。</p>
+            <p class="desc"> <b>注4：</b> ファイルをアップロードするための最大サイズは128MBです</p>
+            <p class="desc"> <b>(*)：</b> 使用されているAPIが著作権またはその他の理由でサポートされていない場合、変更される可能性があります。</p>
+            <p class="desc">
+              <b>日付:</b> 10/12/2020 <br/>
+              <b>によって書かれた:</b> Ilion Tecnologia <br/>
+              <b>論文 /:</b> Tutorial
+            </p>
           </div>
         </div>
       </div>
@@ -329,7 +303,7 @@
       <div class="row">
         <div class="col l12">
           <div class="container" id="contact">
-						<h4>連絡先</h4>
+            <h4>連絡先</h4>
             <p class="desc">何か質問がある？ コメントはありますか？ または注文しますか？ お問い合わせ。</p>
             <form action="_assets/scripts/contact.php" method="post" class="row">
               <div class="input-field col s12 m4">
@@ -350,29 +324,19 @@
         </div>
       </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
       <!-- footer -->
       <footer class="page-footer colorprimary pos-footer">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">約</h5>
+              <h5 class="white-text">私たちに関しては</h5>
               <p class="grey-text text-lighten-4 desc">すべての権利は無料です。私たちは、それを必要とする可能性のあるすべての人の有用性と日常的な使用のためにのみそれを行います。</p>
               <a href="porishīToPuraibashī.html" class="white-text desc">プライバシーポリシーを読むには、ここをクリックしてください</a>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">最も使用</h5>
+              <h5 class="white-text">Links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">オーディオ</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">ビデオ</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="ja.php">ベギン</a></li>
               </ul>
             </div>
           </div>

@@ -1,72 +1,58 @@
 <?php
-	session_start();
-	// ini_set( 'error_reporting', E_ALL );
-	// ini_set( 'display_errors', true );
-	/*
-	$server = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
-	$langserver = explode(',', $server)[0];
-	$lang = explode('-', $langserver)[0];
-	*/
+	$local = true;
 
-	// $lang = substr($_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, 2);
-	//
-	// if (!isset($_SESSION["lang"]))
-	// {
-	// 	if (!isset($_GET["lang"]))
-	// 	{
-	// 		$_SESSION["lang"] = "en";
-	// 	}
-	// 	else
-	// 	{
-	// 		$_SESSION["lang"] = $_GET["lang"];
-	// 	}
-	// }
-	//
-	// if(isset($_GET["lang"]))
-	// {
-	// 	$_SESSION["lang"] = $_GET["lang"];
-	// }
+	if ($local)
+	{
+		$link = "http://" . $_SERVER['HTTP_HOST'] . "";
+		$link .= "/converttype";
+		$ext = ".php";
+	}
+	else
+	{
+		$link = "https://" . $_SERVER['HTTP_HOST'] . "";
+		$ext = "";
+	}
 
 	switch ($_POST["language-select"])
 	{
 		case "pt":
-			header('Location: https://converttype.com/pt');
+			header('Location: '. $link."/pt".$ext);
 			exit;
 			break;
 		case "en":
-			header('Location: https://converttype.com');
+			header('Location: '. $link);
 			exit;
 			break;
 		case "fr":
-			header('Location: https://converttype.com/fr');
+			header('Location: '. $link."/fr".$ext);
 			exit;
 			break;
 		case "es":
-			header('Location: https://converttype.com/es');
+			header('Location: '. $link."/es".$ext);
 			exit;
 			break;
 		case "ja":
-			header('Location: https://converttype.com/ja');
+			header('Location: '. $link."/ja".$ext);
 			exit;
 			break;
 		case "ru":
-			header('Location: https://converttype.com/ru');
+			header('Location: '. $link."/ru".$ext);
 			exit;
 			break;
 		case "de":
-			header('Location: https://converttype.com/de');
+			header('Location: '. $link."/de".$ext);
 			exit;
 			break;
 		case "it":
-			header('Location: https://converttype.com/it');
+			header('Location: '. $link."/it".$ext);
 			exit;
 			break;
 		case "zh":
-			header('Location: https://converttype.com/zh');
+			header('Location: '. $link."/zh".$ext);
 			exit;
 			break;
 		default:
-			header('Location: https://converttype.com');
+			header('Location: '. $link);
 			exit;
 			break;
 	}

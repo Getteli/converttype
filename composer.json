@@ -1,10 +1,10 @@
 {
-    "name": "vendor/teste",
+    "name": "vendor/converttype",
     "license": "mit",
     "authors": [
         {
-            "name": "Douglas",
-            "email": "douglas_araujo018@outlook.com"
+            "name": "Iliontecnologia",
+            "email": "iliontecnologia@gmail.com"
         }
     ],
     "minimum-stability": "beta",
@@ -12,12 +12,12 @@
         "cloudmersive/cloudmersive_validate_api_client": "^1.6"
     },
     "autoload": {
-        "psr-4": { 
-            "Converttype\\app\\" : "src/" 
+        "psr-4": {
+            "Converttype\\app\\" : "src/"
         }
     },
     "autoload-dev": {
-        "psr-4": { 
+        "psr-4": {
             "Converttype\\app\\" : "src/"
         }
     }

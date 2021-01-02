@@ -125,9 +125,10 @@
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 class="convert_to">到 <t id="convert_to">音频</t></h3>
+            &nbsp;
           </div>
         </div>
+
         <!-- menu -->
         <div class="navbar">
             <nav class="nav-center">
@@ -137,152 +138,125 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">主页</a></li>
-                        <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
-                        <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
-                        <li><a href="lianxi.php" class="contato">联系</a></li>
-                        <li><a class="link sel" data-target="1">音频</a></li>
-                        <li><a class="link sel" data-target="2">视频</a></li>
-                        <li><a class="link sel" data-target="3">图片</a></li>
-                        <li><a class="link sel" data-target="5">文件资料</a></li>
+                      <li><a href="zh.php" class="begin">主页</a></li>
+                      <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
+                      <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
+                      <li><a href="lianxi.php" class="contato">联系</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">主页</a></li>
+          <li><a href="zh.php" class="begin">主页</a></li>
           <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
           <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
           <li><a href="lianxi.php" class="contato">联系</a></li>
-          <li><a class="link sel" data-target="1">音频</a></li>
-          <li><a class="link sel" data-target="2">视频</a></li>
-          <li><a class="link sel" data-target="3">图片</a></li>
-          <li><a class="link sel" data-target="5">文件资料</a></li>
         </ul>
       </div>
-      <!-- content -->
-      <div class="container background">
-        <div class="row">
-            <div class="col s12 m12 l10 offset-l1 white container-input">
-              <form method="post" id="formconv" enctype="multipart/form-data">
-                <div class="row margin_form">
-                  <!-- options -->
-                  <div class="col s12 m12 l12">
-                    <h5>选项</h5>
-                    <p class="options">
-                      <a id="t_url" class="selectedlink link">通过url</a> |
-                      <a id="t_input" class="link">上载</a>
-                    </p>
-                  </div>
-                  <!-- input -->
-                  <div class="col s12 m12 l10">
-                        <div class="col s12 m12 l10 col_input" id="div_url">
-                          <input type="number" class="none disabled" name="type" id="type" value="1">
-                          <input class="input_target" id="input_url" name="input_url" required placeholder="https://www.youtube.com/watch...."/>
-                        </div>
-                        <div class="col s12 m12 l12 col_input none" id="div_file">
-                          <div class="row">
-                            <div class="col s12 m8 l8">
-                              <div id="div_input_file" class="div_input_file disabled none col s12">
-                                <label for="input_file" class="colorprimary" id="lb_input_file">上载</label>
-                                <input type="file" class="input_file disabled none" accept="" id="input_file" name="input_file">
-                              </div>
-                            </div>
-                            <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
-                              <p class="convert_to3">到</p>
-                              <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <optgroup label="视频" class="none" id="optgv">
-                                  <option value="mp4">MP4</option>
-                                  <option value="wmv">WMV</option>
-                                  <option value="avi">AVI</option>
-                                  <option value="mov">MOV</option>
-                                  <option value="webm">WEBM</option>
-                                  <option value="ogv">OGV</option>
-                                  <option value="mkv">MKV</option>
-                                  <option value="flv">FLV</option>
-                                  <option value="3g2">3G2</option>
-                                  <option value="3gp">3GP</option>
-                                </optgroup>
-                                <optgroup label="音频" class="none" id="optga">
-                                  <option value="aac">AAC</option>
-                                  <option value="aiff">AIFF</option>
-                                  <option value="flac">FLAC</option>
-                                  <option value="m4a">M4A</option>
-                                  <option value="m4r">M4R</option>
-                                  <option value="mmf">MMF</option>
-                                  <option value="mp3">MP3</option>
-                                  <option value="ogg">OGG</option>
-                                  <option value="opus">OPUS</option>
-                                  <option value="wav">WAV</option>
-                                  <option value="wma">WMA</option>
-                                </optgroup>
-                              </select>
-                              <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <optgroup label="文件资料" class="none" id="optgd">
-                                  <option value="doc">DOC</option>
-                                  <option value="pdf">PDF</option>
-                                  <option value="docx">DOCX</option>
-                                  <option value="html">HTML</option>
-                                  <option value="xls">XLS</option>
-                                  <option value="xlsx">XLSX</option>
-                                  <option value="txt">TXT</option>
-                                  <option value="rtf">RTF</option>
-                                </optgroup>
-                                <optgroup label="图片" class="none" id="optgi">
-                                  <option value="png">PNG</option>
-                                  <option value="jpeg">JPEG</option>
-                                </optgroup>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s6 offset-s3 m6 offset-m3 l2 center" id="div_descconvertinput">
-                          <p class="convert_to2">到 <t id="convert_to2">音频</t></p>
-                        </div>
-                    </div>
-                  <!-- btn -->
-                  <div class="row margin_form center center-align">
-                    <div class="col s12 m12 l2 marginline">
-                      <button type="button" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">转换器</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div class="row margin_form center center-align">
-                <div class="col s12 m12 l12 marginline">
-                  <div class="none" id="load">
-                    <img src="_assets/images/load.gif" alt="load">
-                    <p>加载中，等待</p>
-                  </div>
-                  <p id="containerafter">
-                    <?php
-                    if ($_GET["back"]== "error") {
-                      echo "<p>转换文件时发生错误。 请重试或与我们联系。</p>";
-                    }
-                    ?>
-                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>下载</a></a>
-                    <p id="desc_ca" class="none">单击要下载的链接（音频，视频，不带音频的视频等），然后在打开的新标签中单击 <i class="material-icons">more_vert</i> 以下载</p>
-                  </p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
-      <hr class="line"/>
       <div class="row">
         <div class="col l12">
-          <div class="container" id="contact">
-						<h4>ConvertType</h4>
-            <p class="desc">与您的朋友和家人共享，显示您想转换文件，音乐，视频，图像和其他所有内容的人！ 来看看我们的工具。 检查<a href="jiaocheng.php">教程</a>的操作方法以及支持的格式。</p>
-            <p class="desc">进行注释，以便更多的人知道该工具的使用方式，以及是否对您有所帮助！ 如有任何疑问，请与我们联系，阅读我们的<a href="guanyuwomen.php">关于</a>页，如果有任何疑问，请阅读网站底部的隐私政策。</p>
+          <div class="container" id="tutorial">
+            <h4>TUTORIAL</h4>
+            <h1 style="margin-bottom：0;">如何转换？</h1>
+             <p style="margin-top：0;"> <em>在本教程中学习如何使用“转换"类型转换视频，音乐，文件和文档。</em> </p>
+             <p class="desc">本文是一个教程，可以帮助所有人使用Convert类型的内容。 让我们教如何转换！</p>
+             <h2>格式</h2>
+             <p class="desc">转换类型通过将所有选项（视频，音乐或文件，..）连接成其他格式来支持转换这些格式。</p>
+            <ul class="listformats">
+              <li>MP4</li>
+              <li>M4A</li>
+              <li>OPUS</li>
+              <li>WEBM</li>
+              <li>MP3</li>
+              <li>WMV</li>
+              <li>AVI</li>
+              <li>MOV</li>
+              <li>MKV</li>
+              <li>OGV</li>
+              <li>FLV</li>
+              <li>3G2</li>
+              <li>3GP</li>
+              <li>AAC</li>
+              <li>AIFF</li>
+              <li>FLAC</li>
+              <li>M4R</li>
+              <li>MMF</li>
+              <li>WAV</li>
+              <li>WMA</li>
+              <li>OGG</li>
+              <li>JPEG</li>
+              <li>PNG</li>
+              <li>PDF</li>
+              <li>DOC</li>
+              <li>CSV</li>
+              <li>DOCX</li>
+            </ul>
+            <h5>转换次数 <b>*</b></h5>
+            <ul class="listformats">
+              <li>将youtube视频转换为mp3 </li>
+              <li>从youtube下载视频</li>
+              <li>从youtube下载没有声音的视频</li>
+              <li>将视频转换为MP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGG </li >
+              <li>将视频转换为音频</li>
+              <li>将JPG转换为PNG </li>
+              <li>将PNG转换为JPG </li>
+              <li>将PDF转换为JPG </li>
+              <li>将PDF转换为DOCX </li>
+              <li>将PDF转换为TXT </li>
+              <li>将DOCX转换为PDF </li>
+              <li>将DOCX转换为DOC </li>
+              <li>将DOCX转换为JPG </li>
+              <li>将DOCX转换为PNG </li>
+              <li>将DOCX转换为RTF </li>
+              <li>将DOCX转换为TXT </li>
+              <li>将DOCX转换为HTML </li>
+              <li>将DOC转换为PDF </li>
+              <li>将DOC转换为DOCX </li>
+              <li>将DOC转换为TXT </li>
+              <li>将HTML转换为PDF </li>
+              <li>将HTML转换为PNG </li>
+              <li>将HTML转换为TXT </li>
+              <li>将XLS转换为CSV </li>
+              <li>将XLS转换为PDF </li>
+              <li>将XLS转换为XLSX </li>
+              <li>将XLSX转换为PDF </li>
+              <li>将XLSX转换为XLS </li>
+              <li>将XLSX转换为PNG </li>
+              <li>将XLSX转换为CSV </li>
+              <li>将XLSX转换为TXT </li>
+              <li>将XLSX转换为HTML </li>
+            </ul>
+            <p class="desc">现在，让我们言归正传！</p>
+            <h2 style="margin-bottom：0;">转换YouTube视频</h2>
+            <p style="margin-top：0;"> <em>如何将youtube视频转换为音频或从youtube下载无音频的视频。</em> </p>
+            <p class="desc">首先使用菜单进入“音频"标签，然后从选项中选择"URL"模式。 如下图所示。</p>
+            <img src="_assets/images/tutorial1.png" width="100%" alt="教程如何使用转换类型">
+            <p class="desc">完成后，粘贴要转换的视频的链接/网址。 然后单击蓝色的“转换"按钮，等待所有下载选项出现。 一切准备就绪后，将出现所有用于转换和下载的选项。</p>
+            <p class="desc">加载完成后，选项将如下图所示。 单击“下载"按钮，将打开一个新标签，在此标签上，找到<i class="material-icons"> more_vert </i>按钮（通常在播放器的右下角），然后选择"DO"选项 下载 "。 准备好了！ 现在，您已经下载了没有音频或音乐的视频。</p>
+            <img src="_assets/images/tutorial2.png" width="100%" alt="教程如何使用转换类型 2">
+            <p class="desc"> <b>注意：</b> 出于版权原因，请转换免费的在线视频供个人使用（“合理使用"）。 <b>转换类型</b>对这种侵犯版权法的侵权行为不承担任何责任。 我们仅提供免费文件转换为其他格式。</p>
+            <p class="desc"> <b>注意2：</b> 如果使用的API发生更改或阻塞，则图像可能不正确。 转换方式可能会有所不同。</p>
+            <h2 style="margin-bottom：0;">转换计算机视频</h2>
+            <p style="margin-top：0;"> <em>如何将视频从计算机转换为其他格式。</em> </p>
+            <img src="_assets/images/tutorial3.png" width="100%" alt="教程如何使用转换类型 3">
+            <p class="desc">如上图所示，转到菜单，然后单击选项“视频"。如果还没有，请单击“上传"选项。完成此操作后，您可以通过单击左侧的蓝色按钮"UP"从计算机中选择视频，然后选择所需的视频。选择视频后，在选项中选择所需的扩展名/格式，然后单击右侧“转换"的下一个蓝色按钮，即可完成！ </p>
+            <p class="desc">转换完成后，您的下载将立即开始。</p>
+            <h2 style="margin-bottom：0;">将图像转换为其他格式</h2>
+            <p style="margin-top：0;"> <em>如何将JPEG图像转换为PNG（或其他格式），反之亦然。</em> </p>
+            <p class="desc">使用菜单选择要转换的格式"que"。完成此操作后，如果要输入URL或从计算机上传图像，请选择选项，然后单击右侧的蓝色按钮“转换"以选择的格式下载图像。</p>
+            <h2 style="margin-bottom：0;">转换PDF / CSV / WORD ... </h2>
+            <p style="margin-top：0;"> <em>如何将Office和其他文档转换为另一种格式。</em> </p>
+            <p class="desc">使用菜单选择要转换的格式"DOC OR文件资料"。完成此操作后，从计算机中选择要转换为PDF或WORD（或您选择的任何其他格式）的文档，然后单击右侧的蓝色按钮“转换"以选择的格式下载文档。</p>
+            <p class="desc">通过本教程，您已经可以使用我们网站上的其他选项来转换更多文档和更多内容！</p>
+            <p class="desc"> <b>注意3：</b> 如果您尝试转换youtube链接，但未加载下载链接，或生成错误，则表示该视频已受版权和规则的禁止来自YouTube。因此，很遗憾，它无法转换。</p>
+            <p class="desc"> <b>注意4：</b> 上载文件的最大大小为128 MB </p>
+            <p class="desc"> <b>（*）：</b> 如果由于版权或其他原因不支持所使用的API，则可能会发生更改。</p>
+            <p class="desc">
+              <b>文章日期:</b> 10/12/2020 <br/>
+              <b>撰写者:</b> Ilion Tecnologia <br/>
+              <b>文章:</b> Tutorial
+            </p>
           </div>
         </div>
       </div>
@@ -336,12 +310,6 @@
         </div>
       </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
 
       <!-- footer -->
       <footer class="page-footer colorprimary pos-footer">
@@ -353,12 +321,9 @@
               <a href="zhengceYuYinsi.html" class="white-text desc">点击这里阅读隐私政策</a>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">最常被使用</h5>
+              <h5 class="white-text">Links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">音频</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">视频</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="zh.php">主页</a></li>
               </ul>
             </div>
           </div>

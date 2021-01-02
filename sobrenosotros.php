@@ -125,7 +125,7 @@
 
         <div class="row colorprimary nospacerow">
           <div class="col s12 m12 l12 center white-text">
-            <h3 class="convert_to">PARA <t id="convert_to">AUDIO</t></h3>
+            &nbsp;
           </div>
         </div>
         <!-- menu -->
@@ -137,171 +137,42 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">INICIO</a></li>
-                        <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
-                        <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
-                        <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>                        <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel" data-target="2">VÍDEO</a></li>
-                        <li><a class="link sel" data-target="3">IMAGENES</a></li>
-                        <li><a class="link sel" data-target="5">DOCUMENTOS</a></li>
+                      <li><a href="es.php" class="begin">INICIO</a></li>
+                      <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
+                      <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
+                      <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">INICIO</a></li>
+          <li><a href="es.php" class="begin">INICIO</a></li>
           <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
           <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
           <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>
-          <li><a class="link sel" data-target="1">AUDIO</a></li>
-          <li><a class="link sel" data-target="2">VÍDEO</a></li>
-          <li><a class="link sel" data-target="3">IMAGENES</a></li>
-          <li><a class="link sel" data-target="5">DOCUMENTOS</a></li>
         </ul>
       </div>
-      <!-- content -->
-      <div class="container background">
-        <div class="row">
-            <div class="col s12 m12 l10 offset-l1 white container-input">
-              <form method="post" id="formconv" enctype="multipart/form-data">
-                <div class="row margin_form">
-                  <!-- options -->
-                  <div class="col s12 m12 l12">
-                    <h5>OPCIONES</h5>
-                    <p class="options">
-                      <a id="t_url" class="selectedlink link">via url</a> |
-                      <a id="t_input" class="link">subir</a>
-                    </p>
-                  </div>
-                  <!-- input -->
-                  <div class="col s12 m12 l10">
-                        <div class="col s12 m12 l10 col_input" id="div_url">
-                          <input type="number" class="none disabled" name="type" id="type" value="1">
-                          <input class="input_target" id="input_url" name="input_url" required placeholder="https://www.youtube.com/watch...."/>
-                        </div>
-                        <div class="col s12 m12 l12 col_input none" id="div_file">
-                          <div class="row">
-                            <div class="col s12 m8 l8">
-                              <div id="div_input_file" class="div_input_file disabled none col s12">
-                                <label for="input_file" class="colorprimary" id="lb_input_file">SUBIR</label>
-                                <input type="file" class="input_file disabled none" accept="" id="input_file" name="input_file">
-                              </div>
-                            </div>
-                            <div class="col s6 offset-s3 m4 l4 explictype mgtopmob">
-                              <p class="convert_to3">PARA</p>
-                              <select class="selecttype none" name="selecttype_video" id="selecttype_video">
-                                <optgroup label="VÍDEO" class="none" id="optgv">
-                                  <option value="mp4">MP4</option>
-                                  <option value="wmv">WMV</option>
-                                  <option value="avi">AVI</option>
-                                  <option value="mov">MOV</option>
-                                  <option value="webm">WEBM</option>
-                                  <option value="ogv">OGV</option>
-                                  <option value="mkv">MKV</option>
-                                  <option value="flv">FLV</option>
-                                  <option value="3g2">3G2</option>
-                                  <option value="3gp">3GP</option>
-                                </optgroup>
-                                <optgroup label="AUDIO" class="none" id="optga">
-                                  <option value="aac">AAC</option>
-                                  <option value="aiff">AIFF</option>
-                                  <option value="flac">FLAC</option>
-                                  <option value="m4a">M4A</option>
-                                  <option value="m4r">M4R</option>
-                                  <option value="mmf">MMF</option>
-                                  <option value="mp3">MP3</option>
-                                  <option value="ogg">OGG</option>
-                                  <option value="opus">OPUS</option>
-                                  <option value="wav">WAV</option>
-                                  <option value="wma">WMA</option>
-                                </optgroup>
-                              </select>
-                              <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
-                                <optgroup label="DOCUMENTOS" class="none" id="optgd">
-                                  <option value="doc">DOC</option>
-                                  <option value="pdf">PDF</option>
-                                  <option value="docx">DOCX</option>
-                                  <option value="html">HTML</option>
-                                  <option value="xls">XLS</option>
-                                  <option value="xlsx">XLSX</option>
-                                  <option value="txt">TXT</option>
-                                  <option value="rtf">RTF</option>
-                                </optgroup>
-                                <optgroup label="IMAGENES" class="none" id="optgi">
-                                  <option value="png">PNG</option>
-                                  <option value="jpeg">JPEG</option>
-                                </optgroup>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s6 offset-s3 m6 offset-m3 l2 center" id="div_descconvertinput">
-                          <p class="convert_to2">PARA <t id="convert_to2">AUDIO</t></p>
-                        </div>
-                    </div>
-                  <!-- btn -->
-                  <div class="row margin_form center center-align">
-                    <div class="col s12 m12 l2 marginline">
-                      <button type="button" name="btn_convert" id="btn_convert" class="btn-ct btn colorprimary">CONVERTIR</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div class="row margin_form center center-align">
-                <div class="none" id="load">
-                  <img src="_assets/images/load.gif" alt="load">
-                  <p>cargando, espera.</p>
-                </div>
-                <div class="col s12 m12 l12 marginline">
-                  <?php
-                  if ($_GET["back"] == "error") {
-                    echo "<p>Hubo un error al convertir su documento. Inténtelo de nuevo o contáctenos.</p>";
-                  }
-                  ?>
-                  <p id="containerafter">
-                    <h4><a href="" download="" class='desc none' id='btn_download_filesaved'>DESCARGAR</a></a>
-                    <p id="desc_ca" class="none">Haga clic en el enlace que desea descargar (audio, video, video sin audio, etc.) y luego en la nueva pestaña que se abre, haga clic en <i class="material-icons">more_vert</i> para descargar.</p>
-                  </p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
-      <hr class="line"/>
       <div class="row">
         <div class="col l12">
-          <div class="container" id="contact">
-  					<h4>ConvertType</h4>
-            <p class="desc"> Comparte con tus amigos y familiares, muestra a quién te gustaría convertir tus archivos, música, videos, imágenes y todo lo demás. ven a ver nuestra herramienta. Consulte el <a href="tutorial.php"> tutorial </a> sobre cómo hacerlo y qué formatos son compatibles. </p>
-            <p class="desc"> Comente para que más personas puedan saber cómo se usa la herramienta y si le ayudó. Si tiene alguna pregunta, comuníquese con nosotros, lea nuestra página <a href="sobre.php"> acerca de </a> y, si tiene alguna pregunta, lea nuestra política de privacidad en la parte inferior del sitio. </p>
+          <div class="container" id="about">
+            <h4> ACERCA DE NOSOTROS </h4>
+            <p class="desc"> <b> Tipo de conversión </b> es un conversor de varios archivos y formatos a cualquier formato.
+            Puede convertir videos de youtube a diferentes formatos de audio, descargar videos de youtube, descargar videos sin audio de youtube,
+            convierta videos de su computadora cargando el archivo y descargándolo en otros formatos / extensiones.
+            Puede convertir imágenes a otros formatos y extensiones, así como cambiar y convertir archivos y documentos. </p>
+            <p class="desc"> Convierta videos (a través de un enlace como youtube o desde su propia computadora) a audios (en varias calidades posibles); para videos, para videos sin sonido, también convierte imágenes, de PNG a JPG o JPG a PNG. Además de estos, puedes aprovechar para convertir archivos y documentos, como: DOC, PDF, DOCX, HTML, XLS, XLSX, TXT, RTF e incluso convertir archivos a imágenes PNG o JPG. Para obtener más información, acceda a la lista de <b> conversiones </b> en el <a href="comousar.php"> tutorial </a> para averiguar cuáles son las posibilidades y tipos de conversiones de archivo a archivo y qué formatos. </p>
+            <p class="desc"> El tipo de conversión está disponible en 9 (nueve) idiomas para que su uso sea el más disfrutado por todos, independientemente de su idioma. </p>
+            <p class="desc"> Esta aplicación fue desarrollada pensando en el usuario, desde el más lego hasta el más experimentado, que puede necesitar un archivo en otro formato para enviar por correo electrónico, para una presentación rápida, para una imagen o necesitando descargar ese video y / o tener el audio o video en otro formato. Y para el profano al que le gustaría descargar ese video que vio o una imagen, un archivo que no abrió por falta de aplicación para abrir el formato. En definitiva, poder brindar a todos la experiencia de tener y convertir lo que deseas y no estar más preocupado ... ¡y en cualquier lugar! la aplicación se encuentra disponible para móviles con una experiencia agradable, legible e intuitiva, pudiendo tomar medios desde tu celular o tableta y subir a convertir y disfrutar de nuestra herramienta. </p>
+            <p class="desc"> Disfrute del <b> tipo de conversión </b>. </p>
+            <p class="desc"> Gracias a los desarrolladores de este proyecto, estamos poniendo a disposición de todos sin cargo ni ningún tipo de suscripción, captura de datos, cookies ni nada por el estilo. Nuestra única solicitud es qué sucede si usa un bloqueador de anuncios, o adblock, que deshabilita y vuelve a cargar el sitio para que podamos continuar ofreciéndole este contenido gratuito y de buena calidad. </p>
+            <p class="desc"> <b> OBS: </b> Por razones de derechos de autor, políticas y leyes de privacidad, leyes europeas de GDPR y la ECPA estadounidense, no conservamos ninguno de los datos de nuestros usuarios, no nos registramos, no pedimos asistencia financiera, ni somos responsables del mal uso de nuestra herramienta. Solo lo ponemos a disposición para el acceso gratuito de todos. Si algún video que intenta convertir a través del enlace de youtube no funciona, o las opciones de audio no están disponibles, es porque youtube tiene sus reglas y sigue las leyes de derechos de autor, y por lo tanto no permite la descarga de música con derechos de autor. . Si encuentra algún error, o alguna funcionalidad está en problemas o no funciona como debería NOTIFICARNOS, POR FAVOR CONTACTE CON NOSOTROS POR LA SESIÓN DE CONTACTO, tanto aquí en esta página, como en las páginas de inicio, tutoriales o política y privacidad. Gracias por entender </p>
+            <p class="desc"> <b> No sufrirá ningún daño ni ninguna plaga alcanzará su tienda. Porque él dará órdenes a tus ángeles para que te mantengan a salvo en todos tus caminos. Salmo 91: 10,11 </b> </p>
+            <p class="desc"> Si tiene algún comentario, alguna idea para nuevos formatos que me gustaría ver aquí, estaremos agradecidos y estaremos muy felices de poder ayudar y recibir su comentario o crítica constructiva con una sonrisa. Siéntete libre, disfruta. Si utiliza <b> AdBlock </b> o cualquier otro <b> bloqueador de anuncios </b>, desactívelo para que podamos mantener el sitio activo para usted y otras personas que lo necesiten. Gracias por entender y &#128522;</p>
           </div>
         </div>
       </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
-      <hr class="line"/>
-      <div class="row">
-        <div class="col l12">
-          <div class="container" id="comments">
-            <div id="fb-root"></div>
-            <div class="fb-comments" data-href="https://converttype.com/es.php" data-numposts="5" data-width=""></div>
-          </div>
-        </div>
-      </div>
 
       <!--  -->
       <div class="row">
@@ -335,13 +206,6 @@
         </div>
       </div>
 
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
       <!-- footer -->
       <footer class="page-footer colorprimary pos-footer">
         <div class="container">
@@ -352,12 +216,9 @@
               <a href="politicaDePrivacidad.html" class="white-text desc"> Haga clic aquí para leer la Política de privacidad </a>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">MÁS USADO</h5>
+              <h5 class="white-text">Links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="es.php">Inicio</a></li>
               </ul>
             </div>
           </div>

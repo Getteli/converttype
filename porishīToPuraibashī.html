@@ -63,6 +63,20 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
+    <style media="screen">
+      /*TABLET*/
+      @media only screen and (min-width: 1051px) {
+        *{
+          font-size: 12px!important;
+        }
+      }
+
+      @media (min-width: 950px) and (max-width: 1050px) {
+        *{
+          font-size: 10px!important;
+        }
+      }
+    </style>
   </head>
   <body id="begin">
     <div class="row">
@@ -96,29 +110,57 @@
       <div class="container">
         <div class="navbar">
             <nav>
-                <div class="nav-wrapper center colorprimary">
-                    <a href="https://converttype.com/ja#begin" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+              <div class="nav-wrapper center colorprimary">
+                <div class="input_l colorprimary">
+                  <form action="lang/translate.php" method="POST">
+                    <select name="language-select" id="language-select" class="select_language colorprimary" onchange="this.form.submit()">
+                      <option class="opt_l" value="0">elige tu idioma</option>
+                      <option class="opt_l" value="de">Deutsch</option>
+                      <option class="opt_l" value="en">English</option>
+                      <option class="opt_l" value="es">Español</option>
+                      <option class="opt_l" value="fr">Français</option>
+                      <option class="opt_l" value="it">Italiano</option>
+                      <option class="opt_l" value="pt">Português</option>
+                      <option class="opt_l" value="ru">русский</option>
+                      <option class="opt_l" value="ja" selected>日本人</option>
+                      <option class="opt_l" value="zh">中文</option>
+                      <!-- other language options -->
+                    </select>
+                  </form>
                 </div>
+                  <a href="ja.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+              </div>
             </nav>
         </div>
+
+        <div class="row colorprimary nospacerow">
+          <div class="col s12 m12 l12 center white-text">
+            &nbsp;
+          </div>
+        </div>
+
         <!-- menu -->
         <div class="navbar">
             <nav class="nav-center">
                 <div class="nav-wrapper colorprimary">
                     <!-- icon open menu no mobile -->
                     <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
-                        <i class="material-icons">menu</i>
+                        <i class="material-icons" style="font-size:24px!important;">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                      <li><a href="https://converttype.com/ja#begin" class="begin">開始</a></li>
-                      <li><a href="https://converttype.com/ja#about" class="about">約</a></li>
+                      <li><a href="ja.php" class="begin">ベギン</a></li>
+                      <li><a href="watashitachinikanshitewa" class="about">私たちに関しては</a></li>
+                      <li><a href="chutoriaru" class="tutorial">チュートリアル</a></li>
+                      <li><a href="renrakusen.php">連絡先</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="https://converttype.com/ja#begin" class="begin">開始</a></li>
-          <li><a href="https://converttype.com/ja#about" class="about">約</a></li>
+          <li><a href="ja.php" class="begin">ベギン</a></li>
+          <li><a href="watashitachinikanshitewa" class="about">私たちに関しては</a></li>
+          <li><a href="chutoriaru" class="tutorial">チュートリアル</a></li>
+          <li><a href="renrakusen.php">連絡先</a></li>
         </ul>
       </div>
     <div class="container">
@@ -183,13 +225,13 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">約</h5>
+            <h5 class="white-text">私たちに関しては</h5>
             <p class="grey-text text-lighten-4 desc">すべての権利は無料です。私たちは、それを必要とする可能性のあるすべての人の有用性と日常的な使用のためにのみそれを行います。</p>
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Links</h5>
             <ul>
-              <li><a class="grey-text text-lighten-3 sel" href="https://converttype.com/ja#begin">開始</a></li>
+              <li><a class="grey-text text-lighten-3 sel" href="ja.php">ベギン</a></li>
             </ul>
           </div>
         </div>

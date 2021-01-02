@@ -134,8 +134,9 @@
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="#begin" class="begin">HOME</a></li>
-                        <li><a href="#about" class="about">ABOUT</a></li>
-                        <li><a href="#tutorial" class="tutorial">TUTORIAL</a></li>
+                        <li><a href="about.php" class="about">ABOUT</a></li>
+                        <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
+                        <li><a href="contact.php" class="tutorial">CONTACT</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDEO</a></li>
                         <li><a class="link sel" data-target="3">IMAGES</a></li>
@@ -146,8 +147,9 @@
         </div>
         <ul id="mobile-navbar" class="sidenav">
           <li><a href="#begin" class="begin">HOME</a></li>
-          <li><a href="#about" class="about">ABOUT</a></li>
-          <li><a href="#tutorial" class="tutorial">TUTORIAL</a></li>
+          <li><a href="about.php" class="about">ABOUT</a></li>
+          <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
+          <li><a href="contact.php" class="tutorial">CONTACT</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDEO</a></li>
           <li><a class="link sel" data-target="3">IMAGES</a></li>
@@ -270,108 +272,13 @@
         </div>
       </div>
 
+      <hr class="line"/>
       <div class="row">
         <div class="col l12">
-          <div class="container" id="tutorial">
-            <h1 style="margin-bottom: 0;"> How to convert? </h1>
-             <p style="margin-top: 0;"> <em> Learn in this tutorial how to convert video, music, files and documents using the Convert type. </em> </p>
-             <p class="desc"> This article is a tutorial to help everyone use the content of Convert type. Let's teach how to convert! </p>
-             <h2> Formats </h2>
-             <p class="desc"> The Convert type supports converting these formats by joining all the options (be it video, music, or files, ..) to other formats. </p>
-            <ul class="listformats">
-              <li>MP4</li>
-              <li>M4A</li>
-              <li>OPUS</li>
-              <li>WEBM</li>
-              <li>MP3</li>
-              <li>WMV</li>
-              <li>AVI</li>
-              <li>MOV</li>
-              <li>MKV</li>
-              <li>OGV</li>
-              <li>FLV</li>
-              <li>3G2</li>
-              <li>3GP</li>
-              <li>AAC</li>
-              <li>AIFF</li>
-              <li>FLAC</li>
-              <li>M4R</li>
-              <li>MMF</li>
-              <li>WAV</li>
-              <li>WMA</li>
-              <li>OGG</li>
-              <li>JPEG</li>
-              <li>PNG</li>
-              <li>PDF</li>
-              <li>DOC</li>
-              <li>CSV</li>
-              <li>DOCX</li>
-            </ul>
-            <h5> Conversions <b>*</b> </h5>
-            <ul class = "listformats">
-              <li> Convert youtube videos to mp3 </li>
-              <li> Download videos from youtube </li>
-              <li> Download videos from youtube without sound </li>
-              <li> Convert videos to MP4 / M4A / OPUS / WEBM / MP3 / WMV / AVI / MOV / MKV / OGV / FLV / 3G2 / 3GP / AAC / AIFF / FLAC / M4R / MMF / WAV / WMA / OGG </ li >
-              <li> Convert video to audio </li>
-              <li> Convert JPG to PNG </li>
-              <li> Convert PNG to JPG </li>
-              <li> Convert PDF to JPG </li>
-              <li> Convert PDF to DOCX </li>
-              <li> Convert PDF to TXT </li>
-              <li> Convert DOCX to PDF </li>
-              <li> Convert DOCX to DOC </li>
-              <li> Convert DOCX to JPG </li>
-              <li> Convert DOCX to PNG </li>
-              <li> Convert DOCX to RTF </li>
-              <li> Convert DOCX to TXT </li>
-              <li> Convert DOCX to HTML </li>
-              <li> Convert DOC to PDF </li>
-              <li> Convert DOC to DOCX </li>
-              <li> Convert DOC to TXT </li>
-              <li> Convert HTML to PDF </li>
-              <li> Convert HTML to PNG </li>
-              <li> Convert HTML to TXT </li>
-              <li> Convert XLS to CSV </li>
-              <li> Convert XLS to PDF </li>
-              <li> Convert XLS to XLSX </li>
-              <li> Convert XLSX to PDF </li>
-              <li> Convert XLSX to XLS </li>
-              <li> Convert XLSX to PNG </li>
-              <li> Convert XLSX to CSV </li>
-              <li> Convert XLSX to TXT </li>
-              <li> Convert XLSX to HTML </li>
-            </ul>
-            <p class="desc"> Now let's get to it! </p>
-            <h2 style="margin-bottom: 0;"> Convert Youtube videos </h2>
-            <p style="margin-top: 0;"> <em> How to convert youtube videos to audios or download videos without audio from youtube. </em> </p>
-            <p class="desc"> First go to the "AUDIO" tab using the menu, then select the "URL" mode from the options. As in the image below. </p>
-            <img src="_assets/images/tutorial1.png" width="100%" alt="tutorial how to use convert type">
-            <p class="desc"> That done, paste the link / url of the video you want to convert. Then click on the blue "CONVERT" button, wait until all the download options appear. When everything is ready, all possible options for converting and downloading will appear. </p>
-            <p class="desc"> When finished loading, the options will appear as in the image below. Click on the "DOWNLOAD" button and a new tab will open, on this tab, find the <i class = "material-icons"> more_vert </i> button (usually in the lower right corner of the player) and select the "DO" option DOWNLOAD ". And ready ! now you've downloaded your video without audio, or your music. </p>
-            <img src="_assets/images/tutorial2.png" width="100%" alt="tutorial how to use convert type 2">
-            <p class="desc"> <b> NOTE: </b> for copyright reasons, convert free online videos for personal use ("fair use"). It should not be used for recordings of copyrighted material, such as video clips or resale, the <b> convert type </b> is not responsible for any infringement of this type that violates copyright laws. We only offer free file conversion to other formats. </p>
-            <p class="desc"> <b> NOTE 2: </b> The images may not be correct if there has been a change or block in the APIs used. the way we convert may be different. </p>
-            <h2 style="margin-bottom: 0;"> Convert computer videos </h2>
-            <p style="margin-top: 0;"> <em> How to convert videos from your computer to other formats. </em> </p>
-            <img src="_assets/images/tutorial3.png" width="100%" alt="tutorial how to use convert type 3">
-            <p class="desc"> As shown in the image above, go to the menu and click on the VIDEO option. And then click on the "UPLOAD" option if it isn't already. Once this is done, you can select videos from your computer by clicking the left blue button "UP", and select the video you want. After choosing the video, select in the options the extension / format you want, and click on the next blue button on the right "CONVERT" and you're done! </p>
-            <p class="desc"> Your download will start as soon as the conversion is complete. </p>
-            <h2 style="margin-bottom: 0;"> Convert images to other formats </h2>
-            <p style="margin-top: 0;"> <em> How to convert JPEG images to PNG (or other formats) or vice versa. </em> </p>
-            <p class="desc"> Use the menu to select "IMAGES" the format you want to convert. Once this is done, choose the options, if you want to enter the URL or upload an image from your computer, and then click on the right blue button "CONVERT" to download your image in the chosen format. </p>
-            <h2 style="margin-bottom: 0;"> Convert PDF / CSV / WORD ... </h2>
-            <p style="margin-top: 0;"> <em> How to convert office and other documents to another format. </em> </p>
-            <p class="desc"> Use the menu to select "DOC OR DOCUMENTS" the format you want to convert. Once this is done, select from your computer the document you want to convert to PDF or WORD (or any other format you have selected), and then click on the right blue button "CONVERT" to download your document in the chosen format. </p>
-            <p class="desc"> From this tutorial you can already use the other options on our website to convert more documents and much more! </p>
-            <p class="desc"> <b> NOTE 3: </b> If you try to convert a youtube link and it does not load the download links, or it generates an error, it means that this video is blocked by copyright and rules from YouTube. So unfortunately it cannot be converted. </p>
-            <p class="desc"> <b> NOTE 4: </b> The maximum size for uploading a file is 128 MB</p>
-            <p class = "desc"> <b> (*): </b> There may be changes if the API used is not supported due to copyright or other reasons. </p>
-            <p class="desc">
-              <b> Date: </b> 10/12/2020 <br/>
-              <b> Written by: </b> Ilion Tecnologia <br/>
-              <b> Article: </b> Tutorial
-            </p>
+          <div class="container" id="contact">
+						<h4>ConvertType</h4>
+            <p class="desc"> Share with your friends and family, show who you would like to convert your files, music, videos, images and everything else! come check out our tool. Check the <a href="howtouse.php"> tutorial </a> how to do it and what formats are supported. </p>
+            <p class="desc"> Comment so that more people can know how the tool is used, and if it helped you! any questions please contact us, read our <a href="about.php"> about </a> page and if you have any questions read our privacy policy at the bottom of the site. </p>
           </div>
         </div>
       </div>
@@ -383,6 +290,7 @@
         </div>
       </div>
 
+      <hr class="line"/>
       <div class="row">
         <div class="col l12">
           <div class="container" id="comments">
@@ -400,28 +308,6 @@
       </div>
 
       <hr class="line"/>
-      <div class="row">
-        <div class="col l12">
-          <div class="container" id="about">
-            <h4>ABOUT</h4>
-            <p class="desc"> <b> Convert Type </b> is a converter of multiple files and formats.
-            You can convert youtube videos to different audio formats, download videos from youtube, download videos without audio from youtube,
-            convert videos from your computer by uploading the file and downloading in other formats / extensions.
-            You can convert images to other formats and extensions, as well as change and convert files and documents.
-            Convert PDF files to word, Excel, and more.
-            Enjoy the <b> Convert Type </b>.
-            Thanks to the developers of this project, we are making it available to everyone. Feel free, enjoy. If you use <b> AdBlock </b> or any other <b> ad blocker </b>, please disable it so we can keep the site live for you and others in need. Thanks for understanding &#128522;</p>
-          </div>
-        </div>
-      </div>
-
-      <!--  -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3 l6 offset-l3">
-
-        </div>
-      </div>
-
       <div class="row">
         <div class="col l12">
           <div class="container" id="contact">
@@ -460,7 +346,7 @@
             <div class="col l6 s12">
               <h5 class="white-text">ABOUT</h5>
               <p class="grey-text text-lighten-4 desc">All rights are free, we only do it for the usefulness and daily use of everyone who may need it.</p>
-              <a href="PolicyAndPrivacy.html" class="white-text desc">Click here to read the Privacy Policy</a>
+              <a href="policyAndPrivacy.html" class="white-text desc">Click here to read the Privacy Policy</a>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">MOST USED</h5>

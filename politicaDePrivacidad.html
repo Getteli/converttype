@@ -95,11 +95,35 @@
       <div class="container">
         <div class="navbar">
             <nav>
-                <div class="nav-wrapper center colorprimary">
-                    <a href="https://converttype.com/es#begin" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+              <div class="nav-wrapper center colorprimary">
+                <div class="input_l colorprimary">
+                  <form action="lang/translate.php" method="POST">
+                    <select name="language-select" id="language-select" class="select_language colorprimary" onchange="this.form.submit()">
+                      <option class="opt_l" value="0">elige tu idioma</option>
+                      <option class="opt_l" value="de">Deutsch</option>
+                      <option class="opt_l" value="en">English</option>
+                      <option class="opt_l" value="es" selected>Español</option>
+                      <option class="opt_l" value="fr">Français</option>
+                      <option class="opt_l" value="it">Italiano</option>
+                      <option class="opt_l" value="pt">Português</option>
+                      <option class="opt_l" value="ru">русский</option>
+                      <option class="opt_l" value="ja">日本人</option>
+                      <option class="opt_l" value="zh">中文</option>
+                      <!-- other language options -->
+                    </select>
+                  </form>
                 </div>
+                  <a href="es.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+              </div>
             </nav>
         </div>
+
+        <div class="row colorprimary nospacerow">
+          <div class="col s12 m12 l12 center white-text">
+            &nbsp;
+          </div>
+        </div>
+
         <!-- menu -->
         <div class="navbar">
             <nav class="nav-center">
@@ -109,15 +133,19 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="https://converttype.com/es#begin" class="begin">INICIO</a></li>
-                        <li><a href="https://converttype.com/es#about" class="about">SOBRE NOSOTROS</a></li>
+                      <li><a href="es.php" class="begin">INICIO</a></li>
+                      <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
+                      <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
+                      <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="https://converttype.com/es#begin" class="begin">INICIO</a></li>
-          <li><a href="https://converttype.com/es#about" class="about">SOBRE NOSOTROS</a></li>
+          <li><a href="es.php" class="begin">INICIO</a></li>
+          <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
+          <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
+          <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>
         </ul>
       </div>
     <div class="container">

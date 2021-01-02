@@ -10,6 +10,24 @@
 	RewriteCond %{REQUEST_FILENAME}\.php -f
 	RewriteRule ^(.*)$ $1.php [NC,L]
 
+		# block acess to file and folder
+		# default
+		#RedirectMatch 403 ^/folder/?$
+		#RedirectMatch 403 ^/file.ext$
+
+		# files
+		RedirectMatch 403 ^/composer.json$
+		RedirectMatch 403 ^/composer.lock$
+		RedirectMatch 403 ^/.htaccess$
+		RedirectMatch 403 ^/.env$
+
+		# folder
+		RedirectMatch 403 ^/vendor/?$
+		RedirectMatch 403 ^/public/?$
+		RedirectMatch 403 ^/lang/?$
+		RedirectMatch 403 ^/_assets/?$
+		RedirectMatch 403 ^/.git/?$
+
 	ErrorDocument 403 https://converttype.com
 	ErrorDocument 404 https://converttype.com
 	ErrorDocument 500 https://converttype.com
