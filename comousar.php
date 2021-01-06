@@ -58,7 +58,7 @@
     <link rel="alternate" hreflang="zh" href="https://www.converttype.com/zh.php" />
 
     <!-- title -->
-    <title>Convert Type</title>
+    <title>Convert Type - Cómo usar</title>
 
     <!-- Icones materilalize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

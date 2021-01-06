@@ -58,7 +58,7 @@
     <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
 
     <!-- title -->
-    <title>Convert Type</title>
+    <title>Convert Type - Didacticiel</title>
 
     <!-- Icones materilalize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

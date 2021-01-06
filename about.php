@@ -108,7 +108,7 @@
                       </select>
                     </form>
                   </div>
-                    <a href="#" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+                    <a href="index.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
                 </div>
             </nav>
         </div>
@@ -130,7 +130,7 @@
                         <li><a href="index.php" class="begin">HOME</a></li>
                         <li><a href="about.php" class="about">ABOUT</a></li>
                         <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
-                        <li><a href="contact.php" class="tutorial">CONTACT</a></li>
+                        <li><a href="contact.php" class="contato">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -139,7 +139,7 @@
           <li><a href="index.php" class="begin">HOME</a></li>
           <li><a href="about.php" class="about">ABOUT</a></li>
           <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
-          <li><a href="contact.php" class="tutorial">CONTACT</a></li>
+          <li><a href="contact.php" class="contato">CONTACT</a></li>
         </ul>
       </div>
 

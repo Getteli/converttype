@@ -58,7 +58,7 @@
     <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
 
     <!-- title -->
-    <title>Convert Type - Tutorial</title>
+    <title>Convert Type - Contato</title>
 
     <!-- Icones materilalize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

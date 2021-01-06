@@ -54,7 +54,7 @@
     <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
 
     <!-- title -->
-    <title>Convert Type - Contact</title>
+    <title>Convert Type - How to use</title>
 
     <!-- Icones materilalize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

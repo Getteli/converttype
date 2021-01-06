@@ -36,9 +36,10 @@
 		{
 			header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
 		}
-
+		$chave1 = "60c99b8c-0b69-4037-a8f3-5f9cfc992208"; // douglas, antiga, ja expirada
+		$chave2 = "76299ba9-6820-497d-98ea-8d1ff2fa0116"; // matheus
 		// Configure API key authorization: Apikey
-		$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Apikey', " 60c99b8c-0b69-4037-a8f3-5f9cfc992208");
+		$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Apikey', $chave2);
 
 		$apiInstance = new Swagger\Client\Api\ConvertDocumentApi(
 		    new GuzzleHttp\Client(),
