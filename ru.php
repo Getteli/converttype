@@ -154,7 +154,7 @@
                         <li><a href="#begin" class="begin">НАЧАЛО</a></li>
                         <li><a href="ohac.php" class="about">О НАС</a></li>
                         <li><a href="руководство.php" class="tutorial">РУКОВОДСТВО</a></li>
-                        <li><a href="контакт.php">КОНТАКТЫ</a></li>
+                        <li><a href="контакт.php" class="contact">КОНТАКТЫ</a></li>
                         <li><a class="link sel" data-target="1">АУДИО</a></li>
                         <li><a class="link sel" data-target="2">ВИДЕО</a></li>
                         <li><a class="link sel" data-target="3">КАРТИНКИ</a></li>
@@ -167,7 +167,7 @@
           <li><a href="#begin" class="begin">НАЧАЛО</a></li>
           <li><a href="ohac.php" class="about">О НАС</a></li>
           <li><a href="руководство.php" class="tutorial">РУКОВОДСТВО</a></li>
-          <li><a href="контакт.php">КОНТАКТЫ</a></li>
+          <li><a href="контакт.php" class="contact">КОНТАКТЫ</a></li>
           <li><a class="link sel" data-target="1">АУДИО</a></li>
           <li><a class="link sel" data-target="2">ВИДЕО</a></li>
           <li><a class="link sel" data-target="3">КАРТИНКИ</a></li>

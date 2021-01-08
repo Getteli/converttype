@@ -140,7 +140,7 @@
                         <li><a href="#begin" class="begin">主页</a></li>
                         <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
                         <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
-                        <li><a href="lianxi.php" class="contato">联系</a></li>
+                        <li><a href="lianxi.php" class="contact">联系</a></li>
                         <li><a class="link sel" data-target="1">音频</a></li>
                         <li><a class="link sel" data-target="2">视频</a></li>
                         <li><a class="link sel" data-target="3">图片</a></li>
@@ -153,7 +153,7 @@
           <li><a href="#begin" class="begin">主页</a></li>
           <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
           <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
-          <li><a href="lianxi.php" class="contato">联系</a></li>
+          <li><a href="lianxi.php" class="contact">联系</a></li>
           <li><a class="link sel" data-target="1">音频</a></li>
           <li><a class="link sel" data-target="2">视频</a></li>
           <li><a class="link sel" data-target="3">图片</a></li>

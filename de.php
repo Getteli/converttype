@@ -139,7 +139,7 @@
                         <li><a href="#begin" class="begin">START</a></li>
                         <li><a href="uberuns.php" class="about">ÜBER UNS</a></li>
                         <li><a href="lernprogramm.php" class="tutorial">LERNPROGRAMM</a></li>
-                        <li><a href="kontakt.php" class="contato">KONTAKT</a></li>
+                        <li><a href="kontakt.php" class="contact">KONTAKT</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDEO</a></li>
                         <li><a class="link sel" data-target="3">BILDER</a></li>
@@ -152,7 +152,7 @@
           <li><a href="#begin" class="begin">START</a></li>
           <li><a href="uberuns.php" class="about">ÜBER UNS</a></li>
           <li><a href="lernprogramm.php" class="tutorial">LERNPROGRAMM</a></li>
-          <li><a href="kontakt.php" class="tutorial">KONTAKT</a></li>
+          <li><a href="kontakt.php" class="contact">KONTAKT</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDEO</a></li>
           <li><a class="link sel" data-target="3">BILDER</a></li>

@@ -139,8 +139,8 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                       <li><a href="fr.php" class="begin">MAISON</a></li>
                       <li><a href="apropos.php" class="about">À PROPOS</a></li>
-                      <li><a href="didacticiel.php" class="about">DIDACTICIEL</a></li>
-                      <li><a href="nouscontacter.php" class="about">CONTACT</a></li>
+                      <li><a href="didacticiel.php" class="tutorial">DIDACTICIEL</a></li>
+                      <li><a href="nouscontacter.php" class="contact">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -148,8 +148,8 @@
         <ul id="mobile-navbar" class="sidenav">
           <li><a href="fr.php" class="begin">MAISON</a></li>
           <li><a href="apropos.php" class="about">À PROPOS</a></li>
-          <li><a href="didacticiel.php" class="about">DIDACTICIEL</a></li>
-          <li><a href="nouscontacter.php" class="about">CONTACT</a></li>
+          <li><a href="didacticiel.php" class="tutorial">DIDACTICIEL</a></li>
+          <li><a href="nouscontacter.php" class="contact">CONTACT</a></li>
         </ul>
       </div>
 

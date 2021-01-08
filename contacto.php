@@ -134,7 +134,7 @@
                       <li><a href="es.php" class="begin">INICIO</a></li>
                       <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
                       <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
-                      <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>
+                      <li><a href="contacto.php" class="contact">CONTACTO</a></li>
                     </ul>
                 </div>
             </nav>
@@ -143,7 +143,7 @@
           <li><a href="es.php" class="begin">INICIO</a></li>
           <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
           <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
-          <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>
+          <li><a href="contacto.php" class="contact">CONTACTO</a></li>
         </ul>
       </div>
 

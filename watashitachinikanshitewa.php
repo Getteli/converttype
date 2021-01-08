@@ -155,7 +155,7 @@
                       <li><a href="ja.php" class="begin">ベギン</a></li>
                       <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
                       <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
-                      <li><a href="renrakusen.php">連絡先</a></li>
+                      <li><a href="renrakusen.php" class="contact">連絡先</a></li>
                     </ul>
                 </div>
             </nav>
@@ -164,7 +164,7 @@
           <li><a href="ja.php" class="begin">ベギン</a></li>
           <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
           <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
-          <li><a href="renrakusen.php">連絡先</a></li>
+          <li><a href="renrakusen.php" class="contact">連絡先</a></li>
         </ul>
       </div>
 

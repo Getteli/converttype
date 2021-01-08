@@ -133,7 +133,7 @@
                       <li><a href="de.php" class="begin">START</a></li>
                       <li><a href="uberuns.php" class="about">ÜBER UNS</a></li>
                       <li><a href="lernprogramm.php" class="tutorial">LERNPROGRAMM</a></li>
-                      <li><a href="kontakt.php" class="tutorial">KONTAKT</a></li>
+                      <li><a href="kontakt.php" class="contact">KONTAKT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -142,7 +142,7 @@
           <li><a href="de.php" class="begin">START</a></li>
           <li><a href="uberuns.php" class="about">ÜBER UNS</a></li>
           <li><a href="lernprogramm.php" class="tutorial">LERNPROGRAMM</a></li>
-          <li><a href="kontakt.php" class="tutorial">KONTAKT</a></li>
+          <li><a href="kontakt.php" class="contact">KONTAKT</a></li>
         </ul>
       </div>
 

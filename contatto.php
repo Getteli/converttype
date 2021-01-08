@@ -134,7 +134,7 @@
                       <li><a href="it.php" class="begin">INIZIO</a></li>
                       <li><a href="chisiamo.php" class="about">CHI SIAMO</a></li>
                       <li><a href="comeusare.php" class="tutorial">TUTORIAL</a></li>
-                      <li><a href="contatto.php" class="tutorial">CONTATTO</a></li>
+                      <li><a href="contatto.php" class="contact">CONTATTO</a></li>
                     </ul>
                 </div>
             </nav>
@@ -143,7 +143,7 @@
           <li><a href="it.php" class="begin">INIZIO</a></li>
           <li><a href="chisiamo.php" class="about">CHI SIAMO</a></li>
           <li><a href="comeusare.php" class="tutorial">TUTORIAL</a></li>
-          <li><a href="contatto.php" class="tutorial">CONTATTO</a></li>
+          <li><a href="contatto.php" class="contact">CONTATTO</a></li>
         </ul>
       </div>
 

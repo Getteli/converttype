@@ -140,7 +140,7 @@
                         <li><a href="#begin" class="begin">INICIO</a></li>
                         <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
                         <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
-                        <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>                        <li><a class="link sel" data-target="1">AUDIO</a></li>
+                        <li><a href="contacto.php" class="contact">CONTACTO</a></li>                        <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VÍDEO</a></li>
                         <li><a class="link sel" data-target="3">IMAGENES</a></li>
                         <li><a class="link sel" data-target="5">DOCUMENTOS</a></li>
@@ -152,7 +152,7 @@
           <li><a href="#begin" class="begin">INICIO</a></li>
           <li><a href="sobrenosotros.php" class="about">SOBRE NOSOTROS</a></li>
           <li><a href="comousar.php" class="tutorial">TUTORIAL</a></li>
-          <li><a href="contacto.php" class="tutorial">CONTACTO</a></li>
+          <li><a href="contacto.php" class="contact">CONTACTO</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VÍDEO</a></li>
           <li><a class="link sel" data-target="3">IMAGENES</a></li>

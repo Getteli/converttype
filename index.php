@@ -136,7 +136,7 @@
                         <li><a href="#begin" class="begin">HOME</a></li>
                         <li><a href="about.php" class="about">ABOUT</a></li>
                         <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
-                        <li><a href="contact.php" class="tutorial">CONTACT</a></li>
+                        <li><a href="contact.php" class="contact">CONTACT</a></li>
                         <li><a class="link sel" data-target="1">AUDIO</a></li>
                         <li><a class="link sel" data-target="2">VIDEO</a></li>
                         <li><a class="link sel" data-target="3">IMAGES</a></li>
@@ -149,7 +149,7 @@
           <li><a href="#begin" class="begin">HOME</a></li>
           <li><a href="about.php" class="about">ABOUT</a></li>
           <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
-          <li><a href="contact.php" class="tutorial">CONTACT</a></li>
+          <li><a href="contact.php" class="contact">CONTACT</a></li>
           <li><a class="link sel" data-target="1">AUDIO</a></li>
           <li><a class="link sel" data-target="2">VIDEO</a></li>
           <li><a class="link sel" data-target="3">IMAGES</a></li>

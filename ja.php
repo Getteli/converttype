@@ -154,7 +154,7 @@
                         <li><a href="#begin" class="begin">ベギン</a></li>
                         <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
                         <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
-                        <li><a href="renrakusen.php">連絡先</a></li>
+                        <li><a href="renrakusen.php" class="contact">連絡先</a></li>
                         <li><a class="link sel" data-target="1">オーディオ</a></li>
                         <li><a class="link sel" data-target="2">ビデオ</a></li>
                         <li><a class="link sel" data-target="3">画像</a></li>
@@ -167,7 +167,7 @@
           <li><a href="#begin" class="begin">ベギン</a></li>
           <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
           <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
-          <li><a href="renrakusen.php">連絡先</a></li>
+          <li><a href="renrakusen.php" class="contact">連絡先</a></li>
           <li><a class="link sel" data-target="1">オーディオ</a></li>
           <li><a class="link sel" data-target="2">ビデオ</a></li>
           <li><a class="link sel" data-target="3">画像</a></li>

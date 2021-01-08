@@ -134,7 +134,7 @@
                         <li><a href="pt.php" class="begin">INÍCIO</a></li>
                         <li><a href="sobre.php" class="about">SOBRE</a></li>
                         <li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
-                        <li><a href="contato.php" class="tutorial">CONTATO</a></li>
+                        <li><a href="contato.php" class="contact">CONTATO</a></li>
                     </ul>
                 </div>
             </nav>
@@ -143,7 +143,7 @@
           <li><a href="pt.php" class="begin">INÍCIO</a></li>
           <li><a href="sobre.php" class="about">SOBRE</a></li>
           <li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
-          <li><a href="contato.php" class="tutorial">CONTATO</a></li>
+          <li><a href="contato.php" class="contact">CONTATO</a></li>
         </ul>
       </div>
 

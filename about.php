@@ -130,7 +130,7 @@
                         <li><a href="index.php" class="begin">HOME</a></li>
                         <li><a href="about.php" class="about">ABOUT</a></li>
                         <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
-                        <li><a href="contact.php" class="contato">CONTACT</a></li>
+                        <li><a href="contact.php" class="contact">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -139,7 +139,7 @@
           <li><a href="index.php" class="begin">HOME</a></li>
           <li><a href="about.php" class="about">ABOUT</a></li>
           <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
-          <li><a href="contact.php" class="contato">CONTACT</a></li>
+          <li><a href="contact.php" class="contact">CONTACT</a></li>
         </ul>
       </div>
 

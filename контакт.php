@@ -148,7 +148,7 @@
                       <li><a href="ru.php" class="begin">НАЧАЛО</a></li>
                       <li><a href="ohac.php" class="about">О НАС</a></li>
                       <li><a href="руководство.php" class="tutorial">РУКОВОДСТВО</a></li>
-                      <li><a href="контакт.php">КОНТАКТЫ</a></li>
+                      <li><a href="контакт.php" class="contact">КОНТАКТЫ</a></li>
                     </ul>
                 </div>
             </nav>
@@ -157,7 +157,7 @@
           <li><a href="ru.php" class="begin">НАЧАЛО</a></li>
           <li><a href="ohac.php" class="about">О НАС</a></li>
           <li><a href="руководство.php" class="tutorial">РУКОВОДСТВО</a></li>
-          <li><a href="контакт.php">КОНТАКТЫ</a></li>
+          <li><a href="контакт.php" class="contact">КОНТАКТЫ</a></li>
         </ul>
       </div>
 
