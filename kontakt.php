@@ -97,7 +97,7 @@
 										<div class="input_l colorprimary">
 											<form action="lang/translate.php" method="POST">
 												<select name="language-select" id="language-select" class="select_language colorprimary" onchange="this.form.submit()">
-														<option class="opt_l" value="0">Wähle deine Sprache</option>
+														<option class="opt_l opt_ld" disabled>Wähle deine Sprache</option>
 														<option class="opt_l" value="de" selected>Deutsch</option>
 														<option class="opt_l" value="en">English</option>
 														<option class="opt_l" value="es">Español</option>

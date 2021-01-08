@@ -94,6 +94,9 @@ ul.listformats, li{
 	letter-spacing: 2px;
 }
 
+.opt_ld{
+	color: #ccc !important;
+}
 
 .container-input{
 	border-radius: 10px;
