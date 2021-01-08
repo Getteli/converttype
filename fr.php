@@ -141,10 +141,10 @@
                         <li><a href="apropos.php" class="about">À PROPOS</a></li>
                         <li><a href="didacticiel.php" class="tutorial">DIDACTICIEL</a></li>
                         <li><a href="nouscontacter.php" class="contact">CONTACT</a></li>
-                        <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel" data-target="2">VIDÉO</a></li>
-                        <li><a class="link sel" data-target="3">IMAGES</a></li>
-                        <li><a class="link sel" data-target="5">DOC</a></li>
+                        <li><a class="link sel audio" data-target="1">AUDIO</a></li>
+                        <li><a class="link sel video" data-target="2">VIDÉO</a></li>
+                        <li><a class="link sel image" data-target="3">IMAGES</a></li>
+                        <li><a class="link sel doc" data-target="5">DOC</a></li>
                     </ul>
                 </div>
             </nav>
@@ -154,10 +154,10 @@
           <li><a href="apropos.php" class="about">À PROPOS</a></li>
           <li><a href="didacticiel.php" class="tutorial">DIDACTICIEL</a></li>
           <li><a href="nouscontacter.php" class="contact">CONTACT</a></li>
-          <li><a class="link sel" data-target="1">AUDIO</a></li>
-          <li><a class="link sel" data-target="2">VIDÉO</a></li>
-          <li><a class="link sel" data-target="3">IMAGES</a></li>
-          <li><a class="link sel" data-target="5">DOCUMENT</a></li>
+          <li><a class="link sel audio" data-target="1">AUDIO</a></li>
+          <li><a class="link sel video" data-target="2">VIDÉO</a></li>
+          <li><a class="link sel image" data-target="3">IMAGES</a></li>
+          <li><a class="link sel doc" data-target="5">DOCUMENT</a></li>
         </ul>
       </div>
       <!-- content -->

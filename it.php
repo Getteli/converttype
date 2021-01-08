@@ -141,10 +141,10 @@
                         <li><a href="chisiamo.php" class="about">CHI SIAMO</a></li>
                         <li><a href="comeusare.php" class="tutorial">TUTORIAL</a></li>
                         <li><a href="contatto.php" class="contact">CONTATTO</a></li>
-                        <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel" data-target="2">VIDEO</a></li>
-                        <li><a class="link sel" data-target="3">IMMAGINI</a></li>
-                        <li><a class="link sel" data-target="5">DOCUMENTI</a></li>
+                        <li><a class="link sel audio" data-target="1">AUDIO</a></li>
+                        <li><a class="link sel video" data-target="2">VIDEO</a></li>
+                        <li><a class="link sel image" data-target="3">IMMAGINI</a></li>
+                        <li><a class="link sel doc" data-target="5">DOCUMENTI</a></li>
                     </ul>
                 </div>
             </nav>
@@ -154,10 +154,10 @@
           <li><a href="chisiamo.php" class="about">CHI SIAMO</a></li>
           <li><a href="comeusare.php" class="tutorial">TUTORIAL</a></li>
           <li><a href="contatto.php" class="contact">CONTATTO</a></li>
-          <li><a class="link sel" data-target="1">AUDIO</a></li>
-          <li><a class="link sel" data-target="2">VIDEO</a></li>
-          <li><a class="link sel" data-target="3">IMMAGINI</a></li>
-          <li><a class="link sel" data-target="5">DOCUMENTI</a></li>
+          <li><a class="link sel audio" data-target="1">AUDIO</a></li>
+          <li><a class="link sel video" data-target="2">VIDEO</a></li>
+          <li><a class="link sel image" data-target="3">IMMAGINI</a></li>
+          <li><a class="link sel doc" data-target="5">DOCUMENTI</a></li>
         </ul>
       </div>
       <!-- content -->

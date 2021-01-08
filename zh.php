@@ -141,10 +141,10 @@
                         <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
                         <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
                         <li><a href="lianxi.php" class="contact">联系</a></li>
-                        <li><a class="link sel" data-target="1">音频</a></li>
-                        <li><a class="link sel" data-target="2">视频</a></li>
-                        <li><a class="link sel" data-target="3">图片</a></li>
-                        <li><a class="link sel" data-target="5">文件资料</a></li>
+                        <li><a class="link sel audio" data-target="1">音频</a></li>
+                        <li><a class="link sel video" data-target="2">视频</a></li>
+                        <li><a class="link sel image" data-target="3">图片</a></li>
+                        <li><a class="link sel doc" data-target="5">文件资料</a></li>
                     </ul>
                 </div>
             </nav>
@@ -154,10 +154,10 @@
           <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
           <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
           <li><a href="lianxi.php" class="contact">联系</a></li>
-          <li><a class="link sel" data-target="1">音频</a></li>
-          <li><a class="link sel" data-target="2">视频</a></li>
-          <li><a class="link sel" data-target="3">图片</a></li>
-          <li><a class="link sel" data-target="5">文件资料</a></li>
+          <li><a class="link sel audio" data-target="1">音频</a></li>
+          <li><a class="link sel video" data-target="2">视频</a></li>
+          <li><a class="link sel image" data-target="3">图片</a></li>
+          <li><a class="link sel doc" data-target="5">文件资料</a></li>
         </ul>
       </div>
       <!-- content -->

@@ -155,10 +155,10 @@
                         <li><a href="ohac.php" class="about">О НАС</a></li>
                         <li><a href="руководство.php" class="tutorial">РУКОВОДСТВО</a></li>
                         <li><a href="контакт.php" class="contact">КОНТАКТЫ</a></li>
-                        <li><a class="link sel" data-target="1">АУДИО</a></li>
-                        <li><a class="link sel" data-target="2">ВИДЕО</a></li>
-                        <li><a class="link sel" data-target="3">КАРТИНКИ</a></li>
-                        <li><a class="link sel" data-target="5">ДОКУМЕНТЫ</a></li>
+                        <li><a class="link sel audio" data-target="1">АУДИО</a></li>
+                        <li><a class="link sel video" data-target="2">ВИДЕО</a></li>
+                        <li><a class="link sel image" data-target="3">КАРТИНКИ</a></li>
+                        <li><a class="link sel doc" data-target="5">ДОКУМЕНТЫ</a></li>
                     </ul>
                 </div>
             </nav>
@@ -168,10 +168,10 @@
           <li><a href="ohac.php" class="about">О НАС</a></li>
           <li><a href="руководство.php" class="tutorial">РУКОВОДСТВО</a></li>
           <li><a href="контакт.php" class="contact">КОНТАКТЫ</a></li>
-          <li><a class="link sel" data-target="1">АУДИО</a></li>
-          <li><a class="link sel" data-target="2">ВИДЕО</a></li>
-          <li><a class="link sel" data-target="3">КАРТИНКИ</a></li>
-          <li><a class="link sel" data-target="5">ДОКУМЕНТЫ</a></li>
+          <li><a class="link sel audio" data-target="1">АУДИО</a></li>
+          <li><a class="link sel video" data-target="2">ВИДЕО</a></li>
+          <li><a class="link sel image" data-target="3">КАРТИНКИ</a></li>
+          <li><a class="link sel doc" data-target="5">ДОКУМЕНТЫ</a></li>
         </ul>
       </div>
       <!-- content -->

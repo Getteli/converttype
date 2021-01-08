@@ -137,10 +137,10 @@
                         <li><a href="about.php" class="about">ABOUT</a></li>
                         <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
                         <li><a href="contact.php" class="contact">CONTACT</a></li>
-                        <li><a class="link sel" data-target="1">AUDIO</a></li>
-                        <li><a class="link sel" data-target="2">VIDEO</a></li>
-                        <li><a class="link sel" data-target="3">IMAGES</a></li>
-                        <li><a class="link sel" data-target="5">DOCUMENTS</a></li>
+                        <li><a class="link sel audio" data-target="1">AUDIO</a></li>
+                        <li><a class="link sel video" data-target="2">VIDEO</a></li>
+                        <li><a class="link sel image" data-target="3">IMAGES</a></li>
+                        <li><a class="link sel doc" data-target="5">DOCUMENTS</a></li>
                     </ul>
                 </div>
             </nav>

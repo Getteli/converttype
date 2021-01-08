@@ -155,10 +155,10 @@
                         <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
                         <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
                         <li><a href="renrakusen.php" class="contact">連絡先</a></li>
-                        <li><a class="link sel" data-target="1">オーディオ</a></li>
-                        <li><a class="link sel" data-target="2">ビデオ</a></li>
-                        <li><a class="link sel" data-target="3">画像</a></li>
-                        <li><a class="link sel" data-target="5">文書</a></li>
+                        <li><a class="link sel audio" data-target="1">オーディオ</a></li>
+                        <li><a class="link sel video" data-target="2">ビデオ</a></li>
+                        <li><a class="link sel image" data-target="3">画像</a></li>
+                        <li><a class="link sel doc" data-target="5">文書</a></li>
                     </ul>
                 </div>
             </nav>
@@ -168,10 +168,10 @@
           <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
           <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
           <li><a href="renrakusen.php" class="contact">連絡先</a></li>
-          <li><a class="link sel" data-target="1">オーディオ</a></li>
-          <li><a class="link sel" data-target="2">ビデオ</a></li>
-          <li><a class="link sel" data-target="3">画像</a></li>
-          <li><a class="link sel" data-target="5">文書</a></li>
+          <li><a class="link sel audio" data-target="1">オーディオ</a></li>
+          <li><a class="link sel video" data-target="2">ビデオ</a></li>
+          <li><a class="link sel image" data-target="3">画像</a></li>
+          <li><a class="link sel doc" data-target="5">文書</a></li>
         </ul>
       </div>
       <!-- content -->
