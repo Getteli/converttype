@@ -50,12 +50,12 @@
     <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
-    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
     <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
-    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
-    <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
-    <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
+    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
     <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
+    <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
+    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
+    <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
 
     <!-- title -->
     <title>Convert Type - 关于我们</title>

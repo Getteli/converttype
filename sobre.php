@@ -51,11 +51,11 @@
     <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
     <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
-    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
+    <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
     <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
+    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
     <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
     <link rel="alternate" hreflang="zh" href="https://www.converttype.com/zh.php" />
-    <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
 
     <!-- title -->
     <title>Convert Type - Sobre</title>
@@ -210,7 +210,7 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="pt.php" data-target="1">Início</a></li>
+                <li><a class="grey-text text-lighten-3 sel" href="pt.php">Início</a></li>
               </ul>
             </div>
           </div>

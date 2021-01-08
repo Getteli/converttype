@@ -50,8 +50,8 @@
     <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
-    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
     <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
+    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
     <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
     <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
     <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
@@ -151,7 +151,7 @@
                         <i class="material-icons" style="font-size:24px!important;">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">ベギン</a></li>
+                        <li><a href="ja.php" class="begin">ベギン</a></li>
                         <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
                         <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
                         <li><a href="renrakusen.php" class="contact">連絡先</a></li>
@@ -164,7 +164,7 @@
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">ベギン</a></li>
+          <li><a href="ja.php" class="begin">ベギン</a></li>
           <li><a href="watashitachinikanshitewa.php" class="about">私たちに関しては</a></li>
           <li><a href="chutoriaru.php" class="tutorial">チュートリアル</a></li>
           <li><a href="renrakusen.php" class="contact">連絡先</a></li>
@@ -369,10 +369,10 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">最も使用</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">オーディオ</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">ビデオ</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
+                <li><a class="grey-text text-lighten-3 sel audio" href="#" data-target="1">オーディオ</a></li>
+                <li><a class="grey-text text-lighten-3 sel video" href="#" data-target="2">ビデオ</a></li>
+                <li><a class="grey-text text-lighten-3 sel pdf" href="#" data-target="5">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel png" href="#" data-target="3">PNG</a></li>
               </ul>
             </div>
           </div>

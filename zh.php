@@ -50,12 +50,12 @@
     <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
-    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
     <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
-    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
-    <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
-    <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
+    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
     <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
+    <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
+    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
+    <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
 
     <!-- title -->
     <title>Convert Type</title>
@@ -137,7 +137,7 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">主页</a></li>
+                        <li><a href="zh.php" class="begin">主页</a></li>
                         <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
                         <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
                         <li><a href="lianxi.php" class="contact">联系</a></li>
@@ -150,7 +150,7 @@
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">主页</a></li>
+          <li><a href="zh.php" class="begin">主页</a></li>
           <li><a href="guanyuwomen.php" class="about">关于我们</a></li>
           <li><a href="jiaocheng.php" class="tutorial">教程</a></li>
           <li><a href="lianxi.php" class="contact">联系</a></li>
@@ -355,10 +355,10 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">最常被使用</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">音频</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">视频</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
+                <li><a class="grey-text text-lighten-3 sel audio" href="#" data-target="1">音频</a></li>
+                <li><a class="grey-text text-lighten-3 sel video" href="#" data-target="2">视频</a></li>
+                <li><a class="grey-text text-lighten-3 sel pdf" href="#" data-target="5">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel png" href="#" data-target="3">PNG</a></li>
               </ul>
             </div>
           </div>

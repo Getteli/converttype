@@ -50,11 +50,11 @@
     <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="en" href="https://www.converttype.com/" />
     <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
-    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
-    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
     <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
-    <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
+    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
     <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
+    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
+    <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
     <link rel="alternate" hreflang="zh" href="https://www.converttype.com/zh.php" />
     <!-- title -->
     <title>Convert Type</title>
@@ -136,7 +136,7 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul id="navbar-items" class="hide-on-med-and-down">
-                        <li><a href="#begin" class="begin">START</a></li>
+                        <li><a href="de.php" class="begin">START</a></li>
                         <li><a href="uberuns.php" class="about">ÜBER UNS</a></li>
                         <li><a href="lernprogramm.php" class="tutorial">LERNPROGRAMM</a></li>
                         <li><a href="kontakt.php" class="contact">KONTAKT</a></li>
@@ -149,7 +149,7 @@
             </nav>
         </div>
         <ul id="mobile-navbar" class="sidenav">
-          <li><a href="#begin" class="begin">START</a></li>
+          <li><a href="de.php" class="begin">START</a></li>
           <li><a href="uberuns.php" class="about">ÜBER UNS</a></li>
           <li><a href="lernprogramm.php" class="tutorial">LERNPROGRAMM</a></li>
           <li><a href="kontakt.php" class="contact">KONTAKT</a></li>
@@ -354,10 +354,10 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">AM MEISTEN BENUTZT</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="1">AUDIO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="2">VIDEO</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="5">PDF</a></li>
-                <li><a class="grey-text text-lighten-3 sel" href="#" data-target="3">PNG</a></li>
+                <li><a class="grey-text text-lighten-3 sel audio" href="#" data-target="1">AUDIO</a></li>
+                <li><a class="grey-text text-lighten-3 sel video" href="#" data-target="2">VIDEO</a></li>
+                <li><a class="grey-text text-lighten-3 sel pdf" href="#" data-target="5">PDF</a></li>
+                <li><a class="grey-text text-lighten-3 sel png" href="#" data-target="3">PNG</a></li>
               </ul>
             </div>
           </div>
