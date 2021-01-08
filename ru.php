@@ -132,7 +132,7 @@
 												</select>
 											</form>
 										</div>
-                    <a href="#" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+                    <a href="ru.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
                 </div>
             </nav>
         </div>
