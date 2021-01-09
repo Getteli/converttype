@@ -1,0 +1,51 @@
+# .HTACCESS BY: GETTELI.01 ILION
+# Servidores como AWS, possuem um proprio htaccess (mas com outro nome - httpd.conf). Fica em etc/httpd/conf/ (Caso o servidor seja um EC2 linux da AWS, outros eu nao sei)
+
+# habilita o rewrite
+RewriteEngine on
+
+# força SSL
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
+
+# impede abrir diretorio
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# permiti acessar sem a extensao html
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# permite acessar sem a extensao php paginas fora de pastas
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+# forcar o redirecionamento de .html para s/ a extensao
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+# forcar o redirecionamento de .php das paginas fora de pastas para s/ a extensao
+RewriteCond %{REQUEST_URI} !(_assets|lang|public|vendor) [NC]
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+# block acess to file and folder
+# default
+#RedirectMatch 403 ^/folder/?$
+#RedirectMatch 403 ^/file.ext$
+
+# files
+RedirectMatch 403 ^/composer.json$
+RedirectMatch 403 ^/composer.lock$
+RedirectMatch 403 ^/.htaccess$
+RedirectMatch 403 ^/.env$
+
+# folder
+RedirectMatch 403 ^/vendor/?$
+RedirectMatch 403 ^/public/?$
+RedirectMatch 403 ^/lang/?$
+RedirectMatch 403 ^/_assets/?$
+RedirectMatch 403 ^/.git/?$
+
+ErrorDocument 403 https://converttype.com
+ErrorDocument 404 https://converttype.com
+ErrorDocument 500 https://converttype.com

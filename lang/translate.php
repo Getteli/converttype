@@ -1,58 +1,52 @@
 <?php
-	$local = true;
+	$local = false;
 
 	if ($local)
 	{
-		$link = "http://" . $_SERVER['HTTP_HOST'] . "";
+		$link = "http://" . $_SERVER['SERVER_NAME'];
 		$link .= "/converttype";
-		$ext = ".php";
 	}
 	else
 	{
-		$link = "https://" . $_SERVER['HTTP_HOST'] . "";
-		$ext = "";
+		$link = "https://" . $_SERVER['SERVER_NAME'];
 	}
 
-	switch ($_POST["language-select"])
+	$ext = ".php";
+
+	$lang_selec = addslashes($_POST["language-select"]);
+
+	switch ($lang_selec)
 	{
 		case "pt":
-			header('Location: '. $link."/pt".$ext);
-			exit;
+			header("location: " . $link . "/pt" . $ext);
 			break;
 		case "en":
-			header('Location: '. $link);
-			exit;
+			header("location: " . $link);
 			break;
 		case "fr":
-			header('Location: '. $link."/fr".$ext);
-			exit;
+			header("location: " . $link . "/fr" . $ext);
 			break;
 		case "es":
-			header('Location: '. $link."/es".$ext);
-			exit;
+			header("location: " . $link . "/es" . $ext);
 			break;
 		case "ja":
-			header('Location: '. $link."/ja".$ext);
-			exit;
+			header("location: " . $link . "/ja" . $ext);
 			break;
 		case "ru":
-			header('Location: '. $link."/ru".$ext);
-			exit;
+			header("location: " . $link . "/ru" . $ext);
 			break;
 		case "de":
-			header('Location: '. $link."/de".$ext);
-			exit;
+			header("location: " . $link . "/de" . $ext);
 			break;
 		case "it":
-			header('Location: '. $link."/it".$ext);
-			exit;
+			header("location: " . $link . "/it" . $ext);
 			break;
 		case "zh":
-			header('Location: '. $link."/zh".$ext);
-			exit;
+			header("location: " . $link . "/zh" . $ext);
 			break;
 		default:
-			header('Location: '. $link);
-			exit;
+			header("location: " . $link);
 			break;
 	}
+
+	exit;
