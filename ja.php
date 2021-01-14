@@ -85,29 +85,99 @@
   <body id="begin">
     <div class="row">
       <div class="col l3 m3 mob">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-esq -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="2952003762"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col s12 m6 l6">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-cen -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7478212766"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 mob">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-dir -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="1627120287"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <div class="mob tab propsider">
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-1 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7349402019"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-2 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="6910595926"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <div class="mob tab propsidel">
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-1 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7349402019"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-2 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="6910595926"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <main>
@@ -286,14 +356,23 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <ins class="adsbygoogle"
+               style="display:block; text-align:center;"
+               data-ad-layout="in-article"
+               data-ad-format="fluid"
+               data-ad-client="ca-pub-8352280684472674"
+               data-ad-slot="7693835183"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
 
       <hr class="line"/>
       <div class="row">
         <div class="col l12">
-          <div class="container" id="contact">
+          <div class="container" id="littleAbout">
 						<h4>ConvertType</h4>
             <p class="desc">友達や家族と共有し、ファイル、音楽、ビデオ、画像、その他すべてを変換したい人を示しましょう。 私たちのツールをチェックしてください。 <a href="chutoriaru.php">チュートリアル</a>の方法とサポートされている形式を確認してください。</p>
             <p class="desc">コメントして、ツールの使用方法をより多くの人に知ってもらい、それが役に立ったかどうかを確認してください。 ご不明な点がございましたら、お問い合わせください。<a href="watashitachinikanshitewa.php">について</a>のページをお読みください。ご不明な点がある場合は、サイトの下部にあるプライバシーポリシーをお読みください。</p>
@@ -304,7 +383,17 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- converttype-p-disp-meio -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-8352280684472674"
+               data-ad-slot="7665915020"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
 
@@ -321,7 +410,17 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- converttype-p-disp-meio -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-8352280684472674"
+               data-ad-slot="7665915020"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
 
@@ -353,7 +452,17 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- converttype-p-disp-meio -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-8352280684472674"
+               data-ad-slot="7665915020"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
 

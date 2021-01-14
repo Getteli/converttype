@@ -70,29 +70,99 @@
   <body id="begin">
     <div class="row">
       <div class="col l3 m3 mob">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-esq -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="2952003762"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col s12 m6 l6">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-cen -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7478212766"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 mob">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-dir -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="1627120287"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <div class="mob tab propsider">
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-1 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7349402019"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-2 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="6910595926"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <div class="mob tab propsidel">
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-1 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7349402019"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-2 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="6910595926"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <main>
@@ -190,6 +260,21 @@
               <li>CSV</li>
               <li>DOCX</li>
             </ul>
+            <!--  -->
+            <div class="row">
+              <div class="col s12 m6 offset-m3 l6 offset-l3">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                     style="display:block; text-align:center;"
+                     data-ad-layout="in-article"
+                     data-ad-format="fluid"
+                     data-ad-client="ca-pub-8352280684472674"
+                     data-ad-slot="7693835183"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            </div>
             <h5>Konvertierungen <b>*</b></h5>
             <ul class="listformats">
               <li> Konvertiere YouTube-Videos in MP3 </li>
@@ -230,12 +315,42 @@
             <p style="margin-top: 0;"> <em> So konvertieren Sie YouTube-Videos in Audios oder laden Sie Videos ohne Audio von YouTube herunter. </em> </p>
             <p class="desc"> Gehen Sie zuerst über das Menü zur Registerkarte "AUDIO" und wählen Sie dann den "URL" -Modus aus den Optionen aus. Wie im Bild unten. </p>
             <img src="_assets/images/tutorial1.png" width="100%" alt="Tutorial zur Verwendung des Konvertierungstyps">
+            <!--  -->
+            <div class="row">
+              <div class="col s12 m6 offset-m3 l6 offset-l3">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                     style="display:block; text-align:center;"
+                     data-ad-layout="in-article"
+                     data-ad-format="fluid"
+                     data-ad-client="ca-pub-8352280684472674"
+                     data-ad-slot="7693835183"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            </div>
             <p class="desc"> Fügen Sie anschließend den Link / die URL des Videos ein, das Sie konvertieren möchten. Klicken Sie dann auf die blaue Schaltfläche "CONVERT" und warten Sie, bis alle Download-Optionen angezeigt werden. Wenn alles fertig ist, werden alle möglichen Optionen zum Konvertieren und Herunterladen angezeigt. </p>
             <p class="desc"> Nach dem Laden werden die Optionen wie im Bild unten angezeigt. Klicken Sie auf die Schaltfläche "DOWNLOAD". Eine neue Registerkarte wird geöffnet. Auf dieser Registerkarte finden Sie die Schaltfläche <i class="material-icons"> more_vert </i> (normalerweise in der unteren rechten Ecke des Players) und wählen die Option "DO" HERUNTERLADEN ". Und fertig ! Jetzt haben Sie Ihr Video ohne Audio oder Musik heruntergeladen. </p>
             <img src="_assets/images/tutorial2.png" width="100%" alt="Tutorial zur Verwendung des Konvertierungstyps 2">
             <p class="desc"> <b> HINWEIS: </b> Konvertieren Sie aus urheberrechtlichen Gründen kostenlose Online-Videos für den persönlichen Gebrauch ("fair use"). Es sollte nicht für Aufnahmen von urheberrechtlich geschütztem Material wie Videoclips oder Weiterverkauf verwendet werden. Der <b> Konvertierungstyp </b> ist nicht verantwortlich für Verstöße dieser Art, die gegen das Urheberrecht verstoßen. Wir bieten nur die kostenlose Dateikonvertierung in andere Formate an. </p>
             <p class="desc"> <b> HINWEIS 2: </b> Die Bilder sind möglicherweise nicht korrekt, wenn die verwendeten APIs geändert oder blockiert wurden. Die Art und Weise, wie wir konvertieren, kann unterschiedlich sein. </p>
             <h2 style="margin-bottom: 0;"> Computervideos konvertieren </h2>
+            <!--  -->
+            <div class="row">
+              <div class="col s12 m6 offset-m3 l6 offset-l3">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                     style="display:block; text-align:center;"
+                     data-ad-layout="in-article"
+                     data-ad-format="fluid"
+                     data-ad-client="ca-pub-8352280684472674"
+                     data-ad-slot="7693835183"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            </div>
             <p style="margin-top: 0;"> <em> So konvertieren Sie Videos von Ihrem Computer in andere Formate. </em> </p>
             <img src="_assets/images/tutorial3.png" width="100%" alt="Tutorial zur Verwendung des Konvertierungstyps 3">
             <p class="desc"> Gehen Sie wie in der Abbildung oben gezeigt zum Menü und klicken Sie auf die Option VIDEO. Und dann klicken Sie auf die Option "UPLOAD", falls dies noch nicht geschehen ist. Sobald dies erledigt ist, können Sie Videos von Ihrem Computer auswählen, indem Sie auf die linke blaue Schaltfläche "UP" klicken und das gewünschte Video auswählen. Nachdem Sie das Video ausgewählt haben, wählen Sie in den Optionen die gewünschte Erweiterung / das gewünschte Format aus und klicken Sie auf die nächste blaue Schaltfläche rechts "CONVERT". Fertig! </p>
@@ -269,6 +384,23 @@
         </div>
       </div>
 
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- converttype-p-disp-meio -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-8352280684472674"
+               data-ad-slot="7665915020"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </div>
+
       <hr class="line"/>
       <div class="row">
         <div class="col l12">
@@ -291,6 +423,23 @@
               </div>
             </form>
           </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- converttype-p-disp-meio -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-8352280684472674"
+               data-ad-slot="7665915020"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
 

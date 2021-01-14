@@ -71,29 +71,99 @@
   <body id="begin">
     <div class="row">
       <div class="col l3 m3 mob">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-esq -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="2952003762"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col s12 m6 l6">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-cen -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7478212766"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 mob">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-cima-dir -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="1627120287"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <div class="mob tab propsider">
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-1 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7349402019"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-2 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="6910595926"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <div class="mob tab propsidel">
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-1 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="7349402019"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
       <div class="col m3 l3 propside">
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- converttype-p-lat-2 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-8352280684472674"
+             data-ad-slot="6910595926"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </div>
     <main>
@@ -161,10 +231,40 @@
             Vous pouvez convertir des vidéos youtube en différents formats audio, télécharger des vidéos à partir de youtube, télécharger des vidéos sans audio à partir de youtube,
             convertir des vidéos depuis votre ordinateur en téléchargeant le fichier et en le téléchargeant dans d'autres formats / extensions.
             Vous pouvez convertir des images dans d'autres formats et extensions, ainsi que modifier et convertir des fichiers et des documents. </p>
+            <!--  -->
+            <div class="row">
+              <div class="col s12 m6 offset-m3 l6 offset-l3">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                     style="display:block; text-align:center;"
+                     data-ad-layout="in-article"
+                     data-ad-format="fluid"
+                     data-ad-client="ca-pub-8352280684472674"
+                     data-ad-slot="7693835183"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            </div>
             <p class="desc"> Convertir des vidéos (via un lien comme youtube ou depuis votre propre ordinateur) en audios (dans plusieurs qualités possibles); pour les vidéos, pour les vidéos sans son, convertissez également des images, de PNG en JPG ou JPG en PNG. En plus de cela, vous pouvez en profiter pour convertir des fichiers et des documents, tels que: DOC, PDF, DOCX, HTML, XLS, XLSX, TXT, RTF et même convertir des fichiers en images PNG ou JPG. Pour plus d'informations, accédez à la liste des <b> conversions </b> dans le <a href="didacticiel.php"> tutoriel </a> pour découvrir quelles sont les possibilités et les types de conversions de fichier à fichier et quels sont les formats. </p>
             <p class="desc"> Le type de conversion est disponible en 9 (neuf) langues afin que son utilisation soit la plus appréciée de tous, quelle que soit leur langue. </p>
             <p class="desc"> Cette application a été développée en pensant à l'utilisateur, du plus profane au plus expérimenté, qui peut avoir besoin d'un fichier dans un autre format à envoyer par e-mail, pour une présentation rapide, pour une image ou besoin de télécharger cette vidéo et / ou d'avoir l'audio ou la vidéo dans un autre format. Et pour le profane qui aimerait peut-être télécharger cette vidéo qu'il a vue ou une image, un fichier qu'il n'a pas ouvert en raison du manque d'application pour ouvrir le format. En fin de compte, pouvoir offrir à chacun une expérience d'avoir et de convertir ce que vous voulez et de ne pas être plus inquiet ... et n'importe où! l'application est disponible pour mobile avec une expérience agréable, lisible et intuitive, pouvant prendre des médias de votre téléphone portable ou de votre tablette et monter pour convertir et profiter de notre outil. </p>
-            <p class="desc"> Profitez donc du <b> type de conversion </b>. </p>
+            <p class="desc"> Profitez donc du <b> convert Type </b>. </p>
+            <!--  -->
+            <div class="row">
+              <div class="col s12 m6 offset-m3 l6 offset-l3">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                     style="display:block; text-align:center;"
+                     data-ad-layout="in-article"
+                     data-ad-format="fluid"
+                     data-ad-client="ca-pub-8352280684472674"
+                     data-ad-slot="7693835183"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            </div>
             <p class="desc"> Grâce aux développeurs de ce projet, nous mettons à la disposition de tous sans frais ni aucun type d'abonnement, de capture de données, de cookies ou autre. Notre seule demande est de savoir si vous utilisez un bloqueur de publicités, ou adblock, qui désactive et recharge le site afin que nous puissions continuer à vous offrir ce contenu gratuit et de bonne qualité. </p>
             <p class="desc"> <b> OBS: </b> Pour des raisons de droits d'auteur, de politique et de confidentialité, les lois européennes GDPR et l'ECPA américaine, nous ne conservons aucune des données de nos utilisateurs, non nous nous inscrivons, nous ne demandons aucune aide financière, ni ne sommes responsables de toute utilisation abusive de notre outil. Nous ne le rendons disponible que pour l'accès gratuit de tous. Si une vidéo qui tente de se convertir via un lien youtube ne fonctionne pas ou si les options audio ne sont pas disponibles, c'est parce que youtube a ses règles et respecte les lois sur les droits d'auteur, et n'autorise donc pas le téléchargement de musique protégée par le droit d'auteur . Si vous trouvez une erreur, ou une fonctionnalité est en difficulté ou ne fonctionne pas comme il se doit, VEUILLEZ NOTIFIER, VEUILLEZ NOUS CONTACTER PAR LA SESSION DE CONTACT, à la fois ici sur cette page, et sur les pages d'accueil, les tutoriels ou la politique et la confidentialité. Merci de votre compréhension </p>
             <p class="desc"> <b> Aucun mal ne vous arrivera, et aucune peste n'atteindra votre tente. Car il donnera l'ordre à vos anges de vous protéger de toutes vos manières. Psaume 91: 10,11 </b> </p>
@@ -176,7 +276,16 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <ins class="adsbygoogle"
+               style="display:block; text-align:center;"
+               data-ad-layout="in-article"
+               data-ad-format="fluid"
+               data-ad-client="ca-pub-8352280684472674"
+               data-ad-slot="7693835183"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
 
@@ -201,6 +310,23 @@
               </div>
             </form>
           </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="row">
+        <div class="col s12 m6 offset-m3 l6 offset-l3">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- converttype-p-disp-meio -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-8352280684472674"
+               data-ad-slot="7665915020"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
 
