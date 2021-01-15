@@ -351,6 +351,14 @@ ul.listformats, li{
 	width:200px;
 	height:593px;
 }
+
+.propsidelast{
+	position:relative;
+	width:200px;
+	max-height: 590px;
+	height:593px;
+}
+
 .propsider{
 	display: block;
 	position: absolute;
