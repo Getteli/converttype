@@ -49,7 +49,7 @@ $(document).ready(function(){
     // por enquanto libera o video e deixa o pdf bloq ao clicar no upload
     $("#selecttype_video").removeClass( "none" );
     $("#selecttype_doc").addClass( "none" );
-    $("#input_file").attr('accept', ".avi,.mp4,.wmv,.mov,.webm,.ogv,.mkv,.flv,.3g2,.3gp,video/*");
+    $("#input_file").attr("accept", ".avi,.mp4,.wmv,.mov,.webm,.ogv,.mkv,.flv,.3g2,.3gp,video/*");
     switch ($("#type").val()) {
       case '1':
         $("#optgv").addClass( "none" );
@@ -132,7 +132,7 @@ $(document).ready(function(){
         $("#selecttype_video").removeClass( "none" );
         $("#selecttype_doc").addClass( "none" );
         $("#type").val(2);
-        $("#input_file").attr('accept', ".avi,.mp4,.wmv,.mov,.webm,.ogv,.mkv,.flv,.3g2,.3gp,video/*");
+        $("#input_file").attr("accept", ".avi,.mp4,.wmv,.mov,.webm,.ogv,.mkv,.flv,.3g2,.3gp,video/*");
         $("#optgv").removeClass( "none" );
         $("#optga").addClass( "none" );
         break;
@@ -145,7 +145,7 @@ $(document).ready(function(){
         $("#optgi").removeClass( "none" );
         $("#optgd").addClass( "none" );
         $("#type").val(3);
-        $("#input_file").attr('accept', ".png,.jpg,.svg");
+        $("#input_file").attr("accept", ".png,.jpg,.svg");
         break;
       case 5: // doc
         $("#t_input").trigger("click");
@@ -153,10 +153,10 @@ $(document).ready(function(){
         $("#t_input").removeClass( "disabledtext" );
         $("#selecttype_video").addClass( "none" );
         $("#selecttype_doc").removeClass( "none" );
-        $("#optgi").removeClass( "none" );
+        $("#optgi").addClass( "none" );
         $("#optgd").removeClass( "none" );
         $("#type").val(5);
-        $("#input_file").attr('accept', ".doc,.docx,.pdf,.xls,.xlsx,.html");
+        $("#input_file").attr("accept", ".doc,.docx,.pdf,.xls,.xlsx,.html");
         break;
     }
   });
@@ -177,7 +177,8 @@ $(document).ready(function(){
                 return;
               }
               // se tudo certo, executa o metodo
-              converter_modo_2();
+              // converter_modo_2(); // nao funcionando
+              converter_modo_1();
             }
             else if ($( "#t_input" ).hasClass( "selectedlink" ))
             {
@@ -269,7 +270,6 @@ $(document).ready(function(){
     $("#load").addClass("none");
   }
 
-
   $(".btncontact").on('click', function(e){
 		$(".btncontact").addClass("disabled");
 
@@ -318,6 +318,95 @@ $(document).ready(function(){
     }, 700);
 	});
 
+  $("#input_file").change(function(e){
+    // pega a ext do arquivo que subiu
+    const name = e.target.files[0].name;
+    const lastDot = name.lastIndexOf('.');
+    const fileName = name.substring(0, lastDot);
+    const ext = name.substring(lastDot + 1);
+
+    switch (ext) {
+      case "docx":
+      // permite
+        $("#op_pdf").removeClass( "none" );
+        $("#op_doc").removeClass( "none" );
+        $("#op_rtf").removeClass( "none" );
+        $("#op_html").removeClass( "none" );
+      // nao permite
+        $("#op_txt").addClass( "none" );
+        $("#op_xls").addClass( "none" );
+        $("#op_xlsx").addClass( "none" );
+        $("#op_csv").addClass( "none" );
+        $("#op_docx").addClass( "none" );
+        break;
+      case "doc":
+      // permite
+        $("#op_pdf").removeClass( "none" );
+        $("#op_docx").removeClass( "none" );
+      // nao permite
+        $("#op_txt").addClass( "none" );
+        $("#op_xls").addClass( "none" );
+        $("#op_xlsx").addClass( "none" );
+        $("#op_csv").addClass( "none" );
+        $("#op_docx").addClass( "none" );
+        $("#op_rtf").addClass( "none" );
+        $("#op_html").addClass( "none" );
+        break;
+      case "pdf":
+      // permite
+        $("#op_docx").removeClass( "none" );
+      // nao permite
+        $("#op_txt").addClass( "none" );
+        $("#op_xls").addClass( "none" );
+        $("#op_xlsx").addClass( "none" );
+        $("#op_csv").addClass( "none" );
+        $("#op_doc").addClass( "none" );
+        $("#op_rtf").addClass( "none" );
+        $("#op_html").addClass( "none" );
+        $("#op_pdf").addClass( "none" );
+        break;
+      case "html":
+      // permite
+        $("#op_pdf").removeClass( "none" );
+      // nao permite
+        $("#op_txt").addClass( "none" );
+        $("#op_xls").addClass( "none" );
+        $("#op_xlsx").addClass( "none" );
+        $("#op_csv").addClass( "none" );
+        $("#op_docx").addClass( "none" );
+        $("#op_rtf").addClass( "none" );
+        $("#op_html").addClass( "none" );
+        $("#op_doc").addClass( "none" );
+        break;
+      case "xls":
+      // permite
+        $("#op_csv").removeClass( "none" );
+        $("#op_pdf").removeClass( "none" );
+        $("#op_xlsx").removeClass( "none" );
+      // nao permite
+        $("#op_txt").addClass( "none" );
+        $("#op_xls").addClass( "none" );
+        $("#op_docx").addClass( "none" );
+        $("#op_rtf").addClass( "none" );
+        $("#op_html").addClass( "none" );
+        $("#op_doc").addClass( "none" );
+        break;
+      case "xlsx":
+      // permite
+        $("#op_xls").removeClass( "none" );
+        $("#op_pdf").removeClass( "none" );
+        $("#op_html").removeClass( "none" );
+      // nao permite
+        $("#op_txt").addClass( "none" );
+        $("#op_csv").addClass( "none" );
+        $("#op_docx").addClass( "none" );
+        $("#op_rtf").addClass( "none" );
+        $("#op_xlsx").addClass( "none" );
+        $("#op_doc").addClass( "none" );
+        break;
+    }
+  });
+
   // -------------------------- MODOS DE CONVERTER -----------------------------
 
   // esse modo converte apenas video do youtube, mas abre o link para outro site
@@ -333,10 +422,11 @@ $(document).ready(function(){
 
   // esse modo de converter, usa um link de outro site, que pega pela url todos os links de opcoes para baixar
   // de diversos tipos que o youtube esteja permitindo para aquela video.
+  // NAO TA FUNCIONANDO. A CASA CAIU
   function converter_modo_2() {
     $("#containerafter").empty().append();
     var form = document.getElementById('input_url').value;
-		var url = "_assets/scripts/yt_any.min.php";
+		var url = "_assets/scripts/yt_any.php";
 		$.ajax({
 			type: "POST",
 			url: url,

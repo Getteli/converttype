@@ -13,8 +13,8 @@
 		// $ext = pathinfo($nomecompleto, PATHINFO_EXTENSION);
 		$pathdownload = "https://converttype.com/_assets/usr_download/" . $nomecompleto;
   } else {
-		echo "error";
-		return;
+		// volta
+		header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
   }
 
 	$input_file = "../usr_download/".$nomecompleto; // caminho do arquivo que o usuario upou
@@ -178,7 +178,9 @@
 	}
 
 	if (empty($converter_format)) {
-		$converter_format = "video,avi";
+		// volta
+		unlink($input_file);
+		header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
 	}
 
 	$inputs = $dom->getElementsByTagName("input");

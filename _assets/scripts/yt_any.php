@@ -1,9 +1,10 @@
 <?php
+  // a casa caiu, nao ta funcionando
 	// muda a url do video para o que foi digitado, executa um cURL
 	// pega, e sera um array, tenta pegar pelo nome, e tenta saber se é video, video sem som, mp3...
 	//"https://ytdl.ga/handler.php?url=https://www.youtube.com/watch?v=yClUduXdj8A"
 
-  $linkvideo = file_get_contents('php://input');
+  $linkvideo = $_GET["link"] ;//file_get_contents('php://input');
 
 	function displayRecursiveResults($arrayObject) {
 		$return = "";
@@ -47,8 +48,10 @@
 	$result = curl_exec($cUrl);
 	curl_close($cUrl);
 
-	$resultado = json_decode($result);
+	// $resultado = json_decode($result);
+  echo "tem algo?";
 
-  echo "<img src=".$resultado->thumb." alt='thumbnail' width='250' height='150'/>";
+  // echo "<img src=".$resultado->thumb." alt='thumbnail' width='250' height='150'/>";
 	echo "<br/>";
-	displayRecursiveResults($resultado->url);
+  // print_r($result);
+	// displayRecursiveResults($resultado->url);

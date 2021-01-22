@@ -48,5 +48,4 @@
 			header("location: " . $link);
 			break;
 	}
-
 	exit;

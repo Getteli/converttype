@@ -367,18 +367,19 @@
                               </select>
                               <select class="selecttype none" name="selecttype_doc" id="selecttype_doc">
                                 <optgroup label="DOCUMENTS" class="none" id="optgd">
-                                  <option value="doc">DOC</option>
-                                  <option value="pdf">PDF</option>
-                                  <option value="docx">DOCX</option>
-                                  <option value="html">HTML</option>
-                                  <option value="xls">XLS</option>
-                                  <option value="xlsx">XLSX</option>
-                                  <option value="txt">TXT</option>
-                                  <option value="rtf">RTF</option>
+                                  <option value="doc" id="op_doc">DOC</option>
+                                  <option value="pdf" id="op_pdf">PDF</option>
+                                  <option value="docx" id="op_docx">DOCX</option>
+                                  <option value="html" id="op_html">HTML</option>
+                                  <option value="csv" id="op_csv">CSV</option>
+                                  <option value="xls" id="op_xls">XLS</option>
+                                  <option value="xlsx" id="op_xlsx">XLSX</option>
+                                  <option value="txt" id="op_txt">TXT</option>
+                                  <option value="rtf" id="op_rtf">RTF</option>
                                 </optgroup>
                                 <optgroup label="IMAGE" class="none" id="optgi">
-                                  <option value="png">PNG</option>
-                                  <option value="jpeg">JPEG</option>
+                                  <option value="png" id="op_png">PNG</option>
+                                  <option value="jpeg" id="op_jpeg">JPEG</option>
                                 </optgroup>
                               </select>
                             </div>
@@ -562,4 +563,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
-    <script src="_assets/scripts/index.min.js"></script>
+    <script src="_assets/scripts/index.js"></script>
