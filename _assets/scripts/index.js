@@ -426,7 +426,7 @@ $(document).ready(function(){
   function converter_modo_2() {
     $("#containerafter").empty().append();
     var form = document.getElementById('input_url').value;
-		var url = "_assets/scripts/yt_any.php";
+		var url = "_assets/scripts/yt_any.min.php";
 		$.ajax({
 			type: "POST",
 			url: url,
@@ -450,7 +450,7 @@ $(document).ready(function(){
     var formData = new FormData();
     formData.append('file', $('#input_file')[0].files[0]);
     // cria outro select pra img ou pega o optg de doc?
-		var url = "_assets/scripts/img_any.php?selecttype_doc="+$("#selecttype_doc").val();
+		var url = "_assets/scripts/img_any.min.php?selecttype_doc="+$("#selecttype_doc").val();
 		$.ajax({
       url : url,
       type : 'POST',
@@ -478,11 +478,12 @@ $(document).ready(function(){
       type : 'POST',
       data:  formData,
       contentType: false,
+      dataType: "json",
       cache: false,
       processData: false,
-      success : function(data) {
+      complete : function(data) {
         if (data != "error") {
-          var dados = JSON.parse(data);
+          var dados = JSON.parse(data.responseText);
           $("#btn_download_filesaved").removeClass("none");
           $("#btn_download_filesaved").attr('href', dados.link);
           $("#btn_download_filesaved").attr('target', '_blank');
@@ -490,11 +491,7 @@ $(document).ready(function(){
           $("#btn_download_filesaved").removeAttr('download');
           effect_out();
         }
-      },
-      error: function (data) {
-        $("#containerafter").append("Error");
-        effect_out();
-			}
+      }
 		});
   }
 

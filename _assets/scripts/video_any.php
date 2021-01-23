@@ -1,7 +1,4 @@
 <?php
-	// ini_set( 'error_reporting', E_ALL );
-	// ini_set( 'display_errors', true );
-
 	$_FILES['file']['name'] = str_replace(' ', '_',$_FILES['file']['name']);
 	$_FILES['file']['tmp_name'] = str_replace(' ', '_',$_FILES['file']['tmp_name']);
 
@@ -15,6 +12,8 @@
   } else {
 		// volta
 		header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
+		// echo "caiu no else";
+		// exit;
   }
 
 	$input_file = "../usr_download/".$nomecompleto; // caminho do arquivo que o usuario upou
@@ -59,6 +58,7 @@
 						if ($value == "video,wmv") {
 				   		// echo $value;
 				   		$converter_format = $value;
+							break;
 				   	}
 					break;
 				case 'mov':
@@ -171,6 +171,7 @@
 					break;
 				default:
 					// volta
+					// echo "DEFAULT";
 					unlink($input_file);
 					header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
 					break;
@@ -178,6 +179,7 @@
 	}
 
 	if (empty($converter_format)) {
+		// echo "VAZIO, NAO SEI OQ";
 		// volta
 		unlink($input_file);
 		header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");
@@ -209,14 +211,23 @@
 	)));
 	$output = curl_exec($ch) or die("cURL Error" . curl_error($ch));
 	curl_close($ch);
-
+	// echo "link: ";
+	// echo $output;
+	// echo "<br>";
+	// echo "<hr>";
 	$arraydados = explode(": ", $output);
+	// echo "<pre>";
+	// print_r($arraydados);
+	// echo "<br>";
+	// echo "<hr>";
 
-	$linkandmore = $arraydados[5];
-	// tive q por a palavra exata q vem depois do link, pois o espaço em branco simplesmente nao funciona
-	$link = explode("x-frame-options", $linkandmore)[0];
-
+	// fique de olho no array, pois pode mudarem o header e mudar o n°
+	// provavelmente mudaram o header
+	$linkandmore = $arraydados[4];
+	// // tive q por a palavra exata q vem depois do link, pois o espaço em branco simplesmente nao funciona
+	$link = explode("pragma", $linkandmore)[0];
+	// echo "Link: ", $link;
+	//
 	echo json_encode(array("link" => $link, "name" => $nomecompleto));
-
+	//
 	unset($_FILES["file"]);
-?>
