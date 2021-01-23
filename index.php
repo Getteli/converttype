@@ -563,4 +563,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
-    <script src="_assets/scripts/index.js"></script>
+    <script src="_assets/scripts/index.min.js"></script>

@@ -41,9 +41,8 @@ RedirectMatch 403 ^/.env$
 
 # folder
 RedirectMatch 403 ^/vendor/?$
-RedirectMatch 403 ^/public/?$
 RedirectMatch 403 ^/lang/?$
-RedirectMatch 403 ^/_assets/?$
+RedirectMatch 403 ^/_assets/layout/?$
 RedirectMatch 403 ^/.git/?$
 
 ErrorDocument 403 https://converttype.com
