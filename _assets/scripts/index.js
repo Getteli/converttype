@@ -1,4 +1,4 @@
-// document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
+document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
 $(document).ready(function(){
   // navbar e menu mobile
   const ElemensDropdown = document.querySelectorAll(".dropdown-trigger");
