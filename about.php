@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-25PBY7LCQT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-25PBY7LCQT');
-    </script>
-
-    <script data-ad-client="ca-pub-8352280684472674" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-KVCNVQB');</script>
     <!-- meta's -->
     <meta charset="utf-8">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -46,19 +40,10 @@
     <meta property="og:image:height" content="150"> <!-- pixel -->
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href="https://www.converttype.com/index.php">
-    <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
-    <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
-    <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
-    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
-    <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
-    <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
-    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
-    <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
-    <link rel="alternate" hreflang="zh" href="https://www.converttype.com/zh.php" />
+		<link rel="canonical" href="https://converttype.com/">
 
     <!-- title -->
-    <title>Convert Type - About</title>
+    <title>Convert Type - Who converts the files and did it for us</title>
 
     <!-- Icones materilalize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -68,206 +53,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
   </head>
-  <body id="begin">
-    <div class="row">
-      <div class="col l3 m3 mob">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-cima-esq -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="2952003762"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col s12 m6 l6">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-cima-cen -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="7478212766"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 mob">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-cima-dir -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="1627120287"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-    </div>
-    <div class="mob tab propsider">
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-1 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="7349402019"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-2 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="6910595926"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-3 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="7168851885"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-4 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="1916525202"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propsidelast">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-5 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="1724953511"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-    </div>
-    <div class="mob tab propsidel">
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-1 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="7349402019"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-2 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="6910595926"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-3 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="7168851885"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-4 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="1916525202"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propsidelast">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-5 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="1724953511"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-    </div>
+  <body id="begin" class="background">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVCNVQB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <main>
       <div class="container">
         <div class="navbar">
-            <nav>
-                <div class="nav-wrapper center colorprimary">
-                  <div class="input_l colorprimary">
-                    <form action="lang/translate.php" method="POST">
-                      <select name="language-select" id="language-select" class="select_language colorprimary" onchange="this.form.submit()">
-                        <option class="opt_l opt_ld" disabled>Select your language</option>
-                        <option class="opt_l" value="de">Deutsch</option>
-                        <option class="opt_l" value="en" selected>English</option>
-                        <option class="opt_l" value="es">Español</option>
-                        <option class="opt_l" value="fr">Français</option>
-                        <option class="opt_l" value="it">Italiano</option>
-                        <option class="opt_l" value="pt">Português</option>
-                        <option class="opt_l" value="ru">русский</option>
-                        <option class="opt_l" value="ja">日本人</option>
-                        <option class="opt_l" value="zh">中文</option>
-                        <!-- other language options -->
-                      </select>
-                    </form>
-                  </div>
-                    <a href="index.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
-                </div>
+           <nav>
+              <div class="nav-wrapper center colorprimary">
+                <!-- g translate -->
+                <div id="google_translate_element"></div>
+                <a href="index.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+              </div>
             </nav>
         </div>
 
@@ -287,7 +86,7 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="index.php" class="begin">HOME</a></li>
                         <li><a href="about.php" class="about">ABOUT</a></li>
-                        <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
+                        <li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
                         <li><a href="contact.php" class="contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -296,15 +95,18 @@
         <ul id="mobile-navbar" class="sidenav">
           <li><a href="index.php" class="begin">HOME</a></li>
           <li><a href="about.php" class="about">ABOUT</a></li>
-          <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
+          <li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
           <li><a href="contact.php" class="contact">CONTACT</a></li>
         </ul>
       </div>
 
+      <div class="container">
+      <div class="row">
+      <div class="col s12 m12 l10 offset-l1 white container-input">
       <div class="row">
         <div class="col l12">
           <div class="container" id="about">
-            <h4> ABOUT </h4>
+            <h1> ABOUT </h1>
             <p class="desc"> <b> Convert Type </b> is a converter of multiple files and formats to any formats.
             You can convert youtube videos to different audio formats, download videos from youtube, download videos without audio from youtube,
             convert videos from your computer by uploading the file and downloading in other formats / extensions.
@@ -312,35 +114,15 @@
             <!--  -->
             <div class="row">
               <div class="col s12 m6 offset-m3 l6 offset-l3">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <ins class="adsbygoogle"
-                     style="display:block; text-align:center;"
-                     data-ad-layout="in-article"
-                     data-ad-format="fluid"
-                     data-ad-client="ca-pub-8352280684472674"
-                     data-ad-slot="7693835183"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
               </div>
             </div>
-            <p class="desc"> Convert videos (via a link like youtube or from your own computer) to audios (in several possible qualities); for videos, for videos without sound, also convert images, from PNG to JPG or JPG to PNG. In addition to these, you can take the opportunity to convert files and documents, such as: DOC, PDF, DOCX, HTML, XLS, XLSX, TXT, RTF and even convert files to PNG or JPG images. For more information, access the list of <b> conversions </b> in the <a href="howtouse.php"> tutorial </a> to find out what the possibilities and types of file-to-file conversions are and what formats. </p>
+            <p class="desc"> Convert videos (via a link like youtube or from your own computer) to audios (in several possible qualities); for videos, for videos without sound, also convert images, from PNG to JPG or JPG to PNG. In addition to these, you can take the opportunity to convert files and documents, such as: DOC, PDF, DOCX, HTML, XLS, XLSX, TXT, RTF and even convert files to PNG or JPG images. For more information, access the list of <b> conversions </b> in the <a href="tutorial.php"> tutorial </a> to find out what the possibilities and types of file-to-file conversions are and what formats. </p>
             <p class="desc"> The convert type is available in 9 (nine) languages ​​so that its use is the most enjoyed by all, regardless of their language. </p>
             <p class="desc"> This application was developed with the user in mind, from the most layman to the most experienced, who may need a file in another format to send by email, for a quick presentation, for an image or needing to download that video and / or have the audio or video in another format. And for the layman who might like to download that video he saw or an image, a file that he didn't open due to lack of application to open the format. Ultimately, being able to provide everyone with an experience of having and converting what you want and not be more worried ... and anywhere! the application is available for mobile with a pleasant, readable and intuitive experience, being able to take media from your cell phone or tablet's and go up to convert and enjoy our tool. </p>
             <p class="desc"> So enjoy the <b> Convert Type </b>. </p>
             <!--  -->
             <div class="row">
               <div class="col s12 m6 offset-m3 l6 offset-l3">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <ins class="adsbygoogle"
-                     style="display:block; text-align:center;"
-                     data-ad-layout="in-article"
-                     data-ad-format="fluid"
-                     data-ad-client="ca-pub-8352280684472674"
-                     data-ad-slot="7693835183"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
               </div>
             </div>
             <p class="desc"> Thanks to the developers of this project, we are making available to everyone without charge or any type of subscription, data capture, cookies or anything like that. Our only request is what if you use an ad blocker, or adblock, that disables and reloads the site so that we can continue to offer you this free and good quality content. </p>
@@ -354,16 +136,6 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <ins class="adsbygoogle"
-               style="display:block; text-align:center;"
-               data-ad-layout="in-article"
-               data-ad-format="fluid"
-               data-ad-client="ca-pub-8352280684472674"
-               data-ad-slot="7693835183"></ins>
-          <script>
-               (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
         </div>
       </div>
 
@@ -395,17 +167,6 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- converttype-p-disp-meio -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-8352280684472674"
-               data-ad-slot="7665915020"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
-          <script>
-               (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
         </div>
       </div>
 
@@ -433,9 +194,13 @@
           </div>
         </div>
       </footer>
+      </div>
+      </div>
+      </div>
     </main>
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="_assets/scripts/index.min.js"></script>

@@ -7,6 +7,11 @@
 	font-style: normal;
 }
 
+body{
+	position: static !important;
+	top: 0 !important;
+}
+
 .colorprimary{
 	background-color: #0055FF;
 }
@@ -27,6 +32,31 @@ nav.nav-center ul li a {
     display: inline-block;
 }
 
+/* g translate */
+.skiptranslate > iframe{
+	display: none;
+}
+
+#google_translate_element{
+	position: absolute;
+	right: 0;
+	height: 55px;
+}
+
+.goog-te-combo{
+	display: block !important;
+	width: 130px;
+	height: 55px;
+}
+
+.skiptranslate > span{
+	display: none;
+}
+
+.skiptranslate{
+	font-size: 0!important;
+}
+
 .submenu > li > a{
 	width: 100%;
 	text-align: center;
@@ -43,7 +73,7 @@ nav.nav-center ul li a {
 	background-image: url("../images/background.jpg");
 	background-position: center;
 	background-repeat: repeat;
-	background-size: contain;
+	background-size: 50%;
 }
 
 ul.listformats, li{
@@ -105,19 +135,20 @@ ul.listformats, li{
 	padding:50px 0 50px 0!important;
 	width:90%!important;
 	margin-left:5%!important;
-	margin-bottom:50px;
+	/* margin-bottom:50px; */
 }
 
 .btn-ct{
 	border-radius: 10px;
-  height: 50px;
-  max-width: 115px;
-  width: auto;
-  font-size: 13px;
-  font-weight: 500;
-  box-shadow: 0px 3px 17px 1px #0055cc;
-  right: 19% !important;
-  position: absolute;
+	height: 50px;
+	max-width: 115px;
+	width: auto;
+	font-size: larger;
+	font-weight: 500;
+	box-shadow: 0px 3px 17px 1px #0055cc;
+	right: 19% !important;
+	position: absolute;
+	line-height: 3;
 }
 
 .btn-ct2{
@@ -333,9 +364,13 @@ ul.listformats, li{
 	letter-spacing: 2px;
 }
 
+.comment-fb{
+	max-width: 100%!important;
+}
+
 .pos-footer{
-	width: 70%!important;
-	margin-left: 15%!important;
+	width: 100%;
+	margin-bottom: -50px !important;
 }
 
 /* as classses de desk, tab e mob é o inverso. Quando o elemento nao for exibido na sua respectiva tela, ele tem a classe */
@@ -356,7 +391,8 @@ ul.listformats, li{
 	position:relative;
 	width:200px;
 	max-height: 590px;
-	height:593px;
+	/* height: 593px; */
+	height: auto;
 }
 
 .propsider{
@@ -387,12 +423,14 @@ ul.listformats, li{
 	#file-name2{
 		width: 100%;
 	}
+	.pos-logo-top{
+		margin-top: 70px;
+	}
+	.title-top{
+		padding-top: 40px;
+	}
 	.mob{
 		display: none!important;
-	}
-	.pos-footer{
-		width: 70%!important;
-		margin-left: 15%!important;
 	}
 	.mgtopmob{
 		margin-top: 10px;
@@ -410,10 +448,6 @@ ul.listformats, li{
 	}
 	.tab{
 		display: none!important;
-	}
-	.pos-footer{
-		width: 84.5%!important;
-		margin-left: 7.5%!important;
 	}
 }
 

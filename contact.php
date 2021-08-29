@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-25PBY7LCQT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-25PBY7LCQT');
-    </script>
-
-    <script data-ad-client="ca-pub-8352280684472674" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KVCNVQB');</script>
     <!-- meta's -->
     <meta charset="utf-8">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -46,19 +40,10 @@
     <meta property="og:image:height" content="150"> <!-- pixel -->
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href="https://www.converttype.com/index.php">
-    <link rel="alternate" hreflang="x-default" href="https://www.converttype.com/" />
-    <link rel="alternate" hreflang="fr" href="https://www.converttype.com/fr.php" />
-    <link rel="alternate" hreflang="pt" href="https://www.converttype.com/pt.php" />
-    <link rel="alternate" hreflang="es" href="https://www.converttype.com/es.php" />
-    <link rel="alternate" hreflang="it" href="https://www.converttype.com/it.php" />
-    <link rel="alternate" hreflang="de" href="https://www.converttype.com/de.php" />
-    <link rel="alternate" hreflang="ja" href="https://www.converttype.com/ja.php" />
-    <link rel="alternate" hreflang="ru" href="https://www.converttype.com/ru.php" />
-    <link rel="alternate" hreflang="zh" href="https://www.converttype.com/zh.php" />
+	  <link rel="canonical" href="https://converttype.com/">
 
     <!-- title -->
-    <title>Convert Type - Contact</title>
+    <title>Convert Type - Contact us to add new formats</title>
 
     <!-- Icones materilalize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -68,128 +53,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
   </head>
-  <body id="begin">
-    <div class="row">
-      <div class="col l3 m3 mob">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-cima-esq -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="2952003762"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col s12 m6 l6">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-cima-cen -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="7478212766"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 mob">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-cima-dir -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="1627120287"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-    </div>
-    <div class="mob tab propsider">
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-1 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="7349402019"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-2 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="6910595926"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-    </div>
-    <div class="mob tab propsidel">
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-1 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="7349402019"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="col m3 l3 propside">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- converttype-p-lat-2 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8352280684472674"
-             data-ad-slot="6910595926"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-    </div>
+  <body id="begin" class="background">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVCNVQB"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
     <main>
       <div class="container">
         <div class="navbar">
-            <nav>
-                <div class="nav-wrapper center colorprimary">
-                  <div class="input_l colorprimary">
-                    <form action="lang/translate.php" method="POST">
-                      <select name="language-select" id="language-select" class="select_language colorprimary" onchange="this.form.submit()">
-                        <option class="opt_l opt_ld" disabled>Select your language</option>
-                        <option class="opt_l" value="de">Deutsch</option>
-                        <option class="opt_l" value="en" selected>English</option>
-                        <option class="opt_l" value="es">Español</option>
-                        <option class="opt_l" value="fr">Français</option>
-                        <option class="opt_l" value="it">Italiano</option>
-                        <option class="opt_l" value="pt">Português</option>
-                        <option class="opt_l" value="ru">русский</option>
-                        <option class="opt_l" value="ja">日本人</option>
-                        <option class="opt_l" value="zh">中文</option>
-                        <!-- other language options -->
-                      </select>
-                    </form>
-                  </div>
-                    <a href="index.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
-                </div>
+			<nav>
+              <div class="nav-wrapper center colorprimary">
+                <!-- g translate -->
+                <div id="google_translate_element"></div>
+                <a href="index.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+              </div>
             </nav>
         </div>
 
@@ -209,7 +86,7 @@
                     <ul id="navbar-items" class="hide-on-med-and-down">
                         <li><a href="index.php" class="begin">HOME</a></li>
                         <li><a href="about.php" class="about">ABOUT</a></li>
-                        <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
+                        <li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
                         <li><a href="contact.php" class="contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -218,15 +95,19 @@
         <ul id="mobile-navbar" class="sidenav">
           <li><a href="index.php" class="begin">HOME</a></li>
           <li><a href="about.php" class="about">ABOUT</a></li>
-          <li><a href="howtouse.php" class="tutorial">TUTORIAL</a></li>
+          <li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
           <li><a href="contact.php" class="contact">CONTACT</a></li>
         </ul>
       </div>
 
+      <div class="container">
+      <div class="row">
+      <div class="col s12 m12 l10 offset-l1 white container-input">
+
       <div class="row">
         <div class="col l12">
           <div class="container" id="contact">
-						<h4>CONTACT</h4>
+			      <h1>CONTACT</h1>
             <p class="desc"> You can contact us through all the pages, (home, about, tutorial, policy and privacy) But you can also get in direct contact through this contact page. Feel free to talk about anything you want! constructive criticism is welcome, any comments, thanks, congratulations, a request for a new format or a new type of conversion, whatever you wish and in any language, feel free and enjoy our tool.</p>
             <p class="desc">Have any questions? have any comments? or want to place an order? contact us.</p>
             <form action="_assets/scripts/contact.php" method="post" class="row" id="formcontact">
@@ -251,17 +132,6 @@
       <!--  -->
       <div class="row">
         <div class="col s12 m6 offset-m3 l6 offset-l3">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- converttype-p-disp-meio -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-8352280684472674"
-               data-ad-slot="7665915020"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
-          <script>
-               (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
         </div>
       </div>
 
@@ -289,9 +159,13 @@
           </div>
         </div>
       </footer>
+	  </div>
+	  </div>
+	  </div>
     </main>
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
-    <script src="_assets/scripts/index.min.js"></script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<script src="_assets/scripts/index.min.js"></script>

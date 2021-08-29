@@ -1,250 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>https://www.converttype.com/index.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/about.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/howtouse.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/contact.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/policyAndPrivacy.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://www.converttype.com/pt.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/sobre.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/tutorial.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/contato.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/politicaEprivacidade.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://www.converttype.com/de.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/uberuns.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/lernprogramm.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/kontakt.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/datenschutzBestimmungen.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://www.converttype.com/es.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/sobrenosotros.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/comousar.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/contacto.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/politicaDePrivacidad.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://www.converttype.com/fr.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/apropos.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/didacticiel.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/nouscontacter.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/politiqueDeConfidentialite.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://www.converttype.com/it.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/chisiamo.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/comeusare.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/contatto.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/privacyPolicy.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://www.converttype.com/ru.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/ohac.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/руководство.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/контакт.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/politikaKonfidentsial.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://www.converttype.com/ja.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/watashitachinikanshitewa.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/chutoriaru.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/renrakusen.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/porishīToPuraibashī.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://www.converttype.com/zh.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/guanyuwomen.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/jiaocheng.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/lianxi.php</loc>
-  <lastmod>2021-01-02T02:17:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.converttype.com/zhengceYuYinsi.html</loc>
-  <lastmod>2021-01-02T02:09:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>https://converttype.com</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+	</url>
+	<url>
+		<loc>https://converttype.com/pt</loc>
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+	</url>
+	<url>
+		<loc>https://converttype.com/fr</loc>
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+	</url>
+	<url>
+		<loc>https://converttype.com/es</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+	</url>
+	<url>
+		<loc>https://converttype.com/it</loc>
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+	</url>
+	<url>
+		<loc>https://converttype.com/de</loc>
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+	</url>
+	<url>
+		<loc>https://converttype.com/ja</loc>
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+	</url>
+	<url>
+		<loc>https://converttype.com/ru</loc>
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+	</url>
+	<url>
+		<loc>https://converttype.com/zh</loc>
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+	</url>
+	<url>
+		<loc>https://converttype.com/en</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://converttype.com/en" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://converttype.com" />
+		<xhtml:link rel="alternate" hreflang="pt" href="https://converttype.com/pt" />
+		<xhtml:link rel="alternate" hreflang="fr" href="https://converttype.com/fr" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://converttype.com/es" />
+		<xhtml:link rel="alternate" hreflang="it" href="https://converttype.com/it" />
+		<xhtml:link rel="alternate" hreflang="de" href="https://converttype.com/de" />
+		<xhtml:link rel="alternate" hreflang="ja" href="https://converttype.com/ja" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://converttype.com/ru" />
+		<xhtml:link rel="alternate" hreflang="zh" href="https://converttype.com/zh" />
+	</url>
 </urlset>

@@ -4,34 +4,25 @@
 # habilita o rewrite
 RewriteEngine on
 
+# força o HSTS p/ HTTPS
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+
 # força SSL
 RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
 
-# impede abrir diretorio
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# permiti acessar sem a extensao html
+# permitir acessar sem a extensao html
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
-
-# permite acessar sem a extensao php paginas fora de pastas
-RewriteCond %{DOCUMENT_ROOT}/$1.php -f
-RewriteRule ^(.*)$ $1.php [NC,L]
 
 # forcar o redirecionamento de .html para s/ a extensao
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 
-# forcar o redirecionamento de .php das paginas fora de pastas para s/ a extensao
-RewriteCond %{REQUEST_URI} !(_assets|lang|public|vendor) [NC]
-RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
-RewriteRule ^ /%1 [NC,L,R]
-
-# block acess to file and folder
-# default
-#RedirectMatch 403 ^/folder/?$
-#RedirectMatch 403 ^/file.ext$
+# redirect "/index.php?lg=xxx" to "/index/xxx"
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^/?(.+)\/?$ ?lg=$1
 
 # files
 RedirectMatch 403 ^/composer.json$
@@ -41,10 +32,22 @@ RedirectMatch 403 ^/.env$
 
 # folder
 RedirectMatch 403 ^/vendor/?$
-RedirectMatch 403 ^/lang/?$
 RedirectMatch 403 ^/_assets/layout/?$
 RedirectMatch 403 ^/.git/?$
 
+# erros
 ErrorDocument 403 https://converttype.com
 ErrorDocument 404 https://converttype.com
 ErrorDocument 500 https://converttype.com
+
+# permite acessar sem a extensao php paginas fora de pastas
+# RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+# RewriteRule ^(.*)$ $1.php [NC,L]
+
+# forcar o redirecionamento de .php das paginas fora de pastas para s/ a extensao
+# RewriteCond %{REQUEST_URI} !(_assets|lang|public|vendor) [NC]
+# RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+# RewriteRule ^ /%1 [NC,L,R]
+
+# impede abrir diretorio
+# RewriteCond %{REQUEST_FILENAME} !-d

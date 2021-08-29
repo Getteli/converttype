@@ -28,7 +28,7 @@
 		$chave3 = "3533b3d4-bbee-4f89-af1a-debf3a998ed2"; // conta: douglasgamer05@gmail LOGIN DIRETO PELO GOOGLE
 
 		// Configure API key authorization: Apikey
-		$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Apikey', $chave3);
+		$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Apikey', $chave1);
 
 		$apiInstance = new Swagger\Client\Api\ConvertDocumentApi(
 		    new GuzzleHttp\Client(),
