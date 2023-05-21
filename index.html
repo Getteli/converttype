@@ -28,7 +28,7 @@
 		<META NAME="LANGUAGE" CONTENT="EN">
 		<!-- OG facebook -->
 		<meta property="og:locale" content="en_US">
-		<meta property="og:url" content="index.php">
+		<meta property="og:url" content="index.html">
 		<meta property="og:title" content="Convert Type">
 		<meta property="og:site_name" content="converttype">
 		<meta property="og:description" content="Convert your videos, music, documents, files and many more to other formats and or extensions. Convert YouTube videos to audio and music">
@@ -42,7 +42,7 @@
 		<link rel="canonical" href="https://converttype.com/">
 
 		<!-- title -->
-		<title>Convert Type - Convert your files</title>
+		<title>Exemplo - Convert Type - Convert your files</title>
 		<!-- Icones materilalize -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!-- Styles -->
@@ -63,14 +63,14 @@
 						<div class="nav-wrapper center colorprimary">
 							<!-- g translate -->
 							<div id="google_translate_element"></div>
-							<a href="index.php" class="pos-logo-top"><img src="assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+							<a href="index.html" class="pos-logo-top"><img src="assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
 						</div>
 					</nav>
 				</div>
 
 				<div class="row colorprimary nospacerow title-top">
 					<div class="col s12 m12 l12 center white-text">
-					<h3 class="convert_to">TO <t id="convert_to">AUDIO</t></h3>
+					<h3 class="convert_to">TO <t id="convert_to"> AUDIO</t></h3>
 					</div>
 				</div>
 				<!-- menu -->
@@ -82,10 +82,7 @@
 								<i class="material-icons">menu</i>
 							</a>
 							<ul id="navbar-items" class="hide-on-med-and-down">
-								<li><a href="index.php" class="begin">HOME</a></li>
-								<li><a href="about.php" class="about">ABOUT</a></li>
-								<li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
-								<li><a href="contact.php" class="contact">CONTACT</a></li>
+								<li><a href="index.html" class="begin">HOME</a></li>
 								<li><a class="link sel audio" data-target="1">AUDIO</a></li>
 								<li><a class="link sel video" data-target="2">VIDEO</a></li>
 								<li><a class="link sel image" data-target="3">IMAGES</a></li>
@@ -95,10 +92,7 @@
 					</nav>
 				</div>
 				<ul id="mobile-navbar" class="sidenav">
-					<li><a href="index.php" class="begin">HOME</a></li>
-					<li><a href="about.php" class="about">ABOUT</a></li>
-					<li><a href="tutorial.php" class="tutorial">TUTORIAL</a></li>
-					<li><a href="contact.php" class="contact">CONTACT</a></li>
+					<li><a href="index.html" class="begin">HOME</a></li>
 					<li><a class="link sel" data-target="1">AUDIO</a></li>
 					<li><a class="link sel" data-target="2">VIDEO</a></li>
 					<li><a class="link sel" data-target="3">IMAGES</a></li>
@@ -204,13 +198,6 @@
 										<p>loading, wait.</p>
 									</div>
 									<div class="col s12 m12 l12 marginline">
-										<?php
-											if(isset($_GET["back"])){
-												if ($_GET["back"] == "error") {
-													echo "<p>There was an error converting your document. Try again or contact us.</p>";
-												}
-											}
-										?>
 										<p id="containerafter">
 										<h4><a href="" download="" class='desc none' id='btn_download_filesaved'>DOWNLOAD</a></a>
 										<p id="desc_ca" class="none">Click on the link you want to download (audio, video, video without audio and etc.) and then in the new tab that opens click on <i class="material-icons">more_vert</i> to download.</p>
@@ -227,8 +214,8 @@
 							<div class="col l12">
 								<div class="container" id="littleAbbout">
 									<h4>ConvertType</h4>
-									<p class="desc"> Share with your friends and family, show who you would like to convert your files, music, videos, images and everything else! come check out our tool. Check the <a href="tutorial.php"> tutorial </a> how to do it and what formats are supported. </p>
-									<p class="desc"> Comment so that more people can know how the tool is used, and if it helped you! any questions please contact us, read our <a href="about.php"> about </a> page and if you have any questions read our privacy policy at the bottom of the site. </p>
+									<p class="desc"> Share with your friends and family, show who you would like to convert your files, music, videos, images and everything else! come check out our tool. Check the <a href="#"> tutorial </a> how to do it and what formats are supported. </p>
+									<p class="desc"> Comment so that more people can know how the tool is used, and if it helped you! any questions please contact us, read our <a href="#"> about </a> page and if you have any questions read our privacy policy at the bottom of the site. </p>
 								</div>
 							</div>
 						</div>
@@ -261,7 +248,7 @@
 								<div class="container" id="contact">
 									<h4>CONTACT</h4>
 									<p class="desc">Have any questions? have any comments? or want to place an order? contact us.</p>
-									<form action="assets/scripts/contact.php" method="post" class="row" id="formcontact">
+									<form action="#" method="post" class="row" id="formcontact">
 										<div class="input-field col s12 m4">
 										<input id="email" name="email" type="email" class="validate" required>
 										<label for="email">Email</label>

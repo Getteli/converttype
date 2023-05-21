@@ -8,7 +8,7 @@
   if (move_uploaded_file($_FILES["file"]["tmp_name"], $uploadfile)) {
 		$nomecompleto = $_FILES['file']['name'];
 		// $ext = pathinfo($nomecompleto, PATHINFO_EXTENSION);
-		$pathdownload = "https://converttype.com/_assets/usr_download/" . $nomecompleto;
+		$pathdownload = "https://converttype.com/assets/usr_download/" . $nomecompleto;
   } else {
 		// volta
 		header('Location: ' . $_SERVER['HTTP_REFERER']."?back=error");

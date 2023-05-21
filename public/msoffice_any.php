@@ -10,7 +10,7 @@
 		$_FILES['file']['name'] = str_replace(' ', '_',$_FILES['input_file']['name']);
 		$_FILES['file']['tmp_name'] = str_replace(' ', '_',$_FILES['input_file']['tmp_name']);
 
-		$uploaddir = "../_assets/usr_download/";
+		$uploaddir = "../assets/usr_download/";
 		$uploadfile = $uploaddir . basename($_FILES['input_file']['name']);
 
 		if (move_uploaded_file($_FILES["input_file"]["tmp_name"], $uploadfile))
@@ -35,7 +35,7 @@
 		    $config
 		);
 
-		$input_file = "../_assets/usr_download/".$nomecompleto; // caminho do arquivo que o usuario upou
+		$input_file = "../assets/usr_download/".$nomecompleto; // caminho do arquivo que o usuario upou
 
 		try
 		{

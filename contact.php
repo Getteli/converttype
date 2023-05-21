@@ -15,7 +15,7 @@
     <meta name="theme-color" content="#0055ff">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="_assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
     <!-- search google -->
     <META NAME="DESCRIPTION" CONTENT="Convert your videos, music, documents, files and many more to other formats and or extensions. Convert YouTube videos to audio and music">
@@ -33,8 +33,8 @@
     <meta property="og:title" content="Convert Type">
     <meta property="og:site_name" content="converttype">
     <meta property="og:description" content="Convert your videos, music, documents, files and many more to other formats and or extensions. Convert YouTube videos to audio and music">
-    <meta property="og:image" content="_assets/images/converttype_logo.png">
-    <meta property="og:image:secure_url" content="https://converttype.com/_assets/images/converttype_logo.png">
+    <meta property="og:image" content="assets/images/converttype_logo.png">
+    <meta property="og:image:secure_url" content="https://converttype.com/assets/images/converttype_logo.png">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="150"> <!-- pixel -->
     <meta property="og:image:height" content="150"> <!-- pixel -->
@@ -51,7 +51,7 @@
     <!-- Styles -->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/layout/index.min.css">
   </head>
   <body id="begin" class="background">
 	<!-- Google Tag Manager (noscript) -->
@@ -65,7 +65,7 @@
               <div class="nav-wrapper center colorprimary">
                 <!-- g translate -->
                 <div id="google_translate_element"></div>
-                <a href="index.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+                <a href="index.php" class="pos-logo-top"><img src="assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
               </div>
             </nav>
         </div>
@@ -110,7 +110,7 @@
 			      <h1>CONTACT</h1>
             <p class="desc"> You can contact us through all the pages, (home, about, tutorial, policy and privacy) But you can also get in direct contact through this contact page. Feel free to talk about anything you want! constructive criticism is welcome, any comments, thanks, congratulations, a request for a new format or a new type of conversion, whatever you wish and in any language, feel free and enjoy our tool.</p>
             <p class="desc">Have any questions? have any comments? or want to place an order? contact us.</p>
-            <form action="_assets/scripts/contact.php" method="post" class="row" id="formcontact">
+            <form action="assets/scripts/contact.php" method="post" class="row" id="formcontact">
               <div class="input-field col s12 m4">
                 <input id="email" name="email" type="email" class="validate" required>
                 <label for="email">Email</label>
@@ -168,4 +168,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	<script src="_assets/scripts/index.min.js"></script>
+	<script src="assets/scripts/index.min.js"></script>

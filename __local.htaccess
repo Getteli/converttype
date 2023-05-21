@@ -32,7 +32,7 @@ RedirectMatch 403 ^/.env$
 
 # folder
 RedirectMatch 403 ^/vendor/?$
-RedirectMatch 403 ^/_assets/layout/?$
+RedirectMatch 403 ^/assets/layout/?$
 RedirectMatch 403 ^/.git/?$
 
 # erros
@@ -45,7 +45,7 @@ ErrorDocument 500 https://converttype.com
 # RewriteRule ^(.*)$ $1.php [NC,L]
 
 # forcar o redirecionamento de .php das paginas fora de pastas para s/ a extensao
-# RewriteCond %{REQUEST_URI} !(_assets|lang|public|vendor) [NC]
+# RewriteCond %{REQUEST_URI} !(assets|lang|public|vendor) [NC]
 # RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 # RewriteRule ^ /%1 [NC,L,R]
 

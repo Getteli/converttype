@@ -15,7 +15,7 @@
     <meta name="theme-color" content="#0055ff">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="_assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
     <!-- search google -->
     <META NAME="DESCRIPTION" CONTENT="Convert your videos, music, documents, files and many more to other formats and or extensions. Convert YouTube videos to audio and music">
@@ -33,8 +33,8 @@
     <meta property="og:title" content="Convert Type">
     <meta property="og:site_name" content="converttype">
     <meta property="og:description" content="Convert your videos, music, documents, files and many more to other formats and or extensions. Convert YouTube videos to audio and music">
-    <meta property="og:image" content="_assets/images/converttype_logo.png">
-    <meta property="og:image:secure_url" content="https://converttype.com/_assets/images/converttype_logo.png">
+    <meta property="og:image" content="assets/images/converttype_logo.png">
+    <meta property="og:image:secure_url" content="https://converttype.com/assets/images/converttype_logo.png">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="150"> <!-- pixel -->
     <meta property="og:image:height" content="150"> <!-- pixel -->
@@ -51,7 +51,7 @@
     <!-- Styles -->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="_assets/layout/index.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/layout/index.min.css">
   </head>
   <body id="begin" class="background">
     <!-- Google Tag Manager (noscript) -->
@@ -65,7 +65,7 @@
               <div class="nav-wrapper center colorprimary">
                 <!-- g translate -->
                 <div id="google_translate_element"></div>
-                <a href="index.php" class="pos-logo-top"><img src="_assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
+                <a href="index.php" class="pos-logo-top"><img src="assets/images/converttype_negative.png" alt="CONVERTTYPE.com" class="pos-logo-top"></a>
               </div>
             </nav>
         </div>
@@ -185,7 +185,7 @@
             <h2 style="margin-bottom: 0;"> Convert Youtube videos </h2>
             <p style="margin-top: 0;"> <em> How to convert youtube videos to audios or download videos without audio from youtube. </em> </p>
             <p class="desc"> First go to the "AUDIO" tab using the menu, then select the "URL" mode from the options. As in the image below. </p>
-            <img src="_assets/images/tutorial1.png" width="100%" alt="tutorial how to use convert type">
+            <img src="assets/images/tutorial1.png" width="100%" alt="tutorial how to use convert type">
             <!--  -->
             <div class="row">
               <div class="col s12 m6 offset-m3 l6 offset-l3">
@@ -193,12 +193,12 @@
             </div>
             <p class="desc"> That done, paste the link / url of the video you want to convert. Then click on the blue "CONVERT" button, wait until all the download options appear. When everything is ready, all possible options for converting and downloading will appear. </p>
             <p class="desc"> When finished loading, the options will appear as in the image below. Click on the "DOWNLOAD" button and a new tab will open, on this tab, find the <i class = "material-icons"> more_vert </i> button (usually in the lower right corner of the player) and select the "DO" option DOWNLOAD ". And ready ! now you've downloaded your video without audio, or your music. </p>
-            <img src="_assets/images/tutorial2.png" width="100%" alt="tutorial how to use convert type 2">
+            <img src="assets/images/tutorial2.png" width="100%" alt="tutorial how to use convert type 2">
             <p class="desc"> <b> NOTE: </b> for copyright reasons, convert free online videos for personal use ("fair use"). It should not be used for recordings of copyrighted material, such as video clips or resale, the <b> convert type </b> is not responsible for any infringement of this type that violates copyright laws. We only offer free file conversion to other formats. </p>
             <p class="desc"> <b> NOTE 2: </b> The images may not be correct if there has been a change or block in the APIs used. the way we convert may be different. </p>
             <h2 style="margin-bottom: 0;"> Convert computer videos </h2>
             <p style="margin-top: 0;"> <em> How to convert videos from your computer to other formats. </em> </p>
-            <img src="_assets/images/tutorial3.png" width="100%" alt="tutorial how to use convert type 3">
+            <img src="assets/images/tutorial3.png" width="100%" alt="tutorial how to use convert type 3">
             <p class="desc"> As shown in the image above, go to the menu and click on the VIDEO option. And then click on the "UPLOAD" option if it isn't already. Once this is done, you can select videos from your computer by clicking the left blue button "UP", and select the video you want. After choosing the video, select in the options the extension / format you want, and click on the next blue button on the right "CONVERT" and you're done! </p>
             <p class="desc"> Your download will start as soon as the conversion is complete. </p>
             <h2 style="margin-bottom: 0;"> Convert images to other formats </h2>
@@ -247,7 +247,7 @@
           <div class="container" id="contact">
 						<h4>CONTACT</h4>
             <p class="desc">Have any questions? have any comments? or want to place an order? contact us.</p>
-            <form action="_assets/scripts/contact.php" method="post" class="row" id="formcontact">
+            <form action="assets/scripts/contact.php" method="post" class="row" id="formcontact">
               <div class="input-field col s12 m4">
                 <input id="email" name="email" type="email" class="validate" required>
                 <label for="email">Email</label>
@@ -305,4 +305,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="9Ut6Qmnj"></script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script src="_assets/scripts/index.min.js"></script>
+    <script src="assets/scripts/index.min.js"></script>

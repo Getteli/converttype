@@ -25,7 +25,7 @@
 
 	echo $namefile;
 
-	// echo "<a href='_assets/usr_download/".$namefile."' download='".$namefile."' class='desc center' id='btn_download_filesaved'><h4>DOWNLOAD</h4></a>";
+	// echo "<a href='assets/usr_download/".$namefile."' download='".$namefile."' class='desc center' id='btn_download_filesaved'><h4>DOWNLOAD</h4></a>";
 	unset($_FILES["file"]);
 
 ?>

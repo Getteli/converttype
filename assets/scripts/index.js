@@ -239,7 +239,7 @@ $(document).ready(function(){
 
 		e.preventDefault(); // avoid to execute the actual submit of the form.
 		var form = $("#formcontact").serialize();
-		var url = "_assets/scripts/send.php";
+		var url = "assets/scripts/send.php";
 		$.ajax({
 			type: "POST",
 			url: url,
@@ -267,7 +267,7 @@ $(document).ready(function(){
 				form = $("#btn_download_filesaved").data("target");
 			}
 
-			var url = "_assets/scripts/deletefile.php";
+			var url = "assets/scripts/deletefile.php";
 			$.ajax({
 				type: "POST",
 				url: url,
@@ -396,7 +396,7 @@ $(document).ready(function(){
 	function converter_modo_2() {
 		$("#containerafter").empty().append();
 		var form = document.getElementById('input_url').value;
-			var url = "_assets/scripts/yt_any.min.php";
+			var url = "assets/scripts/yt_any.min.php";
 			$.ajax({
 				type: "POST",
 				url: url,
@@ -423,7 +423,7 @@ $(document).ready(function(){
 		var formData = new FormData();
 		formData.append('file', $('#input_file')[0].files[0]);
 		// cria outro select pra img ou pega o optg de doc?
-		var url = "_assets/scripts/img_any.min.php?selecttype_doc="+$("#selecttype_doc").val();
+		var url = "assets/scripts/img_any.min.php?selecttype_doc="+$("#selecttype_doc").val();
 		$.ajax({
 			url : url,
 			type : 'POST',
@@ -432,7 +432,7 @@ $(document).ready(function(){
 			contentType: false,  // tell jQuery not to set contentType
 			success : function(data) {
 				// alert(data);
-				var datadownload = "_assets/usr_download/" + data;
+				var datadownload = "assets/usr_download/" + data;
 				$("#btn_download_filesaved").removeClass("none");
 				$("#btn_download_filesaved").attr('href', datadownload);
 				$("#btn_download_filesaved").attr('download', data);
@@ -448,7 +448,7 @@ $(document).ready(function(){
 	function converter_modo_4() {
 		var formData = new FormData();
 		formData.append('file', $('#input_file')[0].files[0]);
-		var url = "_assets/scripts/video_any.min.php?selecttype_video="+$("#selecttype_video").val();
+		var url = "assets/scripts/video_any.min.php?selecttype_video="+$("#selecttype_video").val();
 		$.ajax({
 			url : url,
 			type : 'POST',
